@@ -10,7 +10,7 @@ The target is the strongest original game we can demonstrate within the jam cons
 - Verify that waves and boat motion agree; spray must originate at hull contact.
 
 ## Reference process
-Atlas produces references and images. Assets get three independent geometry approaches, verifier views, a recorded selection, then integration. Keep references and rejected candidates outside the shipping folder. Shared art direction: STYLE.md.
+Atlas produces references and images. The recipe recommends three independent geometry approaches per asset. This build compares multiple boat silhouettes and prop variants, then refines selected modules in context; some prop candidates are parameter variants rather than independent constructions. Shipping geometry is verified and reviewed from multiple sides. Keep references and rejected candidates outside the shipping folder. Shared art direction: STYLE.md.
 
 ## Lessons adapted from the user's Rust 17 notes
 - A real-input race gate exercises turns, boost, route choice, finish and restart.

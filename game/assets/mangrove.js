@@ -17,7 +17,7 @@ export default function generate(THREE){
  const trunkH=8+strategy;
  rod([0,0,0],[.5,trunkH,0],.63,bark,9);
  for(let i=0;i<9;i++){const a=i/9*Math.PI*2;const dx=Math.cos(a),dz=Math.sin(a);if(strategy===1){const path=new THREE.QuadraticBezierCurve3(new THREE.Vector3(.2,4,0),new THREE.Vector3(dx*4,2,dz*4),new THREE.Vector3(dx*4,0,dz*4));mesh(new THREE.TubeGeometry(path,8,.18,5,false),bark);}else{rod([.2,3.5,0],[dx*2,2,dz*2],.24,bark);rod([dx*2,2,dz*2],[dx*4,0,dz*4],.18,bark);}}
- for(let i=0;i<8;i++){const a=i*2.4,r=3.5+(i%3),y=trunkH-1+(i%3)*1.2;const x=Math.cos(a)*r,z=Math.sin(a)*r;rod([.3,5,0],[x,y,z],.18,bark);const canopy=mesh(strategy===2?new THREE.SphereGeometry(1,9,6):new THREE.IcosahedronGeometry(1,2),leaf,x,y,z);canopy.scale.set(3.2,1.55,2.9);for(let k=0;k<4;k++){const small=mesh(new THREE.IcosahedronGeometry(1,0),leaf,x+Math.cos(k*2)*2,y+.4,z+Math.sin(k*2)*2);small.scale.set(1.5,.8,1.4);}}
+ for(let i=0;i<8;i++){const a=i*2.4,r=3.5+(i%3),y=trunkH-1+(i%3)*1.2;const x=Math.cos(a)*r,z=Math.sin(a)*r;rod([.3,5,0],[x,y,z],.18,bark);const canopy=mesh(strategy===2?new THREE.SphereGeometry(1,9,6):new THREE.IcosahedronGeometry(1,1),leaf,x,y,z);canopy.scale.set(3.2,1.55,2.9);for(let k=0;k<4;k++){const small=mesh(new THREE.IcosahedronGeometry(1,0),leaf,x+Math.cos(k*2)*2,y+.4,z+Math.sin(k*2)*2);small.scale.set(1.5,.8,1.4);}}
  // Hanging roots and fine leaves break the silhouette at racing distance.
  for(let i=0;i<24;i++){const a=i*2.399,r=3+Math.sin(i*7)*2,x=Math.cos(a)*r,z=Math.sin(a)*r,y=trunkH+.5+Math.sin(i)*1.4;rod([x,y,z],[x+.2,y-2.4-(i%4)*.4,z+.1],.025,bark,4);}
  return finish();
