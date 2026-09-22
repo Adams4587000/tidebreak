@@ -17,7 +17,8 @@ for(let chapter=0;chapter<6;chapter++){
   if(t.state==='race'){
    const d=Math.atan2(Math.sin(t.target-t.heading),Math.cos(t.target-t.heading));
    await key('ArrowLeft',d>.035);await key('ArrowRight',d<-.035);
-   await key('Space',t.elapsed%6<3&&Math.abs(d)<.35);
+   const g=t.surgeWindow;const waitForGate=g&&g.distance<65&&(!g.open||g.closesIn<g.distance/Math.max(t.speed,20)+.6);
+   await key('ArrowDown',!!waitForGate);await key('Space',!waitForGate&&t.elapsed%6<3&&Math.abs(d)<.35);
    if(!captured&&t.progress>.38){await page.screenshot({path:`tidebreak/evidence/chapter-${chapter+1}-race.png`});captured=true;}
   }
   await new Promise(r=>setTimeout(r,70));

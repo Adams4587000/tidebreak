@@ -1,6 +1,8 @@
 # Tidebreak — working art direction
 
-Original performance hydroplanes race through a monumental Atlantic island chain, rendered with sculpted industrial forms, saturated deep water, tactile weathered materials and restrained cinematic light.
+Original futuristic spacecraft built for water racing compete through a monumental Atlantic island chain, rendered with sculpted industrial forms, saturated deep water, tactile weathered materials and restrained cinematic light.
+
+Vehicle direction corrected by the user: the racers must read as spacecraft. Confirmed direction: sleek spacecraft with flowing bodies, luminous engines and retractable hydrofoils, skimming the water so wakes and jumps remain central. Three distinct generated spacecraft now replace the original hydroplane, using Atlas reference concepts.
 
 ## Palette
 - #073f4b — deep Atlantic water and shaded hull reflections

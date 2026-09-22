@@ -1,0 +1,107 @@
+[
+  {
+    "fid": "a8d902c2-2c42-4788-8892-0d8d857c0f22",
+    "name": "basecolor",
+    "filename": "basecolor.png",
+    "description": "This image features a detailed, flat close-up of a carbon fiber weave pattern, characterized by small, alternating dark gray and black squares.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1478002,
+    "created_at_ms": 1790109456493,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/a8d902c2-2c42-4788-8892-0d8d857c0f22",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "b62131a3-f4ae-489f-8cc9-949d96e7c626",
+    "name": "normal",
+    "filename": "normal.png",
+    "description": "This image appears to be a normal map of a woven fabric or wicker texture, characterized by a repeating pattern of interwoven strands rendered in shades of blue and purple. Because it depicts a continuous surface texture that fills the frame, the individual elements extend beyond the edges, making them cropped rather than fully contained objects.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1487101,
+    "created_at_ms": 1790109457267,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/b62131a3-f4ae-489f-8cc9-949d96e7c626",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "9a6f0a04-cc1e-40e8-9dbc-eea50dcdffff",
+    "name": "roughness",
+    "filename": "roughness.png",
+    "description": "The image displays a close-up, monochromatic pattern resembling a fine, dense grid or checkerboard texture in shades of gray.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 477310,
+    "created_at_ms": 1790109458039,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/9a6f0a04-cc1e-40e8-9dbc-eea50dcdffff",
+      "requires_api_key": true
+    }
+  }
+]

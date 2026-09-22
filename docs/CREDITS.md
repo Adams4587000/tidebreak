@@ -8,7 +8,7 @@ Visual project: `29d918d9-ef79-4b7a-9519-575ad93f2405`.
 
 | Use | Atlas backend | Original output FID |
 |---|---|---|
-| Hero boat reference | FLUX.2 Max | 8a1f8d45-14f4-4a25-a431-d217b242648a |
+| Retired hydroplane reference | FLUX.2 Max | 8a1f8d45-14f4-4a25-a431-d217b242648a |
 | Environment reference sheet | FLUX.2 Max | 854ee824-9f5f-427a-b72d-e831c4cdf8d3 |
 | Water normal | PATINA PBR material maps | 307f7e33-6598-4595-a985-c8004215d53e |
 | Basalt albedo / normal | PATINA PBR material maps | ccba411d-492a-448b-ba2b-35eabd22aef3 / f82f4cfc-4386-4978-bb5c-970e2a1e09a5 |
@@ -32,3 +32,7 @@ The visuals use triplanar albedo blending, macro texture variation, tangent-spac
 - User-provided Rust17 improvement document: design/quality reference only, retained in `docs/RUST17_REFERENCE.md`; no prior game source copied.
 
 Candidate previews and verifier receipts document structural checks. Passing the verifier or jam harness is not a measure of visual quality or a claim of completing every step of the longest recipe workflow.
+
+The current spacecraft references and their Atlas output identifiers are recorded in [SPACECRAFT.md](SPACECRAFT.md).
+
+Spacecraft carbon composite material: PATINA via Atlas, node `ede3802a`. Basecolor `a8d902c2-2c42-4788-8892-0d8d857c0f22`, tangent-space normal `b62131a3-f4ae-489f-8cc9-949d96e7c626`, roughness `9a6f0a04-cc1e-40e8-9dbc-eea50dcdffff`. Converted to WebP and applied to the craft's graphite composite surfaces.
