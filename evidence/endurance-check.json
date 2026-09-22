@@ -1,0 +1,163 @@
+{
+  "sectors": [
+    {
+      "sector": 0,
+      "elapsed": 12.682799999999963,
+      "place": 4,
+      "draws": 301,
+      "tris": 685868,
+      "pickups": 5
+    },
+    {
+      "sector": 1,
+      "elapsed": 55.51440000000093,
+      "place": 4,
+      "draws": 365,
+      "tris": 1221448,
+      "pickups": 29
+    },
+    {
+      "sector": 2,
+      "elapsed": 96.89600000000883,
+      "place": 4,
+      "draws": 183,
+      "tris": 366308,
+      "pickups": 53
+    },
+    {
+      "sector": 3,
+      "elapsed": 144.09410000001944,
+      "place": 4,
+      "draws": 121,
+      "tris": 406200,
+      "pickups": 76
+    },
+    {
+      "sector": 4,
+      "elapsed": 184.99250000002877,
+      "place": 4,
+      "draws": 161,
+      "tris": 444092,
+      "pickups": 100
+    },
+    {
+      "sector": 5,
+      "elapsed": 222.84110000003741,
+      "place": 4,
+      "draws": 300,
+      "tris": 392836,
+      "pickups": 123
+    }
+  ],
+  "peaks": {
+    "draws": 673,
+    "tris": 1343600
+  },
+  "errors": [],
+  "passed": true,
+  "lensMax": 18,
+  "result": {
+    "sector": 0,
+    "sectorName": "MERIDIAN",
+    "pickups": 140,
+    "roster": [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "rivals": [
+      {
+        "id": "rival-1",
+        "s": 14162.879539986383,
+        "speed": 0,
+        "boost": 15.119049999999357,
+        "claimed": 132
+      },
+      {
+        "id": "rival-2",
+        "s": 10454.272428183605,
+        "speed": 38.27637711053864,
+        "boost": 37.369500000000045,
+        "claimed": 3
+      },
+      {
+        "id": "rival-3",
+        "s": 14162.879539986383,
+        "speed": 0,
+        "boost": 25.11255000000019,
+        "claimed": 134
+      },
+      {
+        "id": "rival-4",
+        "s": 10742.883114307775,
+        "speed": 38.11424054354748,
+        "boost": 37.38325000000104,
+        "claimed": 15
+      },
+      {
+        "id": "rival-5",
+        "s": 14162.879539986383,
+        "speed": 0,
+        "boost": 28.35604999999998,
+        "claimed": 133
+      }
+    ],
+    "lensDrops": 7,
+    "surgeWindow": null,
+    "craft": "KESTREL",
+    "foilAngle": 0.008702588884335399,
+    "engineIntensity": 2.7865737259210177,
+    "exhaustScale": 1.0768386723568417,
+    "air": 0,
+    "pos": [
+      -0.8455423533066864,
+      2150.508900826449
+    ],
+    "fps": 60.004806286330826,
+    "speed": 54.802417022302606,
+    "score": 4,
+    "over": true,
+    "draws": 136,
+    "tris": 516184,
+    "progress": 1,
+    "heading": 7.6679391495183316,
+    "guideHeading": 1.3623212153422093,
+    "lateral": 1.3200914322802482,
+    "boost": 3.0366499999983967,
+    "boosts": 310,
+    "jumps": 0,
+    "signals": 0,
+    "surges": 4,
+    "place": 4,
+    "chapter": 0,
+    "state": "results",
+    "unlocked": [
+      true,
+      true,
+      false
+    ],
+    "elapsed": 254.3230000000446,
+    "courseLength": 14162.879539986383,
+    "target": 1.3594498941090905
+  },
+  "saved": {
+    "cleared": [
+      true,
+      false,
+      false
+    ],
+    "best": [
+      254.3230000000446,
+      null,
+      null
+    ],
+    "finishes": 1,
+    "podiums": 0,
+    "wins": 0,
+    "pickups": 140,
+    "champion": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "report": [
+    {
+      "craft": "KESTREL",
+      "locked": false,
+      "tris": 664108,
+      "draws": 192
+    },
+    {
+      "craft": "ALBATROSS",
+      "locked": true,
+      "tris": 665524,
+      "draws": 192
+    },
+    {
+      "craft": "MANTA",
+      "locked": true,
+      "tris": 503668,
+      "draws": 132
+    },
+    {
+      "craft": "BRIMSTONE",
+      "locked": true,
+      "tris": 678392,
+      "draws": 202
+    },
+    {
+      "craft": "SPECTRE",
+      "locked": true,
+      "tris": 504580,
+      "draws": 134
+    },
+    {
+      "craft": "IRONCLAD",
+      "locked": true,
+      "tris": 667712,
+      "draws": 202
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

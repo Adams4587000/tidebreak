@@ -1,25 +1,79 @@
 {
   "before": {
+    "sector": 0,
+    "sectorName": "MERIDIAN",
+    "pickups": 0,
+    "roster": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "rivals": [
+      {
+        "id": "rival-1",
+        "s": 38.073345669425834,
+        "speed": 37.85916248209695,
+        "boost": 72.50000000000041,
+        "claimed": 0
+      },
+      {
+        "id": "rival-2",
+        "s": 36.31125338160914,
+        "speed": 34.09068592191559,
+        "boost": 72.50000000000041,
+        "claimed": 0
+      },
+      {
+        "id": "rival-3",
+        "s": 38.40794884612832,
+        "speed": 36.7538989633381,
+        "boost": 72.50000000000041,
+        "claimed": 0
+      },
+      {
+        "id": "rival-4",
+        "s": 23.779435673119263,
+        "speed": 33.98631806788148,
+        "boost": 72.50000000000041,
+        "claimed": 0
+      },
+      {
+        "id": "rival-5",
+        "s": 24.934037734856716,
+        "speed": 37.689121413820004,
+        "boost": 72.50000000000041,
+        "claimed": 0
+      }
+    ],
+    "nextPickup": {
+      "s": 95,
+      "offset": 6,
+      "type": "OVERDRIVE"
+    },
+    "lensDrops": 0,
     "surgeWindow": null,
     "craft": "KESTREL",
-    "foilAngle": 0.004729068511607948,
-    "engineIntensity": 2.044102331841717,
-    "exhaustScale": 0.6008247855258939,
+    "foilAngle": 0.003600100533724333,
+    "engineIntensity": 2.0007343730949616,
+    "exhaustScale": 0.5730692919279691,
     "air": 0,
     "pos": [
-      18.86631951640048,
-      209.66505772437728
+      18.721908650593793,
+      2154.4810298574025
     ],
-    "fps": 60.0066996326905,
-    "speed": 25.051549095368372,
+    "fps": 59.99331782006725,
+    "speed": 23.316830745498066,
     "score": 0,
     "over": false,
-    "draws": 143,
-    "tris": 385548,
-    "progress": 0.014285714285714284,
-    "heading": 1.5814021928593673,
-    "guideHeading": 1.6079890027396293,
-    "lateral": -0.027749580712405134,
+    "draws": 363,
+    "tris": 674184,
+    "progress": 0.0013385582992649604,
+    "heading": 1.3749736470015914,
+    "guideHeading": 1.3634336911990306,
+    "lateral": 0.6278991442531253,
     "boost": 100,
     "boosts": 0,
     "jumps": 0,
@@ -31,36 +85,87 @@
     "unlocked": [
       true,
       false,
+      false
+    ],
+    "elapsed": 1.2499999999999998,
+    "courseLength": 14162.879539986383
+  },
+  "steering": {
+    "sector": 0,
+    "sectorName": "MERIDIAN",
+    "pickups": 0,
+    "roster": [
+      true,
+      false,
       false,
       false,
       false,
       false
     ],
-    "elapsed": 1.2666000000000002,
-    "courseLength": 1322.590069286792
-  },
-  "steering": {
+    "rivals": [
+      {
+        "id": "rival-1",
+        "s": 79.3108799879216,
+        "speed": 48.89901265292628,
+        "boost": 51.96960000000052,
+        "claimed": 0
+      },
+      {
+        "id": "rival-2",
+        "s": 71.81564584770145,
+        "speed": 40.99024325743328,
+        "boost": 51.96960000000052,
+        "claimed": 0
+      },
+      {
+        "id": "rival-3",
+        "s": 76.72727493574955,
+        "speed": 44.27010034538537,
+        "boost": 51.96960000000052,
+        "claimed": 0
+      },
+      {
+        "id": "rival-4",
+        "s": 61.32781032178291,
+        "speed": 45.64955357552959,
+        "boost": 51.96960000000052,
+        "claimed": 0
+      },
+      {
+        "id": "rival-5",
+        "s": 65.9954795187373,
+        "speed": 48.69881322694729,
+        "boost": 51.96960000000052,
+        "claimed": 0
+      }
+    ],
+    "nextPickup": {
+      "s": 95,
+      "offset": 6,
+      "type": "OVERDRIVE"
+    },
+    "lensDrops": 9,
     "surgeWindow": null,
     "craft": "KESTREL",
-    "foilAngle": 0.09518576735955254,
-    "engineIntensity": 4.925042012400429,
-    "exhaustScale": 2.2703217937514877,
+    "foilAngle": 0.09518456207457753,
+    "engineIntensity": 4.925737125292194,
+    "exhaustScale": 2.2707373275963127,
     "air": 0,
     "pos": [
-      48.66059859786776,
-      199.449723689029
+      48.99918273055474,
+      2150.5470358008624
     ],
-    "fps": 60.00281179838058,
-    "speed": 41.89511210946799,
+    "fps": 60.010236330276875,
+    "speed": 41.921082974769554,
     "score": 0,
     "over": false,
-    "draws": 126,
-    "tris": 381338,
-    "progress": 0.03767547035933749,
-    "heading": 2.253212144918503,
-    "guideHeading": 1.4558447490588278,
-    "lateral": 8.251130233638868,
-    "boost": 80.20000000000022,
+    "draws": 311,
+    "tris": 676502,
+    "progress": 0.0035,
+    "heading": 2.0293201558270435,
+    "guideHeading": 1.1492847721119264,
+    "lateral": 8.946985052838738,
+    "boost": 80.2022000000003,
     "boosts": 1,
     "jumps": 0,
     "signals": 0,
@@ -71,44 +176,16 @@
     "unlocked": [
       true,
       false,
-      false,
-      false,
-      false,
       false
     ],
-    "elapsed": 2.199899999999999,
-    "courseLength": 1322.590069286792
+    "elapsed": 2.1831999999999985,
+    "courseLength": 14162.879539986383
   },
   "paused": {
-    "surgeWindow": null,
-    "craft": "KESTREL",
-    "foilAngle": 0.0812812032358511,
-    "engineIntensity": 2.4343604222683726,
-    "exhaustScale": 0.8720469439914409,
-    "air": 0,
-    "pos": [
-      52.31191915819134,
-      196.15712053735913
-    ],
-    "fps": 59.995459066093225,
-    "speed": 42.00293399946505,
-    "score": 0,
-    "over": false,
-    "draws": 120,
-    "tris": 380942,
-    "progress": 0.041428571428571426,
-    "heading": 2.3348914276446986,
-    "guideHeading": 1.395086098465287,
-    "lateral": 11.013489711824137,
-    "boost": 79.9233500000002,
-    "boosts": 1,
-    "jumps": 0,
-    "signals": 0,
-    "surges": 0,
-    "place": 5,
-    "chapter": 0,
-    "state": "race",
-    "unlocked": [
+    "sector": 0,
+    "sectorName": "MERIDIAN",
+    "pickups": 0,
+    "roster": [
       true,
       false,
       false,
@@ -116,8 +193,84 @@
       false,
       false
     ],
-    "elapsed": 2.316599999999999,
-    "courseLength": 1322.590069286792
+    "rivals": [
+      {
+        "id": "rival-1",
+        "s": 85.07609714030531,
+        "speed": 49.76722637147356,
+        "boost": 49.40220000000052,
+        "claimed": 0
+      },
+      {
+        "id": "rival-2",
+        "s": 76.63594177566422,
+        "speed": 41.533578274670624,
+        "boost": 49.40220000000052,
+        "claimed": 0
+      },
+      {
+        "id": "rival-3",
+        "s": 81.93362209658196,
+        "speed": 44.86212635410264,
+        "boost": 49.40220000000052,
+        "claimed": 0
+      },
+      {
+        "id": "rival-4",
+        "s": 66.72362814441466,
+        "speed": 46.662888123390964,
+        "boost": 49.40220000000052,
+        "claimed": 0
+      },
+      {
+        "id": "rival-5",
+        "s": 71.73723983803824,
+        "speed": 49.565683565634835,
+        "boost": 49.40220000000052,
+        "claimed": 0
+      }
+    ],
+    "nextPickup": {
+      "s": 95,
+      "offset": 6,
+      "type": "OVERDRIVE"
+    },
+    "lensDrops": 9,
+    "surgeWindow": null,
+    "craft": "KESTREL",
+    "foilAngle": 0.08128073212680743,
+    "engineIntensity": 2.4399820153553287,
+    "exhaustScale": 0.8756787758415445,
+    "air": 0,
+    "pos": [
+      53.30771450898578,
+      2148.142750297768
+    ],
+    "fps": 60.00309522997726,
+    "speed": 42.229923490096525,
+    "score": 0,
+    "over": false,
+    "draws": 281,
+    "tris": 654986,
+    "progress": 0.00375,
+    "heading": 2.1095134392948016,
+    "guideHeading": 1.0545659204298454,
+    "lateral": 11.770144427339563,
+    "boost": 79.92555000000033,
+    "boosts": 1,
+    "jumps": 0,
+    "signals": 0,
+    "surges": 0,
+    "place": 6,
+    "chapter": 0,
+    "state": "race",
+    "unlocked": [
+      true,
+      false,
+      false
+    ],
+    "elapsed": 2.2998999999999983,
+    "courseLength": 14162.879539986383
   },
   "errors": [],
   "passed": true

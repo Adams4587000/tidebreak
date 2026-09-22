@@ -67,3 +67,7 @@ The canonical 404 helper files were hash-compared to the recipe checkout and rem
 Final endurance regression: **PASS**, 14.2 km in **254.323 seconds (4:14.323)**, fourth of six, all six sectors recorded, 140 player pickups, opponent pickups verified, lens droplets verified, and earned crew/contract access persisted after reload. Peak **673 draws / 1,343,600 triangles**. See `evidence/endurance-check.json` for raw telemetry. The test did not require or force a win.
 
 Final roster and touch regressions: **PASS**. All six crews are inspectable, five initially locked; portrait phone selectors do not overlap; simultaneous steering and boost work; pause freezes race time; resume, dock and practice work. Final asset verifier: **18/18 clean**. Pure progression/competition tests: **7/7 pass**.
+
+Official local phone/4G gate on source commit `8ad34e2d12e9025bf0763009f967cde6c3ec1d89`: **PASS**. 390×844 @3x, real touch, 4 Mbps/1 Mbps, 60 ms latency, CPU 2× slowdown. Ready **11.7 s**; body weight **6.1 MB**; real-touch movement **138.0 m**; peak **582 draws / 1,020,636 triangles**; **0 errors and 0 missing files**. Median measured fps **59.8** on ANGLE Metal / Apple M4; this is browser emulation, not a physical-phone benchmark. All runtime files came from the game folder. Raw verdict and screenshots: `evidence/jam-dystopia/`.
+
+The gate URL was localhost. A hosted URL, hosted gate receipt and competition submission remain separate release steps.
