@@ -21,7 +21,7 @@ Initial full-course profiling caught a swamp peak above 1.5 million triangles. S
 
 The jam verdict in `evidence/jam-local/` is for localhost. A public deployed URL, public source repository and final entry submission remain outstanding. FPS readings come from this Mac’s automated Chrome, not a representative range of phones.
 
-## Final local phone gate
+## Original hydroplane build: local phone gate
 
 Source commit `8b46f409fb3c92720d06a86e7a5c454871c6ee1d`, 22 September 2026, 20:00 UTC. Unmodified recipe harness, 390×844 at 3×, touch events, 4 Mbps down / 1 Mbps up, 60 ms latency, CPU throttled 2×.
 
@@ -34,3 +34,20 @@ Source commit `8b46f409fb3c92720d06a86e7a5c454871c6ee1d`, 22 September 2026, 20:
 - Result: PASS. Nine of nine shipping modules also pass the geometry verifier; all 21 JavaScript modules parse and stay within the game folder.
 
 This gate checks the opening phone segment. The table above records separate full-course measurements, including the substantially heavier swamp.
+
+## Spacecraft fleet validation
+
+The current build replaces the single hydroplane with Kestrel, Albatross and Manta geometry. Foils retain their animation pivots while static body sections are batched. All three craft pass selection and animation checks: folded foils at rest, deployed foils while racing, and increased engine emission and exhaust length during boost. Original Atlas carbon-composite maps are applied to the underside and foil surfaces.
+
+The complete six-course keyboard replay passed again with spacecraft opponents and updated hull clearances. The test uses the visible gate timing information to brake and wait for active surge windows, rather than relying on a lucky arrival. All unlocks and championship status persist after reload.
+
+| Chapter | Peak draws | Peak triangles |
+|---|---:|---:|
+| Harbour | 188 | 435,916 |
+| Swamp | 191 | 1,297,912 |
+| Gorge | 158 | 333,850 |
+| Volcano | 140 | 328,834 |
+| Sluice | 219 | 452,794 |
+| Atlantic | 131 | 309,374 |
+
+Final spacecraft phone gate: source commit `38193cf2e2b2fe1ed146d68ac92a5957711f6c97`, 22 September 2026 at 21:01 UTC. Ready in 8.2 s on the recipe's 4G / CPU 2× profile; 5.3 MB loaded; 136.8 m of touch-driven movement; opening-segment peaks 145 draws / 385,580 triangles; zero browser errors or missing files. PASS. All 11 geometry modules pass structural verification, and all 23 shipping JavaScript modules parse. Separate touch and spacecraft-animation checks also pass on the final build.

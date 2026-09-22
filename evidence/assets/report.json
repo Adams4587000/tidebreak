@@ -2,13 +2,13 @@
  {
   "ok": true,
   "mounts": null,
-  "meshes": 78,
-  "tris": 3916,
-  "materials": 4,
+  "meshes": 74,
+  "tris": 13580,
+  "materials": 8,
   "size": [
-   3.622,
-   1.905,
-   7.266
+   4.348,
+   2.66,
+   9.482
   ],
   "groundOffset": 0,
   "centreOffset": [
@@ -17,24 +17,24 @@
   ],
   "sides": {
    "front": {
-    "coverage": 0.1345,
-    "edgeDensity": 0.296
+    "coverage": 0.0768,
+    "edgeDensity": 0.3656
    },
    "right": {
-    "coverage": 0.1822,
-    "edgeDensity": 0.2665
+    "coverage": 0.1144,
+    "edgeDensity": 0.3921
    },
    "back": {
-    "coverage": 0.1392,
-    "edgeDensity": 0.2841
+    "coverage": 0.0794,
+    "edgeDensity": 0.4
    },
    "left": {
-    "coverage": 0.1853,
-    "edgeDensity": 0.2549
+    "coverage": 0.1117,
+    "edgeDensity": 0.365
    }
   },
   "error": null,
-  "name": "boat",
+  "name": "albatross",
   "problems": []
  },
  {
@@ -154,6 +154,44 @@
  {
   "ok": true,
   "mounts": null,
+  "meshes": 73,
+  "tris": 13416,
+  "materials": 8,
+  "size": [
+   4.531,
+   2.32,
+   8.592
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0925,
+    "edgeDensity": 0.2853
+   },
+   "right": {
+    "coverage": 0.1202,
+    "edgeDensity": 0.3561
+   },
+   "back": {
+    "coverage": 0.0946,
+    "edgeDensity": 0.345
+   },
+   "left": {
+    "coverage": 0.1172,
+    "edgeDensity": 0.3672
+   }
+  },
+  "error": null,
+  "name": "kestrel",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
   "meshes": 22,
   "tris": 1160,
   "materials": 5,
@@ -225,6 +263,44 @@
   },
   "error": null,
   "name": "mangrove",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 95,
+  "tris": 15864,
+  "materials": 9,
+  "size": [
+   5.301,
+   2.32,
+   8.156
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1019,
+    "edgeDensity": 0.2527
+   },
+   "right": {
+    "coverage": 0.1126,
+    "edgeDensity": 0.3491
+   },
+   "back": {
+    "coverage": 0.0867,
+    "edgeDensity": 0.391
+   },
+   "left": {
+    "coverage": 0.1102,
+    "edgeDensity": 0.3614
+   }
+  },
+  "error": null,
+  "name": "manta",
   "problems": []
  },
  {
