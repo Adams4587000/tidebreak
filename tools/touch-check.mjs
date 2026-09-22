@@ -1,0 +1,15 @@
+import puppeteer from '../../404-game-recipe/node_modules/puppeteer/lib/puppeteer/puppeteer.js';
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {fileURLToPath} from 'node:url';
+process.chdir(fileURLToPath(new URL('../',import.meta.url)));
+const browser=await puppeteer.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader','--no-proxy-server']});
+try{
+ const page=await browser.newPage();await page.setViewport({width:390,height:844,deviceScaleFactor:2,isMobile:true,hasTouch:true});const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('http://localhost:4173/');await page.waitForFunction('window.__READY__');await page.tap('#startb');await new Promise(r=>setTimeout(r,4200));
+ const cdp=await page.createCDPSession(),before=await page.evaluate(()=>window.__GAME__);
+ const points=await page.evaluate(()=>['stick','boostb'].map(id=>{const r=document.getElementById(id).getBoundingClientRect();return{x:r.x+r.width/2,y:r.y+r.height/2};}));points[0].x-=34;
+ await cdp.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:points.map((p,id)=>({...p,id,radiusX:3,radiusY:3}))});await new Promise(r=>setTimeout(r,900));const steering=await page.evaluate(()=>window.__GAME__);await cdp.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});assert.ok(steering.boosts>0,'second finger activates boost');assert.ok(steering.heading-before.heading>.15,'left touch steers left');
+ await page.tap('#pauseb');const paused=await page.evaluate(()=>window.__GAME__);await new Promise(r=>setTimeout(r,500));const still=await page.evaluate(()=>window.__GAME__);assert.equal(still.state,'paused');assert.equal(still.elapsed,paused.elapsed);
+ await page.tap('#resumeb');await new Promise(r=>setTimeout(r,400));assert.equal(await page.evaluate(()=>window.__GAME__.state),'race');await page.screenshot({path:'evidence/touch-controls.png'});
+ await page.tap('#pauseb');await page.tap('#exitb');await page.tap('[data-mode="time"]');await page.tap('#startb');await new Promise(r=>setTimeout(r,3400));assert.equal(await page.$eval('#field-size',e=>e.textContent),'/ 1');assert.equal(errors.length,0);console.log('TOUCH PASS: simultaneous steering + boost, pause freezes time, resume, dock and time trial.');fs.writeFileSync('evidence/touch-check.json',JSON.stringify({before,steering,paused,errors,passed:true},null,2));
+}finally{await browser.close();}

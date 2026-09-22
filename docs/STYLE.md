@@ -13,7 +13,7 @@ Original performance hydroplanes race through a monumental Atlantic island chain
 - #f58336 — lava, confined to fissures and geothermal landmarks
 
 ## Scale and readability
-Metres; asset base y=0, centred x/z, front +Z. Hero boat roughly 7 m long, 3.2 m wide. Human-scale doors ~2.2 m. Infrastructure 15–55 m, distant landscape 80–200 m. Three genuinely independent geometry candidates per reference asset; rendered comparison decides selection.
+Metres; asset base y=0, centred x/z, front +Z. Hero boat roughly 7 m long, 3.2 m wide. Human-scale doors ~2.2 m. Infrastructure 15–55 m, distant landscape 80–200 m. Compare alternative silhouettes for the hero and major props, then refine selected geometry in the assembled scene. Run the recipe verifier on shipping modules. The current candidate set includes parameter variants; it is not a claim that the full ten-hour recipe was executed.
 
 ## Six environments
 1. Port Meridian: open Atlantic megaharbour, cranes, ivory seawalls, cable bridges.
@@ -23,7 +23,7 @@ Metres; asset base y=0, centred x/z, front +Z. Hero boat roughly 7 m long, 3.2 m
 5. The Sluice: monumental tidal machinery, flood gates, spillways and reservoirs.
 6. Outer Atlantic: sea stacks, rough open water, lighthouse, storm horizon.
 
-Course organisation awaits user choice: six connected sectors or six separate tracks.
+Six separately selectable courses, unlocked in order by completing a clear task in the previous chapter. Local saved progression; completed chapters remain replayable.
 
 ## Quality standards
 Water must show scale, moving highlights, hull displacement cues, foam, and fading wakes. Camera horizon remains stable. Boat must remain readable against every sector. Warm/cool separation follows the location rather than fixed lighting values. Hero detail and visible material scale take priority over decorative clutter. Post effects require an A/B improvement in motion and a measured cost.

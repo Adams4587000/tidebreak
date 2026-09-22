@@ -1,0 +1,842 @@
+[
+  {
+    "fid": "8a1f8d45-14f4-4a25-a431-d217b242648a",
+    "name": "output",
+    "filename": "output.png",
+    "description": "An orange and off-white futuristic watercraft/speedboat is visible in full, depicted against a plain grey background.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 2538507,
+    "created_at_ms": 1790099381116,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/8a1f8d45-14f4-4a25-a431-d217b242648a",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "854ee824-9f5f-427a-b72d-e831c4cdf8d3",
+    "name": "output",
+    "filename": "output.png",
+    "description": "Based on the image provided, here is a breakdown of what is depicted in the four panels:\n\nThe image is a collage showing four distinct scenes, likely from a video game or virtual environment, featuring watercraft traveling through various dramatic landscapes.\n\n*   **Top-Left Panel:** Shows a canal or industrial dock system. Large, weathered concrete walls line the waterway, with construction cranes and containers visible in the background under a bright, hazy sky. A few small boats are navigating the water.\n*   **Top-Right Panel:** Features a lush, tropical river scene with mangrove trees on the left, a waterfall cascading down a cliff face in the background, and small speedboats traveling down the river.\n*   **Bottom-Left Panel:** Depicts an open body of water surrounded by dark, rugged rock formations, possibly volcanic terrain with glowing lava cracks visible in the distance under a sunset-lit sky. A speedboat is moving in the foreground, with other boats scattered in the distance.\n*   **Bottom-Right Panel:** Shows an elevated view of a winding river gorge with twin waterfalls, rocky cliffs, lava flows, and small boats navigating the waterway below.\n\nRegarding whether objects are visible in full or cropped:\n*   The collage itself contains four separate images (panels) which are cropped compositions of larger virtual environments. \n*   Within the individual scenes, elements like cliffs, buildings, and bodies of water extend beyond the edges of the frames (cropped), while specific subjects like the speedboats in the foreground of the bottom-left and top-right panels are fully visible.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 3746759,
+    "created_at_ms": 1790099387250,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/854ee824-9f5f-427a-b72d-e831c4cdf8d3",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "2d9476fa-17b8-4311-9cdd-068aacfbbdba",
+    "name": "texture",
+    "filename": "texture.png",
+    "description": "This image displays a seamless pattern depicting the surface of the ocean with waves.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1679542,
+    "created_at_ms": 1790099537594,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/2d9476fa-17b8-4311-9cdd-068aacfbbdba",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "d3c3c96f-bc49-4519-8ba1-b44e3354878a",
+    "name": "basecolor",
+    "filename": "basecolor.png",
+    "description": "The image shows rolling ocean waves with a blue tint.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1713429,
+    "created_at_ms": 1790099538450,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/d3c3c96f-bc49-4519-8ba1-b44e3354878a",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "307f7e33-6598-4595-a985-c8004215d53e",
+    "name": "normal",
+    "filename": "normal.png",
+    "description": "This image is a digital texture map—specifically, a normal map, which is used in 3D computer graphics to simulate bumps, ridges, and surface details (like brush strokes or waves) without changing the underlying geometry.\n\nBecause it represents a continuous, seamless surface pattern, it doesn't contain distinct isolated \"objects\" with clear boundaries; instead, it depicts a repeating field of textured ridges and troughs that extend across the entire frame.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1567864,
+    "created_at_ms": 1790099539235,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/307f7e33-6598-4595-a985-c8004215d53e",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "effc2e3a-2252-4d35-811e-f880a4ffa77e",
+    "name": "roughness",
+    "filename": "roughness.png",
+    "description": "This image features a close-up, seamless texture of dark, weathered or folded material, resembling dark rock, crinkled leather, or solidified volcanic lava. The surface is patterned with deep grooves and undulating ridges that run diagonally across the frame. Since this is a continuous texture pattern rather than a discrete object, individual items are not present; instead, the entire pattern is cropped at the edges of the image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 620845,
+    "created_at_ms": 1790099540011,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/effc2e3a-2252-4d35-811e-f880a4ffa77e",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "10b5b1bd-6dc9-4650-ad8f-bfff43bfd88b",
+    "name": "metalness",
+    "filename": "metalness.png",
+    "description": "There is nothing visible in the image—it is entirely black.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 14121,
+    "created_at_ms": 1790099540812,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/10b5b1bd-6dc9-4650-ad8f-bfff43bfd88b",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "d514f834-7cf6-4649-9178-d2ec31ca337a",
+    "name": "height",
+    "filename": "height.png",
+    "description": "This image features an overhead view of ocean waves rendered in shades of gray. The waves flow in parallel patterns across the scene.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 403738,
+    "created_at_ms": 1790099541538,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/d514f834-7cf6-4649-9178-d2ec31ca337a",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "e238aa2c-7478-44a7-9e94-f97f345d5f59",
+    "name": "texture",
+    "filename": "texture.png",
+    "description": "A high-resolution, close-up image of a dark gray, textured stone surface, likely slate or volcanic rock. The texture includes fine grain, small pitting, and natural crevices. Because it is a close-up texture shot rather than a distinct object, the surface extends beyond the borders of the frame, rendering it cropped by default.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 2029253,
+    "created_at_ms": 1790099564115,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/e238aa2c-7478-44a7-9e94-f97f345d5f59",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "ccba411d-492a-448b-ba2b-35eabd22aef3",
+    "name": "basecolor",
+    "filename": "basecolor.png",
+    "description": "This is an image of a dark gray stone or rock surface texture. There are no discrete objects in the frame; it is a close-up, continuous material background, so the question of being cropped or full doesn't apply to individual items.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 2265035,
+    "created_at_ms": 1790099564895,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/ccba411d-492a-448b-ba2b-35eabd22aef3",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "f82f4cfc-4386-4978-bb5c-970e2a1e09a5",
+    "name": "normal",
+    "filename": "normal.png",
+    "description": "This image displays a blue surface showing a normal map texture of a rocky stone.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 2056057,
+    "created_at_ms": 1790099565694,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/f82f4cfc-4386-4978-bb5c-970e2a1e09a5",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "bd4fddd2-b447-4ce3-8aef-91b34e8a57da",
+    "name": "roughness",
+    "filename": "roughness.png",
+    "description": "Scanning electron microscope (SEM) image of a fibrous network structure, likely a polymer or biological matrix. The surface features a dense mesh of fine, intertwined strands spread across a textured background. Additionally, several small, bright spherical particles are scattered across the surface.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 832678,
+    "created_at_ms": 1790099566427,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/bd4fddd2-b447-4ce3-8aef-91b34e8a57da",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "21e5e44a-1c6f-4298-9791-c385d3c0ca7e",
+    "name": "metalness",
+    "filename": "metalness.png",
+    "description": "The image is entirely black.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 14121,
+    "created_at_ms": 1790099567179,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/21e5e44a-1c6f-4298-9791-c385d3c0ca7e",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "8d9abae0-19e9-4539-a52b-b140acb6cc05",
+    "name": "height",
+    "filename": "height.png",
+    "description": "This is an image of a textured surface, possibly stone, marble, or a relief map, characterized by variations in light and shadow that suggest uneven topography with ridges and depressions. Because it is a close-up texture fill, the entire scene represents a single continuous surface rather than discrete objects, so the concept of being \"in full or cropped\" doesn't strictly apply to individual objects.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 452405,
+    "created_at_ms": 1790099567888,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/8d9abae0-19e9-4539-a52b-b140acb6cc05",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "542ef865-446c-421f-9079-e39aa0df311a",
+    "name": "texture",
+    "filename": "texture.png",
+    "description": "This image is a close-up of tree bark with a fibrous texture and a dark green color, completely filling the frame (cropped).",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1963540,
+    "created_at_ms": 1790099577093,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/542ef865-446c-421f-9079-e39aa0df311a",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "40db7883-a1a5-4d19-ad99-c0d6e82d744f",
+    "name": "basecolor",
+    "filename": "basecolor.png",
+    "description": "This image shows a close-up of a green, textured surface, likely fabric, wood grain, or a similar material. The frame is filled completely with the vertical fibers, creating a continuous pattern that extends beyond all edges of the image, so it is cropped on all sides.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 2152810,
+    "created_at_ms": 1790099577868,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/40db7883-a1a5-4d19-ad99-c0d6e82d744f",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "f09b1413-2ded-40a3-b5c6-ffb78418f664",
+    "name": "normal",
+    "filename": "normal.png",
+    "description": "I can't identify any objects in this image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 2167299,
+    "created_at_ms": 1790099578643,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/f09b1413-2ded-40a3-b5c6-ffb78418f664",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "834581c2-64a8-4c72-a556-aceec93b1776",
+    "name": "roughness",
+    "filename": "roughness.png",
+    "description": "This is a close-up scanning electron microscope (SEM) image showing a metallic surface with parallel microscopic striations or scratches, typical of a machined or polished material viewed at high magnification.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 856970,
+    "created_at_ms": 1790099579386,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/834581c2-64a8-4c72-a556-aceec93b1776",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "086adbf5-bf96-468a-a31d-feae7c223bf6",
+    "name": "metalness",
+    "filename": "metalness.png",
+    "description": "There is nothing visible in this image; it is completely black.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 14121,
+    "created_at_ms": 1790099580100,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/086adbf5-bf96-468a-a31d-feae7c223bf6",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "90d5aa8d-ac93-47d4-a6b2-1722d1a5c7e5",
+    "name": "texture",
+    "filename": "texture.png",
+    "description": "A close-up of a tan or beige colored, subtly textured surface that resembles fine sandstone or plaster.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1969079,
+    "created_at_ms": 1790099580143,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/90d5aa8d-ac93-47d4-a6b2-1722d1a5c7e5",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "1c4e20f8-5559-430f-84f3-a829c10d1fee",
+    "name": "height",
+    "filename": "height.png",
+    "description": "This is a scanning electron micrograph (SEM) showing a close-up, highly magnified view of wood structure. The image displays vertical wood fibers and grain, with some micro-cracks and splintering. The objects (the wood fibers) are cropped by the edges of the image frame, as this is a micro-scale view extracted from a larger piece of material.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 617469,
+    "created_at_ms": 1790099580894,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/1c4e20f8-5559-430f-84f3-a829c10d1fee",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "a9514937-6730-48cc-83eb-9bf5f5b81bce",
+    "name": "basecolor",
+    "filename": "basecolor.png",
+    "description": "A light beige textured background with a soft, cloud-like white stain or fading effect in the upper-left quadrant.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1883525,
+    "created_at_ms": 1790099580932,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/a9514937-6730-48cc-83eb-9bf5f5b81bce",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "0f5fc873-cfe4-4e00-b60d-dc4f18c891c1",
+    "name": "normal",
+    "filename": "normal.png",
+    "description": "This image is a digital texture map, specifically a **normal map** (frequently used in 3D modeling and game development). It shows surface bumpiness and fine details using RGB color channels to represent surface normals (perpendicular vectors), which gives flat surfaces the illusion of depth under lighting. The texture itself appears to be a fine-grained, slightly uneven plaster or stone surface, visible across the entire frame.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1787440,
+    "created_at_ms": 1790099581724,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/0f5fc873-cfe4-4e00-b60d-dc4f18c891c1",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "720b8236-698f-4dcb-9332-634d64a7cd54",
+    "name": "roughness",
+    "filename": "roughness.png",
+    "description": "This image is mostly black, with a faint, dark textured shape visible in the upper-left quadrant. It appears to be a very dark abstract background or texture, so there are no distinct objects to identify as fully visible or cropped.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 241609,
+    "created_at_ms": 1790099582488,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/720b8236-698f-4dcb-9332-634d64a7cd54",
+      "requires_api_key": true
+    }
+  }
+]
