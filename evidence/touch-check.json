@@ -1,0 +1,106 @@
+{
+  "before": {
+    "pos": [
+      17.019067599125776,
+      209.68370728714186
+    ],
+    "fps": 29.76095210417719,
+    "speed": 24.100315254127544,
+    "score": 0,
+    "over": false,
+    "draws": 83,
+    "tris": 339648,
+    "progress": 0.012868317590264137,
+    "heading": 1.5800180952344278,
+    "guideHeading": 1.6014299503734843,
+    "lateral": 0.006352851269592996,
+    "boost": 100,
+    "boosts": 0,
+    "jumps": 0,
+    "signals": 0,
+    "surges": 0,
+    "place": 6,
+    "chapter": 0,
+    "state": "race",
+    "unlocked": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "elapsed": 1.1832000000000005,
+    "courseLength": 1322.590069286792
+  },
+  "steering": {
+    "pos": [
+      47.2983135165616,
+      199.20592413105007
+    ],
+    "fps": 29.947990814859516,
+    "speed": 41.64029621576139,
+    "score": 0,
+    "over": false,
+    "draws": 91,
+    "tris": 367278,
+    "progress": 0.037142857142857144,
+    "heading": 2.258342376897528,
+    "guideHeading": 1.4397194650576723,
+    "lateral": 8.693604319923804,
+    "boost": 80.19999999999997,
+    "boosts": 1,
+    "jumps": 0,
+    "signals": 0,
+    "surges": 0,
+    "place": 6,
+    "chapter": 0,
+    "state": "race",
+    "unlocked": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "elapsed": 2.149799999999999,
+    "courseLength": 1322.590069286792
+  },
+  "paused": {
+    "pos": [
+      54.28584570110155,
+      192.2955979155589
+    ],
+    "fps": 29.961084516487272,
+    "speed": 41.85775253612666,
+    "score": 0,
+    "over": false,
+    "draws": 89,
+    "tris": 366514,
+    "progress": 0.04308408273493386,
+    "heading": 2.393804001540772,
+    "guideHeading": 1.28196526369917,
+    "lateral": 14.48410803490557,
+    "boost": 79.64944999999996,
+    "boosts": 1,
+    "jumps": 0,
+    "signals": 0,
+    "surges": 0,
+    "place": 5,
+    "chapter": 0,
+    "state": "race",
+    "unlocked": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "elapsed": 2.3832,
+    "courseLength": 1322.590069286792
+  },
+  "errors": [],
+  "passed": true
+}

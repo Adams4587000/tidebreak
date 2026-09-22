@@ -1,0 +1,42 @@
+{
+  "note": "Historical failed budget check before separating horizon objects from course batches.",
+  "chapter": {
+    "pos": [
+      0.4356635730443126,
+      253.6292435759641
+    ],
+    "fps": 60.003507382644884,
+    "speed": 45.98466764262156,
+    "score": 17,
+    "over": true,
+    "draws": 29,
+    "tris": 674186,
+    "progress": 1,
+    "heading": 7.477040237622814,
+    "guideHeading": 1.2732429691589826,
+    "lateral": 3.0613707215585886,
+    "boost": 61.96034999999999,
+    "boosts": 8,
+    "jumps": 1,
+    "signals": 16,
+    "surges": 0,
+    "place": 1,
+    "chapter": 1,
+    "state": "results",
+    "unlocked": [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false
+    ],
+    "elapsed": 33.931999999999455,
+    "courseLength": 1359.0648377067303,
+    "target": 1.2297184215613206,
+    "peak": {
+      "draws": 119,
+      "tris": 1536932
+    }
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "reports": [
+    {
+      "pos": [
+        -0.32983155061658076,
+        209.1442098668463
+      ],
+      "fps": 60.003269880986615,
+      "speed": 40.49303357269287,
+      "score": 2,
+      "over": true,
+      "draws": 85,
+      "tris": 355536,
+      "progress": 1,
+      "heading": 7.870677223548786,
+      "guideHeading": 1.5551009240903038,
+      "lateral": 0.6987488301705849,
+      "boost": 30.85714999999987,
+      "boosts": 5,
+      "jumps": 2,
+      "signals": 0,
+      "surges": 0,
+      "place": 1,
+      "chapter": 0,
+      "state": "results",
+      "unlocked": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "elapsed": 29.28219999999961,
+      "courseLength": 1322.590069286792,
+      "target": 1.5470189429084416,
+      "peak": {
+        "draws": 135,
+        "tris": 405630
+      }
+    },
+    {
+      "pos": [
+        0.42904464561512135,
+        254.1754455219834
+      ],
+      "fps": 60.0015979828592,
+      "speed": 43.649509124252695,
+      "score": 17,
+      "over": true,
+      "draws": 29,
+      "tris": 573386,
+      "progress": 1,
+      "heading": 7.534561153233447,
+      "guideHeading": 1.2807021488235506,
+      "lateral": 2.5207911186415086,
+      "boost": 69.89460000000015,
+      "boosts": 10,
+      "jumps": 1,
+      "signals": 16,
+      "surges": 0,
+      "place": 1,
+      "chapter": 1,
+      "state": "results",
+      "unlocked": [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false
+      ],
+      "elapsed": 34.298599999999475,
+      "courseLength": 1359.0648377067303,
+      "target": 1.2405286484810731,
+      "peak": {
+        "draws": 123,
+        "tris": 1247668
+      }
+    },
+    {
+      "pos": [
+        -0.48486643138649455,
+        198.51179916664466
+      ],
+      "fps": 60.01107371123423,
+      "speed": 53.51610927205658,
+      "score": 3,
+      "over": true,
+      "draws": 51,
+      "tris": 252858,
+      "progress": 1,
+      "heading": 8.225699600914528,
+      "guideHeading": 1.9533931907108106,
+      "lateral": 0.7096433083691397,
+      "boost": 4.528950000001418,
+      "boosts": 6,
+      "jumps": 3,
+      "signals": 0,
+      "surges": 0,
+      "place": 1,
+      "chapter": 2,
+      "state": "results",
+      "unlocked": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ],
+      "elapsed": 33.16539999999982,
+      "courseLength": 1431.6362604923431,
+      "target": 1.9461114010713803,
+      "peak": {
+        "draws": 84,
+        "tris": 273866
+      }
+    },
+    {
+      "pos": [
+        -0.540538509833737,
+        218.83954908465972
+      ],
+      "fps": 60.01407344849174,
+      "speed": 50.40635867895765,
+      "score": 2,
+      "over": true,
+      "draws": 42,
+      "tris": 250602,
+      "progress": 1,
+      "heading": 7.872140263581189,
+      "guideHeading": 1.5230306616679123,
+      "lateral": -0.6790426094656944,
+      "boost": 2.098550000001242,
+      "boosts": 6,
+      "jumps": 2,
+      "signals": 0,
+      "surges": 0,
+      "place": 1,
+      "chapter": 3,
+      "state": "results",
+      "unlocked": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      "elapsed": 32.282000000000004,
+      "courseLength": 1461.5548713118749,
+      "target": 1.5289673573715534,
+      "peak": {
+        "draws": 82,
+        "tris": 270434
+      }
+    },
+    {
+      "pos": [
+        -0.8840504124709131,
+        255.11342412060648
+      ],
+      "fps": 59.98904344438975,
+      "speed": 53.573348079803786,
+      "score": 4,
+      "over": true,
+      "draws": 87,
+      "tris": 355542,
+      "progress": 1,
+      "heading": 8.26122264766334,
+      "guideHeading": 2.012003880908451,
+      "lateral": 1.818477196120136,
+      "boost": 1.1984500000007046,
+      "boosts": 6,
+      "jumps": 2,
+      "signals": 0,
+      "surges": 2,
+      "place": 1,
+      "chapter": 4,
+      "state": "results",
+      "unlocked": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "elapsed": 32.59860000000004,
+      "courseLength": 1489.6305153410779,
+      "target": 1.993262349429644,
+      "peak": {
+        "draws": 144,
+        "tris": 393662
+      }
+    },
+    {
+      "pos": [
+        -0.6325486146257688,
+        258.09436111602116
+      ],
+      "fps": 60.00337707103909,
+      "speed": 39.95938403719826,
+      "score": 2,
+      "over": true,
+      "draws": 28,
+      "tris": 250174,
+      "progress": 1,
+      "heading": 7.477584055432417,
+      "guideHeading": 1.2395571834422523,
+      "lateral": 1.32997915276675,
+      "boost": 24.464300000000165,
+      "boosts": 6,
+      "jumps": 2,
+      "signals": 0,
+      "surges": 0,
+      "place": 1,
+      "chapter": 5,
+      "state": "results",
+      "unlocked": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "elapsed": 35.598500000000264,
+      "courseLength": 1590.4281426005796,
+      "target": 1.2255343789646547,
+      "peak": {
+        "draws": 80,
+        "tris": 286408
+      }
+    }
+  ],
+  "errors": [],
+  "completed": true,
+  "failure": null
+}

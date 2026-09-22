@@ -1,0 +1,344 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 78,
+  "tris": 3916,
+  "materials": 4,
+  "size": [
+   3.622,
+   1.905,
+   7.266
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1345,
+    "edgeDensity": 0.296
+   },
+   "right": {
+    "coverage": 0.1822,
+    "edgeDensity": 0.2665
+   },
+   "back": {
+    "coverage": 0.1392,
+    "edgeDensity": 0.2841
+   },
+   "left": {
+    "coverage": 0.1853,
+    "edgeDensity": 0.2549
+   }
+  },
+  "error": null,
+  "name": "boat",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 5,
+  "tris": 336,
+  "materials": 4,
+  "size": [
+   2.4,
+   4.15,
+   2.4
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1311,
+    "edgeDensity": 0.1374
+   },
+   "right": {
+    "coverage": 0.1075,
+    "edgeDensity": 0.095
+   },
+   "back": {
+    "coverage": 0.1387,
+    "edgeDensity": 0.1022
+   },
+   "left": {
+    "coverage": 0.1113,
+    "edgeDensity": 0.0766
+   }
+  },
+  "error": null,
+  "name": "buoy",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 62,
+  "tris": 1764,
+  "materials": 4,
+  "size": [
+   13,
+   35.13,
+   37.078
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   -0.021
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0656,
+    "edgeDensity": 0.3656
+   },
+   "right": {
+    "coverage": 0.0928,
+    "edgeDensity": 0.2901
+   },
+   "back": {
+    "coverage": 0.0842,
+    "edgeDensity": 0.3509
+   },
+   "left": {
+    "coverage": 0.0946,
+    "edgeDensity": 0.3256
+   }
+  },
+  "error": null,
+  "name": "crane",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 40,
+  "tris": 520,
+  "materials": 4,
+  "size": [
+   45,
+   29.5,
+   10
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1834,
+    "edgeDensity": 0.2114
+   },
+   "right": {
+    "coverage": 0.133,
+    "edgeDensity": 0.0906
+   },
+   "back": {
+    "coverage": 0.184,
+    "edgeDensity": 0.148
+   },
+   "left": {
+    "coverage": 0.1326,
+    "edgeDensity": 0.0915
+   }
+  },
+  "error": null,
+  "name": "gate",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 22,
+  "tris": 1160,
+  "materials": 5,
+  "size": [
+   12,
+   32,
+   12
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1349,
+    "edgeDensity": 0.1062
+   },
+   "right": {
+    "coverage": 0.1355,
+    "edgeDensity": 0.1082
+   },
+   "back": {
+    "coverage": 0.1304,
+    "edgeDensity": 0.1212
+   },
+   "left": {
+    "coverage": 0.1316,
+    "edgeDensity": 0.1403
+   }
+  },
+  "error": null,
+  "name": "lighthouse",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 82,
+  "tris": 2676,
+  "materials": 2,
+  "size": [
+   15.548,
+   11.984,
+   14.768
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1605,
+    "edgeDensity": 0.1599
+   },
+   "right": {
+    "coverage": 0.1337,
+    "edgeDensity": 0.1754
+   },
+   "back": {
+    "coverage": 0.1154,
+    "edgeDensity": 0.1492
+   },
+   "left": {
+    "coverage": 0.1299,
+    "edgeDensity": 0.1608
+   }
+  },
+  "error": null,
+  "name": "mangrove",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 141,
+  "tris": 3096,
+  "materials": 8,
+  "size": [
+   44.899,
+   21.695,
+   38.25
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.45,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2816,
+    "edgeDensity": 0.0794
+   },
+   "right": {
+    "coverage": 0.2729,
+    "edgeDensity": 0.1071
+   },
+   "back": {
+    "coverage": 0.28,
+    "edgeDensity": 0.1756
+   },
+   "left": {
+    "coverage": 0.3028,
+    "edgeDensity": 0.2112
+   }
+  },
+  "error": null,
+  "name": "quay",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 16,
+  "tris": 192,
+  "materials": 3,
+  "size": [
+   14,
+   4.6,
+   17
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1403,
+    "edgeDensity": 0.2554
+   },
+   "right": {
+    "coverage": 0.204,
+    "edgeDensity": 0.1835
+   },
+   "back": {
+    "coverage": 0.1672,
+    "edgeDensity": 0.2166
+   },
+   "left": {
+    "coverage": 0.2034,
+    "edgeDensity": 0.1944
+   }
+  },
+  "error": null,
+  "name": "ramp",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 6,
+  "tris": 420,
+  "materials": 1,
+  "size": [
+   15.378,
+   20.626,
+   12.805
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2387,
+    "edgeDensity": 0.093
+   },
+   "right": {
+    "coverage": 0.2066,
+    "edgeDensity": 0.0999
+   },
+   "back": {
+    "coverage": 0.2462,
+    "edgeDensity": 0.0761
+   },
+   "left": {
+    "coverage": 0.2041,
+    "edgeDensity": 0.0936
+   }
+  },
+  "error": null,
+  "name": "rock",
+  "problems": []
+ }
+]

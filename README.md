@@ -48,4 +48,4 @@ The two browser checks require the local server. The campaign check starts with 
 
 The game is playable but remains a first iteration. Stylized generated geometry, one short circuit per environment, and shared base boat geometry are current limits. Broad device testing and a deployed entry gate remain release work.
 
-See [campaign](docs/CAMPAIGN.md), [art direction](docs/STYLE.md), [asset provenance](docs/CREDITS.md), and [quality checks](docs/QUALITY.md).
+See [campaign](docs/CAMPAIGN.md), [art direction](docs/STYLE.md), [asset provenance](docs/CREDITS.md), and [quality checks](docs/QUALITY.md), and [validation record](docs/VALIDATION.md).

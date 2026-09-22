@@ -1,0 +1,74 @@
+{
+  "fixture": "All courses unlocked for visual inspection only",
+  "records": [
+    {
+      "pos": [
+        134.51193107535286,
+        210.3494771977606
+      ],
+      "fps": 60.000385571270336,
+      "speed": 31.506126029299256,
+      "score": 0,
+      "over": false,
+      "draws": 49,
+      "tris": 257772,
+      "progress": 0.09180876498430372,
+      "heading": 1.724686322773653,
+      "guideHeading": 2.4041650248105713,
+      "lateral": -6.893175789284628,
+      "boost": 100,
+      "boosts": 0,
+      "jumps": 0,
+      "signals": 0,
+      "surges": 0,
+      "place": 6,
+      "chapter": 3,
+      "state": "race",
+      "unlocked": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "elapsed": 4.816500000000003,
+      "courseLength": 1461.5548713118749
+    },
+    {
+      "pos": [
+        131.10944016378804,
+        282.9080830787773
+      ],
+      "fps": 60.0047794869225,
+      "speed": 36.48009147695602,
+      "score": 0,
+      "over": false,
+      "draws": 27,
+      "tris": 234808,
+      "progress": 0.07747623172333358,
+      "heading": 1.6059696336410139,
+      "guideHeading": 2.9354479870195695,
+      "lateral": -23.663958425120367,
+      "boost": 100,
+      "boosts": 0,
+      "jumps": 0,
+      "signals": 0,
+      "surges": 0,
+      "place": 6,
+      "chapter": 5,
+      "state": "race",
+      "unlocked": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "elapsed": 4.816500000000009,
+      "courseLength": 1590.4281426005796
+    }
+  ],
+  "errors": []
+}

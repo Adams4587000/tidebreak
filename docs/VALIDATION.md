@@ -20,3 +20,17 @@ The scenery check uses an explicitly unlocked visual fixture to inspect volcanic
 Initial full-course profiling caught a swamp peak above 1.5 million triangles. Smaller canopy meshes and independent horizon culling brought it within budget without reducing tree coverage. The failed measurement is retained as `swamp-budget-before.json`.
 
 The jam verdict in `evidence/jam-local/` is for localhost. A public deployed URL, public source repository and final entry submission remain outstanding. FPS readings come from this Mac’s automated Chrome, not a representative range of phones.
+
+## Final local phone gate
+
+Source commit `8b46f409fb3c92720d06a86e7a5c454871c6ee1d`, 22 September 2026, 20:00 UTC. Unmodified recipe harness, 390×844 at 3×, touch events, 4 Mbps down / 1 Mbps up, 60 ms latency, CPU throttled 2×.
+
+- Ready: 7.4 seconds.
+- Transfer: 4.8 MB.
+- Movement during held control: 136.7 metres.
+- Peak: 84 draw calls, 326,700 triangles during the opening phone segment.
+- Browser errors / missing files: 0 / 0.
+- Median measured FPS: approximately 60 on this Mac’s ANGLE Metal renderer.
+- Result: PASS. Nine of nine shipping modules also pass the geometry verifier; all 21 JavaScript modules parse and stay within the game folder.
+
+This gate checks the opening phone segment. The table above records separate full-course measurements, including the substantially heavier swamp.
