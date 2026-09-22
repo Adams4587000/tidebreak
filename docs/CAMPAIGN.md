@@ -1,12 +1,15 @@
-# The Atlantic Run
+# The Drowned Frontier
 
-A rookie offshore racer earns passage through six island districts to qualify for the Atlantic final. Each race steward awards a route clearance for a concrete feat. Clearances are earned through play, never purchases. Challenge counters and progress are visible during the race and its results. All completed chapters remain replayable; best times and clearances persist locally.
+Three endurance contracts each traverse the complete 14–16 km frontier. The opening Exile Run takes roughly four minutes at racing speed; mistakes and recovery extend it. All six sectors are physically present from the first event: decaying Meridian stadium, Drowned Reach mangroves, Splitstone gorge, Ember Basin, Authority Sluice and Atlantic wreck field. A sector change blends fog, water, lighting and wave amplitude while the same race continues.
 
-1. PORT MERIDIAN — Departure licence. Finish in the top three. Wide racing line; learn steering and boost.
-2. DROWNED REACH — Restore the route. Collect four signal buoys and finish. Choose your line between mangrove roots.
-3. SPLITSTONE PASSAGE — Earn the gorge clearance. Land two marked ramp jumps and finish. Read the approach and control speed.
-4. EMBER BASIN — Beat the heat. Finish in the top three and use boost three times. Fast bends through volcanic waters.
-5. THE SLUICE — Catch the tide. Pass two active surge gates and finish. Gates have a readable repeating open window.
-6. OUTER ATLANTIC — The final. Win the race to become Atlantic champion.
+- Exile Run: finish. Unlock Blackwater Contract.
+- Blackwater Contract: finish on the podium. Unlock Last Authority.
+- Last Authority: win. Earn the Atlantic title.
 
-Quick restarts, legible objectives, optional time trials on unlocked courses. No grind currency and no forced unrelated modes. Each complete run should take roughly 30–60 seconds. A missed challenge shows exactly what remains.
+Clean saves begin with Rook / Kestrel. Vesper / Albatross requires one completed race. Moss / Manta requires twelve perks collected across completed races. Cinder / Brimstone requires two podiums. Echo / Spectre requires four completed races. Marshal / Ironclad requires one win. Locked crews can be inspected but cannot start. Each pair has a distinct hull, helmet, equipment, handling and boost profile.
+
+Practice updates best times without granting contracts, finishes, perks or roster progress. Aborting and restarting grant nothing. Endurance progress persists in `tidebreak.endurance.v2`; prototype v1 environment clearances are retained in the browser but intentionally do not become v2 unlocks.
+
+Supply stations offer separate lanes containing charge (+60 energy), shield (9 seconds of contact protection), overdrive (5 seconds at 12% higher target speed), or repair (+35 energy and 3 seconds of protection). Each item has one owner. Earliest swept contact wins; first array position does not. Rivals use the same effects and finite boost reserve. Supplies do not respawn during a race.
+
+Opponents follow anticipatory course lines, seek nearby supplies, avoid another rival's lane, slow for tighter corners, expend/recharge energy and occasionally make line errors. They do not rubber-band to the player's position. Later contracts tighten their pace slightly. This is racing AI on route coordinates, not a full independent rigid-body vehicle simulation; it does not reproduce every physical effect of the player controller.

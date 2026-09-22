@@ -1,16 +1,31 @@
-export const CHAPTERS = [
- {name:'PORT MERIDIAN',short:'PORT\nMERIDIAN',tag:'THE DEPARTURE',story:'Your first clearance starts at the harbour. Earn a place on the podium.',objective:'Finish in the top three',radius:190,stretch:1.15,bend:.10,width:30,water:'#087e8b',deep:'#063d50',sky:'#adc8cd',fog:0.0016,sun:24,seed:11,kind:'harbour',waves:.24,par:52},
- {name:'DROWNED REACH',short:'DROWNED\nREACH',tag:'THE LOST SIGNAL',story:'Old signal buoys mark a forgotten passage. Recover four to open the gorge.',objective:'Collect 4 signal buoys and finish',radius:180,stretch:1.23,bend:.18,width:25,water:'#387865',deep:'#163f3c',sky:'#b3c5ae',fog:0.0032,sun:17,seed:32,kind:'swamp',waves:.13,par:57},
- {name:'SPLITSTONE PASSAGE',short:'SPLITSTONE\nPASSAGE',tag:'THE LEAP OF FAITH',story:'The island splits here. Land two ramp jumps to earn your passage.',objective:'Land 2 marked jumps and finish',radius:205,stretch:1.05,bend:.20,width:25,water:'#249db0',deep:'#0a4e64',sky:'#a6c8d4',fog:0.002,sun:32,seed:73,kind:'gorge',waves:.32,par:59},
- {name:'EMBER BASIN',short:'EMBER\nBASIN',tag:'FIRE BELOW',story:'Steam rises from the caldera. Claim a podium and prove your boost control.',objective:'Top three + use boost 3 times',radius:200,stretch:1.2,bend:.15,width:29,water:'#45787a',deep:'#173d4b',sky:'#b6a9a0',fog:0.0025,sun:12,seed:99,kind:'volcano',waves:.3,par:61},
- {name:'THE SLUICE',short:'THE\nSLUICE',tag:'BORROWED TIME',story:'The sea gates breathe on a timer. Catch two green surge windows.',objective:'Pass 2 active surge gates and finish',radius:195,stretch:1.3,bend:.14,width:29,water:'#257f8e',deep:'#103e51',sky:'#b7c4c3',fog:0.0018,sun:21,seed:148,kind:'sluice',waves:.38,par:61},
- {name:'OUTER ATLANTIC',short:'OUTER\nATLANTIC',tag:'BEYOND THE BREAKWATER',story:'All clearances earned. One final race. Bring the Atlantic crown home.',objective:'Win the Atlantic final',radius:235,stretch:1.05,bend:.15,width:34,water:'#367e92',deep:'#12394f',sky:'#8fa9ba',fog:0.0018,sun:14,seed:201,kind:'ocean',waves:.64,par:64},
+// Endurance events share every sector. Progression unlocks racers, not pieces of the world.
+export const SECTORS=[
+ {name:'MERIDIAN // THE DROWNED STADIUM',short:'MERIDIAN',kind:'harbour',water:'#35494a',deep:'#101c20',sky:'#747c7c',fog:.0032,sun:16,waves:.48},
+ {name:'DROWNED REACH // BLACKWATER',short:'DROWNED REACH',kind:'swamp',water:'#344139',deep:'#111e1a',sky:'#566359',fog:.0048,sun:8,waves:.25},
+ {name:'SPLITSTONE // THE FRACTURE',short:'SPLITSTONE',kind:'gorge',water:'#334a4f',deep:'#131f26',sky:'#78878c',fog:.0036,sun:14,waves:.6},
+ {name:'EMBER BASIN // THE CALDERA',short:'EMBER BASIN',kind:'volcano',water:'#423b39',deep:'#201b1e',sky:'#77594f',fog:.004,sun:6,waves:.7},
+ {name:'THE SLUICE // AUTHORITY FALLS',short:'THE SLUICE',kind:'sluice',water:'#3c5154',deep:'#17272b',sky:'#788081',fog:.0032,sun:12,waves:.9},
+ {name:'OUTER ATLANTIC // THE GRAVEYARD',short:'OUTER ATLANTIC',kind:'ocean',water:'#405462',deep:'#142330',sky:'#626f7e',fog:.003,sun:9,waves:1.35},
 ];
-export const BOATS=[{name:'KESTREL',width:4.54,type:'BALANCED / INTERCEPTOR',color:0xff653f,speed:38,turn:1.1,boost:1.48,stats:[.78,.83,.80]},{name:'ALBATROSS',width:4.35,type:'SPEED / NEEDLECRAFT',color:0xe5e3d7,speed:41,turn:.96,boost:1.55,stats:[.96,.64,.93]},{name:'MANTA',width:5.31,type:'AGILITY / WINGCRAFT',color:0x2dc3ca,speed:36,turn:1.3,boost:1.44,stats:[.69,.98,.74]}];
-export function objectivePassed(chapter,run){if(!run.finished)return false;switch(chapter){case 0:return run.place<=3;case 1:return run.signals>=4;case 2:return run.jumps>=2;case 3:return run.place<=3&&run.boosts>=3;case 4:return run.surges>=2;case 5:return run.place===1;default:return false;}}
-export function objectiveProgress(chapter,r){switch(chapter){case 0:return `PODIUM TARGET · ${r.place||6}/6`;case 1:return `SIGNALS RECOVERED · ${Math.min(4,r.signals)}/4`;case 2:return `JUMPS LANDED · ${Math.min(2,r.jumps)}/2`;case 3:return `BOOSTS · ${Math.min(3,r.boosts)}/3 · FINISH TOP 3`;case 4:return `SURGE WINDOWS · ${Math.min(2,r.surges)}/2`;case 5:return 'ATLANTIC FINAL · FINISH FIRST';}}
-const KEY='tidebreak.campaign.v1';
-export function loadSave(){try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&Array.isArray(s.cleared)&&Array.isArray(s.best))return {cleared:Array.from({length:6},(_,i)=>s.cleared[i]===true),best:Array.from({length:6},(_,i)=>Number.isFinite(s.best[i])&&s.best[i]>0?s.best[i]:null),champion:s.champion===true};}catch{}return{cleared:Array(6).fill(false),best:Array(6).fill(null),champion:false};}
-export function unlocked(save,i){return i===0||save.cleared.slice(0,i).every(Boolean);}
-export function recordResult(save,i,run,mode){const next={...save,cleared:[...save.cleared],best:[...save.best]};if(run.finished){next.best[i]=Math.min(next.best[i]??Infinity,run.time);if(mode==='race'&&objectivePassed(i,run)){next.cleared[i]=true;if(i===5)next.champion=true;}}try{localStorage.setItem(KEY,JSON.stringify(next));}catch{}return next;}
+export const CHAPTERS=[
+ {name:'EXILE RUN',short:'EXILE\nRUN',story:'One route through six dead territories. Survive the frontier and earn your first crew.',objective:'Finish the endurance race',radius:2000,stretch:1.13,bend:.12,width:30,seed:11,difficulty:0,...SECTORS[0]},
+ {name:'BLACKWATER CONTRACT',short:'BLACKWATER\nCONTRACT',story:'The crews know your name. Claim a podium across the entire frontier.',objective:'Finish in the top three',radius:2070,stretch:1.1,bend:.15,width:28,seed:32,difficulty:1,...SECTORS[0]},
+ {name:'LAST AUTHORITY',short:'LAST\nAUTHORITY',story:'No favors. No surrender. Beat the five outlaw captains to claim the Atlantic.',objective:'Win the endurance final',radius:2150,stretch:1.13,bend:.16,width:27,seed:73,difficulty:2,...SECTORS[0]},
+].map((c,i)=>({...c,name:['EXILE RUN','BLACKWATER CONTRACT','LAST AUTHORITY'][i],short:['EXILE\nRUN','BLACKWATER\nCONTRACT','LAST\nAUTHORITY'][i]}));
+export const BOATS=[
+ {name:'KESTREL',rider:'ROOK',title:'THE SALVAGE RUNNER',bio:'A dock mechanic with a stolen engine and nothing left to lose.',unlock:'STARTER · AVAILABLE',width:3.8,type:'SALVAGE / INTERCEPTOR',color:0xad5535,speed:40,turn:1.08,boost:1.47,stats:[.8,.82,.8]},
+ {name:'ALBATROSS',rider:'VESPER',title:'THE EXILED PILOT',bio:'An Authority defector. Precision is the only loyalty she kept.',unlock:'FINISH 1 RACE',width:4.3,type:'NEEDLE / OUTRIGGER',color:0xbcb4a2,speed:42,turn:.94,boost:1.44,stats:[.94,.68,.83]},
+ {name:'MANTA',rider:'MOSS',title:'THE MARSH WARDEN',bio:'Raised in blackwater. Knows every current that can swallow a machine.',unlock:'COLLECT 12 PERKS IN FINISHED RACES',width:5.8,type:'CRESCENT / SKIMMER',color:0x626e4c,speed:38.7,turn:1.3,boost:1.48,stats:[.72,.98,.78]},
+ {name:'BRIMSTONE',rider:'CINDER',title:'THE FURNACE SAINT',bio:'A caldera engineer wrapped in scavenged heat armor.',unlock:'EARN 2 PODIUMS',width:4.5,type:'TWIN TURBINE / HOTROD',color:0x842f23,speed:41,turn:.98,boost:1.51,stats:[.87,.72,.96]},
+ {name:'SPECTRE',rider:'ECHO',title:'THE SIGNAL GHOST',bio:'A courier who erased their name from the Authority registry.',unlock:'FINISH 4 RACES',width:4.1,type:'ASYMMETRIC / SCOUT',color:0x4b6470,speed:39.7,turn:1.17,boost:1.48,stats:[.79,.91,.84]},
+ {name:'IRONCLAD',rider:'MARSHAL',title:'THE LAST ENFORCER',bio:'The Authority fell. Its most feared captain still owns the water.',unlock:'WIN 1 RACE',width:5.2,type:'ARMORED / CATAMARAN',color:0x8b826c,speed:40.2,turn:1.01,boost:1.5,stats:[.84,.74,.91]},
+];
+export function objectivePassed(i,r){return r.finished&&(i===0||i===1&&r.place<=3||i===2&&r.place===1);}
+export function objectiveProgress(i,r){return `${r.pickups||0} PERKS CLAIMED · ${r.jumps||0} LANDINGS · ${r.place||6}/6`;}
+export const SAVE_KEY='tidebreak.endurance.v2';
+const empty=()=>({cleared:[false,false,false],best:[null,null,null],finishes:0,podiums:0,wins:0,pickups:0,champion:false});
+export function loadSave(){const out=empty();try{const s=JSON.parse(localStorage.getItem(SAVE_KEY));if(!s)return out;for(const k of ['finishes','podiums','wins','pickups'])if(Number.isSafeInteger(s[k])&&s[k]>=0)out[k]=s[k];for(let i=0;i<3;i++){out.cleared[i]=s.cleared?.[i]===true;out.best[i]=Number.isFinite(s.best?.[i])&&s.best[i]>0?s.best[i]:null;}out.champion=out.cleared[2];}catch{}return out;}
+export function unlocked(s,i){return i===0||s.cleared.slice(0,i).every(Boolean);}
+export function boatUnlocked(s,i){return [true,s.finishes>=1,s.pickups>=12,s.podiums>=2,s.finishes>=4,s.wins>=1][i]===true;}
+export function recordResult(s,i,r,mode){const n={...s,cleared:[...s.cleared],best:[...s.best]};if(r.finished){n.best[i]=Math.min(n.best[i]??Infinity,r.time);if(mode==='race'){n.finishes++;n.pickups+=r.pickups||0;if(r.place<=3)n.podiums++;if(r.place===1)n.wins++;if(objectivePassed(i,r))n.cleared[i]=true;n.champion=n.cleared[2];}}try{localStorage.setItem(SAVE_KEY,JSON.stringify(n));}catch{}return n;}
 export function formatTime(t){const ms=Math.max(0,Math.round(t*1000));return `${String(Math.floor(ms/60000)).padStart(2,'0')}:${String(Math.floor(ms/1000)%60).padStart(2,'0')}.${String(ms%1000).padStart(3,'0')}`;}

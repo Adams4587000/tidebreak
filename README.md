@@ -1,6 +1,6 @@
-# Tidebreak
+# Tidebreak — The Drowned Frontier
 
-An original arcade spacecraft water racer: earn passage through six Atlantic environments by completing a different challenge in each one. Built in Three.js using the 404 game recipe's asset pipeline and checks, with original Atlas references, PBR textures, music and water audio.
+An original dystopian hydro-speeder endurance racer built with Three.js, the 404 game recipe asset pipeline and Atlas MCP art production. Six exposed rider–machine pairs compete across one continuous frontier: flooded stadium, mangrove swamp, wet gorge, volcanic caldera, decaying spillway and Atlantic wreck field.
 
 ## Play locally
 
@@ -8,45 +8,34 @@ An original arcade spacecraft water racer: earn passage through six Atlantic env
 python3 -m http.server 4173 --bind 127.0.0.1 --directory game
 ```
 
-Open http://localhost:4173/. No build step or runtime API keys. All game dependencies are bundled in `game/`. Serve that directory to deploy.
+Open http://localhost:4173/. No build step, runtime services or API keys. Serve the self-contained `game/` directory to deploy.
 
 - Auto acceleration; A/D or left/right arrows steer, S/down brakes, Space boosts.
-- R returns the boat to the racing line; Escape pauses.
-- Phone: drag the steering pad; hold Boost or Brake with another finger.
-- Three distinct spacecraft with retractable foils and reactive engines, five AI opponents, ramps, boost pickups, pause/restart, optional time trials and local best times.
-- Progress saves in this browser. Clearing browser storage resets it.
+- R recovers to the racing line; Escape pauses.
+- Phone: drag the steering pad; hold Boost or Brake with a second finger.
+- Dock: inspect all six crews, including locked ones. Rider Detail moves the camera closer. Only Rook / Kestrel is available on a fresh save.
+- Three contracts traverse the complete roughly 14–16 km course, targeting four to six minutes each. Finishes, podiums, wins and collected perks unlock crews. Practice earns best times without career progress.
+- Five rivals seek finite shared supplies and manage boost. Charge, shield, overdrive and repair pickups belong to the first racer who reaches them.
+- Wave response, folding hydrofoils, rider lean, actual scenery reflection, foam wakes, spray, transient lens droplets, countdown, pause/restart and browser-local progression.
 
-## The Atlantic Run
+## Production and checks
 
-| Chapter | Clearance task |
-|---|---|
-| Port Meridian | Finish in the top three |
-| Drowned Reach | Recover four signal buoys and finish |
-| Splitstone Passage | Land two ramp jumps and finish |
-| Ember Basin | Finish top three and use boost three times |
-| The Sluice | Catch two active surge gates and finish |
-| Outer Atlantic | Win the final |
+The canonical recipe helpers remain unchanged. Shipping models use original Three.js constructor geometry; Atlas supplies references and texture maps. Material and lighting choices are reviewed in the moving build. There are no imported meshes.
 
-Completed courses remain replayable. Time trials save records but do not grant campaign clearances.
-
-## Checks
-
-Install the adjacent recipe's test dependencies with `npm install` in `../404-game-recipe`, then:
+With dependencies installed in adjacent `../404-game-recipe`:
 
 ```sh
-node --test tests/campaign.test.mjs
-node ../404-game-recipe/harness/verify.mjs game/assets
+node --test tests/*.test.mjs
+node ../404-game-recipe/harness/verify.mjs game/assets --size=560
 node ../404-game-recipe/harness/ship.mjs game
-node tools/check.mjs
-node tools/spacecraft-check.mjs
-node tools/campaign-check.mjs
-node ../404-game-recipe/harness/jam.mjs http://localhost:4173/ --out=evidence/jam-local
+node tools/roster-check.mjs
+node tools/touch-check.mjs
+node tools/endurance-check.mjs
+node ../404-game-recipe/harness/jam.mjs http://localhost:4173/ --out=evidence/jam-dystopia
 ```
 
-The two browser checks require the local server. The campaign check starts with empty storage and uses real keyboard inputs to earn every clearance, then reloads and checks persistence. It never sets the player's position or unlocks in the game.
+Browser checks run sequentially and require the local server. The endurance driver uses actual keyboard events from a fresh save, traverses all sectors, contests supplies, checks performance, finishes, and reloads to verify earned unlocks. It does not teleport or give itself progress. Older chapter and spacecraft test evidence is historical and applies to the superseded prototype.
 
-`evidence/` contains screenshots and measured checks. The jam report is a **local rehearsal**, not the required deployed-URL entry verdict. This game has not been published or submitted.
+This remains a browser game with procedural geometry, not demonstrated commercial AAA photorealism. Water reflections use a limited-resolution planar render; scenery repeats modular assets; AI follows route coordinates rather than the player's full free-steering physics. Broad physical-phone testing and a deployed competition gate are still needed. No publication or submission has been performed.
 
-The game is playable but remains a first iteration. Stylized generated geometry and one short circuit per environment are current limits. Broad device testing and a deployed entry gate remain release work.
-
-See [campaign](docs/CAMPAIGN.md), [art direction](docs/STYLE.md), [asset provenance](docs/CREDITS.md), and [quality checks](docs/QUALITY.md), and [validation record](docs/VALIDATION.md).
+See [production scope](docs/DYSTOPIA.md), [campaign](docs/CAMPAIGN.md), [style](docs/STYLE.md), [provenance](docs/CREDITS.md) and [validation](docs/VALIDATION.md).

@@ -36,3 +36,20 @@ Candidate previews and verifier receipts document structural checks. Passing the
 The current spacecraft references and their Atlas output identifiers are recorded in [SPACECRAFT.md](SPACECRAFT.md).
 
 Spacecraft carbon composite material: PATINA via Atlas, node `ede3802a`. Basecolor `a8d902c2-2c42-4788-8892-0d8d857c0f22`, tangent-space normal `b62131a3-f4ae-489f-8cc9-949d96e7c626`, roughness `9a6f0a04-cc1e-40e8-9dbc-eea50dcdffff`. Converted to WebP and applied to the craft's graphite composite surfaces.
+
+## Drowned Frontier overhaul — Atlas MCP
+
+All generated through the same visual workspace project; raw outputs and authenticated-download metadata are preserved in `references/atlas-dystopia.json`, `atlas-salvage.json` and `atlas-wear.json`. These contain no API key.
+
+- Fleet reference, FLUX.2 Max: `d719f862-67c4-44b3-993a-0981ccea626d`. Requested six pairs but produced four visible designs; used for the first four silhouettes and shared material/anatomy direction.
+- Additional Echo / Marshal reference, FLUX.2 Max: `779757ac-c2ca-45e5-8a27-7cb63a2c4024`. Its wheels were not adopted; gameplay machines use hydrofoils.
+- Six-biome reference, FLUX.2 Max: `e6c915b6-c787-4b2c-a611-f5a1a4ad5006`.
+- First steel material: `d457705c-3a83-402d-9650-bd618b1e3faf` base, `b67e8630-e36a-4ed6-abf6-4c47453ef473` normal, `aef37871-ef2a-425f-9b95-2f6c3df53e52` roughness. Rejected for excessively subtle wear.
+- Second PATINA steel material: `bab82518-196f-4987-96dc-cc9b035f9e21` base, `bd36d931-76d8-4a94-93cc-d06fb5b7c382` normal, `1d0d13ed-5ab3-44fa-96a5-4bfd4fcd8c3a` roughness. Fine normal/roughness retained; base remained too pristine.
+- Final chipped-paint albedo, FLUX.2 Max: `589618c1-498d-40bb-8c49-0fc44f750510`, resized to 1024 and converted to WebP. Used with the fine steel normal/roughness as an artistic material combination, not a photogrammetrically matched PBR scan.
+
+The three overhaul Atlas turns reported 77, 47 and 46 settled credits respectively (170 total). Generation success was followed by inspection; two texture outputs were explicitly rejected as visually unsuitable rather than accepted solely because generation succeeded.
+
+The procedural spacecraft generator is `tools/dystopia-craft.template.js`; the six independent hull archetypes share rider/equipment construction helpers. `tools/make-dystopia-props.py` authors the stadium, wreck, spillway and caldera modules. The previous spacecraft generator is historical and should not be rerun over the current assets.
+
+Rider fabric receives the canonical 404 `surfaces.js` fabric recipe at load time for fine weave and roughness. Atlas material maps supply the metal, composite, terrain and water surfaces. No procedural surface helper was modified.

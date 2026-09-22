@@ -1,25 +1,12 @@
 export default function generate(THREE){
- const strategy=1;
-
- const g=new THREE.Group();
- const mat=(color,roughness=.55,metalness=.12)=>new THREE.MeshStandardMaterial({color,roughness,metalness});
- const paint=mat(0xff653f,.28,.45);paint.name='paint';
- const ivory=mat(0xf4eee0,.35,.3);ivory.name='ivory';
- const dark=mat(0x172c31,.4,.45);dark.name='metal';
- const stone=mat(0xa99c83,.88,0);stone.name='stone';
- const leaf=mat(0x52654a,.85,0);leaf.name='foliage';
- const bark=mat(0x544e3f,.9,0);bark.name='timber';
- const mesh=(geo,m,x=0,y=0,z=0)=>{const o=new THREE.Mesh(geo,m);o.position.set(x,y,z);g.add(o);return o;};
- const box=(x,y,z,w,h,d,m)=>mesh(new THREE.BoxGeometry(w,h,d),m,x,y,z);
- const rod=(a,b,r,m,s=8)=>{const va=new THREE.Vector3(...a),vb=new THREE.Vector3(...b),delta=vb.clone().sub(va);const o=mesh(new THREE.CylinderGeometry(r*.8,r,delta.length(),s),m);o.position.copy(va.add(vb).multiplyScalar(.5));o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),delta.normalize());return o;};
- const finish=()=>{g.updateMatrixWorld(true);const b=new THREE.Box3().setFromObject(g),c=b.getCenter(new THREE.Vector3());g.children.forEach(o=>{o.position.x-=c.x;o.position.z-=c.z;o.position.y-=b.min.y;});g.traverse(o=>{if(o.isMesh){o.castShadow=true;o.receiveShadow=true;}});return g;};
-
- const trunkH=8+strategy;
- rod([0,0,0],[.5,trunkH,0],.63,bark,9);
- for(let i=0;i<9;i++){const a=i/9*Math.PI*2;const dx=Math.cos(a),dz=Math.sin(a);if(strategy===1){const path=new THREE.QuadraticBezierCurve3(new THREE.Vector3(.2,4,0),new THREE.Vector3(dx*4,2,dz*4),new THREE.Vector3(dx*4,0,dz*4));mesh(new THREE.TubeGeometry(path,8,.18,5,false),bark);}else{rod([.2,3.5,0],[dx*2,2,dz*2],.24,bark);rod([dx*2,2,dz*2],[dx*4,0,dz*4],.18,bark);}}
- for(let i=0;i<8;i++){const a=i*2.4,r=3.5+(i%3),y=trunkH-1+(i%3)*1.2;const x=Math.cos(a)*r,z=Math.sin(a)*r;rod([.3,5,0],[x,y,z],.18,bark);const canopy=mesh(strategy===2?new THREE.SphereGeometry(1,9,6):new THREE.IcosahedronGeometry(1,1),leaf,x,y,z);canopy.scale.set(3.2,1.55,2.9);for(let k=0;k<4;k++){const small=mesh(new THREE.IcosahedronGeometry(1,0),leaf,x+Math.cos(k*2)*2,y+.4,z+Math.sin(k*2)*2);small.scale.set(1.5,.8,1.4);}}
- // Hanging roots and fine leaves break the silhouette at racing distance.
- for(let i=0;i<24;i++){const a=i*2.399,r=3+Math.sin(i*7)*2,x=Math.cos(a)*r,z=Math.sin(a)*r,y=trunkH+.5+Math.sin(i)*1.4;rod([x,y,z],[x+.2,y-2.4-(i%4)*.4,z+.1],.025,bark,4);}
- return finish();
-
+ const root=new THREE.Group(),bark=new THREE.MeshStandardMaterial({color:0x5c5b47,roughness:.96}),leaves=[0x4b5b37,0x667348,0x394b32].map(color=>new THREE.MeshStandardMaterial({color,roughness:.9,side:THREE.DoubleSide}));bark.name='timber';leaves.forEach(m=>m.name='foliage');
+ const mesh=(g,m)=>{const o=new THREE.Mesh(g,m);o.castShadow=o.receiveShadow=true;root.add(o);return o;};
+ const tube=(pts,r,steps=12)=>mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.map(p=>new THREE.Vector3(...p))),steps,r,5,false),bark);
+ const branch=(a,b,r)=>{const p=new THREE.Vector3(...a),q=new THREE.Vector3(...b),d=q.clone().sub(p),o=mesh(new THREE.CylinderGeometry(r*.35,r,d.length(),7),bark);o.position.copy(p.add(q).multiplyScalar(.5));o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),d.normalize());};
+ branch([0,0,0],[.5,9,0],.55);
+ for(let i=0;i<11;i++){const a=i*2.399,x=Math.cos(a),z=Math.sin(a);tube([[.2,3.8,0],[x*1.8,2.6,z*1.8],[x*3.6,.5,z*3.6],[x*4.3,0,z*4.3]],.13);}
+ const shape=new THREE.Shape();shape.moveTo(0,-.45);shape.quadraticCurveTo(.24,-.08,0,.45);shape.quadraticCurveTo(-.24,-.08,0,-.45);const leafGeo=new THREE.ShapeGeometry(shape,2);
+ const p=leafGeo.attributes.position;for(let i=0;i<p.count;i++)p.setZ(i,.1*Math.sin(p.getY(i)*6));leafGeo.computeVertexNormals();
+ for(let i=0;i<14;i++){const a=i*2.399,r=3+(i%4)*.65,x=Math.cos(a)*r,z=Math.sin(a)*r,y=7+(i%4)*.65;branch([.35,4.5,0],[x,y,z],.16);for(let j=0;j<4;j++){const t=j*1.6+i,bx=x+Math.cos(t)*1.5,bz=z+Math.sin(t)*1.5,by=y+.5;branch([x,y,z],[bx,by,bz],.06);for(let k=0;k<8;k++){const q=k*2.399+i,rr=.3+(k%4)*.36;const o=mesh(leafGeo,leaves[(i+j+k)%3]);o.position.set(bx+Math.sin(q)*rr,by+Math.cos(q*2)*.45,bz+Math.cos(q)*rr);o.rotation.set(-1.1+Math.sin(q)*.4,q,Math.sin(k)*.3);o.scale.setScalar(1.5+(k%3)*.3);}}if(i%2===0)tube([[x,y,z],[x+.1,y-2,z],[x+.2,y-4,z+.1]],.025,5);}
+ const bounds=new THREE.Box3(),v=new THREE.Vector3();root.updateMatrixWorld(true);root.traverse(o=>{if(o.isMesh){const p=o.geometry.attributes.position;for(let i=0;i<p.count;i++)bounds.expandByPoint(v.fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld));}});const c=bounds.getCenter(new THREE.Vector3());root.children.forEach(o=>{o.position.x-=c.x;o.position.y-=bounds.min.y;o.position.z-=c.z;});return root;
 }

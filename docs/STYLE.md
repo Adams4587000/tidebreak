@@ -1,33 +1,13 @@
-# Tidebreak — working art direction
+# Style lock — The Drowned Frontier
 
-Original futuristic spacecraft built for water racing compete through a monumental Atlantic island chain, rendered with sculpted industrial forms, saturated deep water, tactile weathered materials and restrained cinematic light.
+Original dystopian hydro-speeder endurance racing: battered spacecraft machinery, exposed armored riders, flooded industrial ruins and elemental water under an oppressive overcast sky.
 
-Vehicle direction corrected by the user: the racers must read as spacecraft. Confirmed direction: sleek spacecraft with flowing bodies, luminous engines and retractable hydrofoils, skimming the water so wakes and jumps remain central. Three distinct generated spacecraft now replace the original hydroplane, using Atlas reference concepts.
+Palette: bone #e5dfcd, oxidized orange #ad5535, gunmetal #252b2a, worn steel #596168, marsh olive #626e4c, soot red #842f23, muted warning amber #c8874f. Accent light is restrained and attached to functional engines, signals and instruments. Avoid broad pristine white shells and candy-colored scenery.
 
-## Palette
-- #073f4b — deep Atlantic water and shaded hull reflections
-- #36c5c5 — shallow water and race guidance
-- #ff653f — hero hull and safety equipment
-- #f4eee0 — painted ivory composite and interface type
-- #d6ad77 — sandstone and sunlight
-- #1b2630 — basalt and machinery
-- #52654a — mangrove foliage
-- #f58336 — lava, confined to fissures and geothermal landmarks
+Scale: riders are approximately 1.8 m standing equivalent, seated above 0.8–1.5 m machinery. Racers are 7–10 m long and 3–6 m wide. Canal racing corridor is 54–60 m across. Grandstands 30 m tall, flood control towers 40 m, volcanic landmarks 45–110 m. Keep travel space free of decorative collision traps.
 
-## Scale and readability
-Metres; asset base y=0, centred x/z, front +Z. Hero boat roughly 7 m long, 3.2 m wide. Human-scale doors ~2.2 m. Infrastructure 15–55 m, distant landscape 80–200 m. Compare alternative silhouettes for the hero and major props, then refine selected geometry in the assembled scene. Run the recipe verifier on shipping modules. The current candidate set includes parameter variants; it is not a claim that the full ten-hour recipe was executed.
+Every racer has a saddle, handles, foot supports, visible bent legs, leaning torso and helmet. Helmet shape, armor layout, silhouette and propulsion distinguish the crews independently of paint. Small fasteners are reserved for visible near-camera panels. Hierarchies preserve rider lean, foil deployment and propulsion animation while static components are baked by material.
 
-## Six environments
-1. Port Meridian: open Atlantic megaharbour, cranes, ivory seawalls, cable bridges.
-2. The Drowned Reach: mangrove swamp, exposed roots, mist, old navigation towers.
-3. Splitstone Passage: basalt gorge, narrow cuts, waterfalls and stone arches.
-4. Ember Basin: volcanic caldera, black rock, fissures, steam, lava well away from racing water.
-5. The Sluice: monumental tidal machinery, flood gates, spillways and reservoirs.
-6. Outer Atlantic: sea stacks, rough open water, lighthouse, storm horizon.
+Atlas images are art references and texture sources; no generated/imported mesh replaces the code-authored recipe assets. Materials show wear and readable roughness variation. Water includes actual scene reflection, moving normal detail, geometric wave displacement, foam wakes and airborne spray. Lens droplets are transient.
 
-Six separately selectable courses, unlocked in order by completing a clear task in the previous chapter. Local saved progression; completed chapters remain replayable.
-
-## Quality standards
-Water must show scale, moving highlights, hull displacement cues, foam, and fading wakes. Camera horizon remains stable. Boat must remain readable against every sector. Warm/cool separation follows the location rather than fixed lighting values. Hero detail and visible material scale take priority over decorative clutter. Post effects require an A/B improvement in motion and a measured cost.
-
-Atlas generates original references and texture images. Every shipping 3D asset is constructed in Three.js through the 404 recipe. No reference-game code or assets. No imported meshes. Texture maps are applied outside import-free geometry modules.
+The dock must reveal the machine with readable fill light. Dark atmosphere does not excuse invisible geometry. In a race the course, opponents and pickups must remain legible through every biome. Fog color, sky and water blend together during sector transitions.

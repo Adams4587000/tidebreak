@@ -1,0 +1,142 @@
+[
+  {
+    "fid": "bab82518-196f-4987-96dc-cc9b035f9e21",
+    "name": "basecolor",
+    "filename": "basecolor.png",
+    "description": "This image appears to show a gray-painted metal surface, possibly steel or iron, with vertical brush strokes and a few small rust spots on the left side. The surface appears to be a continuous panel or texture map, and it is cropped at the edges of the frame.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1340249,
+    "created_at_ms": 1790114999941,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/bab82518-196f-4987-96dc-cc9b035f9e21",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "bd36d931-76d8-4a94-93cc-d06fb5b7c382",
+    "name": "normal",
+    "filename": "normal.png",
+    "description": "I can't identify any objects in this image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1495875,
+    "created_at_ms": 1790115000725,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/bd36d931-76d8-4a94-93cc-d06fb5b7c382",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "1d0d13ed-5ab3-44fa-96a5-4bfd4fcd8c3a",
+    "name": "roughness",
+    "filename": "roughness.png",
+    "description": "I can't identify any objects in this image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 687171,
+    "created_at_ms": 1790115001612,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/1d0d13ed-5ab3-44fa-96a5-4bfd4fcd8c3a",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "779757ac-c2ca-45e5-8a27-7cb63a2c4024",
+    "name": "output",
+    "filename": "output.png",
+    "description": "There are two people riding sci-fi vehicles in the image, labeled as \"ECHO/SPECTRE\" and \"MARSHAL/IRONCLAD\".\n\n**ECHO/SPECTRE** (left side):\n*   **Person/Vehicle:** A fully visible person wearing a futuristic helmet, tactical gear, and riding a heavy, metallic snowmobile-like vehicle. The vehicle features a front ski/pontoon design combined with a rear tire, an antenna, and rust detailing.\n\n**MARSHAL/IRONCLAD** (right side):\n*   **Person/Vehicle:** A fully visible person wearing an armored helmet, vest, and gauntlets, riding a similar heavy, futuristic snowmobile. This version features dual front tracks/skis instead of a single front pontoon, with exposed mechanical suspension and heavy rust detailing.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 2619882,
+    "created_at_ms": 1790114956925,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/779757ac-c2ca-45e5-8a27-7cb63a2c4024",
+      "requires_api_key": true
+    }
+  }
+]

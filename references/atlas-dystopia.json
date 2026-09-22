@@ -1,0 +1,177 @@
+[
+  {
+    "fid": "d719f862-67c4-44b3-993a-0981ccea626d",
+    "name": "output",
+    "filename": "output.png",
+    "description": "I can see a backdrop of rock formations with industrial-looking elements and four futuristic speeder bikes with riders lined up side-by-side.\n\nFrom left to right:\n1.  **ROOK / KESTREL**: An orange speeder bike with a rider in an orange flight suit and helmet. The front skis are cropped on the left side of the image.\n2.  **MOSS / MANTA**: A white speeder bike with a rider wearing a vest and white helmet. The tail fin extends upward, and the bike is visible in full.\n3.  **CINDER / BRIMSTONE**: A green, weathered speeder bike with a cage-like frame and a rider in dark tactical gear with a gold-visor helmet. The bike is visible in full.\n4.  **CINDER / BRIMSTONE**: A dark grey and red industrial-style speeder bike with multiple thrusters at the rear and long antennas. The rider wears a dark suit and a helmet with a red visor. The top antennas are cropped slightly at the top of the frame.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 3995284,
+    "created_at_ms": 1790113442521,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/d719f862-67c4-44b3-993a-0981ccea626d",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "e6c915b6-c787-4b2c-a611-f5a1a4ad5006",
+    "name": "output",
+    "filename": "output.png",
+    "description": "This image contains a grid of six distinct digital landscape/scenery illustrations:\n\n1.  **Top-Left:** An urban or industrial waterfront setting. It shows a concrete amphitheater or stadium structure by the water, a large crane, floating debris, and a distant city skyline under an overcast sky. The structures at the top and sides are cropped.\n2.  **Top-Middle:** A misty mangrove swamp or flooded forest. Large trees with sprawling root systems emerge from shallow, still water. The forest extends into the background, becoming obscured by fog. The surrounding landscape is cropped by the frame.\n3.  **Top-Right:** A narrow river canyon with towering, sheer rock cliffs on both sides. Numerous thin waterfalls trickle down the cliff faces, and a massive central waterfall cascades in the background. A small boat is visible on the river. The canyon walls and river extend beyond the frame (cropped).\n4.  **Bottom-Left:** A dramatic volcanic or industrial canyon landscape. A river or road winds through dark rock formations with steam rising from vents and glowing orange lava flows along the edge. A white car is driving through the scene. The rocky terrain is cropped.\n5.  **Bottom-Middle:** A large, weathered concrete dam or industrial structure with rusted metal gates. Water is rushing out from the base into a foamy pool. The top and sides of the dam structure are cropped.\n6.  **Bottom-Right:** A stormy ocean scene featuring jagged, rocky islands or spires rising sharply from the sea. Rough waves crash around a small boat in the foreground, and an industrial rig-like structure stands on the right. The sky is dark and cloudy, and the scene is framed within the illustration.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 4208494,
+    "created_at_ms": 1790113413961,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/e6c915b6-c787-4b2c-a611-f5a1a4ad5006",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "d457705c-3a83-402d-9650-bd618b1e3faf",
+    "name": "basecolor",
+    "filename": "basecolor.png",
+    "description": "I can't identify any objects in this image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1192500,
+    "created_at_ms": 1790113597591,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/d457705c-3a83-402d-9650-bd618b1e3faf",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "b67e8630-e36a-4ed6-abf6-4c47453ef473",
+    "name": "normal",
+    "filename": "normal.png",
+    "description": "Based on the image, here is the answer:\n\nThis image appears to be a digital texture map—specifically, a **normal map** (used in 3D computer graphics to simulate surface details like bumps and scratches without adding extra geometry). The characteristic blue-purple coloration represents directional vectors used to calculate how light interacts with a surface. Because it is an abstract texture map rather than a photograph of distinct objects, there are no separate objects to classify as fully visible or cropped.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 1582550,
+    "created_at_ms": 1790113598352,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/b67e8630-e36a-4ed6-abf6-4c47453ef473",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "aef37871-ef2a-425f-9b95-2f6c3df53e52",
+    "name": "roughness",
+    "filename": "roughness.png",
+    "description": "This image is a close-up, monochromatic texture showing a dark gray surface with some imperfections, specks, and light scuffs.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 1024,
+      "height": 1024
+    },
+    "size_bytes": 658931,
+    "created_at_ms": 1790113599615,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/aef37871-ef2a-425f-9b95-2f6c3df53e52",
+      "requires_api_key": true
+    }
+  }
+]

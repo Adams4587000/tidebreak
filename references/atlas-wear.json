@@ -1,0 +1,37 @@
+[
+  {
+    "fid": "589618c1-498d-40bb-8c49-0fc44f750510",
+    "name": "output",
+    "filename": "output.png",
+    "description": "I see a close-up image of a weathered, textured surface—likely a wall or metal sheet covered with peeling, scratched white paint over areas of rust and dark, coarse material. The pattern extends across the entire frame, so it is cropped at the edges by the boundaries of the image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 9577089,
+    "created_at_ms": 1790115657751,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/589618c1-498d-40bb-8c49-0fc44f750510",
+      "requires_api_key": true
+    }
+  }
+]

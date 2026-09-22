@@ -1,6 +1,6 @@
 // Original constructor-authored geometry. Atlas references and material provenance: docs/DYSTOPIA.md.
 export default function generate(THREE){
- const kind=0;
+ const kind=KIND;
  const root=new THREE.Group(),body=new THREE.Group(),rider=new THREE.Group();body.name='static-body';rider.name='rider';root.add(body,rider);
  const mat=(name,color,roughness=.65,metalness=.3)=>{const m=new THREE.MeshStandardMaterial({color,roughness,metalness});m.name=name;return m;};
  const paint=mat('paint',[0xad5535,0xbcb4a2,0x626e4c,0x842f23,0x4b6470,0x8b826c][kind]),metal=mat('metal',0x596168,.38,.78),dark=mat('carbon',0x1d2528,.73,.3),edge=mat('trim',0x968575,.42,.7),rubber=mat('rubber',0x111716,.95,0),fabric=mat('fabric',[0x3c3e35,0x484b51,0x414a32,0x3e2926,0x303d48,0x555447][kind],.96,0),armor=mat('armor',[0x756657,0xaaa99d,0x5a664c,0x70392e,0x506671,0x848273][kind],.54,.55),visor=mat('visor',[0xbba277,0xc5a36b,0x839c85,0xb95e38,0x548a99,0x9ca79c][kind],.17,.87),glow=mat('energy',0x163138,.4,.1);

@@ -10,7 +10,7 @@ The target is the strongest original game we can demonstrate within the jam cons
 - Verify that waves and boat motion agree; spray must originate at hull contact.
 
 ## Reference process
-Atlas produces references and images. The recipe recommends three independent geometry approaches per asset. This build compares multiple boat silhouettes and prop variants, then refines selected modules in context; some prop candidates are parameter variants rather than independent constructions. Shipping geometry is verified and reviewed from multiple sides. Keep references and rejected candidates outside the shipping folder. Shared art direction: STYLE.md.
+Atlas produces references and images. The recipe recommends three independent geometry approaches per asset. This build compares multiple boat silhouettes and prop variants, then refines selected modules in context; some prop candidates are parameter variants rather than independent constructions. The dystopian rebuild uses six distinct hull construction branches and iterative material, multi-angle and full-race review; it does not claim the longest recipe’s full three-independent-candidates-per-asset or blind AAA comparison workflow. Shipping geometry is verified and reviewed from multiple sides. Keep references and rejected candidates outside the shipping folder. Shared art direction: STYLE.md.
 
 ## Lessons adapted from the user's Rust 17 notes
 - A real-input race gate exercises turns, boost, route choice, finish and restart.
@@ -32,4 +32,4 @@ External jam ceilings: 20 seconds ready on the supplied 4G profile; 10 MB body b
 Do further work where evidence identifies an actionable defect. Do not loop on a subjective promise of perfection.
 
 ## Input and fairness
-Phone: large steering area plus separate boost/brake; desktop: arrows/WASD with boost and brake. No requirement for a gyro. Opponents use the same route and finite speed model, with recoverable mistakes. Track progress must be ordered so shortcuts cannot skip the whole race. Gate instrumentation reads real state and never fabricates movement.
+Phone: large steering area plus separate boost/brake; desktop: arrows/WASD with boost and brake. No requirement for a gyro. The dock has a close rider inspection view and locked crew previews. Opponents use the same route, vehicle specifications and finite energy rules, with lane avoidance and recoverable line mistakes. They navigate route coordinates rather than reproducing the player’s complete free-steering physics. Track progress must be ordered so shortcuts cannot skip the whole race. Gate instrumentation reads real state and never fabricates movement.

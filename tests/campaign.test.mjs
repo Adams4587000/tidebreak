@@ -1,21 +1,8 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {objectivePassed,unlocked,recordResult,loadSave} from '../game/campaign.js';
+import {objectivePassed,unlocked,boatUnlocked,recordResult,loadSave} from '../game/campaign.js';
 let value=null;globalThis.localStorage={getItem:()=>value,setItem:(_,v)=>value=v};
-const success={finished:true,time:42,place:1,signals:4,jumps:2,boosts:3,surges:2};
-test('every chapter requires finishing, and its specific task',()=>{
- for(let i=0;i<6;i++){assert.ok(objectivePassed(i,success));assert.equal(objectivePassed(i,{...success,finished:false}),false);}
- for(const [i,fail] of [[0,{place:4}],[1,{signals:3}],[2,{jumps:1}],[3,{place:4}],[3,{boosts:2}],[4,{surges:1}],[5,{place:2}]])assert.equal(objectivePassed(i,{...success,...fail}),false);
-});
-test('only a race challenge unlocks the next course; best times survive slower runs',()=>{
- value=null;let save=loadSave();assert.ok(unlocked(save,0));assert.equal(unlocked(save,1),false);
- save=recordResult(save,0,success,'time');assert.equal(unlocked(save,1),false);assert.equal(save.best[0],42);
- save=recordResult(save,0,{...success,time:45},'race');assert.ok(unlocked(save,1));assert.equal(save.best[0],42);assert.equal(unlocked(save,2),false);assert.deepEqual(loadSave(),save);
-});
-test('corrupted storage resets safely, and noncontiguous clearances cannot bypass chapters',()=>{
- value='invalid JSON';assert.deepEqual(loadSave().cleared,Array(6).fill(false));
- value=JSON.stringify({cleared:[true,false,true],best:[null,-1,'0']});let save=loadSave();assert.equal(unlocked(save,3),false);assert.equal(save.best[1],null);
-});
-test('a full completed campaign persists the championship',()=>{
- value=null;let save=loadSave();for(let i=0;i<6;i++)save=recordResult(save,i,success,'race');assert.ok(loadSave().champion);assert.ok(loadSave().cleared.every(Boolean));
-});
+const run={finished:true,time:260,place:4,pickups:6};
+test('one starter; practice and abandoned runs earn no crews',()=>{value=null;let s=loadSave();assert.deepEqual(Array.from({length:6},(_,i)=>boatUnlocked(s,i)),[true,false,false,false,false,false]);s=recordResult(s,0,run,'time');s=recordResult(s,0,{...run,finished:false},'race');assert.equal(s.finishes,0);assert.equal(s.pickups,0);assert.equal(unlocked(s,1),false);});
+test('finished races earn distinct roster milestones and persist',()=>{value=null;let s=loadSave();s=recordResult(s,0,run,'race');assert.equal(boatUnlocked(s,1),true);assert.equal(boatUnlocked(s,2),false);assert.equal(unlocked(s,1),true);s=recordResult(s,1,{...run,place:3},'race');assert.equal(boatUnlocked(s,2),true);assert.equal(boatUnlocked(s,3),false);s=recordResult(s,1,{...run,place:2},'race');assert.equal(boatUnlocked(s,3),true);s=recordResult(s,2,{...run,place:1},'race');assert.equal(boatUnlocked(s,4),true);assert.equal(boatUnlocked(s,5),true);assert.equal(s.champion,true);assert.deepEqual(loadSave(),s);});
+test('contract conditions and malformed storage are handled',()=>{assert.equal(objectivePassed(0,run),true);assert.equal(objectivePassed(1,run),false);assert.equal(objectivePassed(2,{...run,place:2}),false);assert.equal(objectivePassed(2,{...run,place:1}),true);value='bad';assert.equal(loadSave().finishes,0);value=JSON.stringify({finishes:-10,best:[-3],cleared:[false,true]});assert.equal(loadSave().finishes,0);assert.equal(loadSave().best[0],null);assert.equal(unlocked(loadSave(),2),false);});

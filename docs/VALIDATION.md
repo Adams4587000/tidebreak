@@ -51,3 +51,19 @@ The complete six-course keyboard replay passed again with spacecraft opponents a
 | Atlantic | 131 | 309,374 |
 
 Final spacecraft phone gate: source commit `38193cf2e2b2fe1ed146d68ac92a5957711f6c97`, 22 September 2026 at 21:01 UTC. Ready in 8.2 s on the recipe's 4G / CPU 2× profile; 5.3 MB loaded; 136.8 m of touch-driven movement; opening-segment peaks 145 draws / 385,580 triangles; zero browser errors or missing files. PASS. All 11 geometry modules pass structural verification, and all 23 shipping JavaScript modules parse. Separate touch and spacecraft-animation checks also pass on the final build.
+
+## Drowned Frontier overhaul (2026-09-22; supersedes short chapters)
+
+The preceding reports apply to historical builds. This revision replaces separate short chapter circuits with continuous endurance routes and six exposed rider–machine pairs. Current evidence is named `endurance-*`, `roster-*`, `dystopia-assets.*`, and `jam-dystopia*`.
+
+Development review caught and corrected an invisible dock silhouette, overly pristine steel, excessive swamp triangles, a featureless grandstand rear, supply starvation in the single-lane layout, and overbroad volcanic glow. Rejected Atlas textures remain recorded in the provenance. Static batching remains spatially bounded; swamp draw distance is limited inside its fog.
+
+The standalone rule tests cover starter-only access, practice/abort exclusion, crew milestones and persistence, contract conditions, malformed saves, earliest swept pickup ownership independent of iteration order, pickup tunneling, and finite AI energy. The AI is not adjusted downward inside any browser test.
+
+The full-run driver sends real keyboard events. It neither teleports nor injects progression. It asserts all six sectors are visited, endurance duration exceeds four minutes, both player and rivals collect supplies, lens droplets occur, render counts remain within the jam ceilings, and the completed race unlock persists after reload. This is functional and performance evidence, not proof that the game is balanced for every player or that the visuals match commercial AAA titles.
+
+The canonical 404 helper files were hash-compared to the recipe checkout and remain byte-identical. The shipping check parses 32 modules and finds no paths escaping the game folder.
+
+Final endurance regression: **PASS**, 14.2 km in **254.323 seconds (4:14.323)**, fourth of six, all six sectors recorded, 140 player pickups, opponent pickups verified, lens droplets verified, and earned crew/contract access persisted after reload. Peak **673 draws / 1,343,600 triangles**. See `evidence/endurance-check.json` for raw telemetry. The test did not require or force a win.
+
+Final roster and touch regressions: **PASS**. All six crews are inspectable, five initially locked; portrait phone selectors do not overlap; simultaneous steering and boost work; pause freezes race time; resume, dock and practice work. Final asset verifier: **18/18 clean**. Pure progression/competition tests: **7/7 pass**.
