@@ -16,7 +16,8 @@ try{
   if(t.state==='results'){result=t;break;}
   if(t.state==='race'){
    const d=Math.atan2(Math.sin(t.target-t.heading),Math.cos(t.target-t.heading));await key('ArrowLeft',d>.025);await key('ArrowRight',d<-.025);await key('Space',Math.abs(d)<.28&&t.boost>4);await key('ArrowDown',Math.abs(d)>.65&&t.speed>29);
-   const target=t.rivals.find(r=>r.id===t.weapons.target);if(t.weapons.ammo>0&&target&&target.shield<=0&&target.invulnerable<=0&&t.elapsed-lastFire>6.5){await page.keyboard.press('KeyF');lastFire=t.elapsed;}if(t.weapons.special&&t.elapsed-lastSpecial>7){await page.keyboard.press('KeyQ');lastSpecial=t.elapsed;}if(t.weapons.incoming&&t.weapons.defenses>0&&t.weapons.shield<=0&&t.weapons.invulnerable<=0)await page.keyboard.press('KeyE');
+   const target=t.rivals.find(r=>r.id===t.weapons.target);if(t.weapons.ammo>0&&target&&target.shield<=0&&target.invulnerable<=0&&t.elapsed-lastFire>6.5){await page.keyboard.press('KeyF');lastFire=t.elapsed;}if(t.weapons.special&&t.elapsed-lastSpecial>7){await page.keyboard.press('KeyQ');lastSpecial=t.elapsed;}if((t.weapons.incoming||t.lethalAhead?.distance<85)&&t.weapons.defenses>0&&t.weapons.shield<=0&&t.weapons.invulnerable<=0)await page.keyboard.press('KeyE');
+   if(!report.actionFrame&&t.weapons.shots>0&&t.weapons.projectiles>0&&t.elapsed>10){await page.screenshot({path:'evidence/combat-action.png'});report.actionFrame=true;}
    if(!seen.has(t.sector)&&t.progress>(t.sector+.24)/6){seen.add(t.sector);await page.screenshot({path:`evidence/combat-endurance-sector-${t.sector}.png`});report.sectors.push({sector:t.sector,elapsed:t.elapsed,place:t.place,draws:t.draws,tris:t.tris,pickups:t.pickups});console.log('sector',JSON.stringify(report.sectors.at(-1)));}
   }
   await new Promise(r=>setTimeout(r,65));
