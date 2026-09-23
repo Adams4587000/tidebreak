@@ -13,8 +13,20 @@ export function createReflection(renderer,water,mobile){
  water.uniforms.reflectionMap={value:target.texture};water.uniforms.reflectionMatrix={value:matrix};
  return{update(scene,camera,waterMesh,hidden,t){if(t-last<(mobile?1/24:1/36))return;last=t;camera.updateMatrixWorld();mirror.copy(camera);mirror.position.y=-camera.position.y;camera.getWorldDirection(direction);look.copy(camera.position).add(direction);look.y=-look.y;mirror.up.set(0,-1,0);mirror.lookAt(look);mirror.updateMatrixWorld();matrix.copy(bias).multiply(mirror.projectionMatrix).multiply(mirror.matrixWorldInverse);const oldTarget=renderer.getRenderTarget(),oldClip=renderer.clippingPlanes,oldShadow=renderer.shadowMap.autoUpdate;const objects=[waterMesh,...hidden],vis=objects.map(o=>o.visible);objects.forEach(o=>o.visible=false);renderer.shadowMap.autoUpdate=false;renderer.clippingPlanes=[new THREE.Plane(new THREE.Vector3(0,1,0),-.06)];renderer.setRenderTarget(target);renderer.clear();renderer.render(scene,mirror);renderer.setRenderTarget(oldTarget);renderer.clippingPlanes=oldClip;renderer.shadowMap.autoUpdate=oldShadow;objects.forEach((o,i)=>o.visible=vis[i]);}};
 }
-export function createLens(){
- const host=document.getElementById('lens'),drops=[];let t=0,last=-20;
- function splash(strength){last=t;for(let i=0;i<Math.ceil(5+strength*8);i++){if(drops.length>=26){drops.shift().el.remove();}const el=document.createElement('i'),size=8+Math.random()*35*strength,x=8+Math.random()*84,y=10+Math.random()*65;el.className='lens-drop';el.style.width=size+'px';el.style.height=size*(1.1+Math.random()*.55)+'px';el.style.left=x+'%';el.style.top=y+'%';el.style.transform=`rotate(${Math.random()*60-30}deg)`;host.appendChild(el);drops.push({el,age:0,life:1.5+Math.random()*3,y,speed:.3+Math.random()*1.2});}}
- return{get last(){return last;},get count(){return drops.length;},splash,clear(){drops.forEach(d=>d.el.remove());drops.length=0;last=-20;},update(dt,time,state){t=time;host.hidden=!['race','countdown'].includes(state);for(let i=drops.length-1;i>=0;i--){const d=drops[i];d.age+=dt;d.y+=dt*d.speed*(1+d.age);d.el.style.top=d.y+'%';d.el.style.opacity=Math.min(1,(d.life-d.age)*1.4)*.8;if(d.age>=d.life){d.el.remove();drops.splice(i,1);}}}};
+// Lens droplets refract the actual rendered scene, with a thin meniscus and gravity trails.
+export function createLens(renderer,mobile){
+ const drops=[],vectors=Array.from({length:24},()=>new THREE.Vector4());let t=0,last=-20,enabled=false;
+ const target=new THREE.WebGLRenderTarget(1,1,{depthBuffer:true}),post=new THREE.Scene(),cam=new THREE.Camera();
+ const uniforms={frame:{value:target.texture},drops:{value:vectors},count:{value:0},aspect:{value:1},pixel:{value:new THREE.Vector2()}};
+ const material=new THREE.ShaderMaterial({depthTest:false,depthWrite:false,uniforms,vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=vec4(position.xy,0.,1.);}`,fragmentShader:`
+ varying vec2 vUv;uniform sampler2D frame;uniform vec4 drops[24];uniform int count;uniform float aspect;uniform vec2 pixel;
+ void main(){vec2 uv=vUv,offset=vec2(0.);float light=0.,blur=0.;for(int i=0;i<24;i++){if(i>=count)break;vec4 d=drops[i];vec2 q=(uv-d.xy)*vec2(aspect,1.);q.y*=.78;float r=length(q)/d.z;float inside=1.-smoothstep(.80,1.,r);float cap=sqrt(max(0.,1.-r*r));offset+=q*cap*.38*inside*d.w;light+=(exp(-pow((r-.88)*24.,2.))*.1*(-q.y/d.z+.1))*d.w;blur=max(blur,inside*.6*d.w);}vec3 c=texture2D(frame,uv+offset).rgb;if(blur>0.)c=mix(c,(texture2D(frame,uv+offset+pixel).rgb+texture2D(frame,uv+offset-pixel).rgb)*.5,blur);gl_FragColor=vec4(c+light,1.);
+#include <tonemapping_fragment>
+#include <colorspace_fragment>
+}`});
+ post.add(new THREE.Mesh(new THREE.PlaneGeometry(2,2),material));
+ function splash(strength){last=t;for(let i=0;i<Math.ceil(4+strength*9);i++){if(drops.length>=24)drops.shift();drops.push({x:.08+Math.random()*.84,y:.15+Math.random()*.7,size:.007+Math.random()*.023*strength,age:0,life:2+Math.random()*3,speed:.012+Math.random()*.025});}}
+ return{get last(){return last;},get count(){return drops.length;},splash,clear(){drops.length=0;last=-20;},update(dt,time,state){t=time;enabled=['race','countdown'].includes(state);for(let i=drops.length-1;i>=0;i--){const d=drops[i];d.age+=dt;d.y-=dt*d.speed*(1+d.age*.6);if(d.age>d.life||d.y<-.1)drops.splice(i,1);}},render(scene,camera){
+ if(!enabled||!drops.length){renderer.render(scene,camera);return;}const size=renderer.getDrawingBufferSize(new THREE.Vector2());if(target.width!==size.x||target.height!==size.y)target.setSize(size.x,size.y);uniforms.aspect.value=size.x/size.y;uniforms.pixel.value.set(1/size.x,1/size.y);uniforms.count.value=drops.length;drops.forEach((d,i)=>vectors[i].set(d.x,d.y,d.size,Math.min(1,(d.life-d.age)*1.5)));renderer.setRenderTarget(target);renderer.render(scene,camera);renderer.setRenderTarget(null);renderer.render(post,cam);
+ }};
 }

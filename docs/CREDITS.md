@@ -53,3 +53,7 @@ The three overhaul Atlas turns reported 77, 47 and 46 settled credits respective
 The procedural spacecraft generator is `tools/dystopia-craft.template.js`; the six independent hull archetypes share rider/equipment construction helpers. `tools/make-dystopia-props.py` authors the stadium, wreck, spillway and caldera modules. The previous spacecraft generator is historical and should not be rerun over the current assets.
 
 Rider fabric receives the canonical 404 `surfaces.js` fabric recipe at load time for fine weave and roughness. Atlas material maps supply the metal, composite, terrain and water surfaces. No procedural surface helper was modified.
+
+## Combat expansion (September 2026)
+
+Atlas MCP / FLUX.2 Max generated the inspected weapon fleet reference `58240817-84a8-4568-9ada-b7e73a3d6e24` and armory panel image `2b0c6b06-4096-4793-acc2-2ee748d371e4`. The panel ships at 768 px as `game/media/armory.webp`; the full images and metadata remain in references. The turn reported 76 credits. It generated four visible reference machines, not six complete models. The six game craft remain original constructor geometry, extended with weapon hardpoints in the existing template. Original synthesized weapon/impact effects supplement the existing Atlas music and water loops. See COMBAT.md for source-linked gameplay research.

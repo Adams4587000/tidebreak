@@ -1,0 +1,72 @@
+[
+  {
+    "fid": "58240817-84a8-4568-9ada-b7e73a3d6e24",
+    "name": "output",
+    "filename": "output.png",
+    "description": "The image features four futuristic armed vehicles, likely hoverbikes or trikes, parked in a row inside a large hangar or industrial garage. Each vehicle is manned by a rider wearing a helmet and tactical gear, and they all have distinct color schemes (orange, white/green, blue, and yellow/brown).\n\nHere is a breakdown of the vehicles and riders from left to right:\n\n1.  **Orange Vehicle & Rider:** Located on the far left. The vehicle is bright orange with white stripes, equipped with a front-mounted weapon system. The rider is visible in full, wearing a white helmet and dark suit, seated on the vehicle.\n2.  **White and Green Vehicle & Rider:** Positioned second from the left. The vehicle is white with green accents and heavily weathered. The rider wears a yellow-and-white helmet and an orange suit, holding the controls of a heavy turret mounted on the vehicle. Both the rider and vehicle are fully visible.\n3.  **Blue Vehicle & Rider:** Positioned third from the left. The vehicle is blue with silver detailing and wear. The rider wears a dark blue helmet and tactical gear. Both the rider and vehicle are fully visible.\n4.  **Yellow-Brown Vehicle & Rider:** Located on the far right. The vehicle is a dirty, olive-yellow color with a rack of cylindrical tanks on the back. The rider wears a white and black helmet and tactical gear. Both the rider and vehicle are fully visible.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 3735617,
+    "created_at_ms": 1790120539489,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/58240817-84a8-4568-9ada-b7e73a3d6e24",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "2b0c6b06-4096-4793-acc2-2ee748d371e4",
+    "name": "output",
+    "filename": "output.png",
+    "description": "Based on the image, here is what is present:\n\n* **Heavy-duty metal panel:** This is the main surface dominating the image, featuring a weathered texture with numerous scratches, grime, and minor surface damage. It is a square object and is shown in full.\n* **Large cylindrical ports (or openings):** There are eight large circular openings positioned along the left and right outer edges (four on each side), all clearly visible in full. There is also one similar port near the top center and one near the bottom center, both fully visible.\n* **Ventilation slots/grates:** Several rectangular recessed panels containing parallel vertical fins (grates or heatsinks) are embedded across the surface. These include two smaller ones near the top, two smaller ones near the bottom, two large ones in the middle, and a central small vent with horizontal lines. All are visible in full.\n* **Hex-head bolts/screws:** Numerous small hexagonal screws or bolts are placed strategically around the corners, edges, and inner panels to fasten the components together. Each one is fully visible.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 8707055,
+    "created_at_ms": 1790120523240,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/2b0c6b06-4096-4793-acc2-2ee748d371e4",
+      "requires_api_key": true
+    }
+  }
+]

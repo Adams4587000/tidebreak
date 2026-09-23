@@ -1,3 +1,7 @@
+# Current combat rules
+
+The combat expansion supersedes the earlier speed, pickup frequency and reward values below. See [COMBAT.md](COMBAT.md) for the current shared arsenal, reputation unlocks, elimination and live classification. Existing saves remain compatible.
+
 # The Drowned Frontier
 
 Three endurance contracts each traverse the complete 14–16 km frontier. The opening Exile Run takes roughly four minutes at racing speed; mistakes and recovery extend it. All six sectors are physically present from the first event: decaying Meridian stadium, Drowned Reach mangroves, Splitstone gorge, Ember Basin, Authority Sluice and Atlantic wreck field. A sector change blends fog, water, lighting and wave amplitude while the same race continues.

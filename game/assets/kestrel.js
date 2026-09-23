@@ -94,6 +94,23 @@ export default function generate(THREE){
  if(kind===2||kind===5){rod([-.24,.3,-.1],[-.24,.78,-.1],.09,metal,rider);rod([.24,.3,-.1],[.24,.78,-.1],.09,metal,rider);}
  if(kind===4){rod([-.18,.67,-.12],[-.18,1.45,-.12],.013,metal,rider);box(.1,.62,-.18,.2,.15,.04,glow,rider,.01);}
  if(kind===3){for(const s of [-1,1])box(s*.32,.7,.39,.24,.17,.3,armor,rider,.04);}
+ // Atlas combat reference: braced twin launcher pods, aperture rings, exposed laser and aft mine rack.
+ const weapon=mat('weapon',0x7a8082,.62,.45),mount=kind===2?1.95:kind===5?1.65:kind===1?1.5:1.12;
+ for(const side of [-1,1]){
+  rod([side*.65,1.2,.8],[side*mount,1.7,1.9],.09,metal);rod([side*.7,1.3,2.3],[side*mount,1.7,1.9],.07,metal);
+  box(side*mount,1.7,1.7,.65,.53,1.8,weapon,body,.025);
+  for(const dx of [-.16,.16]){
+   rod([side*mount+dx,1.73,1.1],[side*mount+dx,1.73,3.15],.13,dark);
+   for(const z of [1.3,2.1,2.8])add(new THREE.TorusGeometry(.137,.025,5,12),edge,side*mount+dx,1.73,z);
+   add(new THREE.CircleGeometry(.106,12),rubber,side*mount+dx,1.73,3.17);
+   add(new THREE.TorusGeometry(.09,.014,4,12),glow,side*mount+dx,1.73,3.18);
+  }
+  for(let j=0;j<4;j++)box(side*mount,1.99,1.2+j*.25,.5,.025,.06,dark,body,.003);
+  hose([[side*.6,1.4,.9],[side*mount,1.38,1],[side*mount,1.5,1.5]],.045,rubber);
+ }
+ // Offset laser leaves the rider's sightline open; rear cartridges read clearly in chase view.
+ box(-.48,1.98,.35,.25,.18,.62,metal);rod([-.48,2.03,.5],[-.48,2.03,1.45],.07,dark);add(new THREE.CircleGeometry(.062,12),glow,-.48,2.03,1.47);
+ box(0,1.65,-2.1,.78,.46,.52,weapon);for(const x of [-.24,0,.24]){rod([x,1.55,-2],[x,1.55,-2.65],.095,edge);add(new THREE.CircleGeometry(.072,10),glow,x,1.55,-2.66).rotation.y=Math.PI;}
  // Folding hydrofoils with visible pivots and hydraulic cylinders.
  for(const s of [-1,1]){const f=new THREE.Group();f.name=s<0?'foil-left':'foil-right';f.position.set(s*(kind===2?1.75:kind===5?1.7:1),.97,-.2);root.add(f);rod([0,0,.9],[s*.25,-.76,.45],.065,metal,f);rod([0,0,-1],[s*.25,-.76,-.6],.065,metal,f);box(s*.25,-.79,-.15,.38,.07,2.45,dark,f,.01);rod([0,-.07,.5],[s*.21,-.56,.22],.085,dark,f);rod([s*.21,-.56,.22],[s*.27,-.75,.15],.04,edge,f);}
  const bounds=new THREE.Box3(),v=new THREE.Vector3();root.updateMatrixWorld(true);root.traverse(o=>{if(o.isMesh){const p=o.geometry.attributes.position;for(let i=0;i<p.count;i++)bounds.expandByPoint(v.fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld));}});const c=bounds.getCenter(new THREE.Vector3());root.children.forEach(o=>{o.position.x-=c.x;o.position.y-=bounds.min.y;o.position.z-=c.z;});return root;

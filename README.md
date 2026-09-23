@@ -10,13 +10,17 @@ python3 -m http.server 4173 --bind 127.0.0.1 --directory game
 
 Open http://localhost:4173/. No build step, runtime services or API keys. Serve the self-contained `game/` directory to deploy.
 
-- Auto acceleration; A/D or left/right arrows steer, S/down brakes, Space boosts.
-- R recovers to the racing line; Escape pauses.
-- Phone: drag the steering pad; hold Boost or Brake with a second finger.
-- Dock: inspect all six crews, including locked ones. Rider Detail moves the camera closer. Only Rook / Kestrel is available on a fresh save.
-- Three contracts traverse the complete roughly 14–16 km course, targeting four to six minutes each. Finishes, podiums, wins and collected perks unlock crews. Practice earns best times without career progress.
-- Five rivals seek finite shared supplies and manage boost. Charge, shield, overdrive and repair pickups belong to the first racer who reaches them.
-- Wave response, folding hydrofoils, rider lean, actual scenery reflection, foam wakes, spray, transient lens droplets, countdown, pause/restart and browser-local progression.
+- Auto acceleration; A/D or arrows steer, S/down brakes, Space boosts. Everyone launches with five seconds of turbo.
+- F fires missiles, Q deploys the held special, E activates a shield. Everyone starts with four missiles and two shield charges. Three damaging hits eliminate a racer.
+- R recovers to the racing line; Escape pauses. Phone controls include steering, turbo, brake, fire, special and shield.
+- Dock: drag to rotate the actual 3D spacecraft, scroll to zoom, or inspect the rider closely. All six crews can be inspected; only Rook / Kestrel starts unlocked.
+- Three contracts each traverse all six environments along a roughly 14–16 km route at turbo pace. Shared supply rows, bridges, marked channels, offset barriers and ramps create racing decisions.
+- Rivals spend ammunition and energy, fight each other, collect finite supplies and make mistakes. Visible drafting and pursuit power help keep the field catchable.
+- Live rival labels, gaps, hull damage, incoming warnings and a six-crew result classification. Remaining racers continue while results are displayed.
+- Finishing milestones and reputation unlock crews. Eliminated runs earn participation reputation; existing saves and unlocks are preserved. Practice earns best times only.
+- Atlas materials, original procedural spacecraft, scene reflections, foam wakes, colored exhaust and refractive lens water.
+
+The detailed weapon rules, rewards and primary-source research are in [the combat design](docs/COMBAT.md).
 
 ## Production and checks
 
@@ -28,10 +32,10 @@ With dependencies installed in adjacent `../404-game-recipe`:
 node --test tests/*.test.mjs
 node ../404-game-recipe/harness/verify.mjs game/assets --size=560
 node ../404-game-recipe/harness/ship.mjs game
-node tools/roster-check.mjs
-node tools/touch-check.mjs
-node tools/endurance-check.mjs
-node ../404-game-recipe/harness/jam.mjs http://localhost:4173/ --out=evidence/jam-dystopia
+node tools/combat-roster-check.mjs
+node tools/combat-touch-check.mjs
+node tools/combat-endurance-check.mjs
+node ../404-game-recipe/harness/jam.mjs http://localhost:4173/ --out=evidence/jam-combat
 ```
 
 Browser checks run sequentially and require the local server. The endurance driver uses actual keyboard events from a fresh save, traverses all sectors, contests supplies, checks performance, finishes, and reloads to verify earned unlocks. It does not teleport or give itself progress. Older chapter and spacecraft test evidence is historical and applies to the superseded prototype.
