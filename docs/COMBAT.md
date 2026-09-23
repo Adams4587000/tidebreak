@@ -32,7 +32,7 @@ These are design influences, not claims that Tidebreak reproduces those games' p
 | Pursuit | All crews receive up to 14% extra power when sufficiently far behind the leader; displayed to the player. Positions are never teleported. |
 | Drafting | Same-lane following at 7–85 m grants 12% speed; displayed as SLIPSTREAM |
 | Supplies | Four finite pickups across the water every 460 m, approximately 6–7 seconds at a typical 71 m/s pace. Actual time varies with braking, damage and turbo. Earliest swept contact wins. |
-| Red skull | Clearly labeled lethal contraband mine mixed into occasional later rows. Eliminates an unprotected racer; shield/recovery immunity blocks it. |
+| Red skull | Clearly labeled lethal contraband mine mixed into occasional later rows. Eliminates an unprotected racer; shield/recovery immunity blocks it. A lane warning appears within 120 m. |
 | Track | Six environments, bridge piers, three marked channels, offset barriers, ramps, corners and timed sluice gates. Piers/barriers slow any crew that strikes them. |
 
 Charge restores energy. Overdrive adds a temporary speed boost. Repair clears slowing and provides brief protection; it does not erase hull-hit history. Ammo restores two ordinary missiles up to eight. Special supplies provide two uses, up to three when matching the held type; a different type replaces that slot.

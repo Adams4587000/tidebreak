@@ -71,3 +71,25 @@ Final roster and touch regressions: **PASS**. All six crews are inspectable, fiv
 Official local phone/4G gate on source commit `8ad34e2d12e9025bf0763009f967cde6c3ec1d89`: **PASS**. 390×844 @3x, real touch, 4 Mbps/1 Mbps, 60 ms latency, CPU 2× slowdown. Ready **11.7 s**; body weight **6.1 MB**; real-touch movement **138.0 m**; peak **582 draws / 1,020,636 triangles**; **0 errors and 0 missing files**. Median measured fps **59.8** on ANGLE Metal / Apple M4; this is browser emulation, not a physical-phone benchmark. All runtime files came from the game folder. Raw verdict and screenshots: `evidence/jam-dystopia/`.
 
 The gate URL was localhost. A hosted URL, hosted gate receipt and competition submission remain separate release steps.
+
+
+## Turbo combat expansion (2026-09-23)
+
+Game source: `acd1c38043f0577348c9798272a88233aee2a4a8`. Earlier endurance receipts remain historical. Current evidence uses `combat-*` and `jam-combat/`.
+
+- Pure progression, pickup, combat and AI rules: **18/18 pass**. Tests cover finite ammo, cooldowns, three-hit elimination, recovery protection, shields, missile evasion, laser ignition, mines, bombs, lethal hazards, pursuit symmetry, result ordering, reputation on elimination and varied seeded AI outcomes.
+- Canonical 404 asset verifier: **18/18 clean**, including all six newly armed spacecraft. The multi-angle sheet was visually inspected.
+- Ship validator: **35 modules / 1 page**, all parse and all paths remain inside the shipping folder.
+- Canonical `assetlib.js`, `surfaces.js`, `rig.js` are byte-identical to the recipe's harness copies.
+- Real pointer drag rotates the dock camera; all six crew previews remain available and five start locked. Phone crew/contract selectors and six race controls fit without overlap.
+- Real phone touch launches a missile and consumes a shield charge; simultaneous steering and boost, frozen pause time, resume and practice all pass.
+
+The first combat endurance run exceeded the triangle ceiling at 1,518,396 triangles. Distant scenery was then excluded from the lower-resolution reflection pass while retaining its main-view range. A following real-keyboard run completed all six sectors in **3:08.209**, first place, 26 supplies, 21 shots, five damaging hits and one player takedown. Rivals fired 30 shots; four rival crews were eliminated. Peak **637 draws / 1,197,986 triangles**. No AI values, race positions, ammo or unlocks were injected by the driver. Final-source confirmation and final classification are recorded in `evidence/combat-endurance-check.json`.
+
+Official recipe phone/4G gate on the final source above: **PASS**. 390×844 @3x, real touch, 4 Mbps down / 1 Mbps up, 60 ms latency, CPU 2×. Ready **15.030 s**, body **6.387 MB**, touch displacement **263.37 m** (353.75 m path), peak **443 draws / 929,886 triangles**, median **51.2 fps** on Apple M4 / ANGLE Metal, **zero errors or missing files**, no runtime external dependencies. This is throttled browser emulation, not a physical-phone benchmark. The preceding gate receipt is retained in `jam-combat-initial/`.
+
+The gate address is localhost. Publishing and competition submission have not been performed. All receipt details and screenshots are in `evidence/jam-combat/`.
+
+Final-source endurance confirmation: **PASS**, all six sectors, **3:08.059**, first place with Vesper finishing **1.783 seconds later**. The player recovered from sixth during the opening sector. **25 supplies, 17 shots, six damaging hits, two takedowns**; rivals fired 24 shots, and four rivals were eliminated. Peak **666 draws / 1,376,162 triangles**. The final table lists all six crews and their true finish/elimination status. The run earned 301 reputation; finish count, reputation and crew/contract unlocks survived reload. Raw data: `combat-endurance-check.json`.
+
+A separate observed run ended in player elimination on a lethal supply mine at 79.2% progress. Its telemetry is retained in `combat-elimination-observed.json`; the old test's assumption that every combat run must survive caused that assertion failure. The game correctly ended the run. A subsequent refinement added an explicit warning for lethal mines in the player's lane. The test now distinguishes a legitimate elimination from a software failure, and still requires all six sectors for a completed race. The final run above completed normally.

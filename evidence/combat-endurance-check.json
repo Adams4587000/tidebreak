@@ -1,0 +1,256 @@
+{
+  "sectors": [
+    {
+      "sector": 0,
+      "elapsed": 7.232900000000028,
+      "place": 6,
+      "draws": 400,
+      "tris": 786142,
+      "pickups": 1
+    },
+    {
+      "sector": 1,
+      "elapsed": 38.51509999999978,
+      "place": 3,
+      "draws": 288,
+      "tris": 905664,
+      "pickups": 3
+    },
+    {
+      "sector": 2,
+      "elapsed": 70.86390000000291,
+      "place": 2,
+      "draws": 162,
+      "tris": 361056,
+      "pickups": 8
+    },
+    {
+      "sector": 3,
+      "elapsed": 103.19580000000997,
+      "place": 3,
+      "draws": 277,
+      "tris": 627754,
+      "pickups": 13
+    },
+    {
+      "sector": 4,
+      "elapsed": 134.24450000001693,
+      "place": 2,
+      "draws": 202,
+      "tris": 477176,
+      "pickups": 16
+    },
+    {
+      "sector": 5,
+      "elapsed": 163.9600000000237,
+      "place": 1,
+      "draws": 170,
+      "tris": 295522,
+      "pickups": 21
+    }
+  ],
+  "peaks": {
+    "draws": 666,
+    "tris": 1376162
+  },
+  "errors": [],
+  "passed": true,
+  "lensMax": 22,
+  "actionFrame": true,
+  "result": {
+    "sector": 0,
+    "sectorName": "MERIDIAN",
+    "pickups": 25,
+    "roster": [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true
+    ],
+    "rivals": [
+      {
+        "id": "rival-1",
+        "name": "VESPER",
+        "s": 14011.442614740217,
+        "lane": -5.278428970052792,
+        "speed": 87.6209347475726,
+        "boost": 86.41558004935521,
+        "claimed": 27,
+        "shield": 0,
+        "invulnerable": 0,
+        "hits": 1,
+        "ammo": 2,
+        "eliminated": false,
+        "finished": false,
+        "shots": 10,
+        "damageDealt": 4
+      },
+      {
+        "id": "rival-2",
+        "name": "MOSS",
+        "s": 4402.653845528847,
+        "lane": -0.021646618994874866,
+        "speed": 0,
+        "boost": 23.960635345082004,
+        "claimed": 1,
+        "shield": 0,
+        "invulnerable": 6,
+        "hits": 3,
+        "ammo": 3,
+        "eliminated": true,
+        "finished": false,
+        "shots": 3,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-3",
+        "name": "CINDER",
+        "s": 4316.0436925761815,
+        "lane": 4.102872133836264,
+        "speed": 0,
+        "boost": 55.01348434271235,
+        "claimed": 8,
+        "shield": 0,
+        "invulnerable": 6,
+        "hits": 3,
+        "ammo": 4,
+        "eliminated": true,
+        "finished": false,
+        "shots": 2,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-4",
+        "name": "ECHO",
+        "s": 5867.440226461128,
+        "lane": -12.744925205638085,
+        "speed": 0,
+        "boost": 49.98902193104104,
+        "claimed": 3,
+        "shield": 0,
+        "invulnerable": 6,
+        "hits": 3,
+        "ammo": 4,
+        "eliminated": true,
+        "finished": false,
+        "shots": 4,
+        "damageDealt": 1
+      },
+      {
+        "id": "rival-5",
+        "name": "MARSHAL",
+        "s": 13170.455045999242,
+        "lane": 3.3066806095026995,
+        "speed": 0,
+        "boost": 18.460970804608944,
+        "claimed": 27,
+        "shield": 0,
+        "invulnerable": 6,
+        "hits": 3,
+        "ammo": 7,
+        "eliminated": true,
+        "finished": false,
+        "shots": 5,
+        "damageDealt": 0
+      }
+    ],
+    "lethalAhead": null,
+    "weapons": {
+      "ammo": 3,
+      "special": null,
+      "specialAmmo": 0,
+      "defenses": 1,
+      "hits": 1,
+      "kills": 2,
+      "shots": 17,
+      "damageDealt": 6,
+      "shield": 0,
+      "invulnerable": 0,
+      "eliminated": false,
+      "incoming": false,
+      "cooldown": 0.7501000000000054,
+      "projectiles": 0,
+      "pursuit": 0,
+      "drafting": false
+    },
+    "obstacleAhead": [],
+    "orbit": {
+      "yaw": 0.8759934999999998,
+      "pitch": 0.3
+    },
+    "lensDrops": 0,
+    "surgeWindow": null,
+    "craft": "KESTREL",
+    "foilAngle": 0.36519621661520435,
+    "engineIntensity": 1.4219372191772215,
+    "exhaustScale": 0.2,
+    "air": 0,
+    "pos": [
+      -1.164263315792294,
+      2149.458298595824
+    ],
+    "fps": 59.989783621925554,
+    "speed": 0,
+    "score": 13,
+    "over": true,
+    "draws": 171,
+    "tris": 545914,
+    "progress": 1,
+    "heading": 7.637483096187991,
+    "guideHeading": 1.2393415773997811,
+    "lateral": 2.370038078247199,
+    "boost": 2.9433999999995955,
+    "boosts": 610,
+    "jumps": 10,
+    "signals": 0,
+    "surges": 3,
+    "place": 1,
+    "chapter": 0,
+    "state": "results",
+    "unlocked": [
+      true,
+      true,
+      false
+    ],
+    "elapsed": 188.09240000002922,
+    "courseLength": 14162.879539986383,
+    "target": 1.295606169277512
+  },
+  "completedAllSectors": true,
+  "outcome": "finished",
+  "combat": {
+    "shots": 17,
+    "hits": 6,
+    "rivalShots": 24
+  },
+  "finalStandings": [
+    "1\nROOK / YOU\nKESTREL\n03:08.059\n●●○",
+    "2\nVESPER\nALBATROSS\n03:09.842\n●●○",
+    "3\nMARSHAL\nIRONCLAD\nELIMINATED · 93%\n○○○",
+    "4\nECHO\nSPECTRE\nELIMINATED · 41%\n○○○",
+    "5\nMOSS\nMANTA\nELIMINATED · 31%\n○○○",
+    "6\nCINDER\nBRIMSTONE\nELIMINATED · 30%\n○○○"
+  ],
+  "saved": {
+    "cleared": [
+      true,
+      false,
+      false
+    ],
+    "best": [
+      188.0590000000292,
+      null,
+      null
+    ],
+    "finishes": 1,
+    "podiums": 1,
+    "wins": 1,
+    "pickups": 25,
+    "reputation": 301,
+    "takedowns": 2,
+    "starts": 1,
+    "champion": false
+  }
+}

@@ -1,0 +1,686 @@
+[
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 286,
+  "tris": 22526,
+  "materials": 12,
+  "size": [
+   4.138,
+   3.24,
+   9.72
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.066,
+    "edgeDensity": 0.3312
+   },
+   "right": {
+    "coverage": 0.1064,
+    "edgeDensity": 0.2439
+   },
+   "back": {
+    "coverage": 0.0771,
+    "edgeDensity": 0.3116
+   },
+   "left": {
+    "coverage": 0.1092,
+    "edgeDensity": 0.228
+   }
+  },
+  "error": null,
+  "name": "albatross",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 310,
+  "tris": 25122,
+  "materials": 12,
+  "size": [
+   4.47,
+   3.183,
+   7.864
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1123,
+    "edgeDensity": 0.2201
+   },
+   "right": {
+    "coverage": 0.1376,
+    "edgeDensity": 0.1529
+   },
+   "back": {
+    "coverage": 0.1189,
+    "edgeDensity": 0.2889
+   },
+   "left": {
+    "coverage": 0.1444,
+    "edgeDensity": 0.1741
+   }
+  },
+  "error": null,
+  "name": "brimstone",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 5,
+  "tris": 336,
+  "materials": 4,
+  "size": [
+   2.4,
+   4.15,
+   2.4
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1304,
+    "edgeDensity": 0.0679
+   },
+   "right": {
+    "coverage": 0.1074,
+    "edgeDensity": 0.0495
+   },
+   "back": {
+    "coverage": 0.1377,
+    "edgeDensity": 0.0595
+   },
+   "left": {
+    "coverage": 0.1112,
+    "edgeDensity": 0.0478
+   }
+  },
+  "error": null,
+  "name": "buoy",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 44,
+  "tris": 5256,
+  "materials": 2,
+  "size": [
+   97.299,
+   46.47,
+   97.609
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1635,
+    "edgeDensity": 0.0665
+   },
+   "right": {
+    "coverage": 0.1646,
+    "edgeDensity": 0.0694
+   },
+   "back": {
+    "coverage": 0.1671,
+    "edgeDensity": 0.0693
+   },
+   "left": {
+    "coverage": 0.1676,
+    "edgeDensity": 0.0705
+   }
+  },
+  "error": null,
+  "name": "caldera",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 62,
+  "tris": 1764,
+  "materials": 4,
+  "size": [
+   13,
+   35.13,
+   37.078
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   -0.021
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0637,
+    "edgeDensity": 0.2471
+   },
+   "right": {
+    "coverage": 0.0893,
+    "edgeDensity": 0.1944
+   },
+   "back": {
+    "coverage": 0.0825,
+    "edgeDensity": 0.2334
+   },
+   "left": {
+    "coverage": 0.0907,
+    "edgeDensity": 0.1864
+   }
+  },
+  "error": null,
+  "name": "crane",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 40,
+  "tris": 520,
+  "materials": 4,
+  "size": [
+   45,
+   29.5,
+   10
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1794,
+    "edgeDensity": 0.1265
+   },
+   "right": {
+    "coverage": 0.1321,
+    "edgeDensity": 0.0593
+   },
+   "back": {
+    "coverage": 0.1798,
+    "edgeDensity": 0.0936
+   },
+   "left": {
+    "coverage": 0.1316,
+    "edgeDensity": 0.0583
+   }
+  },
+  "error": null,
+  "name": "gate",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 304,
+  "tris": 21562,
+  "materials": 12,
+  "size": [
+   5.044,
+   3.15,
+   8.368
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1326,
+    "edgeDensity": 0.2051
+   },
+   "right": {
+    "coverage": 0.1551,
+    "edgeDensity": 0.1602
+   },
+   "back": {
+    "coverage": 0.1194,
+    "edgeDensity": 0.259
+   },
+   "left": {
+    "coverage": 0.1595,
+    "edgeDensity": 0.1719
+   }
+  },
+  "error": null,
+  "name": "ironclad",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 299,
+  "tris": 22054,
+  "materials": 12,
+  "size": [
+   3.01,
+   3.185,
+   8.64
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0922,
+    "edgeDensity": 0.2146
+   },
+   "right": {
+    "coverage": 0.1123,
+    "edgeDensity": 0.1892
+   },
+   "back": {
+    "coverage": 0.0908,
+    "edgeDensity": 0.2506
+   },
+   "left": {
+    "coverage": 0.1324,
+    "edgeDensity": 0.168
+   }
+  },
+  "error": null,
+  "name": "kestrel",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 22,
+  "tris": 1160,
+  "materials": 5,
+  "size": [
+   12,
+   32,
+   12
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1335,
+    "edgeDensity": 0.0643
+   },
+   "right": {
+    "coverage": 0.1344,
+    "edgeDensity": 0.0703
+   },
+   "back": {
+    "coverage": 0.1293,
+    "edgeDensity": 0.0725
+   },
+   "left": {
+    "coverage": 0.1302,
+    "edgeDensity": 0.0887
+   }
+  },
+  "error": null,
+  "name": "lighthouse",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 537,
+  "tris": 4554,
+  "materials": 4,
+  "size": [
+   12.125,
+   10.487,
+   15.505
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0956,
+    "edgeDensity": 0.3881
+   },
+   "right": {
+    "coverage": 0.1069,
+    "edgeDensity": 0.4399
+   },
+   "back": {
+    "coverage": 0.0738,
+    "edgeDensity": 0.4001
+   },
+   "left": {
+    "coverage": 0.1142,
+    "edgeDensity": 0.443
+   }
+  },
+  "error": null,
+  "name": "mangrove",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 297,
+  "tris": 21978,
+  "materials": 12,
+  "size": [
+   5.845,
+   3.16,
+   8.07
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1019,
+    "edgeDensity": 0.2237
+   },
+   "right": {
+    "coverage": 0.1164,
+    "edgeDensity": 0.177
+   },
+   "back": {
+    "coverage": 0.1037,
+    "edgeDensity": 0.2524
+   },
+   "left": {
+    "coverage": 0.1198,
+    "edgeDensity": 0.1994
+   }
+  },
+  "error": null,
+  "name": "manta",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 141,
+  "tris": 3096,
+  "materials": 8,
+  "size": [
+   44.899,
+   21.695,
+   38.25
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   -0.45,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2822,
+    "edgeDensity": 0.0523
+   },
+   "right": {
+    "coverage": 0.2741,
+    "edgeDensity": 0.0655
+   },
+   "back": {
+    "coverage": 0.2818,
+    "edgeDensity": 0.1137
+   },
+   "left": {
+    "coverage": 0.3026,
+    "edgeDensity": 0.132
+   }
+  },
+  "error": null,
+  "name": "quay",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 16,
+  "tris": 192,
+  "materials": 3,
+  "size": [
+   14,
+   4.6,
+   17
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1404,
+    "edgeDensity": 0.1758
+   },
+   "right": {
+    "coverage": 0.2037,
+    "edgeDensity": 0.1079
+   },
+   "back": {
+    "coverage": 0.1651,
+    "edgeDensity": 0.1402
+   },
+   "left": {
+    "coverage": 0.2026,
+    "edgeDensity": 0.1141
+   }
+  },
+  "error": null,
+  "name": "ramp",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 6,
+  "tris": 1720,
+  "materials": 1,
+  "size": [
+   15.496,
+   21.44,
+   12.989
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.2386,
+    "edgeDensity": 0.0256
+   },
+   "right": {
+    "coverage": 0.2028,
+    "edgeDensity": 0.0283
+   },
+   "back": {
+    "coverage": 0.2391,
+    "edgeDensity": 0.0206
+   },
+   "left": {
+    "coverage": 0.2048,
+    "edgeDensity": 0.0205
+   }
+  },
+  "error": null,
+  "name": "rock",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 285,
+  "tris": 21438,
+  "materials": 12,
+  "size": [
+   3.168,
+   3.245,
+   8.904
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0803,
+    "edgeDensity": 0.2041
+   },
+   "right": {
+    "coverage": 0.1098,
+    "edgeDensity": 0.1511
+   },
+   "back": {
+    "coverage": 0.0834,
+    "edgeDensity": 0.2516
+   },
+   "left": {
+    "coverage": 0.1099,
+    "edgeDensity": 0.163
+   }
+  },
+  "error": null,
+  "name": "spectre",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 99,
+  "tris": 3252,
+  "materials": 4,
+  "size": [
+   90,
+   40,
+   23.88
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1965,
+    "edgeDensity": 0.121
+   },
+   "right": {
+    "coverage": 0.1487,
+    "edgeDensity": 0.0613
+   },
+   "back": {
+    "coverage": 0.1999,
+    "edgeDensity": 0.1502
+   },
+   "left": {
+    "coverage": 0.1532,
+    "edgeDensity": 0.069
+   }
+  },
+  "error": null,
+  "name": "spillway",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 659,
+  "tris": 9036,
+  "materials": 14,
+  "size": [
+   27.534,
+   30,
+   59.9
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.1462,
+    "edgeDensity": 0.1737
+   },
+   "right": {
+    "coverage": 0.2042,
+    "edgeDensity": 0.1795
+   },
+   "back": {
+    "coverage": 0.1652,
+    "edgeDensity": 0.3027
+   },
+   "left": {
+    "coverage": 0.2521,
+    "edgeDensity": 0.3945
+   }
+  },
+  "error": null,
+  "name": "stadium",
+  "problems": []
+ },
+ {
+  "ok": true,
+  "mounts": null,
+  "meshes": 114,
+  "tris": 2300,
+  "materials": 3,
+  "size": [
+   12,
+   22.128,
+   43.15
+  ],
+  "groundOffset": 0,
+  "centreOffset": [
+   0,
+   0
+  ],
+  "sides": {
+   "front": {
+    "coverage": 0.0749,
+    "edgeDensity": 0.1734
+   },
+   "right": {
+    "coverage": 0.1043,
+    "edgeDensity": 0.1392
+   },
+   "back": {
+    "coverage": 0.0823,
+    "edgeDensity": 0.231
+   },
+   "left": {
+    "coverage": 0.1072,
+    "edgeDensity": 0.1792
+   }
+  },
+  "error": null,
+  "name": "wreck",
+  "problems": []
+ }
+]

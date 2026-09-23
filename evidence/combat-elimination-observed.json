@@ -1,0 +1,230 @@
+{
+  "sectors": [
+    {
+      "sector": 0,
+      "elapsed": 6.516400000000031,
+      "place": 2,
+      "draws": 399,
+      "tris": 788962,
+      "pickups": 1
+    },
+    {
+      "sector": 1,
+      "elapsed": 40.264999999999844,
+      "place": 6,
+      "draws": 252,
+      "tris": 876596,
+      "pickups": 5
+    },
+    {
+      "sector": 2,
+      "elapsed": 71.44710000000293,
+      "place": 3,
+      "draws": 347,
+      "tris": 569012,
+      "pickups": 7
+    },
+    {
+      "sector": 3,
+      "elapsed": 104.76250000001026,
+      "place": 4,
+      "draws": 247,
+      "tris": 538698,
+      "pickups": 10
+    },
+    {
+      "sector": 4,
+      "elapsed": 136.14450000001722,
+      "place": 2,
+      "draws": 353,
+      "tris": 667290,
+      "pickups": 13
+    }
+  ],
+  "peaks": {
+    "draws": 642,
+    "tris": 1394396
+  },
+  "errors": [],
+  "passed": false,
+  "lensMax": 23,
+  "actionFrame": true,
+  "result": {
+    "sector": 4,
+    "sectorName": "THE SLUICE",
+    "pickups": 14,
+    "roster": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "rivals": [
+      {
+        "id": "rival-1",
+        "name": "VESPER",
+        "s": 11094.328849890424,
+        "lane": -12.03647467875025,
+        "speed": 59.98399277923298,
+        "boost": 43.85831556230512,
+        "claimed": 18,
+        "shield": 0,
+        "invulnerable": 0,
+        "hits": 2,
+        "ammo": 2,
+        "eliminated": false,
+        "finished": false,
+        "shots": 8,
+        "damageDealt": 2
+      },
+      {
+        "id": "rival-2",
+        "name": "MOSS",
+        "s": 3437.8094854008177,
+        "lane": -0.08344814225131106,
+        "speed": 0,
+        "boost": 24.13279146303443,
+        "claimed": 3,
+        "shield": 0,
+        "invulnerable": 6,
+        "hits": 3,
+        "ammo": 4,
+        "eliminated": true,
+        "finished": false,
+        "shots": 2,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-3",
+        "name": "CINDER",
+        "s": 11112.934019318105,
+        "lane": 6.0622329729994995,
+        "speed": 62.0935075079191,
+        "boost": 44.40107060702063,
+        "claimed": 19,
+        "shield": 0,
+        "invulnerable": 3.4668000000000236,
+        "hits": 1,
+        "ammo": 8,
+        "eliminated": false,
+        "finished": false,
+        "shots": 4,
+        "damageDealt": 2
+      },
+      {
+        "id": "rival-4",
+        "name": "ECHO",
+        "s": 11104.631699846797,
+        "lane": -17.455610041939156,
+        "speed": 81.62165856099509,
+        "boost": 34.64838969538859,
+        "claimed": 14,
+        "shield": 0,
+        "invulnerable": 0,
+        "hits": 2,
+        "ammo": 7,
+        "eliminated": false,
+        "finished": false,
+        "shots": 9,
+        "damageDealt": 5
+      },
+      {
+        "id": "rival-5",
+        "name": "MARSHAL",
+        "s": 6878.743837628471,
+        "lane": 4.678242262521933,
+        "speed": 0,
+        "boost": 36.17820000000013,
+        "claimed": 13,
+        "shield": 0,
+        "invulnerable": 6,
+        "hits": 3,
+        "ammo": 3,
+        "eliminated": true,
+        "finished": false,
+        "shots": 3,
+        "damageDealt": 0
+      }
+    ],
+    "nextPickup": {
+      "s": 11220,
+      "offset": 6,
+      "type": "BOMB"
+    },
+    "weapons": {
+      "ammo": 0,
+      "special": null,
+      "specialAmmo": 0,
+      "defenses": 2,
+      "hits": 3,
+      "kills": 1,
+      "shots": 13,
+      "damageDealt": 4,
+      "shield": 0,
+      "invulnerable": 6,
+      "eliminated": true,
+      "incoming": false,
+      "cooldown": 0,
+      "projectiles": 1,
+      "pursuit": 0,
+      "drafting": false
+    },
+    "obstacleAhead": [
+      {
+        "s": 11306.698832755797,
+        "offset": 14,
+        "radius": 7,
+        "kind": "BARRIER"
+      }
+    ],
+    "orbit": {
+      "yaw": 0.8781644999999997,
+      "pitch": 0.3
+    },
+    "lensDrops": 5,
+    "surgeWindow": {
+      "distance": 136.90783555320013,
+      "open": true,
+      "closesIn": 6.53949999997846,
+      "opensIn": 0
+    },
+    "craft": "KESTREL",
+    "foilAngle": 0.9334749861614867,
+    "engineIntensity": 1.4284882947402853,
+    "exhaustScale": 0.2,
+    "air": 3.5436453600001077,
+    "pos": [
+      -1922.1444893718854,
+      601.6036371996879
+    ],
+    "fps": 59.956940015804875,
+    "speed": 0,
+    "score": 11,
+    "over": true,
+    "draws": 176,
+    "tris": 506176,
+    "progress": 0.7920000000000001,
+    "heading": 6.334465182484019,
+    "guideHeading": -0.9197785243616706,
+    "lateral": 17.559014293065072,
+    "boost": 21.002999999999403,
+    "boosts": 427,
+    "jumps": 8,
+    "signals": 0,
+    "surges": 3,
+    "place": 4,
+    "chapter": 0,
+    "state": "results",
+    "unlocked": [
+      true,
+      false,
+      false
+    ],
+    "elapsed": 151.9272000000208,
+    "courseLength": 14162.879539986383,
+    "target": -0.6585201716448181
+  },
+  "failure": "AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:\n\n5 !== 6\n\n    at file:///Users/adams/Desktop/404_GAMES/tidebreak/tools/combat-endurance-check.mjs:26:77"
+}
