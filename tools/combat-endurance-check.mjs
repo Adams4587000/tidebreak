@@ -2,7 +2,7 @@ import puppeteer from '../../404-game-recipe/node_modules/puppeteer/lib/puppetee
 import fs from 'node:fs';import assert from 'node:assert/strict';
 const browser=await puppeteer.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader','--no-proxy-server']});
 const page=await browser.newPage();await page.setViewport({width:1440,height:900,deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
-const report={sectors:[],peaks:{draws:0,tris:0},errors,passed:false},held=new Set();
+const report={checkpoints:[],peaks:{draws:0,tris:0},errors,passed:false},held=new Set();
 async function key(k,on){if(on&&!held.has(k)){await page.keyboard.down(k);held.add(k);}else if(!on&&held.has(k)){await page.keyboard.up(k);held.delete(k);}}
 try{
  await page.goto('http://localhost:4173/');await page.waitForFunction('window.__READY__',{timeout:60000});

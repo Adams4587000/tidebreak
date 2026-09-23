@@ -1,0 +1,259 @@
+{
+  "fixture": "All territories unlocked for isolated full-course time trials; no race progress is injected.",
+  "routes": [
+    {
+      "arena": 1,
+      "id": "blackwater",
+      "checkpoints": [
+        {
+          "checkpoint": 0,
+          "elapsed": 5.366400000000015,
+          "draws": 189,
+          "tris": 660356
+        },
+        {
+          "checkpoint": 1,
+          "elapsed": 23.51579999999969,
+          "draws": 193,
+          "tris": 680814
+        },
+        {
+          "checkpoint": 2,
+          "elapsed": 43.1650000000001,
+          "draws": 105,
+          "tris": 492424
+        },
+        {
+          "checkpoint": 3,
+          "elapsed": 63.13090000000147,
+          "draws": 127,
+          "tris": 593144
+        },
+        {
+          "checkpoint": 4,
+          "elapsed": 83.26340000000579,
+          "draws": 125,
+          "tris": 541782
+        },
+        {
+          "checkpoint": 5,
+          "elapsed": 104.2292000000104,
+          "draws": 106,
+          "tris": 524742
+        }
+      ],
+      "peaks": {
+        "draws": 211,
+        "tris": 804206
+      },
+      "lensMax": 22,
+      "result": {
+        "menuStep": "arenas",
+        "arena": "blackwater",
+        "checkpoint": 5,
+        "sector": 1,
+        "sectorName": "DROWNED REACH",
+        "pickups": 18,
+        "roster": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "rivals": [
+          {
+            "id": "rival-1",
+            "name": "VESPER",
+            "s": 10,
+            "lane": -16,
+            "speed": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 8,
+            "invulnerable": 0,
+            "hits": 0,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-2",
+            "name": "MOSS",
+            "s": 10,
+            "lane": 0,
+            "speed": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 8,
+            "invulnerable": 0,
+            "hits": 0,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-3",
+            "name": "CINDER",
+            "s": 10,
+            "lane": 16,
+            "speed": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 8,
+            "invulnerable": 0,
+            "hits": 0,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-4",
+            "name": "ECHO",
+            "s": -3,
+            "lane": -12,
+            "speed": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 8,
+            "invulnerable": 0,
+            "hits": 0,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-5",
+            "name": "MARSHAL",
+            "s": -3,
+            "lane": 12,
+            "speed": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 8,
+            "invulnerable": 0,
+            "hits": 0,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          }
+        ],
+        "lethalAhead": null,
+        "weapons": {
+          "ammo": 6,
+          "special": "MINE",
+          "specialAmmo": 2,
+          "defenses": 1,
+          "hits": 0,
+          "kills": 0,
+          "shots": 0,
+          "damageDealt": 0,
+          "shield": 0,
+          "invulnerable": 0,
+          "eliminated": false,
+          "incoming": false,
+          "cooldown": 0,
+          "projectiles": 0,
+          "pursuit": 0,
+          "drafting": false
+        },
+        "obstacleAhead": [],
+        "orbit": {
+          "yaw": 0.9225789999999996,
+          "pitch": 0.3
+        },
+        "lensDrops": 4,
+        "surgeWindow": null,
+        "craft": "KESTREL",
+        "foilAngle": 0.11929829103787364,
+        "engineIntensity": 1.4322925957213524,
+        "exhaustScale": 0.2,
+        "air": 0,
+        "pos": [
+          1.6462779241522971,
+          1678.5549819603218
+        ],
+        "fps": 60.014383267545725,
+        "speed": 0,
+        "score": 10,
+        "over": true,
+        "draws": 127,
+        "tris": 531346,
+        "progress": 1.0000721794213785,
+        "heading": 7.309110212984134,
+        "guideHeading": 0.8026954990311098,
+        "lateral": 1.9066251306538016,
+        "boost": 7.472600000001265,
+        "boosts": 317,
+        "jumps": 10,
+        "signals": 0,
+        "surges": 0,
+        "place": 1,
+        "chapter": 1,
+        "state": "results",
+        "unlocked": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "elapsed": 119.4452000000137,
+        "courseLength": 9148.62091544421,
+        "target": 0.873570049533125
+      }
+    }
+  ],
+  "errors": [],
+  "geometry": [
+    {
+      "id": "meridian",
+      "length": 8446.83764021624,
+      "maxError": 0.0013259944945693727,
+      "maxTurn": 0.04553618925527037
+    },
+    {
+      "id": "blackwater",
+      "length": 9148.62091544421,
+      "maxError": 0.002989534686869457,
+      "maxTurn": 0.08802437822599331
+    },
+    {
+      "id": "splitstone",
+      "length": 9826.225601646633,
+      "maxError": 0.002229652917093029,
+      "maxTurn": 0.06700316107054127
+    },
+    {
+      "id": "ember",
+      "length": 8760.223614110211,
+      "maxError": 0.0015113096613396894,
+      "maxTurn": 0.055401768617568514
+    },
+    {
+      "id": "sluice",
+      "length": 9310.257857247476,
+      "maxError": 0.0014296275394893138,
+      "maxTurn": 0.047251594611339875
+    },
+    {
+      "id": "atlantic",
+      "length": 9414.414116762615,
+      "maxError": 0.0017414376148450514,
+      "maxTurn": 0.058346150539102304
+    }
+  ],
+  "passed": true
+}

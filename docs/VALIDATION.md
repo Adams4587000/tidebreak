@@ -1,3 +1,7 @@
+# Current standalone territory build
+
+The latest campaign, menu-flow and full-route evidence is in [TERRITORY-VALIDATION.md](TERRITORY-VALIDATION.md). The records below describe earlier prototypes and the superseded continuous-frontier campaign; their historical measurements do not describe the current menu flow. Current evidence files are identified in the new record.
+
 # Validation record — 22 September 2026
 
 The campaign check completed all six chapters from a fresh browser profile using keyboard input, then reloaded and verified every clearance and the championship. No position or progression mutations are used by that check.

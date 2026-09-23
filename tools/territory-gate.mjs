@@ -12,3 +12,5 @@ source=source.replace("import('puppeteer')",`import(${JSON.stringify(path.resolv
 const dir=path.join(root,'work');fs.mkdirSync(dir,{recursive:true});const adapter=path.join(dir,'territory-jam-adapter.mjs');fs.writeFileSync(adapter,source);
 console.log('404 gate with explicit Tidebreak title → dock → territory navigation adapter.');
 const result=spawnSync(process.execPath,[adapter,...process.argv.slice(2)],{stdio:'inherit',cwd:root});process.exitCode=result.status??1;
+const output=process.argv.find(a=>a.startsWith('--out='))?.slice(6)||'_jam';
+if(output){const file=path.resolve(root,output,'verdict.json');if(fs.existsSync(file)){const verdict=JSON.parse(fs.readFileSync(file,'utf8'));verdict.navigation_adapter={script:'tools/territory-gate.mjs',controls:['#enterdock','#arenasb','#startb'],canonical_file_modified:false,note:'Local gate with real setup taps; not an unmodified single-tap root-URL verdict.'};fs.writeFileSync(file,JSON.stringify(verdict,null,2)+'\n');}}
