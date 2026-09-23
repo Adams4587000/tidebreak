@@ -1,6 +1,6 @@
 # Tidebreak: armed endurance
 
-This expansion preserves the six original crews, their ridden hydrofoil spacecraft, the dystopian art direction, the three contracts, existing saved unlocks, and all six regions inside each continuous 14–16 km event. It changes the pace and the decisions made during the race. No imported models or copied commercial-game art are used.
+The combat expansion preserves the six original crews, ridden hydrofoil spacecraft and dystopian art direction. The subsequent [territory campaign](CAMPAIGN.md) replaces the three multi-biome contracts with six separate full races and migrates earned crew progress. The weapon and fairness rules below remain current. No imported models or copied commercial-game art are used.
 
 ## Research translated into original rules
 
@@ -51,7 +51,7 @@ The result table lists all six crews, actual finish times, active progress and e
 
 ## Presentation and implementation
 
-The dock is a monochrome industrial 3D inspection bay, with colored crews, missiles, launcher braces, cooling vents, laser apertures and mine cartridges. Drag rotates the camera, vertical drag changes elevation, scroll zooms, and the focused inspection area supports left/right arrows. Locked crews remain inspectable.
+The dock is an industrial 3D inspection bay with luminous turquoise rings, a colored flowing interface, and individually colored crews, missiles, launcher braces, cooling vents, laser apertures and mine cartridges. Drag rotates the camera, vertical drag changes elevation, scroll zooms, and the focused inspection area supports left/right arrows. Locked crews remain inspectable.
 
 Colored exhaust, moving projectiles, blast rings, named rival markers, live gaps and hull status make combat readable. The lens effect samples the actual rendered scene through curved droplet normals and drains drops under gravity. It replaces the prior CSS-only droplets; it is a lightweight screen-space approximation, not a full fluid simulation.
 

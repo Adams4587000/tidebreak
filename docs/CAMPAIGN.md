@@ -1,19 +1,40 @@
-# Current combat rules
+# Six territories of the Drowned Frontier
 
-The combat expansion supersedes the earlier speed, pickup frequency and reward values below. See [COMBAT.md](COMBAT.md) for the current shared arsenal, reputation unlocks, elimination and live classification. Existing saves remain compatible.
+The territory campaign supersedes the three continuous multi-biome contracts. Each arena is a complete race with one atmosphere, one continuous circuit, six named checkpoints, a starting grid and a finish line. Biomes do not change during a race. The route preview is drawn from the actual course spline.
 
-# The Drowned Frontier
+| Territory | Length | Race identity | Requirement to clear |
+|---|---:|---|---|
+| Meridian | 8.45 km | Flooded stadium opening and return, quays, crane yards, harbour bridges | Finish |
+| Drowned Reach | 9.15 km | Mangroves, blackwater bends, drowned wrecks, organic crossings | Top four |
+| Splitstone | 9.83 km | Tall slate banks, overhead stone arches, technical canyon turns | Podium |
+| Ember Basin | 8.76 km | Glowing basalt fissures, caldera spires, broken causeways | Podium |
+| The Sluice | 9.31 km | Concrete channels, monumental spillways, ten timed surge windows | Top two |
+| Outer Atlantic | 9.41 km | Rough swell, wreck fields, sea stacks, lighthouse landmarks | Win |
 
-Three endurance contracts each traverse the complete 14–16 km frontier. The opening Exile Run takes roughly four minutes at racing speed; mistakes and recovery extend it. All six sectors are physically present from the first event: decaying Meridian stadium, Drowned Reach mangroves, Splitstone gorge, Ember Basin, Authority Sluice and Atlantic wreck field. A sector change blends fog, water, lighting and wave amplitude while the same race continues.
+Each clearance opens only the next territory. Only Meridian is available on a fresh territory campaign. All locked territories can be previewed, including art, route, conditions and the exact prerequisite; their race button remains disabled. Practice is available only on unlocked territories and never grants campaign clearance.
 
-- Exile Run: finish. Unlock Blackwater Contract.
-- Blackwater Contract: finish on the podium. Unlock Last Authority.
-- Last Authority: win. Earn the Atlantic title.
+## Game flow
 
-Clean saves begin with Rook / Kestrel. Vesper / Albatross requires one completed race. Moss / Manta requires twelve perks collected across completed races. Cinder / Brimstone requires two podiums. Echo / Spectre requires four completed races. Marshal / Ironclad requires one win. Locked crews can be inspected but cannot start. Each pair has a distinct hull, helmet, equipment, handling and boost profile.
+The game name and Atlas title artwork appear during asset loading. The progress bar becomes **Enter the dock** only once the game is ready. The title never starts a race automatically.
 
-Practice updates best times without granting contracts, finishes, perks or roster progress. Aborting and restarting grant nothing. Endurance progress persists in `tidebreak.endurance.v2`; prototype v1 environment clearances are retained in the browser but intentionally do not become v2 unlocks.
+The dock is solely for choosing a rider/machine pair and inspecting the live 3D model. **Choose territory** opens a separate arena screen. **Back to crew** preserves the selected crew. Locked crews remain inspectable but cannot proceed to arena selection. Each crew retains its original colors, geometry, equipment and unlock milestones.
 
-Supply stations offer separate lanes containing charge (+60 energy), shield (9 seconds of contact protection), overdrive (5 seconds at 12% higher target speed), or repair (+35 energy and 3 seconds of protection). Each item has one owner. Earliest swept contact wins; first array position does not. Rivals use the same effects and finite boost reserve. Supplies do not respawn during a race.
+The arena screen shows all six territories, illustrated cards, lock icons, the selected route, race conditions, personal best and objective. **Race this territory** builds the selected world, then starts the original 3–2–1 countdown. Results retain all competitor standings; **Back to dock** prepares the next available territory without silently starting it.
 
-Opponents follow anticipatory course lines, seek nearby supplies, avoid another rival's lane, slow for tighter corners, expend/recharge energy and occasionally make line errors. They do not rubber-band to the player's position. Later contracts tighten their pace slightly. This is racing AI on route coordinates, not a full independent rigid-body vehicle simulation; it does not reproduce every physical effect of the player controller.
+## Career and persistence
+
+The new key is `tidebreak.territories.v3`. On first use, career totals migrate from `tidebreak.endurance.v2`: finishes, podiums, wins, completed-race pickups, reputation, takedowns and starts. Those totals retain earned crews. Old contract times and clearances do not become records on different new circuits. The legacy save remains untouched. Subsequent saves use the v3 key.
+
+Rook / Kestrel is the starter. Vesper unlocks after one finish or 180 reputation; Moss after 12 completed-race supplies or 350 reputation; Cinder after two podiums or 700 reputation; Echo after four finishes or 1,000 reputation; Marshal after one win or 1,800 reputation. Elimination earns participation reputation without faking a finish. Aborted runs grant nothing. Time trials save best times only.
+
+## Shared combat
+
+The original missile, shield, special, three-hit elimination, pursuit, drafting and finite supply rules remain in [COMBAT.md](COMBAT.md). Supply rows stay 460 m apart. Difficulty increases gradually from 0 to 2 across the campaign, rather than accidentally doubling the old opponent speed escalation when expanding from three events to six.
+
+Rival crews still use independent decisions on route coordinates and can fight, miss, collect, fail and finish. Scenery obstacles affect any crew that strikes them. The player retains free steering, buoyancy, ramps, recovery and lens splashes.
+
+## Implementation
+
+`campaign.js` defines objectives, independent route parameters and six local checkpoint names for each territory. `course.js` separates the constant environment index from checkpoint progress. Nearest-position projection considers both adjacent segments, removing the old roughly one-metre sampling error. `world.js` constructs the entire selected environment, uses arena-specific crossings and obstructions, and puts timed surge gates only in the Sluice. Scenery remains spatially batched and culled through the canonical 404 helpers.
+
+Atlas arena images are menu illustrations, not screenshots or a claim of matching photorealistic runtime geometry. The race uses original procedural 3D assets and Atlas material maps.

@@ -1,0 +1,247 @@
+[
+  {
+    "fid": "84361585-e17a-44d4-82bb-3137e849eb96",
+    "name": "output",
+    "filename": "output.png",
+    "description": "This image features a futuristic setting with industrial buildings and a pier in the background, under a moody sky.\n\nIn the foreground, a person wearing a helmet and tactical gear is riding a futuristic hovercraft/watercraft equipped with three glowing blue thrusters. The vehicle is partially cropped by the right and bottom edges of the frame.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 3756487,
+    "created_at_ms": 1790179417873,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/84361585-e17a-44d4-82bb-3137e849eb96",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "ea757122-f254-498c-b9f9-f4aca64dade9",
+    "name": "output",
+    "filename": "output.png",
+    "description": "I can't identify any objects in this image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 4376419,
+    "created_at_ms": 1790179388930,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/ea757122-f254-498c-b9f9-f4aca64dade9",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "1ad53525-f86d-4097-aa99-8392be3fed4a",
+    "name": "output",
+    "filename": "output.png",
+    "description": "This image depicts a haunting, atmospheric scene of a jungle swamp containing several shipwrecks and navigational buoys:\n\n*   **Jungle/Swamp Environment:** A dense, misty wetland filled with ancient trees featuring sprawling, gnarled roots that extend into the water and branches covered in hanging vines overhead. The water's surface reflects the gloomy atmosphere and the surrounding scenery.\n*   **Shipwrecks:** Multiple rusted, abandoned ships are resting in the shallow water, partially overgrown with moss and vegetation.\n    *   One large shipwreck is visible on the right side, tilted and partially submerged, though its details are slightly cropped by the right edge.\n    *   Another shipwreck is visible further back in the left-center area.\n    *   Additional smaller or more distant wrecks can be seen partially submerged or faded into the mist.\n*   **Buoys:** Rusty metal navigational buoys protrude from the water in the foreground, complete with chains and structural frameworks.\n    *   A prominent buoy stands on the left foreground, fully visible from its base in the water to its top sphere.\n    *   A smaller buoy can be seen further back towards the right.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 4398164,
+    "created_at_ms": 1790179411176,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/1ad53525-f86d-4097-aa99-8392be3fed4a",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "2532ccb9-c9f7-4d6d-9ef9-94e3555d2852",
+    "name": "output",
+    "filename": "output.png",
+    "description": "I can't identify individual objects inside this image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 4577360,
+    "created_at_ms": 1790179414214,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/2532ccb9-c9f7-4d6d-9ef9-94e3555d2852",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "bc9db419-43fd-487b-915f-1a018fcb47f4",
+    "name": "output",
+    "filename": "output.png",
+    "description": "I can't identify any objects in the image.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 4171211,
+    "created_at_ms": 1790179388602,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/bc9db419-43fd-487b-915f-1a018fcb47f4",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "c2e89306-724e-4a86-adc2-6b79e69abdce",
+    "name": "output",
+    "filename": "output.png",
+    "description": "Based on the image, here is what is present along with details on whether they are cropped:\n\n*   **Large Dam (Spillway/Hydroelectric structure):** The concrete dam structure dominates the left and center. It is **cropped** on the left side, as the leftmost wall extends out of the frame.\n*   **Water/River:** The rushing water with white foam flows through the dam's spillways into the churning river below. The water surface extends to the bottom and right edges, so it is **cropped** by the image boundaries.\n*   **Metal Arch Bridge:** A large, weathered steel arch bridge spans across the background behind the dam. The right side of the bridge is **cropped** by the top-right corner of the frame.\n*   **Sky and Clouds:** Overcast, stormy sky visible in the upper portion, **cropped** at the top edge.\n*   **Rocks:** Foreground rocks on the lower right are **cropped** by the right edge.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 4144379,
+    "created_at_ms": 1790179386615,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/c2e89306-724e-4a86-adc2-6b79e69abdce",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "5b0fdebb-6092-453c-8c6a-1bbd9b20b663",
+    "name": "output",
+    "filename": "output.png",
+    "description": "Based on the image, here is what is present along with the cropping status for the prominent objects:\n\n*   **Shipwrecks:**\n    *   **Foreground right shipwreck:** This large, rusted hull dominates the lower right portion and is **cropped** (the right side and top edge extend beyond the frame).\n    *   **Mid-ground cargo ship:** Positioned centrally, this large rust-covered vessel is **fully visible**.\n    *   **Background left tilted ship:** Located near the rocky pillars, its bow is thrust upward; it appears **fully visible**.\n    *   **Background middle ship (partially submerged/mid-wreck):** Located behind the central ship, it appears **fully visible**.\n    *   **Foreground left wreckage:** Scattered wooden/metal debris in the lower left corner is **cropped** at the left edge.\n*   **Rocky spires/Sea stacks:** Several sharp, jagged rock formations rise out of the turbulent sea across the middle ground and background. The ones on the far right and left edges are **cropped** by the image borders.\n*   **Ocean and waves:** Rough, choppy seas with white foam crests and crashing waves surrounding the wrecks and rocks.\n*   **Sky:** Dark, dramatic storm clouds with breaks of light and sunbeams shining down on the sea.\n*   **Birds:** Several seagulls are visible flying in the upper left sky.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 1152
+    },
+    "size_bytes": 4288298,
+    "created_at_ms": 1790179383634,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/5b0fdebb-6092-453c-8c6a-1bbd9b20b663",
+      "requires_api_key": true
+    }
+  }
+]

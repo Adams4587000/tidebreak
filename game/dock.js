@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import {bakeStatic} from './assetlib.js';
 export function createDock(){
- const group=new THREE.Group(),steel=new THREE.MeshStandardMaterial({color:0x24272a,roughness:.65,metalness:.55}),black=new THREE.MeshStandardMaterial({color:0x101214,roughness:.8}),white=new THREE.MeshBasicMaterial({color:0xc8d2d8});
+ const group=new THREE.Group(),steel=new THREE.MeshStandardMaterial({color:0x1c3038,roughness:.65,metalness:.55}),black=new THREE.MeshStandardMaterial({color:0x0c1c25,roughness:.8}),white=new THREE.MeshBasicMaterial({color:0x71e7dc});
  function box(x,y,z,w,h,d,m=steel){const o=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),m);o.position.set(x,y,z);o.receiveShadow=true;group.add(o);return o;}
  const floor=new THREE.Mesh(new THREE.CylinderGeometry(22,22,.3,80),black);floor.position.y=-.45;floor.receiveShadow=true;group.add(floor);
  for(const r of [5.7,6,10,17]){const ring=new THREE.Mesh(new THREE.TorusGeometry(r,.018,4,100),white);ring.rotation.x=-Math.PI/2;ring.position.y=-.26;group.add(ring);}

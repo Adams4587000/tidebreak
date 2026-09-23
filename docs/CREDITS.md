@@ -6,6 +6,24 @@ All shipping 3D shapes are original Three.js constructor/operation geometry. No 
 
 Visual project: `29d918d9-ef79-4b7a-9519-575ad93f2405`.
 
+### Territory menu production — 23 September 2026
+
+Seven separate FLUX.2 Max images generated through Atlas MCP, 2048×1152 originals. The turn reported 170 total credits, including seven 19-credit image executions. The game ships resized WebP copies: 1600×900 title, 960×540 arena illustrations, approximately 0.76 MB combined. Originals and authenticated asset descriptors are kept outside `game/`; no API key is stored there or shipped.
+
+| Shipping use | Output FID |
+|---|---|
+| Title artwork | `84361585-e17a-44d4-82bb-3137e849eb96` |
+| Meridian illustration | `ea757122-f254-498c-b9f9-f4aca64dade9` |
+| Drowned Reach illustration | `1ad53525-f86d-4097-aa99-8392be3fed4a` |
+| Splitstone illustration | `2532ccb9-c9f7-4d6d-9ef9-94e3555d2852` |
+| Ember Basin illustration | `bc9db419-43fd-487b-915f-1a018fcb47f4` |
+| Sluice illustration | `c2e89306-724e-4a86-adc2-6b79e69abdce` |
+| Atlantic illustration | `5b0fdebb-6092-453c-8c6a-1bbd9b20b663` |
+
+These are illustrated menu assets, not runtime screenshots or imported 3D geometry. Existing Atlas steel, carbon, terrain, water, armory and audio assets remain in use.
+
+### Earlier production assets
+
 | Use | Atlas backend | Original output FID |
 |---|---|---|
 | Retired hydroplane reference | FLUX.2 Max | 8a1f8d45-14f4-4a25-a431-d217b242648a |
