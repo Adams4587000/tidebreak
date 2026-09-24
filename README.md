@@ -2,6 +2,10 @@
 
 An original dystopian hydro-speeder combat racer built with Three.js, the 404 game recipe asset pipeline and Atlas MCP art production. Six exposed rider–machine pairs compete across six complete territories: flooded stadium, mangrove swamp, wet gorge, volcanic caldera, decaying spillway and Atlantic wreck field.
 
+**New contributor?** See [CONTRIBUTING.md](CONTRIBUTING.md) for cloning, the pinned 404 tool setup, the code map and the branch/pull-request workflow. The game runs without an Atlas key or a build step. Production rules are in [AGENTS.md](AGENTS.md).
+
+![Tidebreak's live 3D rider and spacecraft dock](evidence/territory-dock-1440x900.png)
+
 ## Play locally
 
 ```sh
@@ -46,6 +50,6 @@ Browser checks run sequentially and require the local server. The combat driver 
 
 The unmodified 404 jam harness now starts the full combat race through the visible Quick Race control, using its supported `--start` argument. The dock/territory setup path remains available and is checked separately with real inputs. The historical navigation adapter is no longer used for current gate evidence. Local passes are not live submission verdicts. See [compliance status](docs/COMPLIANCE.md) and [future production rules](AGENTS.md).
 
-This remains a browser game with procedural geometry, not demonstrated commercial AAA photorealism. Water reflections use a limited-resolution planar render; scenery repeats modular assets; AI follows route coordinates rather than the player's full free-steering physics. Broad physical-phone testing and a deployed competition gate are still needed. No publication or submission has been performed.
+This remains a browser game with procedural geometry, not demonstrated commercial AAA photorealism. Water reflections use a limited-resolution planar render; scenery repeats modular assets; AI follows route coordinates rather than the player's full free-steering physics. Broad physical-phone testing and a deployed competition gate are still needed. GitHub source sharing is for collaboration; no game deployment or competition submission has been performed.
 
 See [production scope](docs/DYSTOPIA.md), [campaign](docs/CAMPAIGN.md), [style](docs/STYLE.md), [provenance](docs/CREDITS.md) and [current validation](docs/COMPLIANCE-VALIDATION.md).

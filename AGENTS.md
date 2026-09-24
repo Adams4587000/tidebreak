@@ -14,4 +14,4 @@ Read docs/COMPLIANCE.md, docs/STYLE.md, docs/QUALITY.md and docs/CREDITS.md befo
 - Keep credentials outside source, evidence and shipped files. Never write API keys or saved authorization headers. Ship only game/.
 - Do not claim full compliance, physical-phone performance, live deployment, public source availability, or completed blind reviews without corresponding evidence. docs/COMPLIANCE.md records open release requirements.
 
-Current user instruction: save locally only. Do not configure a remote, publish, deploy or submit until the user supplies that direction. The live competition verdict remains a deferred release step.
+Current user instruction: publish the source to Adams4587000's GitHub for collaboration and preserve the existing history. Follow CONTRIBUTING.md for setup and review. GitHub source sharing does not authorize game deployment or competition submission; those and the live competition verdict remain deferred release steps.
