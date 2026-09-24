@@ -40,3 +40,17 @@ Real keyboard driving, explicitly unlocked time-trial fixture; every course cros
 | ember | 114.16 | 254 | 608,378 |
 | sluice | 112.60 | 320 | 671,586 |
 | atlantic | 120.98 | 261 | 338,498 |
+
+## Source and evidence history
+
+Runtime and remediation source commit: `a52d1c6474646a724d2b92245ab04e8e7a0f201b`. Final gate receipts are saved in a following evidence-only commit; runtime files remain identical. The staged whitespace check reported four trailing-space lines in immutable legacy candidate snapshots (caldera, spillway, stadium and wreck). Those exact historical bytes are deliberately retained with their recorded hashes; no current runtime edit has a whitespace warning.
+
+## Final unchanged local jam gate: PASS
+
+Command: `node ../404-game-recipe/harness/jam.mjs http://localhost:4173/ --start=#quickraceb --out=evidence/compliance/stock-local-final --commit=a52d1c6474646a724d2b92245ab04e8e7a0f201b`. Full untouched verdict and screenshots: `evidence/compliance/stock-local-final/`; stdout: `stock-local-final.log`.
+
+Phone viewport 390×844 at 3×, real touch, Android Chrome user agent, 4 Mbps down / 1 Mbps up / 60 ms latency and 2× CPU slowdown. Ready in 14.66 s; 6.56 MB body bytes; 302.4 m displacement; 425.9 m driven path; 487 peak draws; 981,900 peak triangles; 57.8 median fps on Apple M4 Metal. Zero console errors, missing files, external dependencies or out-of-folder requests.
+
+These figures describe this local gate run only. Public hosting and physical-phone checks remain deferred, and this is not a submission verdict for a live URL.
+
+Inspection of the final portrait moving capture also shows a nearby racer filling the lower foreground during the crowded launch. The course and forward racer remain visible, but close-pack camera occlusion is a remaining composition concern, not something the technical gate certifies.

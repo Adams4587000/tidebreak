@@ -13,6 +13,8 @@ The approved game is preserved while the concrete process gaps are corrected. Th
 
 ## Validation records
 
+The final unmodified local phone/4G gate passed on source commit `a52d1c6474646a724d2b92245ab04e8e7a0f201b`: 14.7 s ready, 6.6 MB, 487 draws, 981,900 triangles and zero errors. All six full-course real-input runs passed. See [the validation record](COMPLIANCE-VALIDATION.md).
+
 `evidence/compliance/` contains the stock local gate, canonical verifier/selftest logs, provenance guard, quick-start real-input checks and reference/candidate/scene review packets. The regular flow, touch and full-race checks remain in `evidence/`. Historical adapted gate verdicts are retained as historical evidence and are not submission verdicts.
 
 ## Deferred by explicit user instruction
