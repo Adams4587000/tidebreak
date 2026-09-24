@@ -1,0 +1,28 @@
+ok    albatross               22526 tris  286 meshes  4.138x3.24x9.72m
+ok    barrier                   368 tris  26 meshes  12.38x2.051x5m
+ok    bridge                    192 tris  16 meshes  68x18.5x8m
+ok    brimstone               25122 tris  310 meshes  4.47x3.183x7.864m
+ok    buoy                      336 tris  5 meshes  2.4x4.15x2.4m
+ok    caldera                  5256 tris  44 meshes  97.299x46.47x97.609m
+ok    crane                    1764 tris  62 meshes  13x35.13x37.078m
+ok    dock                     4480 tris  85 meshes  44x13x44m
+ok    edge-buoy                 288 tris  8 meshes  1.4x1.9x1.4m
+ok    gate                      520 tris  40 meshes  45x29.5x10m
+ok    ironclad                21562 tris  304 meshes  5.044x3.15x8.368m
+ok    kestrel                 22054 tris  299 meshes  3.01x3.185x8.64m
+ok    lethal-supply            1064 tris  7 meshes  2.672x3.01x2.2m
+ok    lighthouse               1160 tris  22 meshes  12x32x12m
+ok    mangrove                 4554 tris  537 meshes  12.125x10.487x15.505m
+ok    manta                   21978 tris  297 meshes  5.845x3.16x8.07m
+ok    quay                     3096 tris  141 meshes  44.899x21.695x38.25m
+ok    ramp                      192 tris  16 meshes  14x4.6x17m
+ok    rock                     1720 tris  6 meshes  15.496x21.44x12.989m
+ok    spectre                 21438 tris  285 meshes  3.168x3.245x8.904m
+ok    spillway                 3252 tris  99 meshes  90x40x23.88m
+ok    stadium                  9036 tris  659 meshes  27.534x30x59.9m
+ok    supply                    288 tris  3 meshes  2.74x3.42x2.2m
+ok    wreck                    2300 tris  114 meshes  12x22.128x43.15m
+
+24/24 clean
+sheet:  /Users/adams/Desktop/404_GAMES/tidebreak/game/assets/_verify/sheet.png
+report: /Users/adams/Desktop/404_GAMES/tidebreak/game/assets/_verify/report.json

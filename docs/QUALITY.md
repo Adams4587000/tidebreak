@@ -10,7 +10,11 @@ The target is the strongest original game we can demonstrate within the jam cons
 - Verify that waves and boat motion agree; spray must originate at hull contact.
 
 ## Reference process
-Atlas produces references and images. The recipe recommends three independent geometry approaches per asset. This build compares multiple boat silhouettes and prop variants, then refines selected modules in context; some prop candidates are parameter variants rather than independent constructions. The dystopian rebuild uses six distinct hull construction branches and iterative material, multi-angle and full-race review; it does not claim the longest recipe’s full three-independent-candidates-per-asset or blind AAA comparison workflow. Shipping geometry is verified and reviewed from multiple sides. Keep references and rejected candidates outside the shipping folder. Shared art direction: STYLE.md.
+Atlas MCP supplies all external generated references, images and audio. The 24 September compliance remediation records 24 modeled objects, each with the preserved legacy construction and two new constructions using different topology or part breakdown. All 72 were rendered by the canonical verifier and inspected from four orthographic sides plus three-quarter view. Decisions and hashes are in `docs/compliance/asset-ledger.json`. Three placeholder scenery objects were replaced; the six detailed fleet models won their comparisons and remain intact.
+
+This is a retrospective correction. It does not turn earlier parameter variants into independent constructions, or the approved iterated game into a one-pass floor. New/replaced objects must start with inspected references and complete the three-candidate loop before shipping. Runtime procedural water, sky, particles, projectiles and course markings are explicitly inventoried in `pipeline-lock.json`, not counted as static modeled props. Atlas reference imagery is never misrepresented as a rendered game frame.
+
+Independent moving-frame comparison uses a separate stateless vision critic configured through Atlas MCP, with anonymous paired frames and no comparison key or implementation context. Critiques and remediation decisions must be preserved, including losses to commercial references. Current completion status is in COMPLIANCE.md.
 
 ## Lessons adapted from the user's Rust 17 notes
 - A real-input race gate exercises turns, boost, route choice, finish and restart.
@@ -20,7 +24,7 @@ Atlas produces references and images. The recipe recommends three independent ge
 - Keep static batches spatially bounded and preserve animated asset hierarchies.
 - Use selective detail at the camera, not unconditional 2K textures or chamfers everywhere.
 - No blanket desert effects: dust, heat shimmer, worn paths and sand fillets do not transfer to every location.
-- Preserve each review's screenshots and verdict. Repeated structural failure requires redesign.
+- Preserve each review's screenshots and verdict. Repeated structural failure requires redesign or an explicitly recorded remaining limitation.
 
 ## Budgets
 External jam ceilings: 20 seconds ready on the supplied 4G profile; 10 MB body bytes; 900 draws; 1.5 million triangles. Aim below these with room for worst-case viewpoints and phone layout. Treat software-rendered fps only as a diagnostic. Measure real-device performance separately.

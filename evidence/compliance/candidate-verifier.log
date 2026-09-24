@@ -1,0 +1,89 @@
+ok    albatross__assembly      4020 tris  117 meshes  4x3.1x8m
+ok    albatross__legacy       22526 tris  286 meshes  4.138x3.24x9.72m
+ok    albatross__profile       7576 tris  105 meshes  4.1x3.1x8.5m
+ok    barrier__assembly         228 tris  11 meshes  12.3x2x5m
+WARN  barrier__legacy            12 tris  1 meshes  12x2x5m
+        only 12 triangles, too crude to be finished
+ok    barrier__profile          368 tris  26 meshes  12.38x2.051x5m
+WARN  bridge__assembly         2272 tris  76 meshes  68x16.12x9m
+        right face is nearly featureless next to the others, it was probably never modelled
+ok    bridge__legacy            192 tris  16 meshes  68x18.5x8m
+ok    bridge__profile          1812 tris  46 meshes  68x16.145x8.14m
+ok    brimstone__assembly      5932 tris  122 meshes  4.54x3.1x6.703m
+ok    brimstone__legacy       25122 tris  310 meshes  4.47x3.183x7.864m
+ok    brimstone__profile       8688 tris  112 meshes  4.48x3.1x6.803m
+ok    buoy__assembly            552 tris  9 meshes  2.4x4.1x2.4m
+ok    buoy__legacy              336 tris  5 meshes  2.4x4.15x2.4m
+ok    buoy__profile            1296 tris  10 meshes  2.4x4x2.4m
+ok    caldera__assembly        7040 tris  27 meshes  94.2x41.901x94.2m
+ok    caldera__legacy          5256 tris  44 meshes  97.299x46.47x97.609m
+ok    caldera__profile         2432 tris  9 meshes  94.159x42.105x94.576m
+ok    crane__assembly          1504 tris  52 meshes  14x36.073x37.598m
+ok    crane__legacy            1764 tris  62 meshes  13x35.13x37.078m
+ok    crane__profile           1880 tris  55 meshes  13x31.22x36.141m
+ok    dock__assembly           3616 tris  37 meshes  44x14.154x44m
+ok    dock__legacy             4480 tris  85 meshes  44x13x44m
+ok    dock__profile            3576 tris  68 meshes  44x13.17x44m
+ok    edge-buoy__assembly       608 tris  4 meshes  1.4x1.8x1.4m
+WARN  edge-buoy__legacy          32 tris  1 meshes  1.4x1.8x1.4m
+        only 32 triangles, too crude to be finished
+ok    edge-buoy__profile        288 tris  8 meshes  1.4x1.9x1.4m
+ok    gate__assembly           1612 tris  61 meshes  46x29.5x11m
+ok    gate__legacy              520 tris  40 meshes  45x29.5x10m
+ok    gate__profile             940 tris  33 meshes  46x32x11.2m
+ok    ironclad__assembly       3936 tris  117 meshes  5.1x3.1x7.803m
+ok    ironclad__legacy        21562 tris  304 meshes  5.044x3.15x8.368m
+ok    ironclad__profile        6972 tris  106 meshes  4.9x3.1x6.827m
+ok    kestrel__assembly        3976 tris  117 meshes  2.95x3.1x8.153m
+ok    kestrel__legacy         22054 tris  299 meshes  3.01x3.185x8.64m
+ok    kestrel__profile         7592 tris  106 meshes  3.104x3.1x7.103m
+ok    lethal-supply__assembly    440 tris  12 meshes  2.825x2.93x2.2m
+WARN  lethal-supply__legacy      96 tris  3 meshes  2.666x3.453x2.2m
+        only 96 triangles, too crude to be finished
+ok    lethal-supply__profile   1064 tris  7 meshes  2.672x3.01x2.2m
+ok    lighthouse__assembly     2332 tris  62 meshes  10x31.6x10m
+ok    lighthouse__legacy       1160 tris  22 meshes  12x32x12m
+ok    lighthouse__profile      2156 tris  91 meshes  9.718x31.25x9.733m
+ok    mangrove__assembly      15424 tris  72 meshes  13.802x11.309x13.214m
+ok    mangrove__legacy         4554 tris  537 meshes  12.125x10.487x15.505m
+ok    mangrove__profile        3264 tris  158 meshes  14.32x10.612x13.835m
+ok    manta__assembly          3896 tris  114 meshes  6.784x3.1x6.327m
+ok    manta__legacy           21978 tris  297 meshes  5.845x3.16x8.07m
+ok    manta__profile           6108 tris  115 meshes  5.8x3.1x6.403m
+ok    quay__assembly           2136 tris  68 meshes  44.217x19.429x38m
+ok    quay__legacy             3096 tris  141 meshes  44.899x21.695x38.25m
+ok    quay__profile            2312 tris  103 meshes  44.617x21x39m
+WARN  ramp__assembly            616 tris  28 meshes  14x4.669x16.184m
+        front face is nearly featureless next to the others, it was probably never modelled
+ok    ramp__legacy              192 tris  16 meshes  14x4.6x17m
+ok    ramp__profile             832 tris  19 meshes  14x4.3x16.15m
+ok    rock__assembly           3732 tris  163 meshes  15.018x18.964x13.483m
+ok    rock__legacy             1720 tris  6 meshes  15.496x21.44x12.989m
+ok    rock__profile             924 tris  21 meshes  14.501x17.8x12.067m
+ok    spectre__assembly        3960 tris  114 meshes  3.155x3.1x7.903m
+ok    spectre__legacy         21438 tris  285 meshes  3.168x3.245x8.904m
+ok    spectre__profile         6128 tris  103 meshes  3.14x3.1x7.503m
+ok    spillway__assembly       5288 tris  84 meshes  91x41.5x19m
+ok    spillway__legacy         3252 tris  99 meshes  90x40x23.88m
+ok    spillway__profile        3104 tris  68 meshes  90x38x32m
+WARN  stadium__assembly        4264 tris  322 meshes  25.941x31x60m
+        right face is nearly featureless next to the others, it was probably never modelled
+ok    stadium__legacy          9036 tris  659 meshes  27.534x30x59.9m
+WARN  stadium__profile         6928 tris  324 meshes  24.984x30x59.8m
+        right face is nearly featureless next to the others, it was probably never modelled
+ok    supply__assembly          944 tris  11 meshes  2.8x3.4x2.2m
+ok    supply__legacy            288 tris  3 meshes  2.74x3.42x2.2m
+ok    supply__profile           852 tris  12 meshes  2.66x3.33x2.2m
+WARN  wreck__assembly          3928 tris  54 meshes  11.37x21.706x43.05m
+        left face is nearly featureless next to the others, it was probably never modelled
+ok    wreck__legacy            2300 tris  114 meshes  12x22.128x43.15m
+WARN  wreck__profile           1224 tris  48 meshes  10.35x22.039x43.1m
+        right face is nearly featureless next to the others, it was probably never modelled
+        left face is nearly featureless next to the others, it was probably never modelled
+
+63/72 clean
+sheet:  /Users/adams/Desktop/404_GAMES/tidebreak/candidates/compliance/_verify/sheet.png
+report: /Users/adams/Desktop/404_GAMES/tidebreak/candidates/compliance/_verify/report.json
+
+Look at the sheet before you fix anything. The measurements below flag structure,
+they cannot tell you whether the asset resembles what you asked for.

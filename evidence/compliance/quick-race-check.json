@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "viewport": {
+        "width": 390,
+        "height": 667,
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "layout": {
+        "x": 31.1875,
+        "y": 479.2734375,
+        "width": 220.65625,
+        "height": 50,
+        "bottom": 529.2734375,
+        "right": 251.84375
+      },
+      "speed": 91.84474262759608,
+      "draws": 349,
+      "tris": 796426
+    },
+    {
+      "viewport": {
+        "width": 844,
+        "height": 390,
+        "isMobile": true,
+        "hasTouch": true,
+        "deviceScaleFactor": 1
+      },
+      "layout": {
+        "x": 67.515625,
+        "y": 269.6640625,
+        "width": 220.65625,
+        "height": 47,
+        "bottom": 316.6640625,
+        "right": 288.171875
+      },
+      "speed": 91.80842354002115,
+      "draws": 456,
+      "tris": 895882
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 900,
+        "deviceScaleFactor": 1
+      },
+      "layout": {
+        "x": 115.1875,
+        "y": 672.734375,
+        "width": 220.65625,
+        "height": 50,
+        "bottom": 722.734375,
+        "right": 335.84375
+      },
+      "speed": 91.90049810758181,
+      "draws": 345,
+      "tris": 782120
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

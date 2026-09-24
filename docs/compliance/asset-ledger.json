@@ -1,0 +1,1094 @@
+{
+  "baseline": "c777a49",
+  "review_kind": "retrospective; legacy plus two fresh constructions",
+  "reviewer": "primary coding agent, non-blind object review",
+  "assets": [
+    {
+      "name": "albatross",
+      "shipping": "game/assets/albatross.js",
+      "sha256": "87a8ebcdfbce728dd9de7c2593a21cd57632c1d980c2d68249df00dffd7970fe",
+      "reference": {
+        "path": "references/compliance/albatross.png",
+        "atlas_fid": "afc1abe7-e79f-4290-a430-32f73c479cab",
+        "crop": [
+          1024,
+          0,
+          2048,
+          1024
+        ],
+        "sha256": "cf68dc504ba04aebc4deed5e103590e0b9194f3555ba1bacd814087ca9fa35af"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/albatross__legacy.js",
+          "sha256": "87a8ebcdfbce728dd9de7c2593a21cd57632c1d980c2d68249df00dffd7970fe",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/albatross__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/albatross__assembly.js",
+          "sha256": "13828dd3fb741158a648398db28976347e7fa5430e6def438421b1e292d764db",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/albatross__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/albatross__profile.js",
+          "sha256": "5de2307981e0b4176a5a6d2cbf29c1a22efddf650d715e2ffd7945fdf07cadd2",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/albatross__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy needle hull, tapered outriggers, complete nozzle blades and articulated rider beat the boxy assembly pods and oversimplified swept option.",
+      "integration_delta": null
+    },
+    {
+      "name": "barrier",
+      "shipping": "game/assets/barrier.js",
+      "sha256": "c11ee8ac12de733fe0efa9998bb3092fa4929daeeb69fedd9b66b6d7afc8e89a",
+      "reference": {
+        "path": "references/compliance/barrier.png",
+        "atlas_fid": "b2421666-980e-4193-be48-349d2e93fb17",
+        "crop": [
+          1024,
+          1024,
+          2048,
+          2048
+        ],
+        "sha256": "d055f97248c21bd2a9829010a36eaf053b3fe5748d05a74ab96b3caa5428d12b"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/barrier__legacy.js",
+          "sha256": "877099614e91cfbd6591fca63c24bcc400e460ea4ac7a63c65427c67b1238365",
+          "strategy": "legacy",
+          "verifier_ok": false,
+          "warnings": [
+            "only 12 triangles, too crude to be finished"
+          ],
+          "render": "candidates/compliance/_verify/barrier__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/barrier__assembly.js",
+          "sha256": "fc0c6a43ad2a566dea440229a909ba8dcc6065c483726a24269996229e3c18c1",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/barrier__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/barrier__profile.js",
+          "sha256": "c11ee8ac12de733fe0efa9998bb3092fa4929daeeb69fedd9b66b6d7afc8e89a",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/barrier__profile.png"
+        }
+      ],
+      "selected": "profile",
+      "decision": "Profile candidate separates four interlocking units and readable orange inset stripes. Legacy is a bare cuboid; assembly has a better shoulder but stripes disappear into its slope.",
+      "integration_delta": null
+    },
+    {
+      "name": "bridge",
+      "shipping": "game/assets/bridge.js",
+      "sha256": "96b949e29fb0814a12b5961cde663b358ee21973cbed8276784736feaa5934d5",
+      "reference": {
+        "path": "references/compliance/bridge.png",
+        "atlas_fid": "b2421666-980e-4193-be48-349d2e93fb17",
+        "crop": [
+          0,
+          1024,
+          1024,
+          2048
+        ],
+        "sha256": "0dcc85415a800adae37643e296436340bda4d5f53e3ff0ba77c4af170331cd34"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/bridge__legacy.js",
+          "sha256": "96b949e29fb0814a12b5961cde663b358ee21973cbed8276784736feaa5934d5",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/bridge__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/bridge__assembly.js",
+          "sha256": "628e4ff9ca80d2f6b03b6cdb9e717ba5099bbb5ed0b1d69e5a23083fcba53171",
+          "strategy": "assembly",
+          "verifier_ok": false,
+          "warnings": [
+            "right face is nearly featureless next to the others, it was probably never modelled"
+          ],
+          "render": "candidates/compliance/_verify/bridge__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/bridge__profile.js",
+          "sha256": "9d041118bf26aa8241adc6a37af822f4801d23714ca6ba35cc90bc65f4523236",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/bridge__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy preserves three navigable channels, visible pier warning bands and exposed railing rhythm. Assembly loses end-face detail; profile adds pipes but weakens channel marking. Preserve physical pier spacing.",
+      "integration_delta": null
+    },
+    {
+      "name": "brimstone",
+      "shipping": "game/assets/brimstone.js",
+      "sha256": "557853bca2602f64e00693c608e388778356f46c48c68708ca1491e23cc762aa",
+      "reference": {
+        "path": "references/compliance/brimstone.png",
+        "atlas_fid": "afc1abe7-e79f-4290-a430-32f73c479cab",
+        "crop": [
+          1024,
+          1024,
+          2048,
+          2048
+        ],
+        "sha256": "d92c68d11700c6b8d5370ced652a30be5db5440147a707850e5e2d552f692676"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/brimstone__legacy.js",
+          "sha256": "557853bca2602f64e00693c608e388778356f46c48c68708ca1491e23cc762aa",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/brimstone__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/brimstone__assembly.js",
+          "sha256": "4c4e0398a9f3fc78e118511ecb948257597a11963bfc36f2fda2c16e3595179b",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/brimstone__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/brimstone__profile.js",
+          "sha256": "e021fd1473f49f60a996726666d234bc59d310fad02818b2f0488aac7a75d812",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/brimstone__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy has recessed turbines, distinct furnace helmet, side ribs and supported armory. Assembly reads as two unshaped tubes; profile loses rear blade and rider detail.",
+      "integration_delta": null
+    },
+    {
+      "name": "buoy",
+      "shipping": "game/assets/buoy.js",
+      "sha256": "7d80c4e27f9d0f40f17979db19e7589bc78455fcb50a8ad6402668d29cff9fb5",
+      "reference": {
+        "path": "references/compliance/buoy.png",
+        "atlas_fid": "b2421666-980e-4193-be48-349d2e93fb17",
+        "crop": [
+          1024,
+          0,
+          2048,
+          1024
+        ],
+        "sha256": "ad6d8578a823f3ce137c4c87ea9ac11663bf886e3c9df1cd52685f23d8342118"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/buoy__legacy.js",
+          "sha256": "7d80c4e27f9d0f40f17979db19e7589bc78455fcb50a8ad6402668d29cff9fb5",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/buoy__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/buoy__assembly.js",
+          "sha256": "083e943d92ed36450e0ea8607cf3f18dd179b027c3f33ba015394b14a8950f9c",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/buoy__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/buoy__profile.js",
+          "sha256": "1e697794a6f716d3a19f569b6c2bc17c519b60eb9653a43f056fd1d3fc49fddc",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/buoy__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy ring marker has the clearest distinct silhouette. Assembly is a generic lantern and profile a turned chess-piece shape. This full-size prototype is retained but currently unplaced.",
+      "integration_delta": null
+    },
+    {
+      "name": "caldera",
+      "shipping": "game/assets/caldera.js",
+      "sha256": "b03ce6c6cb42febef730a9d4a17a8b494541ffc9f2ac26675fb1b0b759d1c8de",
+      "reference": {
+        "path": "references/compliance/caldera.png",
+        "atlas_fid": "34267a9b-0eb4-4be1-8c6f-276a89cfcbe7",
+        "crop": null,
+        "note": "Supplemental corrected reference received after fresh candidates were constructed; earlier fleet/biome references supplied the initial form. No retroactive reference-first claim.",
+        "sha256": "49024d3cca11ee93436911fc081641f16b36381cdc3b261811bb04019f7e3c93"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/caldera__legacy.js",
+          "sha256": "b03ce6c6cb42febef730a9d4a17a8b494541ffc9f2ac26675fb1b0b759d1c8de",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/caldera__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/caldera__assembly.js",
+          "sha256": "23604c2daaf966d044f093070539ea62092e16206ed8a3e2e45c73984c2a61b0",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/caldera__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/caldera__profile.js",
+          "sha256": "979874e8cd28e7ae12a831cea60ddd6af435dbb822b400c6d51c6fc2741c219d",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/caldera__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy irregular rim, radial veins and broken side columns outperform the stacked-ring assembly and smoother profile. Neither alternate earns replacement of the approved volcanic scenery.",
+      "integration_delta": null
+    },
+    {
+      "name": "crane",
+      "shipping": "game/assets/crane.js",
+      "sha256": "42f0558e7bf7faa5d5d1d13a06d6e97ca98963dd82273ad5aa6033a1a321ada4",
+      "reference": {
+        "path": "references/compliance/crane.png",
+        "atlas_fid": "c952a2c6-a9ff-4808-8508-2431d8b6b0ea",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "sha256": "aed3f03f3653e5946b39155e144eda34f62df5823d5ef068b57ad683f1d876f4"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/crane__legacy.js",
+          "sha256": "42f0558e7bf7faa5d5d1d13a06d6e97ca98963dd82273ad5aa6033a1a321ada4",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/crane__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/crane__assembly.js",
+          "sha256": "de46c59226f5908d4058377a274273f26ebe4838cf7b8a2879be0d20c0706cd9",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/crane__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/crane__profile.js",
+          "sha256": "36510a6846b98cec52935a3960351177615e9dd809e3c70c8494a749310567fa",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/crane__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy bracing, cabin glazing and boom counterweight are readable on all sides. Assembly has thin supports; profile exposes four disconnected-looking boom rods.",
+      "integration_delta": null
+    },
+    {
+      "name": "dock",
+      "shipping": "game/assets/dock.js",
+      "sha256": "86e0dd88f8c27c9dcd6421cea079cd12f58cd10e71cec445ca742cf0d105b54c",
+      "reference": {
+        "path": "references/compliance/dock.png",
+        "atlas_fid": "79887437-e107-4310-a8a0-3233491d5561",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "sha256": "e197b87bf6d77effbf61f90de08bc659ddc88e8ea8eeb5181e89ca6a7504e121"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/dock__legacy.js",
+          "sha256": "86e0dd88f8c27c9dcd6421cea079cd12f58cd10e71cec445ca742cf0d105b54c",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/dock__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/dock__assembly.js",
+          "sha256": "115f7210071868ebffe32eaeb34e78eb02edf13e88b882606297d8b5c1efe6ae",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/dock__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/dock__profile.js",
+          "sha256": "dfea8923b9141aedf57ccf19c2bcdbb23184a1eac38a6971f6d87b012f655cac",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/dock__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy retains the current user-approved showroom framing. Alternatives improve outlines in isolation but add enclosing arches or floor segmentation that competes with the machine.",
+      "integration_delta": null
+    },
+    {
+      "name": "edge-buoy",
+      "shipping": "game/assets/edge-buoy.js",
+      "sha256": "c908d40e1336418c485b91896c4c0820795a13b0a02322015c72a67b72f13219",
+      "reference": {
+        "path": "references/compliance/edge-buoy.png",
+        "atlas_fid": "79887437-e107-4310-a8a0-3233491d5561",
+        "crop": [
+          1024,
+          1024,
+          2048,
+          2048
+        ],
+        "sha256": "f83d60ad6d183219749a08eeccf35349722fd74dc87aabf39cd9cd88bc5085e5"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/edge-buoy__legacy.js",
+          "sha256": "b21fd6483cd616929920aadc80ee2f1dfad5b1982d47f6667ab196f6512c6ef7",
+          "strategy": "legacy",
+          "verifier_ok": false,
+          "warnings": [
+            "only 32 triangles, too crude to be finished"
+          ],
+          "render": "candidates/compliance/_verify/edge-buoy__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/edge-buoy__assembly.js",
+          "sha256": "b4756ad12a609815e55467f0dce46aaa4f780ed209b136d4fd5f4ca6ea3f16f9",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/edge-buoy__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/edge-buoy__profile.js",
+          "sha256": "c908d40e1336418c485b91896c4c0820795a13b0a02322015c72a67b72f13219",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/edge-buoy__profile.png"
+        }
+      ],
+      "selected": "profile",
+      "decision": "Profile cage, lamp, cap and pontoon replace a bare tapered cylinder. Assembly turned bands add shape but lack a navigational light. Keep amber signal and course-edge placement.",
+      "integration_delta": null
+    },
+    {
+      "name": "gate",
+      "shipping": "game/assets/gate.js",
+      "sha256": "f8507dafa44dcac73e6035a85b3b9931f780495dcc3ffdd38ac426c9177a48a8",
+      "reference": {
+        "path": "references/compliance/gate.png",
+        "atlas_fid": "c952a2c6-a9ff-4808-8508-2431d8b6b0ea",
+        "crop": [
+          1024,
+          0,
+          2048,
+          1024
+        ],
+        "sha256": "d7ae52fc9bf145ae9707c804f7f03d636c65edf012639ddbaed2e05dd952b6d3"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/gate__legacy.js",
+          "sha256": "f8507dafa44dcac73e6035a85b3b9931f780495dcc3ffdd38ac426c9177a48a8",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/gate__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/gate__assembly.js",
+          "sha256": "fbd44b334617348a8becd6f4bedfc5e2db59faf1ce07abd7a41b554959489e67",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/gate__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/gate__profile.js",
+          "sha256": "6236c4c23d14425625289a48bdeb28d2b5cd273b49e8040e56964ebe1dfddffc",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/gate__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy banded pillars and wide open portal maintain race readability. Assembly truss is credible but dark; profile offers a cleaner soffit but less pillar articulation.",
+      "integration_delta": null
+    },
+    {
+      "name": "ironclad",
+      "shipping": "game/assets/ironclad.js",
+      "sha256": "9f7e157d2a0680d752dcf6290342dafb23193c35bdce0100a1309ecd6d46ebad",
+      "reference": {
+        "path": "references/compliance/ironclad.png",
+        "atlas_fid": "afaf3c07-366d-423c-855b-080930b646d4",
+        "crop": null,
+        "note": "Supplemental corrected reference received after fresh candidates were constructed; earlier fleet/biome references supplied the initial form. No retroactive reference-first claim.",
+        "sha256": "52b475c9800f67252ca467778de2da4e0d3a97754a5faccb7ccaab62a4b2e306"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/ironclad__legacy.js",
+          "sha256": "9f7e157d2a0680d752dcf6290342dafb23193c35bdce0100a1309ecd6d46ebad",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/ironclad__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/ironclad__assembly.js",
+          "sha256": "461f3335aeb7c18bd156ac2650fc85cbc625b0edd60f09b3b708e1b93724eca0",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/ironclad__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/ironclad__profile.js",
+          "sha256": "55f136fa3e9947f84097949de396de60e8b256a984bfbdee5c65e5b11d1ed5a5",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/ironclad__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy distinct broad pontoons, ribbed deck panels and heavy rider outperform assembly spike bows and the alternative swollen top shells. No tracks or wheels adopted.",
+      "integration_delta": null
+    },
+    {
+      "name": "kestrel",
+      "shipping": "game/assets/kestrel.js",
+      "sha256": "5fb636d4c6282433dfd410ec9cd5d0ca30002bcd149973737ce0772cce49caa5",
+      "reference": {
+        "path": "references/compliance/kestrel.png",
+        "atlas_fid": "e3c4c2be-653c-4fbd-943f-9988b5121449",
+        "crop": null,
+        "note": "Supplemental corrected reference received after fresh candidates were constructed; earlier fleet/biome references supplied the initial form. No retroactive reference-first claim.",
+        "sha256": "5b91f17d1025fd70fe5f5c426dd436f48240b81dadf4d301f3f001b0eabef461"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/kestrel__legacy.js",
+          "sha256": "5fb636d4c6282433dfd410ec9cd5d0ca30002bcd149973737ce0772cce49caa5",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/kestrel__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/kestrel__assembly.js",
+          "sha256": "995d3308e158c970ad4633c1a3c4667b3bb4acce7f6c20933f46958c3db903e2",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/kestrel__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/kestrel__profile.js",
+          "sha256": "d5f731b354d89466ec4a55a7ca01f8a5e0225fbd9662005267cfd29069cbfb83",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/kestrel__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy layered nose, grilled missile pods, exposed machinery, rider and back-mounted gear retain the best complete craft. Assembly oversimplifies the wedge nose; profile narrows it too far and loses rider specificity.",
+      "integration_delta": null
+    },
+    {
+      "name": "lethal-supply",
+      "shipping": "game/assets/lethal-supply.js",
+      "sha256": "1d7da173bfb644102d79fb182937ab84c0850b5c1dd2798b7ad63f8daefe6684",
+      "reference": {
+        "path": "references/compliance/lethal-supply.png",
+        "atlas_fid": "79887437-e107-4310-a8a0-3233491d5561",
+        "crop": [
+          0,
+          1024,
+          1024,
+          2048
+        ],
+        "sha256": "1873404fc80b402246f7defc716df352dbf6eef1065c6f251fe7eaf894dcdbab"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/lethal-supply__legacy.js",
+          "sha256": "70d2b465217b325d6497a45ae2c677815a9d7b69007ba66c0b75e4bdb4d50664",
+          "strategy": "legacy",
+          "verifier_ok": false,
+          "warnings": [
+            "only 96 triangles, too crude to be finished"
+          ],
+          "render": "candidates/compliance/_verify/lethal-supply__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/lethal-supply__assembly.js",
+          "sha256": "d3b8b188fe49a24365b090af0cf553b36065a26617179aa74cb63453f62161d7",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/lethal-supply__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/lethal-supply__profile.js",
+          "sha256": "fe4c7fb3344cb4d9dbc1aeb8b401a473bd7a451da0715b15c9c716de25a90a5c",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/lethal-supply__profile.png"
+        }
+      ],
+      "selected": "profile",
+      "decision": "Profile has an unmistakable downward red triangle, luminous core and layered pedestal. Legacy is crude and sideways; assembly darkens the danger frame. Add named ring/core pivots for existing animation only.",
+      "integration_delta": "Named ring and core animation pivots; no visual geometry change."
+    },
+    {
+      "name": "lighthouse",
+      "shipping": "game/assets/lighthouse.js",
+      "sha256": "ce856d16fcecd25ad02227c98238df2c4d22a7991ac91dfa7a0caebdeea55f6d",
+      "reference": {
+        "path": "references/compliance/lighthouse.png",
+        "atlas_fid": "5ee41243-20d9-4f8a-afc8-fb051b04c79e",
+        "crop": [
+          1024,
+          1024,
+          2048,
+          2048
+        ],
+        "sha256": "95243da1b428b20fd68b65bb3c04a651372f3b4be61b67930428c72eaf268454"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/lighthouse__legacy.js",
+          "sha256": "ce856d16fcecd25ad02227c98238df2c4d22a7991ac91dfa7a0caebdeea55f6d",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/lighthouse__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/lighthouse__assembly.js",
+          "sha256": "0869d6f984947f4408ea54bacafd661fff4de2d0e5d6867f9ba1be86af57e94e",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/lighthouse__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/lighthouse__profile.js",
+          "sha256": "606c031fb967127788ffddf83a29a083e900844679f01555d0069e8bf54b9f27",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/lighthouse__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy clearly separates base, tapered shaft, balcony and lantern from every side. Assembly has a weak/occluded beacon; profile staircase adds clutter. Atlas grime remains applied at runtime.",
+      "integration_delta": null
+    },
+    {
+      "name": "mangrove",
+      "shipping": "game/assets/mangrove.js",
+      "sha256": "68d81737d707783183d0402461dab8e65e22de2603bfd591cd27caeab6b24989",
+      "reference": {
+        "path": "references/compliance/mangrove.png",
+        "atlas_fid": "5ee41243-20d9-4f8a-afc8-fb051b04c79e",
+        "crop": [
+          1024,
+          0,
+          2048,
+          1024
+        ],
+        "sha256": "f93503aa9d228654546fab0f2e03d9a7fab0646118c6c0351a5c503f7b96ec94"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/mangrove__legacy.js",
+          "sha256": "68d81737d707783183d0402461dab8e65e22de2603bfd591cd27caeab6b24989",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/mangrove__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/mangrove__assembly.js",
+          "sha256": "73c35949d86e7c491916f7cbf4f2b642b3eca1b38de0e74f318cdc693413d3d7",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/mangrove__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/mangrove__profile.js",
+          "sha256": "d8f048ea6998c404b1b1753257d87e1809eb9da3c0c80e8a4bc338bec60c898e",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/mangrove__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy leaf silhouettes and sparse branches preserve the approved swamp. Assembly pillowy canopy is too stylized and heavier; profile leaf fans look planar and sparse edge-on.",
+      "integration_delta": null
+    },
+    {
+      "name": "manta",
+      "shipping": "game/assets/manta.js",
+      "sha256": "cf33acf53e42b30585265a71116d726d0b8e2aa9c3e7edf512df636ea792b037",
+      "reference": {
+        "path": "references/compliance/manta.png",
+        "atlas_fid": "afc1abe7-e79f-4290-a430-32f73c479cab",
+        "crop": [
+          0,
+          1024,
+          1024,
+          2048
+        ],
+        "sha256": "76f7cd5df101267b6bb78d77aea11eec7b895ddbda08f86799bafeaff6d76095"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/manta__legacy.js",
+          "sha256": "cf33acf53e42b30585265a71116d726d0b8e2aa9c3e7edf512df636ea792b037",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/manta__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/manta__assembly.js",
+          "sha256": "d9d665207eae57bf3df275761eaa363ba73e0a50fe13c2784dffcfd92215fb88",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/manta__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/manta__profile.js",
+          "sha256": "fca975d29490efe7433f3f00e38cfab8bb51aa60839af77b6170d1276c2de9ee",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/manta__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy clean broad delta hull, layered intakes and unique respirator are strongest. Assembly detached triangle wings look assembled; profile captures silhouette but loses equipment and rider detail.",
+      "integration_delta": null
+    },
+    {
+      "name": "quay",
+      "shipping": "game/assets/quay.js",
+      "sha256": "28f7a0c2baabc0e1a2b80b508beaa7be4b464784d8f22cfddc9a63345244eb7b",
+      "reference": {
+        "path": "references/compliance/quay.png",
+        "atlas_fid": "c952a2c6-a9ff-4808-8508-2431d8b6b0ea",
+        "crop": [
+          0,
+          1024,
+          1024,
+          2048
+        ],
+        "sha256": "e01daa9ad00efcc01809a2050d9eda106578fa734acdc60add6f34074ea02356"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/quay__legacy.js",
+          "sha256": "28f7a0c2baabc0e1a2b80b508beaa7be4b464784d8f22cfddc9a63345244eb7b",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/quay__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/quay__assembly.js",
+          "sha256": "f3a47812e68b70f180b7e131c9a68296f3638f565c0130fbc3ddf29f6b23fa18",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/quay__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/quay__profile.js",
+          "sha256": "bb948930fa449e293bf1902413d89d9614fb1c4426767b01815e44f3803b4761",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/quay__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy sawtooth roof, warehouse side windows, tires, ribs and street lights beat both fresh simpler warehouses. Neither alternative resolves repetitive placement by itself.",
+      "integration_delta": null
+    },
+    {
+      "name": "ramp",
+      "shipping": "game/assets/ramp.js",
+      "sha256": "1a7deb7967306193a2905e1716f6094f1d97231dc49ebffc4af4181fc5aec464",
+      "reference": {
+        "path": "references/compliance/ramp.png",
+        "atlas_fid": "b2421666-980e-4193-be48-349d2e93fb17",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "sha256": "bd9bc705234423d4993739bb17dea8b8974ed8291c4a6faa4c76e3e8104fcd72"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/ramp__legacy.js",
+          "sha256": "1a7deb7967306193a2905e1716f6094f1d97231dc49ebffc4af4181fc5aec464",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/ramp__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/ramp__assembly.js",
+          "sha256": "1fe568de41ca548576d6e95925f7651616f36a833b305248ddc24b9eebc9031c",
+          "strategy": "assembly",
+          "verifier_ok": false,
+          "warnings": [
+            "front face is nearly featureless next to the others, it was probably never modelled"
+          ],
+          "render": "candidates/compliance/_verify/ramp__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/ramp__profile.js",
+          "sha256": "d70448847256aa34cf0ba57fdd2f8afbc06a0480fe0a9f2f6842289957da71cf",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/ramp__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy open underside, clear forward rise and contrasting stripes are easier to read at speed. Assembly has a featureless end; profile is a heavy solid wedge with fewer structural cues.",
+      "integration_delta": null
+    },
+    {
+      "name": "rock",
+      "shipping": "game/assets/rock.js",
+      "sha256": "c166fb732e056f4f286cc0cf234c0d7be19a0a52ee2484aeb9f35e2d6c620dba",
+      "reference": {
+        "path": "references/compliance/rock.png",
+        "atlas_fid": "5ee41243-20d9-4f8a-afc8-fb051b04c79e",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "sha256": "d1be0e18ae0ce2949d4478c9c2aa5ebf363772ac14c00c9f7c037c760ebd6e59"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/rock__legacy.js",
+          "sha256": "c166fb732e056f4f286cc0cf234c0d7be19a0a52ee2484aeb9f35e2d6c620dba",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/rock__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/rock__assembly.js",
+          "sha256": "4c1d47e65f74fdae7e517b5193b085ac6651b4bc877b23e98123110f1fd7c7ab",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/rock__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/rock__profile.js",
+          "sha256": "e5d0535b3d813b74f39f50c60ff4b78dfe8f6be64b85d749c7d8e422a880e92e",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/rock__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy continuous eroded bank remains the general-purpose shoreline. Assembly is a useful future columnar-basalt variant but changes every biome if substituted globally; profile repeats obvious horizontal terraces. Retain as alternatives, not automatic replacements.",
+      "integration_delta": null
+    },
+    {
+      "name": "spectre",
+      "shipping": "game/assets/spectre.js",
+      "sha256": "f893d7f0947d7999be370b94554a28171b07457bee20e81b02d1a1d9083606ce",
+      "reference": {
+        "path": "references/compliance/spectre.png",
+        "atlas_fid": "89d18628-e3d4-4dfd-a682-188ace9c52de",
+        "crop": [
+          0,
+          0,
+          1024,
+          1024
+        ],
+        "sha256": "230d9515a8d897dbc5102c110fd740ea89ab85a1410e40d2e470c434e4d630ed"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/spectre__legacy.js",
+          "sha256": "f893d7f0947d7999be370b94554a28171b07457bee20e81b02d1a1d9083606ce",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/spectre__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/spectre__assembly.js",
+          "sha256": "ff69d1361ba09a08fa116e6b67eb02275f84f4a48dcae45d2938711d2ad1d9eb",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/spectre__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/spectre__profile.js",
+          "sha256": "2c9401f1532ad29576845cddbca3c021291b1779d65eaa8ee6cadc91b6de7582",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/spectre__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy asymmetric side pod/equipment box, mast, hood and blue visor remain distinct. Fresh variants approximate the asymmetry but share generic riders and simpler weapon detail.",
+      "integration_delta": null
+    },
+    {
+      "name": "spillway",
+      "shipping": "game/assets/spillway.js",
+      "sha256": "51a6798f924c11575507022c7b5a7e0aede3ccbe2f8a5900067d8c8f9855eaae",
+      "reference": {
+        "path": "references/compliance/spillway.png",
+        "atlas_fid": "c952a2c6-a9ff-4808-8508-2431d8b6b0ea",
+        "crop": [
+          1024,
+          1024,
+          2048,
+          2048
+        ],
+        "sha256": "af293884612158732de028ca25243e72f1487a326e4c7c0bc48677b0c08abca8"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/spillway__legacy.js",
+          "sha256": "51a6798f924c11575507022c7b5a7e0aede3ccbe2f8a5900067d8c8f9855eaae",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/spillway__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/spillway__assembly.js",
+          "sha256": "d72f20310446fd50dc3e4add32090de02c0c20ea99c7d4e1351296046bd88d03",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/spillway__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/spillway__profile.js",
+          "sha256": "b439d65de9121a5b1ebd3858b4346b01a2cf5ba0d6d6784c8dd3d0f00ccb63b9",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/spillway__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy twin pressure housings, pipe banks and hoists read coherently from front/back. Assembly round towers lose the industrial pipe detail; profile offers buttresses but less readable machinery.",
+      "integration_delta": null
+    },
+    {
+      "name": "stadium",
+      "shipping": "game/assets/stadium.js",
+      "sha256": "fee82f1da6e0cb6d4c0800481603309c98e803b382cd9885dbb406a2207eea4d",
+      "reference": {
+        "path": "references/compliance/stadium.png",
+        "atlas_fid": "89d18628-e3d4-4dfd-a682-188ace9c52de",
+        "crop": [
+          0,
+          1024,
+          1024,
+          2048
+        ],
+        "sha256": "edfbca974685712419f662d0f322a2e811df44b27774ccbecad7df6629e1fc2e"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/stadium__legacy.js",
+          "sha256": "fee82f1da6e0cb6d4c0800481603309c98e803b382cd9885dbb406a2207eea4d",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/stadium__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/stadium__assembly.js",
+          "sha256": "86573ea6f740326c82f2e86641281011f4cce2ec32219f06b2781969675c4ae9",
+          "strategy": "assembly",
+          "verifier_ok": false,
+          "warnings": [
+            "right face is nearly featureless next to the others, it was probably never modelled"
+          ],
+          "render": "candidates/compliance/_verify/stadium__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/stadium__profile.js",
+          "sha256": "71f4807ceb5323b31d715fe0d5a834e8cfbb6e8b21f5e74647f2fe76f3da6c5a",
+          "strategy": "profile",
+          "verifier_ok": false,
+          "warnings": [
+            "right face is nearly featureless next to the others, it was probably never modelled"
+          ],
+          "render": "candidates/compliance/_verify/stadium__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy has the only fully detailed service rear, roof ribbing, light banks and stairs. Both fresh variants trigger an incomplete-side warning and simplify the rear to a blank/open support face.",
+      "integration_delta": null
+    },
+    {
+      "name": "supply",
+      "shipping": "game/assets/supply.js",
+      "sha256": "94250dfe6a744d4adad57e681dc4fecd86e2e9b78158a5d00cc3118ba75841e5",
+      "reference": {
+        "path": "references/compliance/supply.png",
+        "atlas_fid": "79887437-e107-4310-a8a0-3233491d5561",
+        "crop": [
+          1024,
+          0,
+          2048,
+          1024
+        ],
+        "sha256": "0549b5650ddc41c88247bae923a8e6fd606606940d0f9ef56acb9217f58be178"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/supply__legacy.js",
+          "sha256": "94250dfe6a744d4adad57e681dc4fecd86e2e9b78158a5d00cc3118ba75841e5",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/supply__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/supply__assembly.js",
+          "sha256": "dabff76a8c1ac587cd93c57b52f7879ad7f011ec7a2f302bb2f8d2767631c00b",
+          "strategy": "assembly",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/supply__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/supply__profile.js",
+          "sha256": "c577abb555212870a7d118b2686d4b5b60aab5c8bac7bf73a565eb3f0dddbd34",
+          "strategy": "profile",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/supply__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy entire illuminated ring reads from both sides. Assembly rear ring is dark; profile broken ring and rectangular core weaken recognition. Preserve good pickup silhouette and original finite ownership behavior.",
+      "integration_delta": null
+    },
+    {
+      "name": "wreck",
+      "shipping": "game/assets/wreck.js",
+      "sha256": "1e66f6c5176372076f902a05f6c6f381e9bac279ad8bbe4123c61fa434ab3368",
+      "reference": {
+        "path": "references/compliance/wreck.png",
+        "atlas_fid": "5ee41243-20d9-4f8a-afc8-fb051b04c79e",
+        "crop": [
+          0,
+          1024,
+          1024,
+          2048
+        ],
+        "sha256": "1acc00be9ff8858e96ca25ef52e6560ad3da63f367cbca00f3dee673cb761ae9"
+      },
+      "candidates": [
+        {
+          "path": "candidates/compliance/wreck__legacy.js",
+          "sha256": "1e66f6c5176372076f902a05f6c6f381e9bac279ad8bbe4123c61fa434ab3368",
+          "strategy": "legacy",
+          "verifier_ok": true,
+          "warnings": [],
+          "render": "candidates/compliance/_verify/wreck__legacy.png"
+        },
+        {
+          "path": "candidates/compliance/wreck__assembly.js",
+          "sha256": "ef6d704307fe80c0c45b288747b36f1aaf5f40368215b602accb826b8e9c6d5a",
+          "strategy": "assembly",
+          "verifier_ok": false,
+          "warnings": [
+            "left face is nearly featureless next to the others, it was probably never modelled"
+          ],
+          "render": "candidates/compliance/_verify/wreck__assembly.png"
+        },
+        {
+          "path": "candidates/compliance/wreck__profile.js",
+          "sha256": "f6a6e458865ae22c1650524e9ae95fc951204433b35eb9b7e02e503c30535859",
+          "strategy": "profile",
+          "verifier_ok": false,
+          "warnings": [
+            "right face is nearly featureless next to the others, it was probably never modelled",
+            "left face is nearly featureless next to the others, it was probably never modelled"
+          ],
+          "render": "candidates/compliance/_verify/wreck__profile.png"
+        }
+      ],
+      "selected": "legacy",
+      "decision": "Legacy has the strongest complete hull silhouette with torn ribs and collapsed deckhouse. Assembly is an exposed skeleton; profile flat side sheets omit structural complexity. Both fresh variants warn about side detail.",
+      "integration_delta": null
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "recipe_commit": "4effad311c5e137bca316257259fe5bffd6737de",
+  "canonical": {
+    "../404-game-recipe/GAME.md": "488225e9892599ec00327d3a3218420fd4e7ad2479dda078df93ac220968067b",
+    "../404-game-recipe/404.md": "ed2c41397c58ca3ff84b4586df3492b356f2270d46b18a1a0110e3ffa0a2a63a",
+    "../404-game-recipe/docs/asset-contract.md": "b09bfe473b86abc4b2b24b63057dfb71dd8b2b1eecfd8d428e4ba80ee555b91a",
+    "../404-game-recipe/harness/assetlib.js": "3865478342514a0f47c56532e595982c659917543a87ebcd85d715cbdead9b3d",
+    "../404-game-recipe/harness/surfaces.js": "0e641d7c13d310093d50470a82260c2b88f369447db038a5df18d426fe5fc1e9",
+    "../404-game-recipe/harness/rig.js": "6462da58719d7323cc154f5807ddc8c09d31046388146e8e0007e13a08b243a8",
+    "../404-game-recipe/harness/jam.mjs": "ef29127b2c5f888a3db3e5469943518dc1882e223a1e6b38b539df9f4f34ff08",
+    "../404-game-recipe/harness/verify.mjs": "9321a96e2e99f6614e84d044e123a208f545bf62a7c64932281a392437480db0",
+    "../404-game-recipe/harness/ship.mjs": "3be740f7843f3e22b1a034bc12e463205cc91ff643a99e12f3b4377a470f7a97",
+    "../404-game-recipe/harness/pairs.mjs": "03004951d41507ed599ee7590a419c625b97f8bc3898bf5a97576dcce52fe2c7"
+  },
+  "shippingHelpers": {
+    "game/assetlib.js": "3865478342514a0f47c56532e595982c659917543a87ebcd85d715cbdead9b3d",
+    "game/surfaces.js": "0e641d7c13d310093d50470a82260c2b88f369447db038a5df18d426fe5fc1e9",
+    "game/rig.js": "6462da58719d7323cc154f5807ddc8c09d31046388146e8e0007e13a08b243a8"
+  },
+  "media": [
+    {
+      "path": "game/media/arena-atlantic.webp",
+      "sha256": "ddc5737ff43609eb4c60c25c2feab038d51b0b4afadf57fd3ed87add37ca49a8",
+      "atlas_fid": "5b0fdebb-6092-453c-8c6a-1bbd9b20b663",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/arena-blackwater.webp",
+      "sha256": "03d3dc4d6a90a6de6742c1a95c2ba1bf79aaffc7c0e8b63cfe5a7d6e036286a7",
+      "atlas_fid": "1ad53525-f86d-4097-aa99-8392be3fed4a",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/arena-ember.webp",
+      "sha256": "42f4f0b6f9eb3baaecfeee9516becb237016f3f0e83591a7b1f6ea4d91b4a7e0",
+      "atlas_fid": "bc9db419-43fd-487b-915f-1a018fcb47f4",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/arena-meridian.webp",
+      "sha256": "d31ce6525fd23c52e22b6670056087e58a3a3eda94b8a0243a2793db634f34e8",
+      "atlas_fid": "ea757122-f254-498c-b9f9-f4aca64dade9",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/arena-sluice.webp",
+      "sha256": "5b806e04b5d7591f6d450d70ebb32fb9dbaddd7d1bc953900eacae839a63dfb3",
+      "atlas_fid": "c2e89306-724e-4a86-adc2-6b79e69abdce",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/arena-splitstone.webp",
+      "sha256": "4957ee1e032757e25415c8f36a97ebad904b713f534b708a6db5750967570fc1",
+      "atlas_fid": "2532ccb9-c9f7-4d6d-9ef9-94e3555d2852",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/armory.webp",
+      "sha256": "29ad7be9818556b5a2ad6362843a93cac2369d101e65871971a2b5f08e4ce0cb",
+      "atlas_fid": "2b0c6b06-4096-4793-acc2-2ee748d371e4",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/bark-normal.webp",
+      "sha256": "c8c26da7ab640e345eb611e670bceb3f1fa7283b79a2fd0922242a0116632be1",
+      "atlas_fid": "f09b1413-2ded-40a3-b5c6-ffb78418f664",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/bark.webp",
+      "sha256": "9c27bce830a31da8e03c04f97a438cf538663ef25addc2d182847d2f463cbf86",
+      "atlas_fid": "40db7883-a1a5-4d19-ad99-c0d6e82d744f",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/basalt-normal.webp",
+      "sha256": "b372cbc6880c59374359f33e0a47d48e239e04ca3d1653ea4e88f74df419cf33",
+      "atlas_fid": "f82f4cfc-4386-4978-bb5c-970e2a1e09a5",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/basalt.webp",
+      "sha256": "b69724a9591efe02574b83c90f5ea136b7b2e24a686b21741035228deb0fefbd",
+      "atlas_fid": "ccba411d-492a-448b-ba2b-35eabd22aef3",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/carbon-normal.webp",
+      "sha256": "ddaba75d1dbd4aaf1402112fc5cee017e9d1039fac4c3d9da536b3f8ae1f6912",
+      "atlas_fid": "b62131a3-f4ae-489f-8cc9-949d96e7c626",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/carbon-roughness.webp",
+      "sha256": "659f686bbbaa84ec8b05e9ef6e920ee6dcb539a54e0460bf224fd48d14a808c2",
+      "atlas_fid": "9a6f0a04-cc1e-40e8-9dbc-eea50dcdffff",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/carbon.webp",
+      "sha256": "451531282415a34d137d19ce8e6332212bb9a62fcd2bb27c697b7d746b29b534",
+      "atlas_fid": "a8d902c2-2c42-4788-8892-0d8d857c0f22",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/concrete-normal.webp",
+      "sha256": "36b5a5e6e5c2bfc349b8390b0bd013c38acf07c708c3641f9ffba7882179ab7e",
+      "atlas_fid": "0f5fc873-cfe4-4e00-b60d-dc4f18c891c1",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/concrete.webp",
+      "sha256": "6ffc0dd9b04c691e234086d7941ef7a040aa41046ff3ffe4214b1da2a6204ec4",
+      "atlas_fid": "a9514937-6730-48cc-83eb-9bf5f5b81bce",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/music.mp3",
+      "sha256": "0621cb76adac00ef25372d40179788d52b74860fdbdb58421b7b57e12ca69221",
+      "atlas_fid": "d84e447b-f1aa-40c9-84fb-e72b8e735cb7",
+      "processing": "Atlas audio output encoded for browser playback"
+    },
+    {
+      "path": "game/media/steel-normal.webp",
+      "sha256": "c9018e2e596c94d7cc9b90e80b3902e715b7f56b504bae3833b0687ab8cc20b1",
+      "atlas_fid": "bd36d931-76d8-4a94-93cc-d06fb5b7c382",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/steel-roughness.webp",
+      "sha256": "8c21bde28364734e78426db6b62f681219c68b1589da550ad077e3c1592a2f13",
+      "atlas_fid": "1d0d13ed-5ab3-44fa-96a5-4bfd4fcd8c3a",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/steel.webp",
+      "sha256": "e84c81cfb68648b48c8fb90aa274f3fee4752cbdff401d93e0c20ff9f7449976",
+      "atlas_fid": "589618c1-498d-40bb-8c49-0fc44f750510",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/tidebreak-title.webp",
+      "sha256": "e506316d3672f83339146a9a28d42daf975f7f7801fa84d087a88d7a5b36171c",
+      "atlas_fid": "84361585-e17a-44d4-82bb-3137e849eb96",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/water-normal.webp",
+      "sha256": "17e1b379fece4ea67a010883c589950e846731e640226888381badba719e4669",
+      "atlas_fid": "307f7e33-6598-4595-a985-c8004215d53e",
+      "processing": "local resize/encoding only"
+    },
+    {
+      "path": "game/media/water-wash.mp3",
+      "sha256": "c4946a57252afde9f37b4ccd995d4e2d5847c5f1b88baa23b116df7bf080121f",
+      "atlas_fid": "5c72eecd-4f7c-46c0-8efa-e044096c4174",
+      "processing": "Atlas audio output encoded for browser playback"
+    }
+  ],
+  "runtimeGeometry": [
+    {
+      "path": "game/world.js",
+      "sha256": "c21ca7bfd5d26a2ec5f37f67f1941a436b497ab3f4f635d264d10dbea2f54e8d",
+      "scope": "Course-generated label planes, lane strips and timed sluice signal; all modeled scenery is ASSET-loaded. No literal mesh data."
+    },
+    {
+      "path": "game/water.js",
+      "sha256": "be03566be82a37c10a22530fc1761498898cf91e36e0aa25d930201837955b90",
+      "scope": "Procedural shader surface, dynamic instanced wake strips and particle spray. Geometry comes from constructors and runtime simulation."
+    },
+    {
+      "path": "game/atmosphere.js",
+      "sha256": "c2c81b381f1f0108256b4a467893678b7eb248aabaa0e0d7f599ca6a227e1871",
+      "scope": "Shader sky sphere, fog particles and fullscreen lens/reflection pass. No scene-object mesh imports."
+    },
+    {
+      "path": "game/combat-fx.js",
+      "sha256": "52416a0bb984af0611ae47a69cbd118ceb74291b2bce58e5a59a2435af0fee8a",
+      "scope": "Runtime transient projectile cones, mine icosahedra, blast rings and procedural trails/particles, driven by real combat state. Original constructor geometry."
+    }
+  ]
+}

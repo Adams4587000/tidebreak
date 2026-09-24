@@ -1,0 +1,387 @@
+[
+  {
+    "fid": "c952a2c6-a9ff-4808-8508-2431d8b6b0ea",
+    "name": "output",
+    "filename": "output.png",
+    "description": "Four 3D objects with a grey solid background are visible in the image.\n\n1.  **Top-left:** A rusty metal crane on a concrete base is visible in full.\n2.  **Top-right:** A concrete wall structure with a rusty metal gate and two observation towers on top is visible in full.\n3.  **Bottom-left:** A concrete platform with a small shed, stacks of shipping containers, and tires hanging from chains around the edge is visible in full.\n4.  **Bottom-right:** A concrete dam or spillway structure with two round towers on either side is visible in full.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 6284390,
+    "created_at_ms": 1790183461210,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/c952a2c6-a9ff-4808-8508-2431d8b6b0ea",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "4863bb70-68e8-4e42-891b-1e11a0197d34",
+    "name": "output",
+    "filename": "output.png",
+    "description": "I see four objects in the image:\n\n1.  **A rusty industrial crane** located in the top-left section. It is visible in full.\n2.  **A rusty industrial gate structure** with concrete pillars located in the top-right section. It is visible in full.\n3.  **A concrete pier or dock structure** fitted with tires, a small shed, and shipping containers located in the bottom-left section. It is visible in full.\n4.  **A duplicate of the rusty industrial gate structure** located in the bottom-right section. It is visible in full.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 5520983,
+    "created_at_ms": 1790183391372,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/4863bb70-68e8-4e42-891b-1e11a0197d34",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "afc1abe7-e79f-4290-a430-32f73c479cab",
+    "name": "output",
+    "filename": "output.png",
+    "description": "The image features four futuristic speeder bikes, each ridden by a pilot, arranged in a two-by-two grid against a plain grey background:\n\n1. **Top-Left (Orange Speeder):** A sleek, orange speeder bike with a weathered finish, ridden by a pilot in a helmet and matching gear. The entire vehicle and its rider are fully visible.\n2. **Top-Right (White Speeder):** A white speeder bike with heavy weathering and rust patches, ridden by a pilot in a similar helmet and gear. The entire vehicle and its rider are fully visible.\n3. **Bottom-Left (Green Speeder):** An olive-green speeder bike with winged details and a pointed nose, ridden by a pilot. The entire vehicle and its rider are fully visible.\n4. **Bottom-Right (Red Speeder):** A dark red, heavy-duty speeder bike featuring large dual forward thrusters, ridden by a pilot. The entire vehicle and its rider are fully visible.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 3739781,
+    "created_at_ms": 1790183306938,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/afc1abe7-e79f-4290-a430-32f73c479cab",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "89d18628-e3d4-4dfd-a682-188ace9c52de",
+    "name": "output",
+    "filename": "output.png",
+    "description": "Based on the image, here is a breakdown of the four objects shown, including whether each is fully visible or cropped:\n\n1. **Top-Left (Metallic Speeder/Vessel with Pilot):**\n   * **Description:** A futuristic, long metallic speeder vehicle piloted by a person in armored gear, resting on skids.\n   * **Visibility:** **Full.** The entire vehicle, including the nose and tail, is visible within the frame.\n\n2. **Top-Right (Armored White Vehicle with Pilot/Gun):**\n   * **Description:** A weathered, white, heavily armored tracked vehicle equipped with a weapon turret, carrying a pilot in armor.\n   * **Visibility:** **Full.** The entire vehicle is visible.\n\n3. **Bottom-Left (Run-down Stadium Bleachers):**\n   * **Description:** A weathered, concrete sports stadium seating section with a rusted roof structure and a single light tower in the background.\n   * **Visibility:** **Full.** The structure is captured in its entirety from this perspective.\n\n4. **Bottom-Right (Floating Island/Crater with Light Towers):**\n   * **Description:** A large, floating chunk of earth or rock featuring a massive crater on top and two tall stadium-style light towers peeking over the edge.\n   * **Visibility:** **Full.** The floating landmass is entirely within frame, showing its jagged undersides and top surface.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 4481158,
+    "created_at_ms": 1790183301828,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/89d18628-e3d4-4dfd-a682-188ace9c52de",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "2f1c125d-01e0-4958-8bb9-5958d5193d73",
+    "name": "output",
+    "filename": "output.png",
+    "description": "Based on the image provided, here is an inventory of the objects shown across the four panels, along with their visibility status:\n\n1. **Top-Left Panel (Rusty Crane):**\n   * **Object:** A large, rusty industrial gantry crane on tracks.\n   * **Visibility:** **Full** (the entire crane structure is visible from top to bottom against a plain background).\n\n2. **Top-Right Panel (Industrial Gate/Lock Structure):**\n   * **Object:** A massive concrete and rusted metal structural gate or lock mechanism.\n   * **Visibility:** **Full** (the entire structure, including the concrete pillars and metal bridge on top, is visible).\n\n3. **Bottom-Left Panel (Warehouse on Pier):**\n   * **Object:** A harbor/dock scene featuring a warehouse building, stacked shipping containers, tires along the edge of the pier, and surrounding water.\n   * **Visibility:** **Cropped** (the scene cuts off at the bottom edge of the foreground pier and at the sides/top of the composition).\n\n4. **Bottom-Right Panel (Dry Dock/Spillway):**\n   * **Object:** A large industrial dry dock or spillway structure with concrete walls, steps/grids, and tall cylindrical towers.\n   * **Visibility:** **Cropped** (the structure extends out of frame at the bottom and sides).",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 6483453,
+    "created_at_ms": 1790183292731,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/2f1c125d-01e0-4958-8bb9-5958d5193d73",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "17125c36-0edb-45c1-88f6-93f685192ecd",
+    "name": "output",
+    "filename": "output.png",
+    "description": "I see four objects in this image, arranged in a two-by-two grid. Each object appears to be a 3D asset with text label underneath.\n\n1.  **Top-left:** A rusty, industrial tower crane mounted on rails. It is visible in full.\n2.  **Top-right:** A heavy-duty, rusty floodgate set into concrete pillars, complete with a walkway on top. It is visible in full.\n3.  **Bottom-left:** A floating industrial barge featuring a corrugated metal building and stacked shipping containers, supported by large tires around its base. It is visible in full.\n4.  **Bottom-right:** A concrete dry dock or lock structure featuring two tall cylindrical towers and internal mechanical barriers. It is visible in full.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 4873223,
+    "created_at_ms": 1790183174013,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/17125c36-0edb-45c1-88f6-93f685192ecd",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "5ee41243-20d9-4f8a-afc8-fb051b04c79e",
+    "name": "output",
+    "filename": "output.png",
+    "description": "This image is a grid of four distinct 3D model renders, shown against a neutral gray background:\n\n1. **Top-left:** A rocky geological formation featuring columnar basalt structures alongside broken, weathered rock strata. It is fully visible.\n2. **Top-right:** A leafy tree with complex, exposed aerial roots (resembling a mangrove or banyan tree). It is fully visible.\n3. **Bottom-left:** A heavily rusted, decaying shipwreck with visible damage to its hull and superstructure. It is fully visible.\n4. **Bottom-right:** A weathered, metallic lighthouse with rust spots, a maintenance ladder on the side, and a glass-enclosed top. It is fully visible.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 5552661,
+    "created_at_ms": 1790183172860,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/5ee41243-20d9-4f8a-afc8-fb051b04c79e",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "a1a120e9-22a6-458a-a69c-a81e7da227ad",
+    "name": "output",
+    "filename": "output.png",
+    "description": "Based on the image provided, here is an inventory of the objects shown, along with their status regarding whether they are fully visible or cropped:\n\n1. **Top-Left Quadrant (\"Kestrel\")**:\n   - **Object:** An orange sci-fi speeder/fighter vehicle with landing skids, mounted weaponry, and a pilot.\n   - **Status:** **Fully visible.**\n\n2. **Top-Right Quadrant (\"Albatross\")**:\n   - **Object:** A white/distressed-paint sci-fi speeder/fighter vehicle with wings and a pilot.\n   - **Status:** **Fully visible.**\n\n3. **Bottom-Left Quadrant (\"Manta\")**:\n   - **Object:** A green sci-fi speeder/fighter vehicle with wide wings and a pilot.\n   - **Status:** **Fully visible.**\n\n4. **Bottom-Right Quadrant (\"Brimstone\")**:\n   - **Object:** A reddish-brown sci-fi speeder/fighter vehicle with landing skids, weaponry, and a pilot.\n   - **Status:** **Fully visible.**",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 5788294,
+    "created_at_ms": 1790183151428,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/a1a120e9-22a6-458a-a69c-a81e7da227ad",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "5fbe7243-ba59-4545-8633-63de596d5956",
+    "name": "output",
+    "filename": "output.png",
+    "description": "This image contains four distinct objects, all shown in full:\n\n1. **Top-Left:** A grey, weathered, futuristic sci-fi vehicle/speeder with a pilot seated on top, resting on metallic landing skids.\n2. **Top-Right:** A white and weathered futuristic sci-fi vehicle/speeder, similar in design, with a pilot and landing skids.\n3. **Bottom-Left:** A set of ruined, concrete-like stairs with a small platform underneath, showing signs of aging, wear, and overgrown weeds.\n4. **Bottom-Right:** An orange and rust-covered futuristic sci-fi vehicle/speeder, matching the design of the other two vehicles, complete with a pilot and landing skids.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 6325158,
+    "created_at_ms": 1790183140883,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/5fbe7243-ba59-4545-8633-63de596d5956",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "79887437-e107-4310-a8a0-3233491d5561",
+    "name": "output",
+    "filename": "output.png",
+    "description": "This image is composed of four distinct panels showcasing a futuristic industrial theme, likely 3D renders. Here is what is in each panel:\n\n*   **Top-Left Panel:** A large, empty industrial warehouse or factory with a concrete floor and steel beams. In the foreground, there is a circular, glowing platform flush with the floor, featuring concentric rings of green light.\n\n*   **Top-Right Panel:** A grey-background studio shot of a futuristic pedestal mechanism. Resting on a dark, multi-tiered hexagonal base, a glowing, translucent green crystal floats in the air, encircled by a metallic ring with green illuminated segments.\n\n*   **Bottom-Left Panel:** Another pedestal mechanism against a grey background. This one features a similar dark hexagonal base, but instead of a crystal, it holds a large, downward-pointing triangular frame made of metal and glass. Inside the triangle is a glowing, spherical red energy source with lightning-like effects.\n\n*   **Bottom-Right Panel:** A third pedestal mechanism against a grey background. On the familiar dark hexagonal base sits a conical object resembling a futuristic traffic cone or marker, decorated with alternating white and teal/green glowing stripes.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 5790803,
+    "created_at_ms": 1790183138518,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/79887437-e107-4310-a8a0-3233491d5561",
+      "requires_api_key": true
+    }
+  },
+  {
+    "fid": "b2421666-980e-4193-be48-349d2e93fb17",
+    "name": "output",
+    "filename": "output.png",
+    "description": "The image presents a collection of four distinct, detailed 3D assets set against a plain grey background, arranged in a grid-like pattern:\n\n1.  **Top Left:** A floating industrial dock or ramp. It's constructed from weathered, tread-plated metal with rusted railings. The sides feature prominent yellow and black hazard stripes and are mounted on grey cylindrical pontoons. The object is visible in full.\n2.  **Top Right:** A tall, cylindrical industrial beacon or lighthouse. It features a weathered metal body with visible rust, rivets, and pipes. A caged light fixture at the top glows with a warm, orange light. The object is visible in full.\n3.  **Bottom Left:** An industrial bridge or gantry structure. It is supported by two massive, rusted concrete pillars and features a metallic walkway with safety railings. A complex network of pipes runs across the top and sides of the structure. The object is visible in full.\n4.  **Bottom Right:** A barrier made of four interconnected, weathered concrete blocks, reminiscent of Jersey barriers. They show significant signs of wear, including rust stains, dirt, and chipping, and feature cylindrical connection points at one end. The object is visible in full.",
+    "media_type": "image",
+    "image_kind": "raster",
+    "input_node_type": "input_image",
+    "mime_type": "image/png",
+    "extension": "png",
+    "dimensions": {
+      "width": 2048,
+      "height": 2048
+    },
+    "size_bytes": 4335826,
+    "created_at_ms": 1790183134292,
+    "origin": "generated",
+    "upload_source": "browser",
+    "source": {
+      "type": "project",
+      "project_id": "29d918d9-ef79-4b7a-9519-575ad93f2405",
+      "name": "Tidebreak — 404 water racer",
+      "deleted": false
+    },
+    "creator": {
+      "id": "creator_kseFoZixK21RL5rTAVLilB2i-xkaV3c7NpiEtvPThoY",
+      "label": "Me",
+      "is_me": true
+    },
+    "preview_available": false,
+    "download": {
+      "url": "https://api.prod-market.atlas.design/0.2/download_binary_result/b2421666-980e-4193-be48-349d2e93fb17",
+      "requires_api_key": true
+    }
+  }
+]

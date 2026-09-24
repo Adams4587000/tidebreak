@@ -1,5 +1,8 @@
 # Territory validation — 23 September 2026
 
+Historical validation. Latest local compliance checks: [COMPLIANCE-VALIDATION.md](COMPLIANCE-VALIDATION.md).
+
+
 Implementation source: `7ddbf286be6c062a426bbd5fcfb201ed3eecddf7`.
 
 ## Complete routes

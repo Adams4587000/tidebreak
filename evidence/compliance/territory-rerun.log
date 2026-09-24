@@ -1,0 +1,42 @@
+meridian checkpoint 0 elapsed 5.0
+meridian checkpoint 1 elapsed 22.2
+meridian checkpoint 2 elapsed 40.8
+meridian checkpoint 3 elapsed 60.2
+meridian checkpoint 4 elapsed 79.8
+meridian checkpoint 5 elapsed 99.3
+FINISH meridian 112.46 { draws: 344, tris: 847164 }
+blackwater checkpoint 0 elapsed 5.3
+blackwater checkpoint 1 elapsed 23.9
+blackwater checkpoint 2 elapsed 43.6
+blackwater checkpoint 3 elapsed 63.6
+blackwater checkpoint 4 elapsed 84.5
+blackwater checkpoint 5 elapsed 103.9
+FINISH blackwater 117.21 { draws: 248, tris: 825454 }
+splitstone checkpoint 0 elapsed 5.7
+splitstone checkpoint 1 elapsed 26.4
+splitstone checkpoint 2 elapsed 47.8
+splitstone checkpoint 3 elapsed 70.0
+splitstone checkpoint 4 elapsed 91.8
+splitstone checkpoint 5 elapsed 113.5
+FINISH splitstone 128.78 { draws: 217, tris: 401636 }
+ember checkpoint 0 elapsed 5.1
+ember checkpoint 1 elapsed 23.4
+ember checkpoint 2 elapsed 42.9
+ember checkpoint 3 elapsed 63.1
+ember checkpoint 4 elapsed 82.5
+ember checkpoint 5 elapsed 101.2
+FINISH ember 114.16 { draws: 254, tris: 608378 }
+sluice checkpoint 0 elapsed 5.4
+sluice checkpoint 1 elapsed 24.3
+sluice checkpoint 2 elapsed 42.3
+sluice checkpoint 3 elapsed 61.6
+sluice checkpoint 4 elapsed 81.1
+sluice checkpoint 5 elapsed 99.2
+FINISH sluice 112.60 { draws: 320, tris: 671586 }
+atlantic checkpoint 0 elapsed 5.5
+atlantic checkpoint 1 elapsed 24.6
+atlantic checkpoint 2 elapsed 45.1
+atlantic checkpoint 3 elapsed 66.1
+atlantic checkpoint 4 elapsed 86.8
+atlantic checkpoint 5 elapsed 107.3
+FINISH atlantic 120.98 { draws: 261, tris: 338498 }

@@ -1,5 +1,8 @@
 # Current standalone territory build
 
+Historical validation. Latest local compliance checks: [COMPLIANCE-VALIDATION.md](COMPLIANCE-VALIDATION.md).
+
+
 The latest campaign, menu-flow and full-route evidence is in [TERRITORY-VALIDATION.md](TERRITORY-VALIDATION.md). The records below describe earlier prototypes and the superseded continuous-frontier campaign; their historical measurements do not describe the current menu flow. Current evidence files are identified in the new record.
 
 # Validation record — 22 September 2026

@@ -1,0 +1,58 @@
+
+> 404-game-recipe@1.0.0 selftest
+> node harness/selftest/run.mjs && node harness/selftest/loader.mjs
+
+running the gate against deliberately broken assets
+
+WARN  blank_back                396 tris  33 meshes  8.6x9.5x7.62m
+        right face is nearly featureless next to the others, it was probably never modelled
+        back face is nearly featureless next to the others, it was probably never modelled
+        left face is nearly featureless next to the others, it was probably never modelled
+WARN  floating                  132 tris  11 meshes  1.56x1.44x1.56m
+        only 132 triangles, too crude to be finished
+        base sits at y=1.78, should be 0
+        not centred on x/z (offset 0.9, -0.7)
+WARN  runaway_tris           436496 tris  221 meshes  1.018x1.3x1.007m
+        436496 triangles, far heavier than it needs to be
+
+0/3 clean
+sheet:  /Users/adams/Desktop/404_GAMES/404-game-recipe/harness/selftest/fixtures/_verify/sheet.png
+report: /Users/adams/Desktop/404_GAMES/404-game-recipe/harness/selftest/fixtures/_verify/report.json
+
+Look at the sheet before you fix anything. The measurements below flag structure,
+they cannot tell you whether the asset resembles what you asked for.
+caught  blank_back       expected "never modelled"
+caught  floating         expected "should be 0"
+caught  runaway_tris     expected "far heavier"
+caught  floating         expected "not centred"
+
+running the gate on clean assets from OUTSIDE the tree (/var/folders/v3/tvfkxzms51j3cwj2mdchz9xr0000gn/T/recipe-outoftree-d95RxX)
+
+ok    clean                     432 tris  36 meshes  1.01x1.05x1.01m
+ok    hinged                    156 tris  13 meshes  0.62x0.46x0.485m
+ok    mounted_lamp             1176 tris  21 meshes  0.52x0.86x0.785m  [flat by declaration: back]
+ok    racking                   156 tris  11 meshes  1.2x2x0.8m
+
+4/4 clean
+sheet:  /var/folders/v3/tvfkxzms51j3cwj2mdchz9xr0000gn/T/recipe-outoftree-d95RxX/_verify/sheet.png
+report: /var/folders/v3/tvfkxzms51j3cwj2mdchz9xr0000gn/T/recipe-outoftree-d95RxX/_verify/report.json
+caught  out-of-tree      expected a clean asset outside the repo to pass
+caught  instanced bounds expected a 2.0m instanced asset to measure 2.0m, got 2
+quiet   mounted_lamp     expected mounts:'back' to exempt the declared face
+caught  mounted_lamp     expected the same asset undeclared to be flagged
+
+caught  expected size    a 1m object declared 4m tall
+quiet   expected size    the same object declared correctly
+
+every check fired. the gate works.
+loading an asset that has moving parts, both ways
+
+ok      default still merges               2 meshes merged vs 13 kept
+ok      default drops userData             as documented, and why the option exists
+ok      keepHierarchy keeps userData       userData.parts present
+ok      and the named part is an object    userData.parts.lid is an Object3D
+ok      it belongs to this instance        found inside the returned tree, not a prototype
+ok      two instances get their own        otherwise every copy moves as one
+ok      and rotating it takes effect       the point of the whole exercise
+
+the loader keeps what moves, and still merges what does not.

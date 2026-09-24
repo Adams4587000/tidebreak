@@ -1,0 +1,13 @@
+import puppeteer from '../../404-game-recipe/node_modules/puppeteer/lib/puppeteer/puppeteer.js';
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const browser=await puppeteer.launch({headless:true,args:['--no-sandbox','--enable-unsafe-swiftshader','--no-proxy-server']});
+const report={checks:[],errors:[]},page=await browser.newPage();page.on('pageerror',e=>report.errors.push(e.message));page.on('response',r=>{if(r.status()>=400)report.errors.push(r.status()+' '+r.url());});
+try{for(const viewport of [{width:390,height:667,isMobile:true,hasTouch:true,deviceScaleFactor:1},{width:844,height:390,isMobile:true,hasTouch:true,deviceScaleFactor:1},{width:1440,height:900,deviceScaleFactor:1}]){
+ await page.setViewport(viewport);await page.goto('http://localhost:4173/');await page.waitForFunction('window.__READY__===true');
+ const tap=sel=>viewport.hasTouch?page.tap(sel):page.click(sel);
+ const layout=await page.$eval('#quickraceb',b=>{const r=b.getBoundingClientRect();return{x:r.x,y:r.y,width:r.width,height:r.height,bottom:r.bottom,right:r.right};});assert.ok(layout.y>=0&&layout.bottom<=viewport.height&&layout.right<=viewport.width&&layout.height>=44,'quick race visible touch target');
+ // Return from a locked crew preview and time-trial choice. Quick Race must reset both.
+ await tap('#enterdock');await tap('#arenasb');await tap('[data-mode="time"]');await tap('#backdockb');await tap('[data-boat="5"]');await tap('#homeb');await tap('#quickraceb');
+ await page.waitForFunction('window.__GAME__.state==="countdown"');assert.equal(await page.$eval('#loading',e=>e.hidden),true);await page.waitForFunction('window.__GAME__.state==="race"');await new Promise(r=>setTimeout(r,1800));const t=await page.evaluate(()=>window.__GAME__);assert.equal(t.craft,'KESTREL');assert.equal(t.arena,'meridian');assert.ok(t.speed>40);assert.ok(t.cameraDistance<20,'chase camera stays close at turbo speed');assert.equal(t.rivals.length,5);assert.equal(await page.$eval('#field-size',e=>e.textContent),'/ 6');assert.deepEqual(t.unlocked,[true,false,false,false,false,false]);assert.deepEqual(t.roster,[true,false,false,false,false,false]);
+ await page.screenshot({path:`evidence/compliance/quick-race-${viewport.width}x${viewport.height}.png`});report.checks.push({viewport,layout,speed:t.speed,draws:t.draws,tris:t.tris});
+}assert.equal(report.errors.length,0);report.passed=true;console.log('QUICK RACE PASS',JSON.stringify(report));}catch(e){report.failure=e.stack;process.exitCode=1;console.error(e);}finally{fs.writeFileSync('evidence/compliance/quick-race-check.json',JSON.stringify(report,null,2));await browser.close();}

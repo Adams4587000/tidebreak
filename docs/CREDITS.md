@@ -75,3 +75,13 @@ Rider fabric receives the canonical 404 `surfaces.js` fabric recipe at load time
 ## Combat expansion (September 2026)
 
 Atlas MCP / FLUX.2 Max generated the inspected weapon fleet reference `58240817-84a8-4568-9ada-b7e73a3d6e24` and armory panel image `2b0c6b06-4096-4793-acc2-2ee748d371e4`. The panel ships at 768 px as `game/media/armory.webp`; the full images and metadata remain in references. The turn reported 76 credits. It generated four visible reference machines, not six complete models. The six game craft remain original constructor geometry, extended with weapon hardpoints in the existing template. Original synthesized weapon/impact effects supplement the existing Atlas music and water loops. See COMBAT.md for source-linked gameplay research.
+
+## Recipe compliance remediation
+
+Reference boards generated through Atlas MCP: FLEET_A `afc1abe7-e79f-4290-a430-32f73c479cab`, FLEET_B `89d18628-e3d4-4dfd-a682-188ace9c52de`, NATURE `5ee41243-20d9-4f8a-afc8-fb051b04c79e`, PORT `c952a2c6-a9ff-4808-8508-2431d8b6b0ea`, TRACK `b2421666-980e-4193-be48-349d2e93fb17`, DOCK_SUPPLY `79887437-e107-4310-a8a0-3233491d5561`. Originals, rejected retries and descriptors: `references/atlas-compliance.json`. These are reference-only; no extra image downloads are added to the game. Atlas reported 198 credits for six final board executions; that excludes earlier retries and agent costs, so it is not the total turn cost (transport closed before the aggregate receipt).
+
+Corrected isolated references: caldera `34267a9b-0eb4-4be1-8c6f-276a89cfcbe7`, Kestrel `e3c4c2be-653c-4fbd-943f-9988b5121449`, Ironclad `afaf3c07-366d-423c-855b-080930b646d4`. The correction turn reported 76 credits, including three 19-credit images. Caldera's floating platform/towers were rejected, and craft decals/wire artifacts are not reproduced. Metadata: `references/atlas-compliance-fixes.json`.
+
+Independent comparison images come from [Vector Unit's official Riptide GP: Renegade gallery](https://www.vectorunit.com/riptide-gp-renegade). Copyright remains with Vector Unit. Files and precise source URLs live only in `references/review`, outside the shipped game, and are used for visual criticism; no art, geometry or game source is copied into Tidebreak.
+
+Atlas private critic project: `32eab797-f7fb-4ffb-a8a3-b72b165737c4`, using the workspace-allowed Seed 2.0 Lite vision model. Anonymous paired images are its only inputs; the pair key, game code and implementation notes are withheld. This is model critique, not a claim of human playtesting.

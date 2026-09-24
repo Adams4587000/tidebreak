@@ -14,6 +14,7 @@ Open http://localhost:4173/. No build step, runtime services or API keys. Serve 
 - F fires missiles, Q deploys the held special, E activates a shield. Everyone starts with four missiles and two shield charges. Three damaging hits eliminate a racer.
 - R recovers to the racing line; Escape pauses. Phone controls include steering, turbo, brake, fire, special and shield.
 - Title and loading screen → **Enter the dock** → select a rider and machine → **Choose territory** → select an arena → 3–2–1 countdown → race.
+- Optional **Quick Race** on the title starts Rook / Kestrel in the same full Meridian combat race, including countdown and earned progression.
 - Dock: drag to rotate the actual 3D spacecraft, scroll to zoom, or inspect the rider closely. All six crews can be inspected; only Rook / Kestrel starts unlocked.
 - Six independent 8.4–9.8 km circuits. Each keeps its own environment from start to finish. Only Meridian starts open; locked arenas show their artwork, route and unlock requirement. Shared supply rows, crossings, marked channels, barriers and ramps create racing decisions.
 - Rivals spend ammunition and energy, fight each other, collect finite supplies and make mistakes. Visible drafting and pursuit power help keep the field catchable.
@@ -37,13 +38,14 @@ node tools/territory-flow-check.mjs
 node tools/combat-touch-check.mjs
 node tools/combat-endurance-check.mjs
 node tools/territory-races-check.mjs
-node tools/territory-gate.mjs http://localhost:4173/ --out=evidence/jam-territories
+node tools/compliance-check.mjs --selftest
+node ../404-game-recipe/harness/jam.mjs http://localhost:4173/ --start=#quickraceb --out=evidence/compliance/stock-local
 ```
 
 Browser checks run sequentially and require the local server. The combat driver uses actual keyboard events from a fresh save and checks earned progression. The six-territory driver uses an explicitly unlocked test fixture and real keyboard driving through each whole course; it does not demonstrate earning those unlocks. Neither driver teleports or injects race progress. Older chapter and spacecraft evidence is historical.
 
-The canonical 404 jam harness supports one start tap. The navigation adapter adds real taps on **Enter the dock** and **Choose territory**, then scrolls to the original race-start control. All gate thresholds, instrumentation and the race-start tap remain unchanged. This is a local adapted gate, not an unmodified root-URL competition verdict. The canonical recipe files are untouched.
+The unmodified 404 jam harness now starts the full combat race through the visible Quick Race control, using its supported `--start` argument. The dock/territory setup path remains available and is checked separately with real inputs. The historical navigation adapter is no longer used for current gate evidence. Local passes are not live submission verdicts. See [compliance status](docs/COMPLIANCE.md) and [future production rules](AGENTS.md).
 
 This remains a browser game with procedural geometry, not demonstrated commercial AAA photorealism. Water reflections use a limited-resolution planar render; scenery repeats modular assets; AI follows route coordinates rather than the player's full free-steering physics. Broad physical-phone testing and a deployed competition gate are still needed. No publication or submission has been performed.
 
-See [production scope](docs/DYSTOPIA.md), [campaign](docs/CAMPAIGN.md), [style](docs/STYLE.md), [provenance](docs/CREDITS.md) and [current validation](docs/TERRITORY-VALIDATION.md).
+See [production scope](docs/DYSTOPIA.md), [campaign](docs/CAMPAIGN.md), [style](docs/STYLE.md), [provenance](docs/CREDITS.md) and [current validation](docs/COMPLIANCE-VALIDATION.md).

@@ -1,0 +1,26 @@
+export default function generate(THREE){
+ const root=new THREE.Group();
+ const material=(name,color,r=.75,m=.15)=>{const a=new THREE.MeshStandardMaterial({color,roughness:r,metalness:m});a.name=name;return a;};
+ const stone=material('stone',0x77796f,.92,0),metal=material('metal',0x596168,.6,.6),dark=material('carbon',0x252b2a,.8,.3),paint=material('paint',0xad5535,.7,.4),leaf=material('foliage',0x626e4c,.95,0),bark=material('timber',0x554e40,.9,0),signal=material('signal',0x9dcab8,.45);signal.emissive.setHex(0x83b9aa);signal.emissiveIntensity=.7;
+ const add=(geo,m,x=0,y=0,z=0,parent=root)=>{const o=new THREE.Mesh(geo,m);o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;parent.add(o);return o;};
+ const box=(x,y,z,w,h,d,m=stone,p=root)=>add(new THREE.BoxGeometry(w,h,d),m,x,y,z,p);
+ const rod=(a,b,r,m=metal,p=root,top=r)=>{const x=new THREE.Vector3(...a),y=new THREE.Vector3(...b),v=y.clone().sub(x),o=add(new THREE.CylinderGeometry(top,r,v.length(),8),m,0,0,0,p);o.position.copy(x.add(y).multiplyScalar(.5));o.quaternion.setFromUnitVectors(new THREE.Vector3(0,1,0),v.normalize());return o;};
+ const profile=(pts,depth,m=stone,x=0,y=0,z=0,p=root)=>{const s=new THREE.Shape();pts.forEach((q,i)=>i?s.lineTo(...q):s.moveTo(...q));s.closePath();const geo=new THREE.ExtrudeGeometry(s,{depth,bevelEnabled:false});geo.translate(0,0,-depth/2);return add(geo,m,x,y,z,p);};
+ const lathe=(pts,m=metal,x=0,y=0,z=0,p=root)=>add(new THREE.LatheGeometry(pts.map(q=>new THREE.Vector2(...q)),20),m,x,y,z,p);
+ const ball=(x,y,z,a,b,c,m=stone,p=root)=>{const o=add(new THREE.SphereGeometry(1,14,9),m,x,y,z,p);o.scale.set(a,b,c);return o;};
+ const tube=(pts,r,m=metal,p=root)=>add(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.map(q=>new THREE.Vector3(...q))),16,r,6,false),m,0,0,0,p);
+paint.color.setHex(0xad5535);
+
+ const body=new THREE.Group(),rider=new THREE.Group();body.name='static-body';rider.name='rider';root.add(body,rider);
+ const fabric=material('fabric',0x41453e,.96,0),armor=material('armor',0x8c8370,.65,.4),visor=material('visor',0x526e72,.18,.75);
+ const engine=(x,y,z,r)=>{const o=lathe([[0,-.55],[r,-.55],[r,.55],[r*.8,.75],[r*.65,.75],[r*.65,-.45],[0,-.45]],metal,x,y,z,body);o.rotation.x=Math.PI/2;add(new THREE.TorusGeometry(r*.72,.05,6,18),signal,x,y,z-.76,body);for(let i=0;i<8;i++){const a=i*Math.PI/4,b=box(x+Math.cos(a)*r*.4,y+Math.sin(a)*r*.4,z-.72,r*.55,.04,.05,dark,body);b.rotation.z=a+.5;}};
+ const hull=(x,y,z,r,len,m)=>{const pts=[];for(let i=0;i<=16;i++){const u=i/16;pts.push([Math.pow(Math.sin(u*Math.PI),.65)*r,(u-.5)*len]);}const o=lathe(pts,m,x,y,z,body);o.rotation.x=Math.PI/2;o.scale.z=.55;return o;};
+hull(0,1,0,1,7,paint);for(const s of [-1,1]){const o=profile([[-.3,0],[.3,0],[.25,.65],[-.15,.8]],2.6,paint,s*.72,1.1,1.7,body);tube([[s*.8,1,2.8],[s*1.4,.7,1],[s*1.35,.7,-2.4]],.11,metal,body);hull(s*1.12,.9,-.8,.32,3.7,dark);engine(s*.7,1,-2.8,.45);}
+ box(0,1.65,-.3,.68,.25,1.8,dark,body);box(0,1.7,1,.7,.45,.8,paint,body);rod([-.65,2.08,1],[.65,2.08,1],.05,metal,body);for(const s of [-1,1]){box(s*.66,1,.05,.3,.15,.55,dark,body);rod([s*.6,1.1,1],[s*1.15,1.6,1.7],.09,metal,body);box(s*1.15,1.65,1.8,.65,.48,1.8,metal,body);for(const dx of [-.16,.16]){rod([s*1.15+dx,1.7,1],[s*1.15+dx,1.7,3],.11,dark,body);add(new THREE.TorusGeometry(.115,.025,5,12),metal,s*1.15+dx,1.7,3,body);}for(let j=0;j<5;j++)box(s*.55,1.6,1.6+j*.15,.25,.04,.045,dark,body);for(let j=0;j<4;j++){box(s*.8,1.3,-1.8+j*.8,.08,.25,.55,metal,body);for(const dz of [-.2,.2])add(new THREE.SphereGeometry(.025,6,4),dark,s*.85,1.34,-1.8+j*.8+dz,body);}const f=new THREE.Group();f.name=s<0?'foil-left':'foil-right';f.position.set(s,1,-.2);root.add(f);rod([0,0,.8],[s*.25,-.8,.4],.065,metal,f);rod([0,0,-1],[s*.25,-.8,-.6],.065,metal,f);box(s*.25,-.8,0,.38,.08,2.5,dark,f);}
+ box(0,1.6,-2.2,.8,.4,.5,metal,body);for(const x of [-.24,0,.24])rod([x,1.6,-2.3],[x,1.6,-2.8],.085,metal,body);
+
+ // Curved suit limbs with separate profiled chest shell and helmet crown.
+ rider.position.set(0,1.9,-.6);for(const s of [-1,1]){tube([[s*.2,1.9,-.6],[s*.5,1.45,.1],[s*.65,1.1,-.1]],.14,fabric,body);ball(s*.49,1.45,.1,.18,.22,.2,armor,body);tube([[s*.25,.7,.4],[s*.5,.4,.8],[s*.56,.18,1.6]],.11,fabric,rider);ball(s*.56,.18,1.6,.09,.08,.14,dark,rider);profile([[-.15,0],[.15,0],[.18,.16],[-.1,.22]],.35,armor,s*.34,.6,.4,rider);}const torso=lathe([[0,0],[.25,0],[.32,.4],[.28,.75],[0,.8]],fabric,0,.05,.1,rider);torso.rotation.x=.35;const chest=profile([[-.26,0],[.26,0],[.31,.4],[.2,.57],[-.2,.57],[-.31,.4]],.12,armor,0,.25,.5,rider);chest.rotation.x=.35;lathe([[0,0],[.25,.03],[.28,.24],[.2,.45],[0,.49]],armor,0,.87,.6,rider);add(new THREE.TorusGeometry(.265,.055,6,18,Math.PI),visor,0,1.14,.6,rider).rotation.x=Math.PI/2;box(0,.98,.87,.24,.13,.14,dark,rider);box(0,.5,-.1,.4,.5,.2,dark,rider);for(const s of [-1,1])rod([s*.21,.2,.4],[s*.23,.7,.15],.025,metal,rider);
+
+ const bounds=new THREE.Box3(),v=new THREE.Vector3();root.updateMatrixWorld(true);root.traverse(o=>{if(o.isMesh){const p=o.geometry.attributes.position;for(let i=0;i<p.count;i++)bounds.expandByPoint(v.fromBufferAttribute(p,i).applyMatrix4(o.matrixWorld));}});const c=bounds.getCenter(new THREE.Vector3());root.children.forEach(o=>{o.position.x-=c.x;o.position.y-=bounds.min.y;o.position.z-=c.z;});return root;
+}

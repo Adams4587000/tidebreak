@@ -1,0 +1,12 @@
+{
+  "pair_01.png": {
+    "build": "right",
+    "build_file": "evidence/territory-meridian-2.png",
+    "ref_file": "references/review/reference-0.jpg"
+  },
+  "pair_02.png": {
+    "build": "right",
+    "build_file": "evidence/territory-blackwater-3.png",
+    "ref_file": "references/review/reference-2.jpg"
+  }
+}
