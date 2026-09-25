@@ -97,3 +97,10 @@ Nitro reuses the reviewed supply pressure-vessel model and existing collectible/
 
 ### Smooth launch and dock ignition — 25 September 2026
 Startup and mechanical menu cues are original Web Audio synthesis. Stationary revving animates the existing reviewed exhaust geometry with an original procedural flame shader; no new external image, audio or model is introduced. Per-material uniforms preserve fleet finishes while sharing shader programs. Repeated scenery shares canonical ASSET geometry through per-chunk GPU instances; this changes storage/draw submission, not the source asset constructors. See PERFORMANCE.md for measurements and limitations.
+
+The local dock-audio correction adds an original synthesized midrange turbine idle/rev voice and reuses the existing Atlas music/water recordings through Web Audio. No new media or generator output is introduced.
+
+The dock rev refinement opens the turbine harmonics with throttle and adds original filtered exhaust noise, sharing the existing noise source. It uses no new recording or external asset.
+
+### Separate racing score — 25 September 2026
+`game/race-score.js` is an original code-authored 148 BPM, sixteen-bar electronic score: synthesized kick/snare/hi-hats, syncopated bass, delayed arpeggios and sustained fifths. Web Audio renders it once to an in-memory loop; no external recording or generated media is added. The existing Atlas music remains the dock/pause soundtrack. Race and ambient gains crossfade at race start, pause, resume and exit. Both pass through the existing master mute and limiter.

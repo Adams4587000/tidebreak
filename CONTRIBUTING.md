@@ -7,10 +7,10 @@ Start with [AGENTS.md](AGENTS.md), [the style direction](docs/STYLE.md) and [404
 ```sh
 git clone https://github.com/Adams4587000/tidebreak.git
 cd tidebreak
-python3 -m http.server 4173 --bind 127.0.0.1 --directory game
+python3 tools/serve.py
 ```
 
-Open http://localhost:4173/. Python 3 and a WebGL-capable browser are enough to play and edit the game. Refresh after editing files. There is no bundler, application dependency installation, Atlas login or API key required to run it. On Windows, `py -3` can replace `python3`.
+Open http://localhost:4173/. Python 3 and a WebGL-capable browser are enough to play the checked-in game. Editing scripts or styles also requires Node.js to refresh their cache versions. After editing scripts or styles, run `node tools/version-game.mjs` and refresh. `npm start` regenerates those versions and starts the server. There is no bundler, application dependency installation, Atlas login or API key required to run it. On Windows, `py -3` can replace `python3`. The development server disables browser caching so edits load consistently.
 
 The repository includes production references, candidate comparisons and validation evidence, so its download is much larger than the approximately 6.6 MB playable game. Only `game/` is the deployable application. Historical evidence includes the original machine's paths and measured results; those are records, not dependencies on that machine.
 
