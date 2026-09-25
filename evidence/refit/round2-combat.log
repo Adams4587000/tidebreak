@@ -1,0 +1,13 @@
+sector {"sector":0,"elapsed":3.9997999999999942,"place":2,"draws":349,"tris":782460,"pickups":1}
+sector {"sector":1,"elapsed":20.43249999999981,"place":2,"draws":315,"tris":565736,"pickups":3}
+sector {"sector":2,"elapsed":37.531799999999926,"place":1,"draws":216,"tris":524890,"pickups":6}
+sector {"sector":3,"elapsed":55.21440000000109,"place":1,"draws":293,"tris":654384,"pickups":9}
+sector {"sector":4,"elapsed":73.36370000000375,"place":2,"draws":242,"tris":530912,"pickups":11}
+sector {"sector":5,"elapsed":90.87970000000767,"place":1,"draws":374,"tris":861864,"pickups":12}
+TimeoutError: Waiting failed: 120000ms exceeded
+    at new WaitTask (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/common/WaitTask.js:46:34)
+    at IsolatedWorld.waitForFunction (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/api/Realm.js:49:26)
+    at CdpFrame.waitForFunction (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/api/Frame.js:585:43)
+    at CdpFrame.<anonymous> (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/util/decorators.js:101:27)
+    at CdpPage.waitForFunction (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/api/Page.js:1464:37)
+    at file:///Users/karissmac/Documents/Cursor.Code/tidebreak/tools/combat-endurance-check.mjs:28:34

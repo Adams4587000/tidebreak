@@ -1,0 +1,3 @@
+ramp edge PASS right 2
+ramp edge PASS left 4
+HANDLING PASS: pillar holds, quiet sustained contact, keyboard/touch reverse, reverse steering, boost interlock, both ramp edges.

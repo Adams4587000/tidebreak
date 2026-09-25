@@ -998,7 +998,7 @@
     {
       "name": "supply",
       "shipping": "game/assets/supply.js",
-      "sha256": "94250dfe6a744d4adad57e681dc4fecd86e2e9b78158a5d00cc3118ba75841e5",
+      "sha256": "e6beb686849c9379c5d6837f04fedcf402248f8dd7e720c6e4040e5e601d5e35",
       "reference": {
         "path": "references/compliance/supply.png",
         "atlas_fid": "79887437-e107-4310-a8a0-3233491d5561",
@@ -1012,33 +1012,33 @@
       },
       "candidates": [
         {
-          "path": "candidates/compliance/supply__legacy.js",
-          "sha256": "94250dfe6a744d4adad57e681dc4fecd86e2e9b78158a5d00cc3118ba75841e5",
-          "strategy": "legacy",
+          "path": "candidates/supply-rebuild/supply__cassette.js",
+          "sha256": "1410c08c7958abc5e224f1682babf646bbc332fa3cb85de3d979694ed13602fb",
+          "strategy": "cassette",
           "verifier_ok": true,
           "warnings": [],
-          "render": "candidates/compliance/_verify/supply__legacy.png"
+          "render": "candidates/supply-rebuild/_verify/supply__cassette.png"
         },
         {
-          "path": "candidates/compliance/supply__assembly.js",
-          "sha256": "dabff76a8c1ac587cd93c57b52f7879ad7f011ec7a2f302bb2f8d2767631c00b",
-          "strategy": "assembly",
+          "path": "candidates/supply-rebuild/supply__magazine.js",
+          "sha256": "e6beb686849c9379c5d6837f04fedcf402248f8dd7e720c6e4040e5e601d5e35",
+          "strategy": "magazine",
           "verifier_ok": true,
           "warnings": [],
-          "render": "candidates/compliance/_verify/supply__assembly.png"
+          "render": "candidates/supply-rebuild/_verify/supply__magazine.png"
         },
         {
-          "path": "candidates/compliance/supply__profile.js",
-          "sha256": "c577abb555212870a7d118b2686d4b5b60aab5c8bac7bf73a565eb3f0dddbd34",
-          "strategy": "profile",
+          "path": "candidates/supply-rebuild/supply__pressure.js",
+          "sha256": "c16253c680662532c1f7bc5ae742786f0498c4eef3debbf231fa0fe18ba8fc01",
+          "strategy": "pressure",
           "verifier_ok": true,
           "warnings": [],
-          "render": "candidates/compliance/_verify/supply__profile.png"
+          "render": "candidates/supply-rebuild/_verify/supply__pressure.png"
         }
       ],
-      "selected": "legacy",
-      "decision": "Legacy entire illuminated ring reads from both sides. Assembly rear ring is dark; profile broken ring and rectangular core weaken recognition. Preserve good pickup silhouette and original finite ownership behavior.",
-      "integration_delta": null
+      "selected": "magazine",
+      "decision": "Inspected all five canonical views of each construction. The radial magazine wins: six pressure cells, manifold plates and luminous bands read equally from every side and retain physical substance. Cassette side armor obscures its luminous cells; pressure vessel has a more ambiguous spherical silhouette. User explicitly rejected the old ring/diamond. Existing Atlas reference informed industrial materials and functional illumination, not its rejected silhouette.",
+      "integration_delta": "Batched by canonical ASSET; per-type signal colors and floating labels applied at runtime. No geometry modification."
     },
     {
       "name": "wreck",

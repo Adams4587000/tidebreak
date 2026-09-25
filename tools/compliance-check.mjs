@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Evidence integrity guard. It checks coverage and stale receipts, not aesthetic quality.
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';
+import {PREVIEW_UNLOCKS} from '../game/play-access.js';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=p=>fs.readFileSync(path.resolve(root,p));const sha=p=>crypto.createHash('sha256').update(read(p)).digest('hex');
 const json=p=>JSON.parse(read(p));const files=dir=>fs.readdirSync(path.resolve(root,dir),{withFileTypes:true}).flatMap(d=>d.isDirectory()?files(dir+'/'+d.name):[dir+'/'+d.name]);
@@ -19,6 +20,7 @@ function validate(book){const failures=[];const require=(condition,msg)=>{if(!co
  return failures;
 }
 let failures=validate(ledger);
+if(process.argv.includes('--release')&&PREVIEW_UNLOCKS)failures.push('Temporary preview unlocks are active. Set PREVIEW_UNLOCKS=false in game/play-access.js before the final build or commit.');
 if(process.argv.includes('--selftest')){const bad=structuredClone(ledger);bad.assets[0].sha256='0'.repeat(64);if(!validate(bad).some(x=>x.startsWith('stale or altered:')))failures.push('selftest did not catch changed asset');const missing=structuredClone(ledger);missing.assets.pop();if(!validate(missing).some(x=>x.startsWith('unreviewed asset:')))failures.push('selftest did not catch missing asset record');}
 const report={checked_at:new Date().toISOString(),assets:ledger.assets.length,candidates:ledger.assets.length*3,media:lock.media.length,failures,passed:failures.length===0,scope:'Local provenance/integrity guard; not visual certification or live submission verdict.'};
-fs.mkdirSync(path.resolve(root,'evidence/compliance'),{recursive:true});fs.writeFileSync(path.resolve(root,'evidence/compliance/integrity-check.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));if(failures.length)process.exitCode=1;
+const evidence=process.env.EVIDENCE_DIR||'evidence/compliance';fs.mkdirSync(path.resolve(root,evidence),{recursive:true});fs.writeFileSync(path.resolve(root,evidence,'integrity-check.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));if(failures.length)process.exitCode=1;

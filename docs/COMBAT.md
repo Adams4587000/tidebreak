@@ -10,7 +10,7 @@ Primary developer sources reviewed on 23 September 2026:
 - [Vector Unit: seekers](https://www.vectorunit.com/blog-posts/2019/5/9/bbr2-powerup-guide-seekers) explains homing attacks, the cost of wasting several shots on one opponent, and track-dependent counterplay. Tidebreak missiles have a visible launch phase and stop tracking laterally on final approach. A late lane change or a shield can defeat them; missiles are consumed even when blocked.
 - [Vector Unit: globals](https://www.vectorunit.com/blog-posts/2019/5/23/bbr2-powerup-guide-globals) shows attacks aimed at racers ahead and effects that can be countered. Tidebreak selects a live rival ahead, never a finished or eliminated racer. There are no invisible guaranteed global hits.
 - [Vector Unit: championship and progression update](https://www.vectorunit.com/blog-posts/2022/4/26/bbr2-update-20220420) discusses finishing-position rewards, career statistics and retained unlocks. Tidebreak keeps contract milestones and adds reputation earned through distance, supplies, takedowns and finishing position. Elimination earns participation progress without recording a false finish.
-- [Gameloft: Nitro Shockwave](https://gameloft.helpshift.com/hc/en/15-asphalt-legends/faq/606-how-do-i-perform-a-nitro-shockwave/) describes a large speed burst from a charged resource. Tidebreak uses its own automatic five-second launch turbo, finite rechargeable boost, colored exhaust and camera acceleration.
+- [Gameloft: Nitro Shockwave](https://gameloft.helpshift.com/hc/en/15-asphalt-legends/faq/606-how-do-i-perform-a-nitro-shockwave/) describes a large speed burst from a charged resource. Tidebreak uses its own automatic 15-second launch turbo, finite rechargeable boost, colored exhaust and camera acceleration.
 - [Nintendo: Mario Kart item inventory](https://www.nintendo.com/sg/switch/aabp/item/index.html) presents limited held items. Tidebreak separates ordinary missiles, one special weapon type and shield charges so the driver can read their options quickly.
 
 These are design influences, not claims that Tidebreak reproduces those games' physics or proprietary AI. The values below are original tuning.
@@ -19,7 +19,7 @@ These are design influences, not claims that Tidebreak reproduces those games' p
 
 | System | Shared rule |
 | --- | --- |
-| Launch | 3–2–1–GO, five seconds of automatic turbo, full energy, eight seconds of opening protection |
+| Launch | 3–2–1–GO, 15 seconds of automatic turbo, full energy, no automatic starting shield |
 | Pace | 61.5–65 m/s cruise, craft-specific turbo multiplier; much faster acceleration than the preceding build |
 | Starting arsenal | Four missiles, two manually activated shields, empty special slot |
 | Hull | Three damaging hits eliminate a crew. Each hit slows it; six seconds of recovery immunity prevents chain kills. Hull hits remain for the run. |
@@ -35,7 +35,7 @@ These are design influences, not claims that Tidebreak reproduces those games' p
 | Red skull | Clearly labeled lethal contraband mine mixed into occasional later rows. Eliminates an unprotected racer; shield/recovery immunity blocks it. A lane warning appears within 120 m. |
 | Track | Six environments, bridge piers, three marked channels, offset barriers, ramps, corners and timed sluice gates. Piers/barriers slow any crew that strikes them. |
 
-Charge restores energy. Overdrive adds a temporary speed boost. Repair clears slowing and provides brief protection; it does not erase hull-hit history. Ammo restores two ordinary missiles up to eight. Special supplies provide two uses, up to three when matching the held type; a different type replaces that slot.
+Charge restores energy. Turquoise Nitro canisters activate five seconds of automatic boost with a 12% engine overdrive, preserving the normal reserve. Collecting another refreshes the five-second timer; it does not stack speed multipliers with Overdrive. Braking suppresses thrust while the timer continues. Nitro occupies alternating energy-supply rows in every territory and is available equally to every crew. Overdrive adds a temporary speed boost. Repair clears slowing and provides brief protection; it does not erase hull-hit history. Ammo restores two ordinary missiles up to eight. Special supplies provide two uses, up to three when matching the held type; a different type replaces that slot.
 
 AI crews have separate random streams, lane preferences, driving errors and reactions. They spend ammunition and energy, collect the same finite supplies, shoot each other, evade threats, use shields and can be eliminated. The AI follows course coordinates; it is not a second human vehicle-physics simulation. Pure-rule tests run multiple seeds to check varied winners and AI-versus-AI damage and eliminations.
 
@@ -65,3 +65,11 @@ Atlas visual project: `29d918d9-ef79-4b7a-9519-575ad93f2405`. New FLUX.2 Max out
 ## Verification
 
 Use `node --test tests/*.test.mjs`, real-input combat/inspection/touch checks, the full turbo endurance driver, recipe asset verification, ship validation, and the phone/4G jam gate. Evidence and exact measurements are recorded separately after the final source revision. A local gate verdict is not a published competition entry.
+
+### Missile firing feedback — local correction
+Ordinary missiles can fire without a target (F or the missile button); Seeker and Laser still require a target. With a rival ahead, the existing guidance applies. The three-second starting arm period, ammunition and cooldown remain. Removing the ordinary missile collision delay fixes missiles passing through very close rivals; owner exclusion prevents self-hits, while deployed mines retain their arming delay. AI crews conserve ammunition when no rival is ahead.
+
+Launch flashes and height-aligned trails accompany the ignition sound. The weapon panel distinguishes launch, confirmed hull damage, shield block, scenery impact and expiry/miss. Shields cause no hull damage; an unshielded hit slows the rival and adds one of the three hits needed for elimination. Existing procedural effect textures and original runtime geometry are reused; no new external asset is added.
+
+### Visible damage reaction
+A damaging hit now drives a 1.2-second visual recoil: a sideways rock, pitch kick, small lift, rider lurch, brief orange material flash and trailing sparks. A separate visual pivot keeps this animation out of collision and steering coordinates. The reaction uses race time, settles without accumulated transforms and resets on a new race. Shield/recovery blocks do not replay hull damage. Eliminated rivals tip and sink for 1.6 seconds before becoming invisible.

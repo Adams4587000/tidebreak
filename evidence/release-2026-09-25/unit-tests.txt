@@ -1,0 +1,58 @@
+
+> tidebreak@0.1.0 test
+> node --test tests/campaign.test.mjs tests/combat.test.mjs tests/race-rules.test.mjs tests/handling.test.mjs tests/play-access.test.mjs
+
+✔ six territories start with only Meridian and Rook available (0.955ms)
+✔ practice, abandoned runs and elimination cannot clear a territory (0.149208ms)
+✔ each objective unlocks exactly the next territory and persists (0.813708ms)
+✔ old career earnings migrate without unlocking unrelated new routes (0.278333ms)
+✔ invalid saves and progression gaps do not grant territories (0.172875ms)
+✔ every crew starts without an active shield and receives fifteen seconds of free launch boost (1.389291ms)
+✔ a damaging hit recoils visibly, settles and preserves the hull position (0.551875ms)
+✔ shield blocks do not recoil the hull; elimination has a finite sinking reaction and restart clears it (0.07325ms)
+✔ three separate damaging hits eliminate; recovery prevents a chain kill (0.060125ms)
+✔ shields block damage, have finite charges, and supplies do not erase three-hit history (0.08975ms)
+✔ weapon ammunition, target eligibility and cooldown apply equally to both IDs (0.27775ms)
+✔ missiles use swept collision; changing lanes after final approach dodges them (0.39975ms)
+✔ close-range missiles hit moving rivals instead of passing through during arming (1.23775ms)
+✔ free fire spends one missile, expires visibly, and guided specials still need a target (0.217625ms)
+✔ shield and scenery stops report a blocked shot without inventing hull damage (0.156458ms)
+✔ red hazards eliminate unprotected racers, shields provide counterplay (0.052375ms)
+✔ pursuit and slipstream depend on race geometry, never human identity (0.078ms)
+✔ finishers rank by crossing time, active racers by distance, eliminated racers by survival (0.069666ms)
+✔ seeded opponents attack each other and outcomes vary across races (86.157709ms)
+✔ mines arm behind the owner and bombs damage rivals inside their marked area (0.132709ms)
+✔ laser has a visible ignition interval and can hit a moving target after charging (0.068083ms)
+✔ shield overlap does not enlarge the solid hull; the actual body still stops (1.119625ms)
+✔ flight is a continuous world-space arc independent of the water moving underneath (0.331292ms)
+✔ holding brake stops before reversing; reverse is capped and release restores forward thrust (0.753166ms)
+✔ reverse movement crosses the start line without adding a lap (0.06025ms)
+✔ sustained hull contact sounds once, ignores jitter and low-speed scrapes, rearms after separation (0.071917ms)
+✔ both ramp edges carry a partly overlapping hull smoothly and allow reversing downhill (0.911542ms)
+✔ reverse audio uses positive engine and water levels (0.660625ms)
+✔ swept hull stops at a pier even when a frame crosses the entire solid (0.071541ms)
+✔ glancing contact slides along a solid face without entering it (0.246916ms)
+✔ clear lanes, reverse approaches and rotated solids use the same footprint (0.500583ms)
+✔ an overlapping hull is expelled, and a stopped hull stays outside (0.068792ms)
+✔ boost lasts ten seconds, recharges in ten, and partial reserves work (0.097666ms)
+✔ empty held boost cannot pulse, braking charges, launch does not drain reserve (0.038417ms)
+✔ ramps support slow hulls, launch only off the lip and reject side misses (0.699916ms)
+✔ AI commits to the ramp deck instead of aiming through its side rail (1.07475ms)
+✔ AI stays outside a barrier until its stern clears, even after passing its center (0.113166ms)
+✔ temporary preview opens all six real territories and craft without accepting invalid choices (0.380166ms)
+✔ preview results stay separate and switching it off restores the earned career (0.397083ms)
+✔ nitro is a finite automatic boost that preserves reserve and respects braking (1.059459ms)
+✔ only the first crew reaching a nitro canister gets the boost (0.13575ms)
+✔ AI nitro provides extra thrust after launch without spending its empty reserve (0.947792ms)
+✔ earliest touch owns a shared pickup, independent of array ordering (0.287584ms)
+✔ swept entry catches fast movement and rejects nearby misses (0.119042ms)
+✔ AI has finite boost and no dependency on player position (3.562166ms)
+✔ finished rivals stop and cannot lap into the active race (0.160125ms)
+ℹ tests 46
+ℹ suites 0
+ℹ pass 46
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 133.725375

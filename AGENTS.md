@@ -14,4 +14,10 @@ Read docs/COMPLIANCE.md, docs/STYLE.md, docs/QUALITY.md and docs/CREDITS.md befo
 - Keep credentials outside source, evidence and shipped files. Never write API keys or saved authorization headers. Ship only game/.
 - Do not claim full compliance, physical-phone performance, live deployment, public source availability, or completed blind reviews without corresponding evidence. docs/COMPLIANCE.md records open release requirements.
 
-Current user instruction: publish the source to Adams4587000's GitHub for collaboration and preserve the existing history. Follow CONTRIBUTING.md for setup and review. GitHub source sharing does not authorize game deployment or competition submission; those and the live competition verdict remain deferred release steps.
+Preserve the existing development history in Adams4587000's GitHub repository. Follow CONTRIBUTING.md for setup and review; the current final-release authorization is recorded below.
+
+## Temporary preview unlocks — user request, 25 September 2026
+The temporary preview period is complete. Keep `PREVIEW_UNLOCKS=false` in `game/play-access.js` for the final build. Run `npm test` and `npm run check:release`, then check the real-input progression flow before publishing. Preview results use a separate storage key; do not copy them into the career save or delete the user’s career. This explicit preview request supersedes earned-lock requirements during local preview only.
+
+## Final release request — 25 September 2026
+The user now authorizes updating the existing GitHub repository and proceeding through the 404 jam submission workflow. Earned progression is restored (`PREVIEW_UNLOCKS=false`); keep it off in the release. Preserve the genuine development history. Publishing the game and an entry pull request are authorized, subject to working account access and truthful entrant declarations. Earlier local-only/preview statements describe historical work, not the current release scope.

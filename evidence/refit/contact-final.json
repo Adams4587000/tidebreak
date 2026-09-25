@@ -1,0 +1,201 @@
+{
+  "errors": [],
+  "checks": [
+    {
+      "name": "pickup collected",
+      "count": 1
+    },
+    {
+      "name": "solid pier contact",
+      "s": 767.4657140275137,
+      "lateral": 14.34703382405246,
+      "speed": 20.40368459674333
+    },
+    {
+      "name": "ramp takeoff",
+      "air": 4.239131625391496,
+      "s": 1012.0529532083028
+    },
+    {
+      "name": "ramp landing",
+      "jumps": 1,
+      "maxAir": 9.749510745391499
+    }
+  ],
+  "frames": [],
+  "result": {
+    "cameraDistance": 15.14990037850164,
+    "menuStep": "arenas",
+    "arena": "meridian",
+    "checkpoint": 0,
+    "sector": 0,
+    "sectorName": "MERIDIAN",
+    "pickups": 3,
+    "roster": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "rivals": [
+      {
+        "id": "rival-1",
+        "name": "VESPER",
+        "s": 10,
+        "lane": -16,
+        "speed": 0,
+        "boost": 100,
+        "claimed": 0,
+        "shield": 8,
+        "invulnerable": 0,
+        "hits": 0,
+        "ammo": 4,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-2",
+        "name": "MOSS",
+        "s": 10,
+        "lane": 0,
+        "speed": 0,
+        "boost": 100,
+        "claimed": 0,
+        "shield": 8,
+        "invulnerable": 0,
+        "hits": 0,
+        "ammo": 4,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-3",
+        "name": "CINDER",
+        "s": 10,
+        "lane": 16,
+        "speed": 0,
+        "boost": 100,
+        "claimed": 0,
+        "shield": 8,
+        "invulnerable": 0,
+        "hits": 0,
+        "ammo": 4,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-4",
+        "name": "ECHO",
+        "s": -3,
+        "lane": -12,
+        "speed": 0,
+        "boost": 100,
+        "claimed": 0,
+        "shield": 8,
+        "invulnerable": 0,
+        "hits": 0,
+        "ammo": 4,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-5",
+        "name": "MARSHAL",
+        "s": -3,
+        "lane": 12,
+        "speed": 0,
+        "boost": 100,
+        "claimed": 0,
+        "shield": 8,
+        "invulnerable": 0,
+        "hits": 0,
+        "ammo": 4,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      }
+    ],
+    "nextPickup": {
+      "s": 1560,
+      "offset": 6,
+      "type": "SHIELD"
+    },
+    "lethalAhead": null,
+    "weapons": {
+      "ammo": 4,
+      "special": null,
+      "specialAmmo": 0,
+      "defenses": 2,
+      "hits": 0,
+      "kills": 0,
+      "shots": 0,
+      "damageDealt": 0,
+      "shield": 2.6833999999999993,
+      "invulnerable": 0,
+      "eliminated": false,
+      "incoming": false,
+      "cooldown": 0,
+      "projectiles": 0,
+      "pursuit": 0,
+      "drafting": false
+    },
+    "obstacleAhead": [],
+    "orbit": {
+      "yaw": 0.8695065,
+      "pitch": 0.3
+    },
+    "lensDrops": 13,
+    "surgeWindow": null,
+    "craft": "KESTREL",
+    "foilAngle": 0.7214169372234063,
+    "engineIntensity": 6.2387634849400975,
+    "exhaustScale": 3.080984892942203,
+    "air": 0,
+    "collisions": 10,
+    "rampsAhead": [],
+    "pos": [
+      1077.066444486,
+      876.3126217100431
+    ],
+    "fps": 60.00978836615188,
+    "speed": 92.56155580888769,
+    "score": 1,
+    "over": false,
+    "draws": 178,
+    "tris": 530760,
+    "progress": 0.14432572114240372,
+    "heading": 2.513244104563319,
+    "guideHeading": 2.551245091557382,
+    "lateral": 0.8135495654893435,
+    "boost": 28.17100000000033,
+    "boosts": 3,
+    "jumps": 1,
+    "signals": 0,
+    "surges": 0,
+    "place": 1,
+    "chapter": 0,
+    "state": "race",
+    "unlocked": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "elapsed": 21.232299999999807,
+    "courseLength": 8446.83764021624
+  },
+  "passed": true
+}

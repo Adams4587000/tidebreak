@@ -2,21 +2,85 @@ import * as THREE from 'three';
 import {ASSET,bakeStatic} from './assetlib.js';
 import {applySurfaces} from './surfaces.js';
 import {rng} from './course.js';
-import {ENGINE_COLORS} from './combat.js';
+import {ENGINE_COLORS,damageReaction} from './combat.js';
 import {PERKS,PERK_COLORS} from './race-rules.js';
 const craftNames=['kestrel','albatross','manta','brimstone','spectre','ironclad'];
 const names=[...craftNames,'rock','mangrove','crane','gate','buoy','ramp','lighthouse','quay','stadium','wreck','spillway','caldera','edge-buoy','barrier','bridge','dock','supply','lethal-supply'];
-export async function loadArt(onProgress){const prototypes={};let done=0;await Promise.all(names.map(async name=>{const moving=craftNames.includes(name);const o=await ASSET(`./assets/${name}.js`,{keepHierarchy:moving||['bridge','supply','lethal-supply'].includes(name)});
+export async function loadArt(onProgress){const prototypes={};let done=0;await Promise.all(names.map(async name=>{const moving=craftNames.includes(name);const o=await ASSET(`./assets/${name}.js`,{keepHierarchy:moving||['bridge','lethal-supply'].includes(name)});
 if(moving)applySurfaces(THREE,{traverse:visit=>o.traverse(n=>{if(n.isMesh&&n.material.name==='fabric')visit(n);})},{only:'fabric',size:128,normalScale:.25});
 if(moving)for(const partName of ['static-body','foil-left','foil-right','rider']){const part=o.getObjectByName(partName);if(!part)throw Error(`Missing spacecraft part: ${partName}`);const local=part.clone(true);local.position.set(0,0,0);local.rotation.set(0,0,0);local.scale.set(1,1,1);local.updateMatrixWorld(true);const batched=bakeStatic(local);part.clear();part.add(batched);}
+if(moving){const bounds=new THREE.Box3().setFromObject(o.getObjectByName('static-body')),size=bounds.getSize(new THREE.Vector3()),center=bounds.getCenter(new THREE.Vector3());o.userData.hull={halfWidth:size.x/2,halfLength:size.z/2,centerX:center.x,centerZ:center.z};}
 let meshes=0;o.traverse(n=>{if(n.isMesh)meshes++;});if(!meshes)throw Error(`The ${name} asset did not load.`);prototypes[name]=o;onProgress(++done/(names.length+14));}));const loader=new THREE.TextureLoader();const textures={};await Promise.all(['armory','water-normal','basalt','basalt-normal','bark','bark-normal','concrete','concrete-normal','carbon','carbon-normal','carbon-roughness','steel','steel-normal','steel-roughness'].map(async name=>{const tex=await loader.loadAsync(`./media/${name}.webp`);tex.wrapS=tex.wrapT=THREE.RepeatWrapping;tex.anisotropy=4;if(name.startsWith('carbon')||name.startsWith('steel'))tex.repeat.set(3,3);if(!name.endsWith('normal')&&!name.endsWith('roughness'))tex.colorSpace=THREE.SRGBColorSpace;textures[name]=tex;onProgress(++done/(names.length+14));}));return{prototypes,textures};}
 function surface(material,map,normal,scale){const m=material.clone();m.map=map;m.normalMap=normal;m.normalScale.set(.48,.48);m.onBeforeCompile=shader=>{shader.vertexShader=shader.vertexShader.replace('#include <common>','#include <common>\nvarying vec3 surfaceP;varying vec3 surfaceN;').replace('#include <begin_vertex>','#include <begin_vertex>\nsurfaceP=(modelMatrix*vec4(position,1.)).xyz;surfaceN=normalize(mat3(modelMatrix)*normal);');shader.fragmentShader=shader.fragmentShader.replace('#include <common>','#include <common>\nvarying vec3 surfaceP;varying vec3 surfaceN;').replace('#include <map_fragment>',`vec3 sw=pow(abs(surfaceN),vec3(4.));sw/=max(dot(sw,vec3(1.)),.001);vec3 sp=surfaceP*${scale.toFixed(4)};vec4 texelColor=texture2D(map,sp.yz)*sw.x+texture2D(map,sp.xz)*sw.y+texture2D(map,sp.xy)*sw.z;float macro=texture2D(map,sp.xz*.11).r;diffuseColor*=vec4(texelColor.rgb*(.88+macro*.3),1.);`);};m.customProgramCacheKey=()=>`triplanar-${scale}`;return m;}
+// Keep albedo, normal and roughness detail in the same moving hull-local space.
+// Separate coating, exposed alloy and woven composite responses share existing Atlas media.
+const FINISHES=[
+ {paint:0xe3c38b,metal:0x737d83,rough:.44,metalness:.14,wear:.46,scale:.85},
+ {paint:0xdee8e6,metal:0x496779,rough:.32,metalness:.1,wear:.18,scale:1.05},
+ {paint:0x73885a,metal:0x485b42,rough:.66,metalness:.08,wear:.64,scale:.75},
+ {paint:0xa94327,metal:0x5b4540,rough:.58,metalness:.16,wear:.82,scale:.7},
+ {paint:0x58627e,metal:0x30374b,rough:.38,metalness:.12,wear:.24,scale:1.2},
+ {paint:0xc2cbd0,metal:0x899399,rough:.47,metalness:.2,wear:.58,scale:.9},
+];
+function fleetSurface(m,textures,finish,kind='paint'){
+ const composite=kind==='carbon',coated=kind==='paint',family=composite?'carbon':'steel';
+ m.map=textures[family];m.normalMap=textures[family+'-normal'];m.roughnessMap=textures[family+'-roughness'];
+ m.normalScale.setScalar(composite?.62:coated?.7:.95);
+ m.onBeforeCompile=shader=>{
+  shader.vertexShader=shader.vertexShader.replace('#include <common>','#include <common>\nvarying vec3 hullP;varying vec3 hullN;').replace('#include <begin_vertex>','#include <begin_vertex>\nhullP=position;hullN=normal;');
+  shader.fragmentShader=shader.fragmentShader.replace('#include <common>',`#include <common>
+   varying vec3 hullP;varying vec3 hullN;
+   vec3 hullSample(sampler2D tex,vec3 p,vec3 w){return texture2D(tex,p.yz).rgb*w.x+texture2D(tex,p.xz).rgb*w.y+texture2D(tex,p.xy).rgb*w.z;}
+  `);
+  shader.fragmentShader=shader.fragmentShader.replace('#include <map_fragment>',`
+   vec3 hullWeights=pow(abs(normalize(hullN)),vec3(5.));hullWeights/=max(dot(hullWeights,vec3(1.)),.001);
+   vec3 hullQ=hullP*${finish.scale.toFixed(3)}+vec3(${(finish.wear*2.7).toFixed(3)},.17,.43);
+   vec3 hullGrain=hullSample(map,hullQ,hullWeights);
+   float hullLuma=dot(hullGrain,vec3(.299,.587,.114));
+   float hullRough=hullSample(roughnessMap,hullQ,hullWeights).g;
+   float hullChip=${coated?`1.-smoothstep(${(.025+finish.wear*.06).toFixed(3)},${(.10+finish.wear*.10).toFixed(3)},hullLuma)`:'0.'};
+   ${composite?`diffuseColor.rgb*=mix(.38,1.55,smoothstep(.004,.09,hullLuma));`:
+    coated?`diffuseColor.rgb*=mix(.79,1.10,clamp(hullLuma*1.8,0.,1.));diffuseColor.rgb=mix(diffuseColor.rgb,vec3(.25,.28,.30)*(.75+hullRough*.65),hullChip);`:
+    `diffuseColor.rgb*=mix(.48,1.30,smoothstep(.12,.65,hullRough));`}
+  `);
+  shader.fragmentShader=shader.fragmentShader.replace('#include <roughnessmap_fragment>',`
+   float roughnessFactor=clamp(roughness+(hullRough-.4)*${composite?'.6':'.52'}+hullChip*.13,.19,.92);
+  `);
+  shader.fragmentShader=shader.fragmentShader.replace('#include <metalnessmap_fragment>','float metalnessFactor=mix(metalness,.86,hullChip);');
+  // Each projection needs its own tangent frame. Using the mesh UV frame here
+  // stretches detail on baked boxes and rotates highlights when the craft turns.
+  shader.fragmentShader=shader.fragmentShader.replace('#include <normal_fragment_maps>',`
+   vec3 hullNX=texture2D(normalMap,hullQ.yz).xyz*2.-1.;hullNX.xy*=normalScale;
+   vec3 hullNY=texture2D(normalMap,hullQ.xz).xyz*2.-1.;hullNY.xy*=normalScale;
+   vec3 hullNZ=texture2D(normalMap,hullQ.xy).xyz*2.-1.;hullNZ.xy*=normalScale;
+   vec3 hullNormal=normalize(getTangentFrame(-vViewPosition,normal,hullQ.yz)*hullNX)*hullWeights.x
+    +normalize(getTangentFrame(-vViewPosition,normal,hullQ.xz)*hullNY)*hullWeights.y
+    +normalize(getTangentFrame(-vViewPosition,normal,hullQ.xy)*hullNZ)*hullWeights.z;
+   normal=normalize(hullNormal);
+   ${coated?`// Thin paint relief follows the visible chip mask, not an unrelated UV map.
+   float coatHeight=(1.-hullChip)*.002;
+   vec3 hullDX=dFdx(-vViewPosition),hullDY=dFdy(-vViewPosition);
+   vec3 hullR1=cross(hullDY,normal),hullR2=cross(normal,hullDX);
+   float hullDet=dot(hullDX,hullR1);
+   if(abs(hullDet)>1e-8)normal=normalize(abs(hullDet)*normal-sign(hullDet)*(dFdx(coatHeight)*hullR1+dFdy(coatHeight)*hullR2));`:''}
+  `);
+ };
+ m.customProgramCacheKey=()=>`fleet-pbr-v2-${kind}-${finish.scale}-${finish.wear}`;
+}
 export function createBoat(art,color,env,index=0){
- const boat=art.prototypes[craftNames[index%6]].clone(true),materials=new Map();
- boat.traverse(o=>{if(!o.isMesh)return;const old=o.material;if(!materials.has(old.uuid)){let m;m=old.clone();m.envMap=env;m.envMapIntensity=old.name==='visor'?.7:.3;if(['paint','armor','metal','trim'].includes(old.name)){m.map=art.textures.steel;m.normalMap=art.textures['steel-normal'];m.normalScale.set(.22,.22);m.roughnessMap=art.textures['steel-roughness'];m.roughness=.66;m.metalness=Math.min(m.metalness,.5);if(old.name==='paint')m.color.setHex(color).multiplyScalar(1.7);}if(old.name==='carbon'){m.color.setHex(0xbbc6cc);m.map=art.textures.carbon;m.normalMap=art.textures['carbon-normal'];m.normalScale.set(.18,.18);m.roughnessMap=art.textures['carbon-roughness'];m.roughness=.55;m.metalness=.2;}if(old.name==='weapon'){m.map=art.textures.armory;m.color.setHex(0x7b8186);m.roughness=.65;}if(old.name==='exhaust'){m.color.setHex(ENGINE_COLORS[index]);m.emissive.setHex(ENGINE_COLORS[index]);}m.name=old.name;materials.set(old.uuid,m);}o.material=materials.get(old.uuid);o.castShadow=o.material.name!=='exhaust';});
+ const boat=art.prototypes[craftNames[index%6]].clone(true),materials=new Map(),finish=FINISHES[index%6];
+ boat.traverse(o=>{if(!o.isMesh)return;const old=o.material;if(!materials.has(old.uuid)){const m=old.clone();m.envMap=env;m.envMapIntensity=['visor','metal','trim','weapon'].includes(old.name)?1.05:.65;
+ if(['paint','armor','metal','trim'].includes(old.name)){m.color.setHex(old.name==='paint'?finish.paint:old.name==='armor'?finish.paint:finish.metal);if(old.name==='armor')m.color.multiplyScalar(.65);m.roughness=old.name==='trim'?.25:old.name==='metal'?.31:finish.rough;m.metalness=old.name==='metal'||old.name==='trim'?.82:finish.metalness;fleetSurface(m,art.textures,finish,['paint','armor'].includes(old.name)?'paint':'metal');}
+ if(old.name==='carbon'){m.color.setHex(index===4?0x33394a:0x414a50);m.roughness=index===4?.3:.52;m.metalness=.24;fleetSurface(m,art.textures,{...finish,scale:1.65},'carbon');}
+ if(old.name==='weapon'){m.map=null;m.color.setHex(0x57636b);m.roughness=.37;m.metalness=.8;fleetSurface(m,art.textures,{...finish,scale:1.3},'metal');}
+ if(old.name==='exhaust'){m.color.setHex(ENGINE_COLORS[index]);m.emissive.setHex(ENGINE_COLORS[index]);}m.name=old.name;materials.set(old.uuid,m);}o.material=materials.get(old.uuid);o.castShadow=o.material.name!=='exhaust';});
+ const reaction=new THREE.Group();reaction.name='damage-reaction';for(const child of [...boat.children])reaction.add(child);boat.add(reaction);boat.userData.reaction=reaction;boat.userData.damageMaterials=[...materials.values()].filter(m=>['paint','armor','metal','trim','carbon','weapon'].includes(m.name)).map(m=>({material:m,emissive:m.emissive.clone(),intensity:m.emissiveIntensity}));
  boat.userData.rider=boat.getObjectByName('rider');boat.userData.foils=[boat.getObjectByName('foil-left'),boat.getObjectByName('foil-right')];boat.userData.energy=[...materials.values()].filter(m=>m.name==='energy');boat.userData.plumes=[];boat.traverse(o=>{if(o.name.startsWith('plume-'))boat.userData.plumes.push(o);});return boat;
 }
+const damageTint=new THREE.Color(0xff632a);
+export function animateDamage(boat,r,time){const pose=damageReaction(r,time),pivot=boat.userData.reaction;pivot.rotation.set(pose.pitch,0,pose.roll);pivot.position.y=pose.lift;for(const entry of boat.userData.damageMaterials){entry.material.emissive.copy(entry.emissive).lerp(damageTint,pose.flash);entry.material.emissiveIntensity=entry.intensity+pose.flash*1.7;}if(boat.userData.rider)boat.userData.rider.rotation.x+=pose.rider;boat.userData.damagePose=pose;}
 export function animateCraft(boat,speed,boost,steering,air,dt,time){
+ speed=Math.abs(speed);
  if(boat.userData.rider){boat.userData.rider.rotation.z=THREE.MathUtils.lerp(boat.userData.rider.rotation.z,-steering*.16,1-Math.exp(-dt*6));boat.userData.rider.rotation.x=Math.sin(time*(speed>5?9:1.6))*.012+(boost?.06:0);}
  const deployment=THREE.MathUtils.clamp(speed/20,0,1)*(air>.5?0:1),blend=1-Math.exp(-dt*8);
  boat.userData.foils.forEach((f,i)=>{const side=i===0?-1:1;const target=side*(deployment-1)*1.05+steering*.12;f.rotation.z=THREE.MathUtils.lerp(f.rotation.z,target,blend);});
@@ -60,24 +124,25 @@ export function buildWorld(course,art){
  // 460 m gives a supply row every ~6.5 s at a typical 71 m/s race pace.
  const arsenal=['AMMO','SEEKER','LASER','MINE','BOMB'];
  for(let i=0,s=180;s<course.length-70;i++,s+=460)for(let j=0;j<4;j++){
-  const offset=[-18,-6,6,18][j],a=course.at(s,offset),types=['CHARGE','SHIELD',arsenal[i%5],i>3&&i%5===4?'DEATH':i%3===0?'OVERDRIVE':i%3===1?'AMMO':'REPAIR'],type=types[(j+i)%4],pi=PERKS.indexOf(type);
-  const o=art.prototypes[type==='DEATH'?'lethal-supply':'supply'].clone(true);o.position.copy(a.p);o.position.y=-.05;o.rotation.y=a.heading+Math.PI;
+  const offset=[-18,-6,6,18][j],a=course.at(s,offset),types=[i%2===1?'NITRO':'CHARGE','SHIELD',arsenal[i%5],i>3&&i%5===4?'DEATH':i%3===0?'OVERDRIVE':i%3===1?'AMMO':'REPAIR'],type=types[(j+i)%4],pi=PERKS.indexOf(type);
+  const o=art.prototypes[type==='DEATH'?'lethal-supply':'supply'].clone(true);o.position.copy(a.p);o.position.y=.5;o.rotation.y=a.heading+Math.PI;
   o.traverse(n=>{if(n.isMesh&&n.material.name==='signal'){n.material=n.material.clone();n.material.color.setHex(PERK_COLORS[pi]);n.material.emissive.setHex(PERK_COLORS[pi]);}});
-  const label=textPlane(type==='DEATH'?'☠ LETHAL':type,5.8,.75,type==='DEATH'?'#ff5266':'#f5f5ed','#101315');label.position.y=4.05;o.add(label);
-  dynamic.add(o);pickups.push({s,offset,position:{x:a.p.x,z:a.p.z},obj:o,collected:false,type,owner:null});
+  const label=textPlane(type==='DEATH'?'☠ LETHAL':type==='NITRO'?'NITRO »':type,7.5,1.2,type==='DEATH'?'#ff5266':type==='NITRO'?'#75ffed':'#f5f5ed','#101315');label.position.y=5.7;o.add(label);
+  o.userData.label=label;dynamic.add(o);pickups.push({s,offset,position:{x:a.p.x,z:a.p.z},obj:o,collected:false,type,owner:null});
  }
  // Three marked channels under service bridges; concrete piers and offset wreck barriers are solid.
  for(let sector=0;sector<6;sector++){
-  for(const frac of (course.config.arena===5?[.55]:[.18,.55])){const s=(sector+frac)*course.length/6;if(course.config.arena===1){place('mangrove',s,-course.width-8,2.5,-1);place('wreck',s,course.width+5,.5,-2,.8);continue;}if(course.config.arena===2){place('rock',s,-course.width-12,[2,5,3],-3);place('rock',s,course.width+12,[2,4,3],-3);continue;}const bridge=place('bridge',s,0,1,-2);bridge.getObjectByName('deck').scale.x=(course.width*2+8)/68;for(const side of [-30,30])bridge.getObjectByName('side-'+side).position.x=Math.sign(side)*course.width;for(const z of [-3,3])bridge.getObjectByName('rail-'+z).scale.x=course.width/30;for(const offset of [-14,14])obstacles.push({s,offset,radius:3.5,kind:'PIER'});}
-  for(const frac of [.39,.79]){const s=(sector+frac)*course.length/6,offset=frac<.5?-14:14;if([1,2,3,5].includes(course.config.arena))place(course.config.arena===1||course.config.arena===5?'wreck':'rock',s,offset,course.config.arena===1||course.config.arena===5?[.38,.45,.4]:[.5,.35,.5],-1);else place('barrier',s,offset,1,-.2);obstacles.push({s,offset,radius:7,kind:'BARRIER'});const warning=textPlane(offset<0?'» » KEEP RIGHT » »':'« « KEEP LEFT « «',13,1.5,'#eee6cf','#292d2c');warning.position.copy(course.at(s-2,offset).p);warning.position.y=4;warning.rotation.y=course.at(s).heading+Math.PI;chunks[chunkIndex(s)].add(warning);}
+  for(const frac of (course.config.arena===5?[.55]:[.18,.55])){const s=(sector+frac)*course.length/6;if(course.config.arena===1){place('mangrove',s,-course.width-8,2.5,-1);place('wreck',s,course.width+5,.5,-2,.8);continue;}if(course.config.arena===2){place('rock',s,-course.width-12,[2,5,3],-3);place('rock',s,course.width+12,[2,4,3],-3);continue;}const bridge=place('bridge',s,0,1,-2);bridge.getObjectByName('deck').scale.x=(course.width*2+8)/68;for(const side of [-30,30])bridge.getObjectByName('side-'+side).position.x=Math.sign(side)*course.width;for(const z of [-3,3])bridge.getObjectByName('rail-'+z).scale.x=course.width/30;for(const offset of [-14,14])obstacles.push({s,offset,radius:2.2,halfWidth:1.8,halfLength:2.5,height:12,kind:'PIER'});}
+  for(const frac of [.39,.79]){const s=(sector+frac)*course.length/6,offset=frac<.5?-14:14;const name=[1,5].includes(course.config.arena)?'wreck':[2,3].includes(course.config.arena)?'rock':'barrier',scale=name==='wreck'?[.38,.45,.4]:name==='rock'?[.5,.35,.5]:[1,1,1],y=name==='barrier'?-.2:-1;place(name,s,offset,scale,y);const size=new THREE.Box3().setFromObject(art.prototypes[name]).getSize(new THREE.Vector3());obstacles.push({s,offset,radius:size.x*scale[0]/2,halfWidth:size.x*scale[0]/2,halfLength:size.z*scale[2]/2,height:size.y*scale[1]+y,kind:'BARRIER'});const warning=textPlane(offset<0?'» » KEEP RIGHT » »':'« « KEEP LEFT « «',13,1.5,'#eee6cf','#292d2c');warning.position.copy(course.at(s-2,offset).p);warning.position.y=4;warning.rotation.y=course.at(s).heading+Math.PI;chunks[chunkIndex(s)].add(warning);}
  }
  // Thin lane strips are runtime course markings, not scenery objects.
  const light=new THREE.MeshBasicMaterial({color:0xe5e6d9}),stripeGeo=new THREE.PlaneGeometry(.15,5).rotateX(-Math.PI/2);
  for(let s=45;s<course.length;s+=50)for(const offset of [-10,10]){const a=course.at(s,offset),o=new THREE.Mesh(stripeGeo,light);o.position.copy(a.p);o.position.y=.22;o.rotation.y=a.heading;chunks[chunkIndex(s)].add(o);}
- course.obstacles=obstacles;
- for(let sector=0;sector<6;sector++)for(const u of [.32,.71]){const s=(sector+u)*course.length/6;const o=place('ramp',s,0,1,-.35,0,true);ramps.push({s,obj:o,used:false});}
+ course.obstacles=obstacles;course.ramps=ramps;
+ for(let sector=0;sector<6;sector++)for(const u of [.32,.71]){const s=(sector+u)*course.length/6;const o=place('ramp',s,0,1,-.35,0,true);const a=course.at(s);ramps.push({s,obj:o,used:false,x:a.p.x,z:a.p.z,heading:a.heading,halfWidth:6.8,halfLength:8.5,base:.65,slope:.16});obstacles.push({s:s+8.7,offset:0,radius:6.8,halfWidth:6.8,halfLength:.2,height:3.4,rampS:s,kind:'RAMP BACK'});}
  for(let i=0;i<(course.config.arena===4?10:0);i++){const s=(.06+i*.09)*course.length,a=course.at(s);const bar=new THREE.Mesh(new THREE.BoxGeometry(course.width*1.65,.25,.4),new THREE.MeshBasicMaterial({color:0x83cab9}));bar.position.copy(a.p);bar.position.y=12;bar.rotation.y=a.heading;dynamic.add(bar);surges.push({s,phase:i*1.7,bar,used:false,open:true});}
+ for(const o of obstacles){const a=course.at(o.s,o.offset);o.x=a.p.x;o.z=a.p.z;o.heading=a.heading;}
  const finish=course.at(0),banner=textPlane('TIDEBREAK // START — FINISH',31,2.6,'#e0c391','#262621');banner.position.copy(finish.p);banner.position.y=12;banner.rotation.y=finish.heading+Math.PI;dynamic.add(banner);
  const batches=chunks.map((c,i)=>{const b=bakeStatic(c);b.userData.s=(i+.5)/count*course.length;root.add(b);return b;});
- return{root,pickups,ramps,surges,obstacles,reflectionHidden(s){return batches.filter(b=>{let d=Math.abs(b.userData.s-s);d=Math.min(d,course.length-d);return d>180;});},reset(){pickups.forEach(p=>{p.collected=false;p.owner=null;p.obj.visible=true;});ramps.forEach(r=>r.used=false);surges.forEach(g=>g.used=false);},update(t,s=0){for(const b of batches){let d=Math.abs(b.userData.s-s);d=Math.min(d,course.length-d);b.visible=d<(course.environment(b.userData.s).kind==='swamp'?220:360);}for(const p of pickups){let d=Math.abs(p.s-s);d=Math.min(d,course.length-d);p.obj.visible=!p.collected&&d<300;if(p.obj.visible){p.obj.position.y=-.05+Math.sin(t*2+p.s)*.15;p.obj.getObjectByName('ring').rotation.y=t*.6;p.obj.getObjectByName('core').rotation.y=-t;}}for(const r of ramps)r.obj.visible=Math.abs(r.s-s)<480;for(const gate of surges){gate.bar.visible=Math.abs(gate.s-s)<480;gate.open=(t+gate.phase)%10<7;gate.bar.material.color.setHex(gate.open?0x83cab9:0xe4703d);}},dispose(){const sharedG=new Set(),sharedM=new Set(),sharedT=new Set(Object.values(art.textures));Object.values(art.prototypes).forEach(p=>p.traverse(o=>{if(o.isMesh){sharedG.add(o.geometry);sharedM.add(o.material);}}));const gs=new Set(),ms=new Set();root.traverse(o=>{if(o.isMesh){gs.add(o.geometry);ms.add(o.material);}});for(const g of gs)if(!sharedG.has(g))g.dispose();for(const m of ms)if(!sharedM.has(m)){if(m.map&&!sharedT.has(m.map))m.map.dispose();m.dispose();}}};
+ return{root,pickups,ramps,surges,obstacles,reflectionHidden(s){return batches.filter(b=>{let d=Math.abs(b.userData.s-s);d=Math.min(d,course.length-d);return d>180;});},reset(){pickups.forEach(p=>{p.collected=false;p.owner=null;p.obj.visible=true;});ramps.forEach(r=>r.used=false);surges.forEach(g=>g.used=false);},update(t,s=0){for(const b of batches){let d=Math.abs(b.userData.s-s);d=Math.min(d,course.length-d);b.visible=d<(course.environment(b.userData.s).kind==='swamp'?220:360);}for(const p of pickups){let d=Math.abs(p.s-s);d=Math.min(d,course.length-d);p.obj.visible=!p.collected&&d<300;if(p.obj.visible){p.obj.position.y=.6+Math.sin(t*2+p.s)*.3;const ring=p.obj.getObjectByName('ring'),core=p.obj.getObjectByName('core');if(ring)ring.rotation.y=t*.6;if(core)core.rotation.y=-t;p.obj.traverse(n=>{if(n.isMesh&&n.material.name==='signal')n.material.emissiveIntensity=.85+Math.sin(t*4)*.2;});}}for(const r of ramps)r.obj.visible=Math.abs(r.s-s)<480;for(const gate of surges){gate.bar.visible=Math.abs(gate.s-s)<480;gate.open=(t+gate.phase)%10<7;gate.bar.material.color.setHex(gate.open?0x83cab9:0xe4703d);}},dispose(){const sharedG=new Set(),sharedM=new Set(),sharedT=new Set(Object.values(art.textures));Object.values(art.prototypes).forEach(p=>p.traverse(o=>{if(o.isMesh){sharedG.add(o.geometry);sharedM.add(o.material);}}));const gs=new Set(),ms=new Set();root.traverse(o=>{if(o.isMesh){gs.add(o.geometry);ms.add(o.material);}});for(const g of gs)if(!sharedG.has(g))g.dispose();for(const m of ms)if(!sharedM.has(m)){if(m.map&&!sharedT.has(m.map))m.map.dispose();m.dispose();}}};
 }

@@ -1,0 +1,47 @@
+
+> tidebreak@0.1.0 test
+> node --test tests/campaign.test.mjs tests/combat.test.mjs tests/race-rules.test.mjs tests/handling.test.mjs tests/play-access.test.mjs
+
+✔ six territories start with only Meridian and Rook available (0.719083ms)
+✔ practice, abandoned runs and elimination cannot clear a territory (0.150625ms)
+✔ each objective unlocks exactly the next territory and persists (0.505791ms)
+✔ old career earnings migrate without unlocking unrelated new routes (0.149958ms)
+✔ invalid saves and progression gaps do not grant territories (0.088ms)
+✔ three separate damaging hits eliminate; recovery prevents a chain kill (1.217208ms)
+✔ shields block damage, have finite charges, and supplies do not erase three-hit history (0.102875ms)
+✔ weapon ammunition, target eligibility and cooldown apply equally to both IDs (0.16925ms)
+✔ missiles use swept collision; changing lanes after final approach dodges them (0.230208ms)
+✔ red hazards eliminate unprotected racers, shields provide counterplay (0.05025ms)
+✔ pursuit and slipstream depend on race geometry, never human identity (0.081291ms)
+✔ finishers rank by crossing time, active racers by distance, eliminated racers by survival (0.304958ms)
+✔ seeded opponents attack each other and outcomes vary across races (104.446625ms)
+✔ mines arm behind the owner and bombs damage rivals inside their marked area (0.17225ms)
+✔ laser has a visible ignition interval and can hit a moving target after charging (0.123667ms)
+✔ holding brake stops before reversing; reverse is capped and release restores forward thrust (1.621167ms)
+✔ reverse movement crosses the start line without adding a lap (0.127ms)
+✔ sustained hull contact sounds once, ignores jitter and low-speed scrapes, rearms after separation (0.138667ms)
+✔ both ramp edges carry a partly overlapping hull smoothly and allow reversing downhill (1.269958ms)
+✔ reverse audio uses positive engine and water levels (0.809208ms)
+✔ swept hull stops at a pier even when a frame crosses the entire solid (0.177291ms)
+✔ glancing contact slides along a solid face without entering it (0.068375ms)
+✔ clear lanes, reverse approaches and rotated solids use the same footprint (0.066875ms)
+✔ an overlapping hull is expelled, and a stopped hull stays outside (0.063541ms)
+✔ boost lasts ten seconds, recharges in ten, and partial reserves work (0.12525ms)
+✔ empty held boost cannot pulse, braking charges, launch does not drain reserve (0.049334ms)
+✔ ramps support slow hulls, launch only off the lip and reject side misses (0.057333ms)
+✔ AI commits to the ramp deck instead of aiming through its side rail (0.719875ms)
+✔ AI stays outside a barrier until its stern clears, even after passing its center (0.10125ms)
+✔ temporary preview opens all six real territories and craft without accepting invalid choices (0.471542ms)
+✔ preview results stay separate and switching it off restores the earned career (0.601542ms)
+✔ earliest touch owns a shared pickup, independent of array ordering (0.693041ms)
+✔ swept entry catches fast movement and rejects nearby misses (0.075167ms)
+✔ AI has finite boost and no dependency on player position (4.378625ms)
+✔ finished rivals stop and cannot lap into the active race (0.273917ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 150.828291

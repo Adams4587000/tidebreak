@@ -11,7 +11,7 @@ export const CHAPTERS=SECTORS.map((sector,i)=>({
  ...sector,arena:i,id:['meridian','blackwater','splitstone','ember','sluice','atlantic'][i],
  name:sector.short,short:sector.short,
  subtitle:['THE DROWNED STADIUM','BLACKWATER CIRCUIT','THE FRACTURE RUN','CALDERA CIRCUIT','AUTHORITY FALLS','THE GRAVEYARD'][i],
- accent:['#55e6de','#a7dc80','#81c8ff','#ffa064','#74f0e7','#a9b8ff'][i],
+ accent:['#efc77e','#a3d778','#8bdcff','#ff8056','#65e2d1','#bb9bff'][i],
  story:[
   'Your first claim on the frontier. Break from the flooded grandstands into the crane yards, cross the old harbour and return to the stadium.',
   'The light disappears beneath the mangroves. Hunt through drowned settlements, root tunnels and wreck-strewn blackwater bends.',
@@ -47,9 +47,9 @@ export function objectiveProgress(i,r){return `${r.pickups||0} PERKS CLAIMED · 
 export const SAVE_KEY='tidebreak.territories.v3';
 export const LEGACY_SAVE_KEY='tidebreak.endurance.v2';
 const empty=()=>({cleared:Array(6).fill(false),best:Array(6).fill(null),finishes:0,podiums:0,wins:0,pickups:0,reputation:0,takedowns:0,starts:0,champion:false});
-export function loadSave(){
+export function loadSave(key=SAVE_KEY){
  const out=empty();try{
-  const raw=localStorage.getItem(SAVE_KEY),s=JSON.parse(raw||localStorage.getItem(LEGACY_SAVE_KEY));if(!s)return out;
+  const raw=localStorage.getItem(key),s=JSON.parse(raw||(key===SAVE_KEY?localStorage.getItem(LEGACY_SAVE_KEY):null));if(!s)return out;
   for(const k of ['finishes','podiums','wins','pickups','reputation','takedowns','starts'])if(Number.isSafeInteger(s[k])&&s[k]>=0)out[k]=s[k];
   // Old contracts were different routes. Keep the career, start the new territories fresh.
   if(raw)for(let i=0;i<6;i++){out.cleared[i]=s.cleared?.[i]===true&&(i===0||out.cleared[i-1]);out.best[i]=Number.isFinite(s.best?.[i])&&s.best[i]>0?s.best[i]:null;}
@@ -58,5 +58,5 @@ export function loadSave(){
 }
 export function unlocked(s,i){return Number.isInteger(i)&&i>=0&&i<CHAPTERS.length&&(i===0||s.cleared.slice(0,i).every(Boolean));}
 export function boatUnlocked(s,i){return [true,s.finishes>=1||s.reputation>=180,s.pickups>=12||s.reputation>=350,s.podiums>=2||s.reputation>=700,s.finishes>=4||s.reputation>=1000,s.wins>=1||s.reputation>=1800][i]===true;}
-export function recordResult(s,i,r,mode){const n={...s,cleared:[...s.cleared],best:[...s.best]};if(mode==='race'&&(r.finished||r.eliminated)){n.starts=(n.starts||0)+1;n.reputation=(n.reputation||0)+Math.floor((r.distance||0)/250)+(r.pickups||0)*3+(r.kills||0)*25+(r.finished?[120,85,60,40,30,20][r.place-1]:10);n.takedowns=(n.takedowns||0)+(r.kills||0);}if(r.finished){n.best[i]=Math.min(n.best[i]??Infinity,r.time);if(mode==='race'){n.finishes++;n.pickups+=r.pickups||0;if(r.place<=3)n.podiums++;if(r.place===1)n.wins++;if(unlocked(s,i)&&objectivePassed(i,r))n.cleared[i]=true;n.champion=n.cleared.every(Boolean);}}try{localStorage.setItem(SAVE_KEY,JSON.stringify(n));}catch{}return n;}
+export function recordResult(s,i,r,mode,key=SAVE_KEY){const n={...s,cleared:[...s.cleared],best:[...s.best]};if(mode==='race'&&(r.finished||r.eliminated)){n.starts=(n.starts||0)+1;n.reputation=(n.reputation||0)+Math.floor((r.distance||0)/250)+(r.pickups||0)*3+(r.kills||0)*25+(r.finished?[120,85,60,40,30,20][r.place-1]:10);n.takedowns=(n.takedowns||0)+(r.kills||0);}if(r.finished){n.best[i]=Math.min(n.best[i]??Infinity,r.time);if(mode==='race'){n.finishes++;n.pickups+=r.pickups||0;if(r.place<=3)n.podiums++;if(r.place===1)n.wins++;if(unlocked(s,i)&&objectivePassed(i,r))n.cleared[i]=true;n.champion=n.cleared.every(Boolean);}}try{localStorage.setItem(key,JSON.stringify(n));}catch{}return n;}
 export function formatTime(t){const ms=Math.max(0,Math.round(t*1000));return `${String(Math.floor(ms/60000)).padStart(2,'0')}:${String(Math.floor(ms/1000)%60).padStart(2,'0')}.${String(ms%1000).padStart(3,'0')}`;}

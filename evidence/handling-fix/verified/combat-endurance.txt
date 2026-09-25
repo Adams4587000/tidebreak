@@ -1,0 +1,7 @@
+sector {"sector":0,"elapsed":3.9997999999999965,"place":2,"draws":332,"tris":754510,"pickups":1}
+sector {"sector":1,"elapsed":19.19909999999986,"place":1,"draws":225,"tris":475288,"pickups":4}
+sector {"sector":2,"elapsed":35.98179999999972,"place":1,"draws":350,"tris":701002,"pickups":7}
+sector {"sector":3,"elapsed":53.64770000000084,"place":2,"draws":359,"tris":729026,"pickups":10}
+sector {"sector":4,"elapsed":71.41370000000313,"place":2,"draws":360,"tris":696906,"pickups":11}
+sector {"sector":5,"elapsed":89.01300000000697,"place":2,"draws":429,"tris":916344,"pickups":13}
+COMBAT RUN PASS {"elapsed":102.07910000000986,"place":1,"pickups":15,"peaks":{"draws":700,"tris":1273906},"saved":{"cleared":[true,false,false,false,false,false],"best":[102.04590000000985,null,null,null,null,null],"finishes":1,"podiums":1,"wins":1,"pickups":15,"reputation":198,"takedowns":0,"starts":1,"champion":false}}

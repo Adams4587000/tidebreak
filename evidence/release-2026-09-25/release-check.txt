@@ -1,0 +1,15 @@
+
+> tidebreak@0.1.0 check:release
+> node tools/compliance-check.mjs --selftest --release && node ../404-game-recipe/harness/ship.mjs game
+
+{
+  "checked_at": "2026-09-25T00:09:19.611Z",
+  "assets": 24,
+  "candidates": 72,
+  "media": 23,
+  "failures": [],
+  "passed": true,
+  "scope": "Local provenance/integrity guard; not visual certification or live submission verdict."
+}
+43 module(s), 1 page(s) in game
+every module parses, every path stays inside the folder

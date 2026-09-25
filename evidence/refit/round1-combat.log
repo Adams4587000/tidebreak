@@ -1,0 +1,38 @@
+sector {"sector":0,"elapsed":3.966499999999996,"place":2,"draws":378,"tris":819938,"pickups":1}
+sector {"sector":1,"elapsed":24.749099999999753,"place":6,"draws":527,"tris":776980,"pickups":2}
+sector {"sector":2,"elapsed":69.0474000000026,"place":6,"draws":283,"tris":646358,"pickups":3}
+sector {"sector":3,"elapsed":84.94670000000617,"place":6,"draws":267,"tris":644832,"pickups":4}
+sector {"sector":4,"elapsed":100.76270000000967,"place":6,"draws":179,"tris":482708,"pickups":5}
+sector {"sector":5,"elapsed":117.54540000001347,"place":6,"draws":371,"tris":869978,"pickups":5}
+Error: Waiting failed
+    at <instance_members_initializer> (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/common/WaitTask.js:21:21)
+    at new WaitTask (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/common/WaitTask.js:27:16)
+    at IsolatedWorld.waitForFunction (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/api/Realm.js:49:26)
+    at CdpFrame.waitForFunction (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/api/Frame.js:585:43)
+    at CdpFrame.<anonymous> (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/util/decorators.js:101:27)
+    at CdpPage.waitForFunction (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/api/Page.js:1464:37)
+    at file:///Users/karissmac/Documents/Cursor.Code/tidebreak/tools/combat-endurance-check.mjs:28:34 {
+  cause: TargetCloseError: Protocol error (Runtime.callFunctionOn): Target closed
+      at CallbackRegistry.clear (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:88:36)
+      at CdpCDPSession.onClosed (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/cdp/CdpSession.js:121:25)
+      at Connection.onMessage (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/cdp/Connection.js:166:25)
+      at WebSocket.<anonymous> (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/node/NodeWebSocketTransport.js:40:32)
+      at callListener (/Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/ws/lib/event-target.js:290:14)
+      at WebSocket.onMessage (/Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/ws/lib/event-target.js:209:9)
+      at WebSocket.emit (node:events:509:28)
+      at Receiver.receiverOnMessage (/Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/ws/lib/websocket.js:1239:20)
+      at Receiver.emit (node:events:509:28)
+      at Immediate.<anonymous> (/Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/ws/lib/receiver.js:638:16) {
+    cause: ProtocolError
+        at <instance_members_initializer> (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:108:14)
+        at new Callback (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:112:16)
+        at CallbackRegistry.create (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/common/CallbackRegistry.js:27:26)
+        at Connection._rawSend (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/cdp/Connection.js:125:26)
+        at CdpCDPSession.send (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/cdp/CdpSession.js:72:14)
+        at #evaluate (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/cdp/ExecutionContext.js:374:50)
+        at ExecutionContext.evaluateHandle (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/cdp/ExecutionContext.js:340:36)
+        at IsolatedWorld.evaluateHandle (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/cdp/IsolatedWorld.js:93:30)
+        at CdpJSHandle.evaluateHandle (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/api/JSHandle.js:162:37)
+        at WaitTask.rerun (file:///Users/karissmac/Documents/Cursor.Code/404-game-recipe/node_modules/puppeteer-core/lib/puppeteer/common/WaitTask.js:99:47)
+  }
+}

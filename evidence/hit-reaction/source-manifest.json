@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-09-25T00:03:11.064005+00:00",
+  "scope": "Uncommitted local preview: visible hull/rider damage response.",
+  "files": {
+    "game/combat.js": "e18456354a2b178210bc88726314b188125b14739a12b6000cc9679127f34692",
+    "game/world.js": "91f44d820029953ba4a8a7fb3e1f8ecacdb027c6ac07ee5b2d429b13806e3dda",
+    "game/combat-fx.js": "5b74f398b39258293fc2980f16a8eb5698590b1c83bae8de73534b9ff3028a63",
+    "game/main.js": "05b47fbe39ac7befdf91dcc7bc86da2a63cbb3b401c3b7687ac2ab220564d3b4",
+    "game/refit.css": "7cedaf34794b2e8658dc2dbfb83077b0c2c5eb4f717a89dd3d1f3b09ab0cf3e3",
+    "tests/combat.test.mjs": "e23f22f736f2a67962425ff137f441c38445a020399e0b5ac898ebbebe610d97",
+    "tools/missile-check.mjs": "c2f19b70804d1cf1d81934357db937d5a8cbb67f3190bef4333b67dc82c5b874"
+  }
+}

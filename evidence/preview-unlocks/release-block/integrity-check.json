@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-24T23:24:35.749Z",
+  "assets": 24,
+  "candidates": 72,
+  "media": 23,
+  "failures": [
+    "Temporary preview unlocks are active. Set PREVIEW_UNLOCKS=false in game/play-access.js before the final build or commit."
+  ],
+  "passed": false,
+  "scope": "Local provenance/integrity guard; not visual certification or live submission verdict."
+}

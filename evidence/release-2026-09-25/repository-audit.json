@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-25T00:11:15.612372+00:00",
+  "scope": "Case-insensitive scan of working files and every reachable historical Git object, including commit metadata and paths. User-specified exclusions are omitted from this report to keep the repository clear.",
+  "existing_commits": 18,
+  "excluded_string_matches": 0,
+  "history_rewrite_needed": false,
+  "high_confidence_secret_matches": 0,
+  "note": "Text/byte checks and best-effort OCR both found no excluded terms. No history rewrite is needed. OCR is not a guarantee of recognizing every rendered character.",
+  "ocr_images_checked": 659,
+  "ocr_matches": 0,
+  "ocr_unreadable": 0,
+  "first_commit": "5d391d2c0e6c426099f6d8a4cad2dd70759576fd 2026-09-22T18:47:14+01:00",
+  "historical_objects_checked": 927,
+  "high_confidence_historical_secret_matches": 0
+}

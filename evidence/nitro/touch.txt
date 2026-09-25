@@ -1,0 +1,1 @@
+TOUCH PASS: real missile + shield buttons, simultaneous steering + boost, pause freezes time, resume, dock and time trial.

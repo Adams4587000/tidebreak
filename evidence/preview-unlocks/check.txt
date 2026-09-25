@@ -1,0 +1,7 @@
+PREVIEW meridian KESTREL PASS
+PREVIEW blackwater ALBATROSS PASS
+PREVIEW splitstone MANTA PASS
+PREVIEW ember BRIMSTONE PASS
+PREVIEW sluice SPECTRE PASS
+PREVIEW atlantic IRONCLAD PASS
+PREVIEW PASS: all 36 selection combinations available; six environments launched and driven with six craft.

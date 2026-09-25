@@ -1,0 +1,7 @@
+ok    supply__cassette         1004 tris  45 meshes  4.49x3.22x3.332m
+ok    supply__magazine         1504 tris  35 meshes  3.724x3.285x4.3m
+ok    supply__pressure         1608 tris  22 meshes  4.05x3.475x4.05m
+
+3/3 clean
+sheet:  /Users/karissmac/Documents/Cursor.Code/tidebreak/candidates/supply-rebuild/_verify/sheet.png
+report: /Users/karissmac/Documents/Cursor.Code/tidebreak/candidates/supply-rebuild/_verify/report.json

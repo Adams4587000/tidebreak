@@ -17,9 +17,9 @@ The final unmodified local phone/4G gate passed on source commit `a52d1c6474646a
 
 `evidence/compliance/` contains the stock local gate, canonical verifier/selftest logs, provenance guard, quick-start real-input checks and reference/candidate/scene review packets. The regular flow, touch and full-race checks remain in `evidence/`. Historical adapted gate verdicts are retained as historical evidence and are not submission verdicts.
 
-## Source sharing and deferred release
+## Source sharing and final release
 
-After the local compliance repair, the user authorized a public source repository at `https://github.com/Adams4587000/tidebreak` for collaboration, preserving the full honest source history. CONTRIBUTING.md documents cloning, the pinned recipe setup and contributions through branches or forks. This supersedes the earlier local-only restriction for source sharing. Game hosting and competition submission remain deferred. Before entry: deploy only game/, run the unchanged jam gate against that public game URL and exact source commit, verify on physical phones, and submit the required entry/verdict/asset declaration before the published deadline. The first local source commit is 22 September, within the published entry window. A local gate PASS does not certify hosting or guarantee acceptance/winning.
+After the local compliance repair, the user authorized a public source repository at `https://github.com/Adams4587000/tidebreak` for collaboration, preserving the full honest source history. CONTRIBUTING.md documents cloning, the pinned recipe setup and contributions through branches or forks. This supersedes the earlier local-only restriction for source sharing. The user authorized game hosting and competition submission on 25 September; current progress is in [RELEASE-AUDIT.md](RELEASE-AUDIT.md). Before entry: deploy only game/, run the unchanged jam gate against that public game URL and exact source commit, verify on physical phones, and submit the required entry/verdict/asset declaration before the published deadline. The first local source commit is 22 September, within the published entry window. A local gate PASS does not certify hosting or guarantee acceptance/winning.
 
 ## Honest limits
 

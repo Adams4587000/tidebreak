@@ -1,0 +1,15 @@
+{
+  "recordedAt": "2026-09-24T23:50:29.717193+00:00",
+  "scope": "Uncommitted local preview, Nitro pickup implementation and real-input regression.",
+  "files": {
+    "game/race-rules.js": "07bdc20727588ad68c28755debf04957edfe962691d8f3ff4b3d2ee4ca757008",
+    "game/handling.js": "6c93b89ee63f35ecb65a293c9b87e3ad61fb154c4fee6066040537d97393bc3e",
+    "game/combat.js": "9bf6dfd10cee2231804c99909491163e7344424b674e8d19c31e72cbf2ac8485",
+    "game/main.js": "b6a9e9cc92d2ccb47e3a294d7a5c15fb6ed2eb1239e1189bfa7f03dca4c52f58",
+    "game/world.js": "cb3065dedad63dfaef80f89cb7a02cfb303800f69d00b3f597f5f79212c75011",
+    "game/audio.js": "e2a071af7f664625994d0aa66cb3335c62c173ad666443aab5375aad0649dd9d",
+    "game/combat-fx.js": "6310fdd6e226fbf6fce27341b6135c3e60ce84b25b35ec5c4422f8456241a311",
+    "tools/nitro-check.mjs": "25e4caea44b2eefd831929bd8720dcbf454cd9ed1e377751941f23512fd837d0",
+    "tests/race-rules.test.mjs": "4dde2e237b2fe3f377aac340c62aef86f12773e84069e5c4f5d756cb34575b21"
+  }
+}

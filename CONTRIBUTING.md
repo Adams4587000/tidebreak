@@ -86,7 +86,7 @@ node tools/combat-endurance-check.mjs
 node tools/territory-races-check.mjs
 ```
 
-Choose the checks relevant to the edit; run full races for course, handling or combat changes. The later-territory driver explicitly uses unlocked test fixtures and does not demonstrate earning those unlocks. Browser checks write screenshots/reports into `evidence/`; review changes before committing them. Never overwrite historical receipts just to make a failing check green.
+Choose the checks relevant to the edit; run full races for course, handling or combat changes. The later-territory driver explicitly uses unlocked test fixtures and does not demonstrate earning those unlocks. Browser checks write screenshots/reports into `evidence/`; review changes before committing them. Combat, touch, quick-race and integrity checks accept `EVIDENCE_DIR=evidence/your-change` to keep new receipts separate from historical runs. Never overwrite historical receipts just to make a failing check green.
 
 For the local phone/4G gate, use the unchanged upstream tool and the actual source commit printed by `git rev-parse HEAD`:
 
@@ -101,3 +101,6 @@ A local pass does not replace the final public-URL competition gate. [The last v
 Atlas MCP is the only external generator for new images, textures and audio. Code-built geometry follows the 404 asset contract. New or replaced models need inspected references, three independent constructions, multi-angle verification and an explicit selection. Follow AGENTS.md for the full production rules. Historical generator scripts can overwrite approved assets; do not rerun them indiscriminately.
 
 Ask the owner for access to the Atlas workspace when asset production is needed, and use your own authorized workspace key through an environment variable. Never share keys in commits, issues, pull requests or saved project configuration. Existing media works without any key. Third-party references retain their original rights and stay outside the shipped game; see [CREDITS.md](docs/CREDITS.md).
+
+## Release access rules
+Earned territory and craft unlocks are restored for the final build. Keep `PREVIEW_UNLOCKS=false` in `game/play-access.js`; `npm run check:release` rejects an enabled preview switch. Earlier preview results use a separate save key and are not copied into the player’s career. Only `game/` is published by the Pages workflow.

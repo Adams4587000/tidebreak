@@ -85,3 +85,12 @@ Corrected isolated references: caldera `34267a9b-0eb4-4be1-8c6f-276a89cfcbe7`, K
 Independent comparison images come from [Vector Unit's official Riptide GP: Renegade gallery](https://www.vectorunit.com/riptide-gp-renegade). Copyright remains with Vector Unit. Files and precise source URLs live only in `references/review`, outside the shipped game, and are used for visual criticism; no art, geometry or game source is copied into Tidebreak.
 
 Atlas private critic project: `32eab797-f7fb-4ffb-a8a3-b72b165737c4`, using the workspace-allowed Seed 2.0 Lite vision model. Anonymous paired images are its only inputs; the pair key, game code and implementation notes are withheld. This is model critique, not a claim of human playtesting.
+
+## Local gameplay refit
+The 24 September refit reuses the existing Atlas steel/carbon media; craft-local mapping and distinct physical finishes replace the shared brown overlay. The supply magazine is original constructor geometry selected from three new candidates using the inspected existing Atlas supply reference. SVG interface ornament, collectible pulses, shield shaders and missile effects are original code; Web Audio feedback is original synthesis. See REFIT.md and candidates/supply-rebuild. No new external media or mesh is shipped.
+
+### Watercraft material correction — 25 September 2026
+The existing Atlas steel/carbon albedo, normal and roughness images now share hull-local projection coordinates. Original shader code restores surface normals, uses physical roughness variation, and derives thin paint relief from the visible chip mask. Coated panels, bare alloy and woven composite have separate responses. No external image, texture, audio or model was added. See MATERIALS-FIX.md.
+
+### Nitro supply — 25 September 2026
+Nitro reuses the reviewed supply pressure-vessel model and existing collectible/exhaust effect geometry. Its turquoise material/label, timer and ignition sound are original runtime code and Web Audio synthesis. No external media or new model is added.

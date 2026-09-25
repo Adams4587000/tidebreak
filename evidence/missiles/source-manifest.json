@@ -1,0 +1,12 @@
+{
+  "recordedAt": "2026-09-24T23:58:39.385203+00:00",
+  "scope": "Uncommitted local preview: missile arming, free firing and result feedback.",
+  "files": {
+    "game/combat.js": "ede8c48e3039b220818bb823f9a84dd645d5a593df003194eea8fc7f1165ce81",
+    "game/combat-fx.js": "e2ca168b4a5b3664a8104a6d625412fd4f1490157852044391e3777ad42db073",
+    "game/main.js": "7109adb958ba0b456e6e84a1358c202624b3f9a38f2b9b8b9f5c63dd7a9fc13d",
+    "game/refit.css": "3d77ed5e605d46a3f34300ae49cb2234f2058c5e2b5364724d5476d8b91a5e80",
+    "tests/combat.test.mjs": "60580ef320624d0f84e8f26910c422a945d2d821ca57e35065ab6a146513291b",
+    "tools/missile-check.mjs": "fee7e1359cfbb3f4bb3683ba05ecc53b0abc712880a3c3de924276cc44a0eaf5"
+  }
+}

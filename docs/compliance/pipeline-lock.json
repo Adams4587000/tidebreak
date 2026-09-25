@@ -160,8 +160,8 @@
   "runtimeGeometry": [
     {
       "path": "game/world.js",
-      "sha256": "c21ca7bfd5d26a2ec5f37f67f1941a436b497ab3f4f635d264d10dbea2f54e8d",
-      "scope": "Course-generated label planes, lane strips and timed sluice signal; all modeled scenery is ASSET-loaded. No literal mesh data."
+      "sha256": "91f44d820029953ba4a8a7fb3e1f8ecacdb027c6ac07ee5b2d429b13806e3dda",
+      "scope": "Course-generated labels, lane strips and timed sluice signal; scenery and supply models are ASSET-loaded. Fleet materials use aligned hull-local albedo, normal and roughness sampling from existing Atlas steel/carbon media, with paint relief and distinct coating/alloy/composite responses. Collision dimensions follow placed barriers; ramp edges provide deck support."
     },
     {
       "path": "game/water.js",
@@ -175,8 +175,8 @@
     },
     {
       "path": "game/combat-fx.js",
-      "sha256": "52416a0bb984af0611ae47a69cbd118ceb74291b2bce58e5a59a2435af0fee8a",
-      "scope": "Runtime transient projectile cones, mine icosahedra, blast rings and procedural trails/particles, driven by real combat state. Original constructor geometry."
+      "sha256": "5b74f398b39258293fc2980f16a8eb5698590b1c83bae8de73534b9ff3028a63",
+      "scope": "Transient constructor-built missile bodies/fins/exhaust, launch flashes, laser beams, mines, blast and collectible pulses, particles, and shield envelopes. Effects follow real combat and pickup state; launch and impact effects use vessel height. No static scenery or mesh imports."
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "errors": [],
+  "runs": [
+    {
+      "arena": "meridian",
+      "craft": "KESTREL",
+      "speed": 91.54869749427587,
+      "progress": 0.013318930204616311
+    },
+    {
+      "arena": "blackwater",
+      "craft": "ALBATROSS",
+      "speed": 92.48921438246921,
+      "progress": 0.012158657542422032
+    },
+    {
+      "arena": "splitstone",
+      "craft": "MANTA",
+      "speed": 89.94861096520644,
+      "progress": 0.011084310104271031
+    },
+    {
+      "arena": "ember",
+      "craft": "BRIMSTONE",
+      "speed": 95.5127417490555,
+      "progress": 0.013386865515161455
+    },
+    {
+      "arena": "sluice",
+      "craft": "SPECTRE",
+      "speed": 91.35229925705488,
+      "progress": 0.011905216033757103
+    },
+    {
+      "arena": "atlantic",
+      "craft": "IRONCLAD",
+      "speed": 94.0847058424545,
+      "progress": 0.012053360591802006
+    }
+  ],
+  "selectionChecks": 36,
+  "passed": true
+}

@@ -1,0 +1,28 @@
+screenshots     /Users/karissmac/Documents/Cursor.Code/tidebreak/evidence/preview-unlocks/phone-gate/loaded.png
+                /Users/karissmac/Documents/Cursor.Code/tidebreak/evidence/preview-unlocks/phone-gate/started.png
+                /Users/karissmac/Documents/Cursor.Code/tidebreak/evidence/preview-unlocks/phone-gate/moving.png
+verdict.json    /Users/karissmac/Documents/Cursor.Code/tidebreak/evidence/preview-unlocks/phone-gate/verdict.json
+held            #stick dragged up and held 6 s
+path length     470.3 m over the run
+wire bytes      6.6 MB compressed, 62 responses
+renderer        ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)
+
+=== 404 JAM VERDICT ===
+url             http://localhost:4173/
+utc             2026-09-24T23:25:54.974Z
+commit          not given
+viewport        390x844 @3x phone, real touch, Android Chrome UA
+network         4G: 4 Mbps down, 1 Mbps up, 60 ms latency, CPU 2x slower
+ready           11.5 s   budget 20 s   PASS
+weight          6.6 MB   budget 10 MB   PASS
+started         yes (tap on #quickraceb)
+moved           354.5 m   needs 1 m   PASS
+peak draws      493   budget 900   PASS
+peak tris       997,340   budget 1,500,000   PASS
+median fps      59.936950441694094 (ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version))
+errors          0   PASS
+404s            0   PASS
+external deps   none
+outside folder  none, every file came from the game folder
+RESULT: PASS
+=== END ===
