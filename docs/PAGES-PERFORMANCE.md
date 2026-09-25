@@ -1,6 +1,6 @@
 # GitHub Pages performance audit — 25 September 2026
 
-The owner paused competition submission to check live performance. No entry pull request has been opened. The contact is recorded as adamsleonard010@gmail.com; resuming submission and the remaining rights declaration are still pending.
+The owner paused competition submission for this live performance audit. After the review and the owner’s rules/rights confirmation, [entry PR #21](https://github.com/404-Repo/404-game-jam/pull/21) was opened on 25 September 2026 at 18:23:51 UTC. The contact is adamsleonard010@gmail.com. Organizer validation and acceptance remain pending.
 
 The tested live game is `a68cfc56fe1b317cf3cd44844b7a4266c8c17dac`, merged through source PR #1 and deployed by Actions run 36162110947. All 97 published files match that source. Runtime code and graphics quality were not changed during this audit.
 
