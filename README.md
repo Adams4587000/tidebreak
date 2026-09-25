@@ -11,10 +11,10 @@ An original dystopian hydro-speeder combat racer built with Three.js, the 404 ga
 ## Play locally
 
 ```sh
-python3 -m http.server 4173 --bind 127.0.0.1 --directory game
+python3 tools/serve.py
 ```
 
-Open http://localhost:4173/. No build step, runtime services or API keys. Serve the self-contained `game/` directory to deploy.
+Open http://localhost:4173/. No build step, runtime services or API keys to play. The development server disables caching. Before publishing edited code, run `npm run cache:update`; validation rejects stale module/style versions. Serve the self-contained `game/` directory to deploy.
 
 - Auto acceleration; A/D or arrows steer, hold S/down to brake then reverse (release to accelerate forward), Space boosts. Everyone launches with 15 seconds of labeled turbo assistance. After that, a full boost reserve lasts ten seconds and recharges in ten seconds; partial reserves work. Release an exhausted boost trigger to rearm. Boost fades into a higher cruising pace; player and rivals share the same coasting rule.
 - Solid piers and barriers stop the hull; ramps support slow travel and launch from their raised lip.
@@ -22,7 +22,8 @@ Open http://localhost:4173/. No build step, runtime services or API keys. Serve 
 - R recovers to the racing line; Escape pauses. Phone controls include steering, turbo, brake/reverse, fire, special and shield.
 - Title and loading screen → **Enter the dock** → select a rider and machine → **Choose territory** → select an arena → 3–2–1 countdown → race.
 - Optional **Quick Race** on the title starts Rook / Kestrel in the same full Meridian combat race, including countdown and earned progression.
-- Dock: drag to rotate the actual 3D spacecraft, scroll to zoom, or inspect the rider closely. Hold **Ignite Engine** or **R** to rev with animated exhaust. All six crews can be inspected; only Rook / Kestrel starts unlocked.
+- Dock: drag to rotate the actual 3D spacecraft, scroll to zoom, or inspect the rider closely. Hold **Rev Engine** under the dock heading, or **R**, to rev with animated exhaust. All six crews can be inspected; only Rook / Kestrel starts unlocked.
+- Racing has its own energetic electronic soundtrack; pause and dock screens return to the ambient music. Sound starts from a user gesture and the sound control mutes the full mix.
 - Six independent 8.4–9.8 km circuits. Each keeps its own environment from start to finish. Only Meridian starts open; locked arenas show their artwork, route and unlock requirement. Shared supply rows, crossings, marked channels, barriers and ramps create racing decisions.
 - Turquoise Nitro supplies trigger five seconds of automatic boost with a visible countdown, ignition sound and exhaust effects, without spending the regular boost reserve.
 - Rivals spend ammunition and energy, fight each other, collect finite supplies and make mistakes. Visible drafting and pursuit power help keep the field catchable.

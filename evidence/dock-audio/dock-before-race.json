@@ -1,0 +1,34 @@
+{
+  "idle": {
+    "state": "menu",
+    "elapsed": 0,
+    "rev": 0.00003706547841117458,
+    "audio": {
+      "state": "running",
+      "enabled": true,
+      "startupPlayed": true,
+      "selectionCount": 1,
+      "lastCue": "NAVIGATE",
+      "engineGain": 0,
+      "masterGain": 0.5,
+      "musicPlaying": true,
+      "musicError": null,
+      "dockGain": 0.018002409487962723
+    },
+    "hint": "↔ DRAG TO ROTATE 360°SCROLL TO ZOOMHOLD R TO REV ENGINE"
+  },
+  "rev": {
+    "state": "running",
+    "enabled": true,
+    "startupPlayed": true,
+    "selectionCount": 1,
+    "lastCue": "NAVIGATE",
+    "engineGain": 0.08255106955766678,
+    "masterGain": 0.5,
+    "musicPlaying": true,
+    "musicError": null,
+    "dockGain": 0.07098518311977386
+  },
+  "errors": [],
+  "passed": true
+}

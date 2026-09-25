@@ -45,11 +45,29 @@ body[data-territory=ember] .arena-brief{background:linear-gradient(130deg,#442c2
 
 .rival-tag.damaged{border-color:#ff9e62;color:#ffe0bf;box-shadow:0 0 16px #ff6d3655}.rival-tag.damaged small{color:#ffab72}
 
-/* Dock ignition control keeps its own touch target beside the inspection action. */
+/* Dock ignition has a dedicated touch target in the heading. */
 .rev-button{position:relative;display:flex;flex-direction:column;gap:5px;width:100%;min-height:48px;padding:12px 14px;margin:12px 0 3px;overflow:hidden;text-align:left;border:1px solid #b9a270;border-left:3px solid var(--theme);border-radius:3px 14px 3px 14px;background:linear-gradient(120deg,#29383f,#0c171f);touch-action:none;user-select:none;-webkit-user-select:none}
 .rev-button span{font:700 10px monospace;letter-spacing:1.3px}.rev-button small{font:8px monospace;color:#b6c6c9;letter-spacing:.7px}.rev-button i{position:absolute;bottom:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,#72e3e3,#ffd196);transform:scaleX(var(--rev,0));transform-origin:left}.rev-button[aria-pressed=true]{border-color:#ffe4b8;background:linear-gradient(120deg,#574b31,#18333c)}
 #startup-audio{font:9px monospace;letter-spacing:1px;min-height:44px;color:#b5d5d7;background:none;padding:8px 0;margin:4px 0}
 #race-loading{position:fixed;inset:0;z-index:30;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:18px;background:#08151fee;text-align:center;padding:25px}#race-loading strong{font:700 clamp(20px,4vw,36px) monospace;color:#ead4a6;letter-spacing:2px}#race-loading>span:last-child{font:12px monospace;color:#a7c5cc}
-@media(max-width:700px){.crew-detail .rev-button{grid-column:2;grid-row:4;min-height:44px;padding:8px 10px;margin:1px 0}.rev-button span{font-size:8px}.rev-button small{font-size:6px}.crew-detail #inspectb{align-self:center;min-height:44px}#hud .icon-button{backdrop-filter:none}.title-copy{max-height:90svh}#startup-audio{margin:0;min-height:32px}}
-@media(max-height:500px) and (min-width:701px){.crew-detail .rev-button{position:absolute;right:0;top:100%;width:150px;min-height:44px;padding:8px 12px;margin:0}.rev-button small{font-size:7px}}
+@media(max-width:700px){.rev-button span{font-size:8px}.rev-button small{font-size:6px}.crew-detail #inspectb{align-self:center;min-height:44px}#hud .icon-button{backdrop-filter:none}.title-copy{max-height:90svh}#startup-audio{margin:0;min-height:32px}}
+
 @media(max-width:700px){#orbit-zone>span{bottom:28px}}
+
+/* Keep the details inside the space above the crew selector. */
+@media(min-width:701px){.crew-detail{max-height:calc(100% - 260px - 6vh);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:#829fa5 #15212a}}
+@media(max-height:580px) and (min-width:701px){.crew-detail{max-height:calc(100% - 155px)}}
+#soundb{min-height:44px}#soundb[aria-pressed=false]{color:#ffdc9a;border:1px solid #b9a270}
+
+.dock-heading{z-index:2}
+.dock-heading .rev-button{pointer-events:auto;width:240px;min-height:64px;margin:22px 0 0;padding:15px 20px;border:2px solid #f3d79d;border-left:5px solid #74ead9;background:linear-gradient(115deg,#29484c,#15232e);box-shadow:0 5px 22px #0006,0 0 16px #71dbc21c}
+.dock-heading .rev-button span{font:800 15px monospace;letter-spacing:1.8px;color:#fff0cb}.dock-heading .rev-button small{font:10px monospace;letter-spacing:1px;color:#c4dedc}.dock-heading .rev-button:hover{background:linear-gradient(115deg,#3b6468,#213643)}.dock-heading .rev-button[aria-pressed=true]{background:linear-gradient(115deg,#695c35,#285953);box-shadow:0 0 24px #72ecd955}
+@media(max-width:700px){.dock-heading .rev-button{width:185px;min-height:50px;margin:12px 0 0;padding:10px 14px}.dock-heading .rev-button span{font-size:12px}.dock-heading .rev-button small{font-size:8px}}
+@media(max-height:580px) and (min-width:701px){.dock-heading .rev-button{width:180px;min-height:48px;padding:9px 13px;margin:10px 0 0}.dock-heading .rev-button span{font-size:12px}.dock-heading .rev-button small{font-size:8px}}
+
+#orbit-zone>.dock-control-hints{display:flex;flex-wrap:wrap;justify-content:center;gap:7px 18px;width:100%;max-width:100%;line-height:1.5;white-space:normal;font-size:9px;letter-spacing:1px;text-shadow:0 1px 4px #000}
+.dock-control-hints>span{white-space:nowrap}
+#orbit-zone{outline:none;user-select:none;-webkit-user-select:none}
+#orbit-zone:focus-visible .dock-control-hints>span:first-child{text-decoration:underline;text-decoration-color:var(--aqua);text-underline-offset:4px;text-decoration-thickness:2px}
+@media(max-width:700px){#orbit-zone>.dock-control-hints{font-size:7px;gap:4px 12px;bottom:25px}.dock-control-hints>span:last-child{flex-basis:100%}}
+@media(max-height:580px) and (min-width:701px){#orbit-zone>.dock-control-hints{font-size:7px;gap:3px 10px}}

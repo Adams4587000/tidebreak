@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-09-25T14:03:04.021Z",
+  "assets": 24,
+  "candidates": 72,
+  "media": 23,
+  "failures": [],
+  "passed": true,
+  "scope": "Local provenance/integrity guard; not visual certification or live submission verdict."
+}

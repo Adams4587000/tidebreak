@@ -1,0 +1,36 @@
+{
+  "fixture": "Seed a real HTTP cache with the historical renderer, then serve current game files. No game state is injected.",
+  "runs": [
+    {
+      "mode": "previous partial versioning",
+      "expectedFailure": "reflection.invalidate is not a function",
+      "rendererRequests": [
+        {
+          "url": "http://127.0.0.1:56764/atmosphere.js",
+          "fromCache": false
+        },
+        {
+          "url": "http://127.0.0.1:56764/atmosphere.js",
+          "fromCache": true
+        }
+      ]
+    },
+    {
+      "mode": "complete versioning",
+      "rendererRequests": [
+        {
+          "url": "http://127.0.0.1:56764/atmosphere.js",
+          "fromCache": false
+        },
+        {
+          "url": "http://127.0.0.1:56764/atmosphere.js?v=18ed099f3c28e6d2",
+          "fromCache": false
+        }
+      ],
+      "errors": [],
+      "state": "race",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

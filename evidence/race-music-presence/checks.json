@@ -1,0 +1,350 @@
+{
+  "runs": [
+    {
+      "mobile": false,
+      "dock": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 1,
+          "lastCue": "NAVIGATE",
+          "engineGain": 0,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0.01799815148115158,
+          "musicMode": "ambient",
+          "ambientMusicGain": 0.2799014449119568,
+          "raceMusicGain": 0,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.01801877916128204,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776581995098077,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "race": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 3,
+          "lastCue": "LAUNCH",
+          "engineGain": 0.06187256798148155,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "race",
+          "ambientMusicGain": 0,
+          "raceMusicGain": 0.6497108340263367,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.03360706367475717,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776581995098077,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "paused": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 4,
+          "lastCue": "NAVIGATE",
+          "engineGain": 0,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "ambient",
+          "ambientMusicGain": 0.15995071828365326,
+          "raceMusicGain": 0.0019574593752622604,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.020300910977136863,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776581995098077,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "resumed": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 5,
+          "lastCue": "NAVIGATE",
+          "engineGain": 0.02506718412041664,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "race",
+          "ambientMusicGain": 0.0018673609010875225,
+          "raceMusicGain": 0.6188098192214966,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.10128408122741225,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776581995098077,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "restarted": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 7,
+          "lastCue": "LAUNCH",
+          "engineGain": 0.061874330043792725,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "race",
+          "ambientMusicGain": 0,
+          "raceMusicGain": 0.6497108340263367,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.04460972677570119,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776581995098077,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "mutedRace": {
+        "audio": {
+          "state": "running",
+          "enabled": false,
+          "startupPlayed": true,
+          "selectionCount": 9,
+          "lastCue": "BACK",
+          "engineGain": 0.06186734139919281,
+          "masterGain": 0,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "race",
+          "ambientMusicGain": 0,
+          "raceMusicGain": 0,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776581995098077,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "passed": true
+    },
+    {
+      "mobile": true,
+      "dock": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 1,
+          "lastCue": "NAVIGATE",
+          "engineGain": 0,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0.01799815148115158,
+          "musicMode": "ambient",
+          "ambientMusicGain": 0.2800000011920929,
+          "raceMusicGain": 0,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.029372212386204938,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776580076441208,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "race": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 3,
+          "lastCue": "LAUNCH",
+          "engineGain": 0.061881233006715775,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "race",
+          "ambientMusicGain": 0,
+          "raceMusicGain": 0.6497108340263367,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.04580984047615908,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776580076441208,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "paused": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 4,
+          "lastCue": "NAVIGATE",
+          "engineGain": 0,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "ambient",
+          "ambientMusicGain": 0.15995071828365326,
+          "raceMusicGain": 0.0019064848311245441,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.010177072228478348,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776580076441208,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "resumed": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 5,
+          "lastCue": "NAVIGATE",
+          "engineGain": 0.0248904787003994,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "race",
+          "ambientMusicGain": 0.0018687729025259614,
+          "raceMusicGain": 0.6187735199928284,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.1115520997567433,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776580076441208,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "restarted": {
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 7,
+          "lastCue": "LAUNCH",
+          "engineGain": 0.061873260885477066,
+          "masterGain": 0.5,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "race",
+          "ambientMusicGain": 0,
+          "raceMusicGain": 0.6497108340263367,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0.039977233097689975,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776580076441208,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "mutedRace": {
+        "audio": {
+          "state": "running",
+          "enabled": false,
+          "startupPlayed": true,
+          "selectionCount": 9,
+          "lastCue": "BACK",
+          "engineGain": 0.061868470162153244,
+          "masterGain": 0,
+          "musicPlaying": true,
+          "musicError": null,
+          "dockGain": 0,
+          "musicMode": "race",
+          "ambientMusicGain": 0,
+          "raceMusicGain": 0,
+          "raceMusicReady": true,
+          "raceMusicError": null
+        },
+        "rms": 0,
+        "scores": [
+          {
+            "duration": 25.945958333333333,
+            "peak": 0.8500000238418579,
+            "rms": 0.11776580076441208,
+            "seam": 0.000010581716196611524
+          }
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

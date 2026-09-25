@@ -1,0 +1,108 @@
+{
+  "views": [
+    {
+      "width": 1440,
+      "height": 900,
+      "mobile": false,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9092275996061159,
+          "exhaust": 2.6310899772413423,
+          "gain": 0.07150126248598099,
+          "signal": 0.04681541255275395
+        },
+        {
+          "craft": "ALBATROSS",
+          "rev": 0.9093092580146749,
+          "exhaust": 2.538378749234851,
+          "gain": 0.0720617026090622,
+          "signal": 0.04106847167825289
+        },
+        {
+          "craft": "MANTA",
+          "rev": 0.9092275996061154,
+          "exhaust": 2.9812180038383462,
+          "gain": 0.0721750408411026,
+          "signal": 0.044926978968820815
+        },
+        {
+          "craft": "BRIMSTONE",
+          "rev": 0.9092275996061163,
+          "exhaust": 2.8863617732345728,
+          "gain": 0.07149648666381836,
+          "signal": 0.04529870377569062
+        },
+        {
+          "craft": "SPECTRE",
+          "rev": 0.9093092580146753,
+          "exhaust": 2.5135044699251314,
+          "gain": 0.07158376276493073,
+          "signal": 0.04516283025179836
+        },
+        {
+          "craft": "IRONCLAD",
+          "rev": 0.9092275996061162,
+          "exhaust": 2.749707492098493,
+          "gain": 0.07169003784656525,
+          "signal": 0.05398874525024483
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9093092580146747,
+          "exhaust": 2.993061263386339,
+          "gain": 0.0715111568570137,
+          "signal": 0.05294714543068494
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 667,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9092275996061159,
+          "exhaust": 2.984692304537936,
+          "gain": 0.07118476182222366,
+          "signal": 0.051024508226021455
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9092275996061158,
+          "exhaust": 3.0348172842501313,
+          "gain": 0.0715048611164093,
+          "signal": 0.05377224259051092
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "rotationFocus": {
+    "active": true,
+    "visible": true,
+    "outline": "none",
+    "hint": "underline",
+    "rotation": 53
+  },
+  "passed": true
+}
