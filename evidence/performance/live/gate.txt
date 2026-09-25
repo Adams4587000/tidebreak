@@ -1,3 +1,12 @@
+screenshots     /Users/karissmac/Documents/Cursor.Code/tidebreak/evidence/performance/live/loaded.png
+                /Users/karissmac/Documents/Cursor.Code/tidebreak/evidence/performance/live/started.png
+                /Users/karissmac/Documents/Cursor.Code/tidebreak/evidence/performance/live/moving.png
+verdict.json    /Users/karissmac/Documents/Cursor.Code/tidebreak/evidence/performance/live/verdict.json
+held            #stick dragged up and held 6 s
+path length     549.3 m over the run
+wire bytes      5.3 MB compressed, 63 responses
+renderer        ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version)
+
 === 404 JAM VERDICT ===
 url             https://adams4587000.github.io/tidebreak/
 utc             2026-09-25T13:36:59.770Z

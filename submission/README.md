@@ -6,7 +6,7 @@ This directory prepares the entry. Its presence does not mean the game has been 
 2. Push the validated source to `Adams4587000/tidebreak:main` without replacing its genuine history.
 3. Enable GitHub Pages with GitHub Actions as the source. The workflow publishes only `game/`, after rule tests and the release guard pass.
 4. Record the deployed source SHA and verify the live URL. Run the unchanged recipe gate with the visible Quick Race control:
-   `node ../404-game-recipe/harness/jam.mjs https://adams4587000.github.io/tidebreak/ --start=#quickraceb --commit=<deployed-source-sha> --out=evidence/live-release`
+   `node ../404-game-recipe/harness/jam.mjs https://adams4587000.github.io/tidebreak/ --start=#quickraceb --commit=<deployed-source-sha> --out=evidence/performance/live`
 5. Fill `entry.draft.json` with the real deployed commit and contact. Fork `404-Repo/404-game-jam`; add only `entries/tidebreak.json` using the official schema.
 6. Open the entry pull request. Include the exact unedited live verdict block, team and source links, the three-sentence description and truthful declarations from the official PR template.
 7. Save the PR URL. The organizers rerun the gate before merging; an open PR is not an accepted entry.
@@ -17,8 +17,8 @@ The draft names the release source commit; its contact is still an explicit plac
 
 ## Current status
 
-- Source release `e83d09ce01b727e6be573e104b87be04812f9bcd` is public on `main`.
-- GitHub Actions run [36078223192](https://github.com/Adams4587000/tidebreak/actions/runs/36078223192) validated and deployed the game.
+- Source release `63a395872acde9304ae559ccc25d13a9ec44e8d3` is public on `main`.
+- GitHub Actions run [36141563834](https://github.com/Adams4587000/tidebreak/actions/runs/36141563834) validated and deployed the game.
 - The owner confirmed Adams4587000 is the sole entrant and meets the eligibility rules. They will provide the contact later; explicit rights confirmation is also still needed.
 - Submission fork: https://github.com/Adams4587000/404-game-jam. No entry PR has been opened.
 

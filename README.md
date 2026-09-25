@@ -6,7 +6,7 @@ An original dystopian hydro-speeder combat racer built with Three.js, the 404 ga
 
 ![Tidebreak's live 3D rider and spacecraft dock](evidence/territory-dock-1440x900.png)
 
-**[Play Tidebreak](https://adams4587000.github.io/tidebreak/)** — deployed from release commit `e83d09c`.
+**[Play Tidebreak](https://adams4587000.github.io/tidebreak/)** — deployed from release commit `63a3958`.
 
 ## Play locally
 
@@ -56,7 +56,7 @@ Browser checks run sequentially and require the local server. The combat driver 
 
 The unmodified 404 jam harness now starts the full combat race through the visible Quick Race control, using its supported `--start` argument. The dock/territory setup path remains available and is checked separately with real inputs. The historical navigation adapter is no longer used for current gate evidence. Local passes are not live submission verdicts. See [compliance status](docs/COMPLIANCE.md) and [future production rules](AGENTS.md).
 
-This remains a browser game with procedural geometry, not demonstrated commercial AAA photorealism. Water reflections use a limited-resolution planar render; scenery repeats modular assets; AI follows route coordinates rather than the player's full free-steering physics. The unchanged live phone/4G competition gate passed on `e83d09c` (11.9 s ready, 6.6 MB, zero errors). Broad physical-phone testing remains unperformed. The final release is authorized; the Pages workflow publishes only `game/` after validation. Deployment, live gate and entry status are tracked in [the release audit](docs/RELEASE-AUDIT.md).
+This remains a browser game with procedural geometry, not demonstrated commercial AAA photorealism. Water reflections use a limited-resolution planar render; scenery repeats modular assets; AI follows route coordinates rather than the player's full free-steering physics. The unchanged live phone/4G competition gate passed on `63a3958` (11.2 s ready, 6.6 MB, zero errors). Broad physical-phone testing remains unperformed. The final release is authorized; the Pages workflow publishes only `game/` after validation. Deployment, live gate and entry status are tracked in [the release audit](docs/RELEASE-AUDIT.md).
 
 See [production scope](docs/DYSTOPIA.md), [campaign](docs/CAMPAIGN.md), [style](docs/STYLE.md), [provenance](docs/CREDITS.md) and [current validation](docs/COMPLIANCE-VALIDATION.md).
 

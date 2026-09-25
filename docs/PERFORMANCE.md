@@ -23,7 +23,7 @@ Rivals cannot queue a reserve burst during free launch/nitro, wait briefly after
 
 `evidence/performance/before/` records the original release. `after/` and `after-instancing/` record intermediate performance measurements. The full-course driver tests the shared-geometry revision with explicit isolated unlock fixtures; subsequent dock camera, exhaust and loader refinements are checked separately against the final working tree. Final control, flow, gate and source-hash records are kept under `evidence/performance/final/`.
 
-No scenery asset is replaced or imported. The runtime geometry inventory is updated deliberately; unchanged asset verification receipts remain valid. Screenshots were reviewed locally for control placement, craft visibility and flame appearance. This is not an independent commercial-art comparison or a claim of physical-phone validation. The previous public verdict remains tied to its original source commit until this revision is deployed and tested against the live URL.
+No scenery asset is replaced or imported. The runtime geometry inventory is updated deliberately; unchanged asset verification receipts remain valid. Screenshots were reviewed locally for control placement, craft visibility and flame appearance. This is not an independent commercial-art comparison or a claim of physical-phone validation. The earlier public verdict remains tied to its original source commit; the new live verdict below records this revision separately.
 
 ## Final local results
 
@@ -33,3 +33,7 @@ No scenery asset is replaced or imported. The runtime geometry inventory is upda
 - Dock rev, six distinct craft, keyboard Space/hold, touch release, sound cues, mute, restart and return to dock pass on desktop, 390×844, 390×667 and 844×390 viewports. Screenshots prompted moving the portrait rotation hint above the craft information.
 - Real-keyboard combat race: first place, 92.33 seconds, all six checkpoints, 17 supplies, earned territory/craft unlocks persisted after reload. Peaks: 633 draws and 1,192,858 triangles; zero browser errors. This is one seeded race, not a claim that every player will win.
 - Post-balance real-keyboard time trials also finished Splitstone (112.36 s) and Sluice (110.13 s), surviving all checkpoints with supplies and no browser errors. Later-territory unlock fixtures are explicitly isolated test data.
+
+## Published revision
+
+Source `63a395872acde9304ae559ccc25d13a9ec44e8d3` is deployed by Actions run 36141563834. All 96 published files match the local game hashes. The unmodified live phone/4G gate passes: 11.2 s ready, 6.6 MB body bytes, 507 peak draws, 994,368 peak triangles, zero errors/404s. Exact output, screenshots and deployment receipt: `evidence/performance/live/`. The submission draft names this source; it is still awaiting the entrant's contact and remaining declaration.
