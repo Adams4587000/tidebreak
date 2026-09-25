@@ -44,3 +44,12 @@ body[data-territory=ember] .arena-brief{background:linear-gradient(130deg,#442c2
 #weapon-target[data-feedback=launch]{color:#ffd99b}#weapon-target[data-feedback=hit]{color:#84ffd0;text-shadow:0 0 12px #33c58c66}#weapon-target[data-feedback=blocked]{color:#7edfff}#weapon-target[data-feedback=miss]{color:#edb99e}
 
 .rival-tag.damaged{border-color:#ff9e62;color:#ffe0bf;box-shadow:0 0 16px #ff6d3655}.rival-tag.damaged small{color:#ffab72}
+
+/* Dock ignition control keeps its own touch target beside the inspection action. */
+.rev-button{position:relative;display:flex;flex-direction:column;gap:5px;width:100%;min-height:48px;padding:12px 14px;margin:12px 0 3px;overflow:hidden;text-align:left;border:1px solid #b9a270;border-left:3px solid var(--theme);border-radius:3px 14px 3px 14px;background:linear-gradient(120deg,#29383f,#0c171f);touch-action:none;user-select:none;-webkit-user-select:none}
+.rev-button span{font:700 10px monospace;letter-spacing:1.3px}.rev-button small{font:8px monospace;color:#b6c6c9;letter-spacing:.7px}.rev-button i{position:absolute;bottom:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,#72e3e3,#ffd196);transform:scaleX(var(--rev,0));transform-origin:left}.rev-button[aria-pressed=true]{border-color:#ffe4b8;background:linear-gradient(120deg,#574b31,#18333c)}
+#startup-audio{font:9px monospace;letter-spacing:1px;min-height:44px;color:#b5d5d7;background:none;padding:8px 0;margin:4px 0}
+#race-loading{position:fixed;inset:0;z-index:30;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:18px;background:#08151fee;text-align:center;padding:25px}#race-loading strong{font:700 clamp(20px,4vw,36px) monospace;color:#ead4a6;letter-spacing:2px}#race-loading>span:last-child{font:12px monospace;color:#a7c5cc}
+@media(max-width:700px){.crew-detail .rev-button{grid-column:2;grid-row:4;min-height:44px;padding:8px 10px;margin:1px 0}.rev-button span{font-size:8px}.rev-button small{font-size:6px}.crew-detail #inspectb{align-self:center;min-height:44px}#hud .icon-button{backdrop-filter:none}.title-copy{max-height:90svh}#startup-audio{margin:0;min-height:32px}}
+@media(max-height:500px) and (min-width:701px){.crew-detail .rev-button{position:absolute;right:0;top:100%;width:150px;min-height:44px;padding:8px 12px;margin:0}.rev-button small{font-size:7px}}
+@media(max-width:700px){#orbit-zone>span{bottom:28px}}

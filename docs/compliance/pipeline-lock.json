@@ -160,23 +160,23 @@
   "runtimeGeometry": [
     {
       "path": "game/world.js",
-      "sha256": "91f44d820029953ba4a8a7fb3e1f8ecacdb027c6ac07ee5b2d429b13806e3dda",
-      "scope": "Course-generated labels, lane strips and timed sluice signal; scenery and supply models are ASSET-loaded. Fleet materials use aligned hull-local albedo, normal and roughness sampling from existing Atlas steel/carbon media, with paint relief and distinct coating/alloy/composite responses. Collision dimensions follow placed barriers; ramp edges provide deck support."
+      "sha256": "629129beb15e3ee71ab431b64d6b2c0699248f7446836d693b76655aee502f12",
+      "scope": "Course-generated labels, lane strips and timed sluice signal; scenery and supply models are ASSET-loaded. Fleet materials use aligned hull-local albedo, normal and roughness sampling from existing Atlas steel/carbon media, with paint relief and distinct coating/alloy/composite responses. Collision dimensions follow placed barriers; ramp edges provide deck support. Performance refit shares canonical prop geometry through chunked instancing, caches text labels, shares fleet shader programs through per-material uniforms, and animates procedural exhaust flames on the existing plume geometry for dock revving."
     },
     {
       "path": "game/water.js",
-      "sha256": "be03566be82a37c10a22530fc1761498898cf91e36e0aa25d930201837955b90",
-      "scope": "Procedural shader surface, dynamic instanced wake strips and particle spray. Geometry comes from constructors and runtime simulation."
+      "sha256": "203ae24365720250da44e3f2360bc8944806c500db8ac0e3a8e06ba7e310226f",
+      "scope": "Procedural shader surface, dynamic instanced wake strips and particle spray. Geometry comes from constructors and runtime simulation. Mobile uses a 192-segment constructor grid; desktop retains 240. No physics/wave function changes."
     },
     {
       "path": "game/atmosphere.js",
-      "sha256": "c2c81b381f1f0108256b4a467893678b7eb248aabaa0e0d7f599ca6a227e1871",
-      "scope": "Shader sky sphere, fog particles and fullscreen lens/reflection pass. No scene-object mesh imports."
+      "sha256": "18ed099f3c28e6d23aef74cd872aa2fc6c298b8c7b98fac06fe57928f4b63c20",
+      "scope": "Shader sky sphere, fog particles and fullscreen lens/reflection pass. No scene-object mesh imports. Reflection resolution/cadence is budgeted per device; the lens render target and shader are warmed before play."
     },
     {
       "path": "game/combat-fx.js",
-      "sha256": "5b74f398b39258293fc2980f16a8eb5698590b1c83bae8de73534b9ff3028a63",
-      "scope": "Transient constructor-built missile bodies/fins/exhaust, launch flashes, laser beams, mines, blast and collectible pulses, particles, and shield envelopes. Effects follow real combat and pickup state; launch and impact effects use vessel height. No static scenery or mesh imports."
+      "sha256": "a573ec81cbb30d949bd8212edaa7b0fa9f7c16b84d199e9fda512cb8909c9dcf",
+      "scope": "Transient constructor-built missile bodies/fins/exhaust, launch flashes, laser beams, mines, blast and collectible pulses, particles, and shield envelopes. Effects follow real combat and pickup state; launch and impact effects use vessel height. No static scenery or mesh imports. Existing effect constructors also prepare hidden shader variants before countdown; no gameplay events are injected."
     }
   ]
 }

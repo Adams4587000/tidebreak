@@ -1,0 +1,672 @@
+{
+  "fixture": "All territories unlocked for isolated full-course time trials; no race progress is injected.",
+  "routes": [
+    {
+      "arena": 2,
+      "id": "splitstone",
+      "checkpoints": [
+        {
+          "checkpoint": 0,
+          "elapsed": 5.716500000000008,
+          "draws": 120,
+          "tris": 302210
+        },
+        {
+          "checkpoint": 1,
+          "elapsed": 22.732499999999696,
+          "draws": 60,
+          "tris": 223112
+        },
+        {
+          "checkpoint": 2,
+          "elapsed": 40.731799999999936,
+          "draws": 77,
+          "tris": 234104
+        },
+        {
+          "checkpoint": 3,
+          "elapsed": 58.66450000000114,
+          "draws": 120,
+          "tris": 315390
+        },
+        {
+          "checkpoint": 4,
+          "elapsed": 81.9134000000055,
+          "draws": 137,
+          "tris": 326204
+        },
+        {
+          "checkpoint": 5,
+          "elapsed": 99.9294000000095,
+          "draws": 81,
+          "tris": 232714
+        }
+      ],
+      "peaks": {
+        "draws": 216,
+        "tris": 428754
+      },
+      "lensMax": 9,
+      "result": {
+        "renderScale": 1,
+        "rev": 0,
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 5,
+          "lastCue": "LAUNCH",
+          "engineGain": 0.025457924231886864,
+          "masterGain": 0.5
+        },
+        "previewUnlocks": false,
+        "cameraDistance": 13.877521875528773,
+        "menuStep": "arenas",
+        "arena": "splitstone",
+        "checkpoint": 5,
+        "sector": 2,
+        "sectorName": "SPLITSTONE",
+        "pickups": 19,
+        "roster": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "rivals": [
+          {
+            "id": "rival-1",
+            "name": "VESPER",
+            "s": 10,
+            "lane": -16,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-2",
+            "name": "MOSS",
+            "s": 10,
+            "lane": 0,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-3",
+            "name": "CINDER",
+            "s": 10,
+            "lane": 16,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-4",
+            "name": "ECHO",
+            "s": -3,
+            "lane": -12,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-5",
+            "name": "MARSHAL",
+            "s": -3,
+            "lane": 12,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          }
+        ],
+        "lethalAhead": null,
+        "weapons": {
+          "feedback": {
+            "text": "",
+            "kind": "",
+            "until": 0
+          },
+          "missiles": [],
+          "ammo": 4,
+          "special": "SEEKER",
+          "specialAmmo": 2,
+          "defenses": 3,
+          "hits": 0,
+          "kills": 0,
+          "shots": 0,
+          "damageDealt": 0,
+          "shield": 0,
+          "invulnerable": 0,
+          "eliminated": false,
+          "incoming": false,
+          "cooldown": 0,
+          "projectiles": 0,
+          "pursuit": 0,
+          "drafting": false
+        },
+        "obstacleAhead": [],
+        "orbit": {
+          "yaw": 7.357624499995351,
+          "pitch": 0.3
+        },
+        "lensDrops": 0,
+        "surgeWindow": null,
+        "craft": "KESTREL",
+        "foilAngle": 0.28466464796156343,
+        "engineIntensity": 1.4068748044577035,
+        "exhaustScale": 0.21301094397618245,
+        "air": 0,
+        "flightY": null,
+        "verticalSpeed": 0,
+        "renderY": -0.5010132312706992,
+        "pitch": -0.08686401915478491,
+        "hullCollider": {
+          "halfWidth": 1.5049999952316284,
+          "halfLength": 3.612799882888794,
+          "centerX": 0,
+          "centerZ": 0.7072000598907469
+        },
+        "launch": 0,
+        "nitro": 0,
+        "boosting": false,
+        "ramp": null,
+        "barrierContact": false,
+        "reversing": false,
+        "collisions": 1,
+        "rampsAhead": [],
+        "pos": [
+          -0.5544584753597812,
+          1844.9086609225303
+        ],
+        "fps": 59.991636743890105,
+        "speed": 0,
+        "score": 1,
+        "over": true,
+        "draws": 70,
+        "tris": 234896,
+        "progress": 1.0000953218611786,
+        "heading": 8.510495413597559,
+        "guideHeading": 2.0151717469657715,
+        "lateral": 2.266882462680562,
+        "boost": 4.021000000002036,
+        "boosts": 339,
+        "jumps": 1,
+        "signals": 0,
+        "surges": 0,
+        "place": 1,
+        "chapter": 2,
+        "state": "results",
+        "unlocked": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "elapsed": 112.36220000001228,
+        "courseLength": 9826.225601646633,
+        "target": 2.096978454226528
+      }
+    },
+    {
+      "arena": 4,
+      "id": "sluice",
+      "checkpoints": [
+        {
+          "checkpoint": 0,
+          "elapsed": 5.416400000000017,
+          "draws": 196,
+          "tris": 447472
+        },
+        {
+          "checkpoint": 1,
+          "elapsed": 21.265799999999917,
+          "draws": 178,
+          "tris": 429844
+        },
+        {
+          "checkpoint": 2,
+          "elapsed": 37.81510000000036,
+          "draws": 210,
+          "tris": 440706
+        },
+        {
+          "checkpoint": 3,
+          "elapsed": 54.631200000001385,
+          "draws": 104,
+          "tris": 299694
+        },
+        {
+          "checkpoint": 4,
+          "elapsed": 71.81380000000375,
+          "draws": 157,
+          "tris": 426556
+        },
+        {
+          "checkpoint": 5,
+          "elapsed": 88.46310000000746,
+          "draws": 209,
+          "tris": 459948
+        }
+      ],
+      "peaks": {
+        "draws": 335,
+        "tris": 713450
+      },
+      "lensMax": 16,
+      "result": {
+        "renderScale": 1,
+        "rev": 0,
+        "audio": {
+          "state": "running",
+          "enabled": true,
+          "startupPlayed": true,
+          "selectionCount": 10,
+          "lastCue": "LAUNCH",
+          "engineGain": 0.023951644077897072,
+          "masterGain": 0.5
+        },
+        "previewUnlocks": false,
+        "cameraDistance": 13.947188227004245,
+        "menuStep": "arenas",
+        "arena": "sluice",
+        "checkpoint": 5,
+        "sector": 4,
+        "sectorName": "THE SLUICE",
+        "pickups": 15,
+        "roster": [
+          true,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "rivals": [
+          {
+            "id": "rival-1",
+            "name": "VESPER",
+            "s": 10,
+            "lane": -16,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-2",
+            "name": "MOSS",
+            "s": 10,
+            "lane": 0,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-3",
+            "name": "CINDER",
+            "s": 10,
+            "lane": 16,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-4",
+            "name": "ECHO",
+            "s": -3,
+            "lane": -12,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          },
+          {
+            "id": "rival-5",
+            "name": "MARSHAL",
+            "s": -3,
+            "lane": 12,
+            "speed": 0,
+            "launch": 15,
+            "nitro": 0,
+            "boost": 100,
+            "claimed": 0,
+            "shield": 0,
+            "invulnerable": 0,
+            "hits": 0,
+            "impactAt": null,
+            "damagePose": {
+              "active": false,
+              "pitch": 0,
+              "roll": 0,
+              "lift": 0,
+              "flash": 0,
+              "rider": 0
+            },
+            "visible": false,
+            "ammo": 4,
+            "eliminated": false,
+            "finished": false,
+            "shots": 0,
+            "damageDealt": 0
+          }
+        ],
+        "lethalAhead": null,
+        "weapons": {
+          "feedback": {
+            "text": "",
+            "kind": "",
+            "until": 0
+          },
+          "missiles": [],
+          "ammo": 4,
+          "special": "SEEKER",
+          "specialAmmo": 2,
+          "defenses": 3,
+          "hits": 0,
+          "kills": 0,
+          "shots": 0,
+          "damageDealt": 0,
+          "shield": 0,
+          "invulnerable": 0,
+          "eliminated": false,
+          "incoming": false,
+          "cooldown": 0,
+          "projectiles": 0,
+          "pursuit": 0,
+          "drafting": false
+        },
+        "obstacleAhead": [],
+        "orbit": {
+          "yaw": 13.858703499995352,
+          "pitch": 0.3
+        },
+        "lensDrops": 7,
+        "surgeWindow": {
+          "distance": 4747.249554329774,
+          "open": false,
+          "closesIn": 0,
+          "opensIn": 2.748200000176155
+        },
+        "craft": "KESTREL",
+        "foilAngle": 0.1687398715713118,
+        "engineIntensity": 1.3828800489111432,
+        "exhaustScale": 0.19510616977476605,
+        "air": 0,
+        "flightY": null,
+        "verticalSpeed": 0,
+        "renderY": -0.6417386120349263,
+        "pitch": -0.09201030354121599,
+        "hullCollider": {
+          "halfWidth": 1.5049999952316284,
+          "halfLength": 3.612799882888794,
+          "centerX": 0,
+          "centerZ": 0.7072000598907469
+        },
+        "launch": 0,
+        "nitro": 0,
+        "boosting": false,
+        "ramp": null,
+        "barrierContact": false,
+        "reversing": false,
+        "collisions": 1,
+        "rampsAhead": [],
+        "pos": [
+          0.04837644776039518,
+          1820.98470309561
+        ],
+        "fps": 60.01301260796094,
+        "speed": 0,
+        "score": 7,
+        "over": true,
+        "draws": 126,
+        "tris": 332270,
+        "progress": 1.0001054699968022,
+        "heading": 8.23449911114319,
+        "guideHeading": 1.7418032436096798,
+        "lateral": 2.468900049472565,
+        "boost": 4.6579999999990935,
+        "boosts": 200,
+        "jumps": 0,
+        "signals": 0,
+        "surges": 7,
+        "place": 1,
+        "chapter": 4,
+        "state": "results",
+        "unlocked": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "elapsed": 110.12890000001231,
+        "courseLength": 9310.257857247476,
+        "target": 1.8314119223995482
+      }
+    }
+  ],
+  "errors": [],
+  "geometry": [
+    {
+      "id": "meridian",
+      "length": 8446.83764021624,
+      "maxError": 0.0013259944945693727,
+      "maxTurn": 0.04553618925527037
+    },
+    {
+      "id": "blackwater",
+      "length": 9148.62091544421,
+      "maxError": 0.002989534686869457,
+      "maxTurn": 0.08802437822599331
+    },
+    {
+      "id": "splitstone",
+      "length": 9826.225601646633,
+      "maxError": 0.002229652917093029,
+      "maxTurn": 0.06700316107054127
+    },
+    {
+      "id": "ember",
+      "length": 8760.223614110211,
+      "maxError": 0.0015113096613396894,
+      "maxTurn": 0.055401768617568514
+    },
+    {
+      "id": "sluice",
+      "length": 9310.257857247476,
+      "maxError": 0.0014296275394893138,
+      "maxTurn": 0.047251594611339875
+    },
+    {
+      "id": "atlantic",
+      "length": 9414.414116762615,
+      "maxError": 0.0017414376148450514,
+      "maxTurn": 0.058346150539102304
+    }
+  ],
+  "passed": true
+}

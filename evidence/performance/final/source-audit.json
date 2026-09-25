@@ -1,0 +1,7 @@
+{
+  "scope": "Tracked and pending working files, including paths; excluded terms omitted from report. History audit retained in release-2026-09-25. Credential patterns are best effort.",
+  "files": 1140,
+  "excludedMatches": [],
+  "credentialMatches": [],
+  "passed": true
+}

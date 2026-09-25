@@ -12,7 +12,7 @@ export function damageReaction(r,time){
  const fade=Math.pow(1-age/duration,2),side=r.impactSide||1;
  return{active:true,pitch:-.16*fade*Math.cos(age*13),roll:r.eliminated?side*(.3+age*.8):side*.36*fade*Math.cos(age*15),lift:r.eliminated?-age*1.8:.3*Math.sin(Math.min(1,age/.45)*Math.PI)*fade,flash:Math.max(0,1-age/.36),rider:.3*fade};
 }
-export function armRacer(r,seed=1){Object.assign(r,{hits:0,impactAt:null,impactSide:1,ammo:4,special:null,specialAmmo:0,defenses:2,shield:0,invulnerable:0,slow:0,fireCooldown:0,eliminated:false,finished:false,finishTime:null,eliminationTime:null,kills:0,shots:0,damageDealt:0,launch:LAUNCH_SECONDS,nitro:0,flightY:null,flightVelocity:0,ramp:null,decision:10+(seed%7),randomState:seed||1});}
+export function armRacer(r,seed=1){Object.assign(r,{hits:0,impactAt:null,impactSide:1,ammo:4,special:null,specialAmmo:0,defenses:2,shield:0,invulnerable:0,slow:0,fireCooldown:0,eliminated:false,finished:false,finishTime:null,eliminationTime:null,kills:0,shots:0,damageDealt:0,launch:LAUNCH_SECONDS,nitro:0,burst:0,boostRest:0,flightY:null,flightVelocity:0,ramp:null,decision:10+(seed%7),randomState:seed||1});}
 export function random(r){let x=r.randomState||1;x^=x<<13;x^=x>>>17;x^=x<<5;r.randomState=x>>>0;return (x>>>0)/4294967296;}
 export function tickCombat(r,dt){for(const k of ['invulnerable','slow','fireCooldown','launch'])r[k]=Math.max(0,(r[k]||0)-dt);}
 export function defend(r){if(!live(r)||r.defenses<=0)return false;r.defenses--;r.shield=5;r.slow=0;return true;}

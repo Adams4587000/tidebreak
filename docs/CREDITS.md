@@ -94,3 +94,6 @@ The existing Atlas steel/carbon albedo, normal and roughness images now share hu
 
 ### Nitro supply — 25 September 2026
 Nitro reuses the reviewed supply pressure-vessel model and existing collectible/exhaust effect geometry. Its turquoise material/label, timer and ignition sound are original runtime code and Web Audio synthesis. No external media or new model is added.
+
+### Smooth launch and dock ignition — 25 September 2026
+Startup and mechanical menu cues are original Web Audio synthesis. Stationary revving animates the existing reviewed exhaust geometry with an original procedural flame shader; no new external image, audio or model is introduced. Per-material uniforms preserve fleet finishes while sharing shader programs. Repeated scenery shares canonical ASSET geometry through per-chunk GPU instances; this changes storage/draw submission, not the source asset constructors. See PERFORMANCE.md for measurements and limitations.

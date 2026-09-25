@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-export function createWater(normalMap){
+export function createWater(normalMap,mobile=false){
  const uniforms={time:{value:0},amplitude:{value:.3},waterColor:{value:new THREE.Color('#087e8b')},deepColor:{value:new THREE.Color('#063d50')},skyColor:{value:new THREE.Color('#adc8cd')},sunDirection:{value:new THREE.Vector3(-.6,.45,-.4).normalize()},normalMap:{value:normalMap},fogDensity:{value:.0015}};
  const material=new THREE.ShaderMaterial({uniforms,vertexShader:`
  varying vec3 vWorld;uniform float time;uniform float amplitude;
@@ -10,7 +10,7 @@ export function createWater(normalMap){
  #include <tonemapping_fragment>
  #include <colorspace_fragment>
  }`});
- const geometry=new THREE.PlaneGeometry(1900,1900,240,240);geometry.rotateX(-Math.PI/2);const mesh=new THREE.Mesh(geometry,material);mesh.frustumCulled=false;mesh.renderOrder=-1;return{mesh,uniforms};
+ const geometry=new THREE.PlaneGeometry(1900,1900,mobile?192:240,mobile?192:240);geometry.rotateX(-Math.PI/2);const mesh=new THREE.Mesh(geometry,material);mesh.frustumCulled=false;mesh.renderOrder=-1;return{mesh,uniforms};
 }
 export function createWake(count=260){
  const geo=new THREE.PlaneGeometry(1,1,4,4);geo.rotateX(-Math.PI/2);

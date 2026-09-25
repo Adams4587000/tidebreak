@@ -11,10 +11,13 @@ export function stepFlight(r,waterY,dt){
  return{air:Math.max(0,r.flightY-waterY),velocity:r.flightVelocity,landed:false};
 }
 export function launchVelocity(speed){return Math.max(3.8,Math.min(9,Math.abs(speed)*.11));}
-export const REVERSE_SPEED=12;
+export const REVERSE_SPEED=12, COAST_DECELERATION=4;
 // Brake to a stop first, then apply controllable reverse thrust while held.
 export function stepDrive(speed,forwardSpeed,braking,dt,launch=false){
  if(braking&&speed>0)return Math.max(0,speed-Math.max(20,speed*3.8)*dt);
+ // Thrust ending is a coast, not a brake. Collisions and weapon impacts still
+ // remove speed at contact; this only blends the engine's desired speed.
+ if(!braking&&speed>forwardSpeed)return Math.max(forwardSpeed,speed-COAST_DECELERATION*dt);
  const target=braking?-REVERSE_SPEED:forwardSpeed,rate=braking?2.6:launch?2.8:1.35;
  return speed+(target-speed)*(1-Math.exp(-dt*rate));
 }

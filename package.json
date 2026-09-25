@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "python3 -m http.server 4173 --bind 127.0.0.1 --directory game",
-    "test": "node --test tests/campaign.test.mjs tests/combat.test.mjs tests/race-rules.test.mjs tests/handling.test.mjs tests/play-access.test.mjs",
+    "test": "node --test tests/campaign.test.mjs tests/combat.test.mjs tests/race-rules.test.mjs tests/handling.test.mjs tests/play-access.test.mjs tests/render-quality.test.mjs",
     "check": "node tools/compliance-check.mjs --selftest && node ../404-game-recipe/harness/ship.mjs game",
     "verify:assets": "node ../404-game-recipe/harness/verify.mjs game/assets --size=560",
     "check:release": "node tools/compliance-check.mjs --selftest --release && node ../404-game-recipe/harness/ship.mjs game"

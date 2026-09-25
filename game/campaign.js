@@ -34,6 +34,7 @@ export const CHAPTERS=SECTORS.map((sector,i)=>({
   ['STORM GATE','FREIGHTER GRAVEYARD','SEA STACKS','DEAD LIGHTHOUSE','WHITEWATER REEF','LAST HORIZON']
  ][i]
 }));
+// Raise sustained pace without changing any craft's boosted top speed.
 export const BOATS=[
  {name:'KESTREL',rider:'ROOK',title:'THE SALVAGE RUNNER',bio:'A dock mechanic with a stolen engine and nothing left to lose.',unlock:'STARTER · AVAILABLE',width:3.8,type:'SALVAGE / INTERCEPTOR',color:0xad5535,speed:63,turn:1.08,boost:1.47,stats:[.8,.82,.8]},
  {name:'ALBATROSS',rider:'VESPER',title:'THE EXILED PILOT',bio:'An Authority defector. Precision is the only loyalty she kept.',unlock:'FINISH 1 RACE / 180 REP',width:4.3,type:'NEEDLE / OUTRIGGER',color:0xbcb4a2,speed:65,turn:.94,boost:1.44,stats:[.94,.68,.83]},
@@ -41,7 +42,7 @@ export const BOATS=[
  {name:'BRIMSTONE',rider:'CINDER',title:'THE FURNACE SAINT',bio:'A caldera engineer wrapped in scavenged heat armor.',unlock:'2 PODIUMS / 700 REP',width:4.5,type:'TWIN TURBINE / HOTROD',color:0x842f23,speed:64,turn:.98,boost:1.51,stats:[.87,.72,.96]},
  {name:'SPECTRE',rider:'ECHO',title:'THE SIGNAL GHOST',bio:'A courier who erased their name from the Authority registry.',unlock:'4 FINISHES / 1000 REP',width:4.1,type:'ASYMMETRIC / SCOUT',color:0x4b6470,speed:62.5,turn:1.17,boost:1.48,stats:[.79,.91,.84]},
  {name:'IRONCLAD',rider:'MARSHAL',title:'THE LAST ENFORCER',bio:'The Authority fell. Its most feared captain still owns the water.',unlock:'WIN 1 RACE / 1800 REP',width:5.2,type:'ARMORED / CATAMARAN',color:0x8b826c,speed:63.5,turn:1.01,boost:1.5,stats:[.84,.74,.91]},
-];
+].map(spec=>({...spec,speed:spec.speed*1.14,boost:spec.boost/1.14}));
 export function objectivePassed(i,r){return !!r.finished&&Number.isInteger(r.place)&&r.place>=1&&r.place<=CHAPTERS[i]?.requiredPlace;}
 export function objectiveProgress(i,r){return `${r.pickups||0} PERKS CLAIMED · ${r.jumps||0} LANDINGS · ${r.place||6}/6`;}
 export const SAVE_KEY='tidebreak.territories.v3';

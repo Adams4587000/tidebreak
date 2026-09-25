@@ -1,0 +1,163 @@
+{
+  "url": "http://localhost:4173/",
+  "runs": [
+    {
+      "mobile": true,
+      "cpuSlowdown": 4,
+      "readyMs": 3051.7000000476837,
+      "raceAtMs": 7621.100000023842,
+      "countdown": {
+        "frames": 174,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.800000000000182,
+        "maxMs": 1483.3000000000002,
+        "over100ms": 1,
+        "averageFps": 39.24930073084905,
+        "peakDraws": 697,
+        "peakTris": 1277530
+      },
+      "launch": {
+        "frames": 177,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.799999999999272,
+        "maxMs": 199.90000000000055,
+        "over100ms": 1,
+        "averageFps": 56.49176560704709,
+        "peakDraws": 491,
+        "peakTris": 993126
+      },
+      "racing": {
+        "frames": 404,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.799999999999272,
+        "maxMs": 66.60000000000036,
+        "over100ms": 0,
+        "averageFps": 58.69448359024278,
+        "peakDraws": 522,
+        "peakTris": 914500
+      },
+      "longTasks": [
+        {
+          "start": 68.89999997615814,
+          "duration": 77
+        },
+        {
+          "start": 169.79999995231628,
+          "duration": 279
+        },
+        {
+          "start": 458.2000000476837,
+          "duration": 154
+        },
+        {
+          "start": 617,
+          "duration": 75
+        },
+        {
+          "start": 695.1000000238419,
+          "duration": 75
+        },
+        {
+          "start": 772.8999999761581,
+          "duration": 72
+        },
+        {
+          "start": 846,
+          "duration": 81
+        },
+        {
+          "start": 983.5,
+          "duration": 71
+        },
+        {
+          "start": 1249.6000000238419,
+          "duration": 1284
+        },
+        {
+          "start": 2533.899999976158,
+          "duration": 487
+        },
+        {
+          "start": 3161.899999976158,
+          "duration": 297
+        },
+        {
+          "start": 3459.2999999523163,
+          "duration": 1205
+        },
+        {
+          "start": 7721.200000047684,
+          "duration": 208
+        },
+        {
+          "start": 15271.399999976158,
+          "duration": 67
+        }
+      ],
+      "errors": []
+    },
+    {
+      "mobile": false,
+      "cpuSlowdown": 1,
+      "readyMs": 800.9000000953674,
+      "raceAtMs": 4417.600000023842,
+      "countdown": {
+        "frames": 177,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.799999999999955,
+        "maxMs": 633.4000000000001,
+        "over100ms": 1,
+        "averageFps": 49.39718687206966,
+        "peakDraws": 698,
+        "peakTris": 1285212
+      },
+      "launch": {
+        "frames": 178,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.799999999999272,
+        "maxMs": 249.90000000000055,
+        "over100ms": 1,
+        "averageFps": 55.626738335572995,
+        "peakDraws": 618,
+        "peakTris": 1147484
+      },
+      "racing": {
+        "frames": 408,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.700000000000728,
+        "maxMs": 16.80000000000109,
+        "over100ms": 0,
+        "averageFps": 60.00264717561068,
+        "peakDraws": 605,
+        "peakTris": 995570
+      },
+      "longTasks": [
+        {
+          "start": 22.90000009536743,
+          "duration": 50
+        },
+        {
+          "start": 78.30000007152557,
+          "duration": 50
+        },
+        {
+          "start": 279.10000002384186,
+          "duration": 310
+        },
+        {
+          "start": 589.5,
+          "duration": 204
+        },
+        {
+          "start": 828.9000000953674,
+          "duration": 645
+        },
+        {
+          "start": 4528.800000071526,
+          "duration": 259
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

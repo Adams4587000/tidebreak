@@ -61,3 +61,19 @@ test('ramps support slow hulls, launch only off the lip and reject side misses',
 
 test('AI commits to the ramp deck instead of aiming through its side rail',async()=>{const {stepAI}=await import('../game/race-rules.js');const course={width:30,length:1000,at:(s,lane=0)=>({p:{x:lane,z:s},heading:0}),ramps:[{s:150,halfWidth:6.8}],obstacles:[{s:150,offset:7,radius:.35,kind:'RAMP RAIL'},{s:158,offset:0,radius:6.8,kind:'RAMP BACK'}]};const r={id:'rival',s:140,x:4,z:140,index:0,speed:60,boost:100,lane:4,homeLane:0,errorLife:0,mistakeTime:20};stepAI(r,{speed:63,boost:1.47,width:5.8},course,[],.05,12,0,[]);assert.ok(r.lane<4,'steers inward on the ramp rather than through the rail');});
 test('AI stays outside a barrier until its stern clears, even after passing its center',async()=>{const {stepAI}=await import('../game/race-rules.js');const course={width:30,length:1000,at:(s,lane=0)=>({p:{x:lane,z:s},heading:0}),obstacles:[{s:150,offset:14,radius:6.2,halfLength:2.5,kind:'BARRIER'}]};const r={id:'rival',s:155,x:22.3,z:155,index:0,speed:60,boost:100,lane:22.3,homeLane:16,errorLife:0,mistakeTime:20};stepAI(r,{speed:63,boost:1.47,width:4.5},course,[],.05,12,0,[]);assert.ok(r.lane>22.3,'does not turn back into the rear half of the obstacle');});
+
+test('boost expiry coasts at four metres per second per second across frame rates',()=>{
+ for(const dt of [1/30,1/60,1/120]){
+  let speed=92.61;
+  for(let i=0;i<Math.round(2/dt);i++)speed=stepDrive(speed,71.82,false,dt);
+  assert.ok(Math.abs(speed-84.61)<1e-7,'two seconds retain momentum');
+  for(let i=0;i<Math.round(6/dt);i++)speed=stepDrive(speed,71.82,false,dt);
+  assert.equal(speed,71.82,'settles at cruise without undershoot');
+  assert.ok(stepDrive(92.61,71.82,true,.1)<70,'deliberate braking remains strong');
+ }
+});
+test('every craft has a stronger cruise while retaining its original boosted top speed',async()=>{
+ const {BOATS}=await import('../game/campaign.js');
+ const original=[[63,1.47],[65,1.44],[61.5,1.48],[64,1.51],[62.5,1.48],[63.5,1.5]];
+ BOATS.forEach((b,i)=>{assert.ok(Math.abs(b.speed*b.boost-original[i][0]*original[i][1])<1e-8);assert.ok(b.speed>=original[i][0]*1.139);assert.ok(1-1/b.boost<.25,'less than 25% speed lost at cruise');});
+});

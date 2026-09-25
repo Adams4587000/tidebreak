@@ -1,0 +1,14 @@
+splitstone checkpoint 0 elapsed 5.7
+splitstone checkpoint 1 elapsed 22.7
+splitstone checkpoint 2 elapsed 40.7
+splitstone checkpoint 3 elapsed 58.7
+splitstone checkpoint 4 elapsed 81.9
+splitstone checkpoint 5 elapsed 99.9
+FINISH splitstone 112.36 { draws: 216, tris: 428754 }
+sluice checkpoint 0 elapsed 5.4
+sluice checkpoint 1 elapsed 21.3
+sluice checkpoint 2 elapsed 37.8
+sluice checkpoint 3 elapsed 54.6
+sluice checkpoint 4 elapsed 71.8
+sluice checkpoint 5 elapsed 88.5
+FINISH sluice 110.13 { draws: 335, tris: 713450 }

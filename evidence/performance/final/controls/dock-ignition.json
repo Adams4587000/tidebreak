@@ -1,0 +1,92 @@
+{
+  "views": [
+    {
+      "width": 1440,
+      "height": 900,
+      "mobile": false,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9030151016778684,
+          "exhaust": 2.829875051083756,
+          "gain": 0.08253827691078186
+        },
+        {
+          "craft": "ALBATROSS",
+          "rev": 0.9030151016778684,
+          "exhaust": 2.8169247324437134,
+          "gain": 0.08262567967176437
+        },
+        {
+          "craft": "MANTA",
+          "rev": 0.9030151016778684,
+          "exhaust": 2.8109344807088794,
+          "gain": 0.0826922059059143
+        },
+        {
+          "craft": "BRIMSTONE",
+          "rev": 0.9030151016778681,
+          "exhaust": 2.5080464198022914,
+          "gain": 0.0824979618191719
+        },
+        {
+          "craft": "SPECTRE",
+          "rev": 0.9030538878794396,
+          "exhaust": 2.9319558964805346,
+          "gain": 0.0825728178024292
+        },
+        {
+          "craft": "IRONCLAD",
+          "rev": 0.9030151016778689,
+          "exhaust": 2.713592364075671,
+          "gain": 0.08268557488918304
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9029762999587131,
+          "exhaust": 2.690648349175011,
+          "gain": 0.08274855464696884
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 667,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9030151016778685,
+          "exhaust": 2.7214793208462678,
+          "gain": 0.08262400329113007
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9030151016778684,
+          "exhaust": 2.693380048609945,
+          "gain": 0.08258359879255295
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

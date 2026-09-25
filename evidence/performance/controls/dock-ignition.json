@@ -1,0 +1,92 @@
+{
+  "views": [
+    {
+      "width": 1440,
+      "height": 900,
+      "mobile": false,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9030151016778684,
+          "exhaust": 2.822134289207905,
+          "gain": 0.08267204463481903
+        },
+        {
+          "craft": "ALBATROSS",
+          "rev": 0.9030538878794397,
+          "exhaust": 2.5752333995849277,
+          "gain": 0.08245888352394104
+        },
+        {
+          "craft": "MANTA",
+          "rev": 0.9030538878794395,
+          "exhaust": 3.085790596674021,
+          "gain": 0.08253015577793121
+        },
+        {
+          "craft": "BRIMSTONE",
+          "rev": 0.9030151016778684,
+          "exhaust": 2.727574417706921,
+          "gain": 0.08256959915161133
+        },
+        {
+          "craft": "SPECTRE",
+          "rev": 0.9030151016778681,
+          "exhaust": 2.825127863623721,
+          "gain": 0.08261082321405411
+        },
+        {
+          "craft": "IRONCLAD",
+          "rev": 0.9030151016778681,
+          "exhaust": 2.616806684068972,
+          "gain": 0.0826399177312851
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9030151016778684,
+          "exhaust": 2.7165812564119776,
+          "gain": 0.08268912881612778
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 667,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9029762999587132,
+          "exhaust": 2.753991387003959,
+          "gain": 0.08258411288261414
+        }
+      ],
+      "passed": true
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "mobile": true,
+      "fleets": [
+        {
+          "craft": "KESTREL",
+          "rev": 0.9030538878794397,
+          "exhaust": 2.687138707376685,
+          "gain": 0.08255262672901154
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

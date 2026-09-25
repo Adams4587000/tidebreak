@@ -1,4 +1,4 @@
-import {stepBoost,NITRO_SECONDS} from './handling.js';
+import {stepBoost,stepDrive,NITRO_SECONDS} from './handling.js';
 import {hit,live,pace,random} from './combat.js';
 // Competition uses the same supplies, collision radius and pursuit rules for every crew.
 export const PERKS=['CHARGE','SHIELD','OVERDRIVE','REPAIR','AMMO','SEEKER','LASER','MINE','BOMB','NITRO','DEATH'];
@@ -32,13 +32,23 @@ export function stepAI(r,spec,course,pickups,dt,time,difficulty,traffic=[]){
  // Commit before the rail begins: drive up the deck or stay outside it.
  for(const ramp of course.ramps||[]){const d=ramp.s-r.s;if(d> -13&&d<110)target=Math.abs(r.lane)<ramp.halfWidth+spec.width?0:Math.sign(r.lane)*(ramp.halfWidth+spec.width+1);}
  target=Math.max(-course.width+5||-21,Math.min(course.width-5||21,target));
- r.lane+=(target-r.lane)*Math.min(1,dt*1.5);
+ const oldLane=r.lane;
  const a=course.at(r.s),b=course.at(r.s+38),turn=Math.abs(Math.atan2(Math.sin(b.heading-a.heading),Math.cos(b.heading-a.heading)));
- const requested=turn<.23&&(r.boost>55||r.burst>0);
- if(requested)r.burst=Math.max(0,(r.burst||7)-dt);else r.burst=0;
+ // Free launch/nitro never queues a reserve burst. Crews choose finite bursts
+ // separated by a recovery interval, using exactly the player's energy rules.
+ const free=(r.launch||0)>0||(r.nitro||0)>0;
+ r.boostRest=Math.max(0,(r.boostRest||0)-dt);
+ if(free){r.burst=0;r.boostRest=2+(r.index||0)*.2;}
+ if(!free&&r.boostRest===0&&!(r.burst>0)&&turn<.23&&r.boost>55)r.burst=7.5;
+ const requested=!free&&turn<.23&&r.burst>0;
+ if(requested){r.burst=Math.max(0,r.burst-dt);if(r.burst===0||r.boost<=1)r.boostRest=3;}
+ else if(!free&&r.burst>0){r.burst=0;r.boostRest=3;}
  const use=stepBoost(r,requested,false,dt);
  const corner=Math.max(.8,1-turn*.46);const trafficLoss=r.shield>0?1:traffic.some(b=>b!==r&&Math.abs(b.s-r.s)<7&&Math.abs(b.lane-r.lane)<4.6)?.85:1;
  const targetSpeed=spec.speed*(.945+difficulty*.012+((r.spec||0)%3)*.004)*corner*trafficLoss*pace(r,traffic)*(r.errorLife>0?.93:1)*(use?spec.boost:1)*(r.overdrive>0||r.nitro>0?1.12:1);
- r.speed+=(targetSpeed-r.speed)*(1-Math.exp(-dt*(r.launch>0?2.8:1.35)));r.s+=r.speed*dt;if(r.s>=course.length){r.s=course.length;r.finished=true;r.finishTime=time;r.speed=0;r.boosting=false;}
+ r.speed=stepDrive(r.speed,targetSpeed,false,dt,r.launch>0);
+ // Lateral steering spends travel distance too; rivals cannot change lanes for free.
+ const travel=r.speed*dt,lateral=Math.max(-travel*.6,Math.min(travel*.6,(target-oldLane)*Math.min(1,dt*1.5)));
+ r.lane=oldLane+lateral;r.s+=Math.sqrt(Math.max(0,travel*travel-lateral*lateral));if(r.s>=course.length){r.s=course.length;r.finished=true;r.finishTime=time;r.speed=0;r.boosting=false;}
  const point=course.at(r.s,r.lane);r.x=point.p.x;r.z=point.p.z;r.heading=point.heading;
 }
