@@ -1,0 +1,159 @@
+{
+  "url": "https://adams4587000.github.io/tidebreak/",
+  "runs": [
+    {
+      "mobile": true,
+      "cpuSlowdown": 4,
+      "readyMs": 9426.399999976158,
+      "raceAtMs": 12932.399999976158,
+      "countdown": {
+        "frames": 179,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.700000000000728,
+        "maxMs": 33.30000000000109,
+        "over100ms": 0,
+        "averageFps": 59.668655621854036,
+        "peakDraws": 507,
+        "peakTris": 994368
+      },
+      "launch": {
+        "frames": 180,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.700000000000728,
+        "maxMs": 16.80000000000109,
+        "over100ms": 0,
+        "averageFps": 60.0020000666689,
+        "peakDraws": 516,
+        "peakTris": 1006870
+      },
+      "racing": {
+        "frames": 421,
+        "medianMs": 16.700000000000728,
+        "p95Ms": 16.799999999999272,
+        "maxMs": 16.80000000000291,
+        "over100ms": 0,
+        "averageFps": 60.003135555777256,
+        "peakDraws": 517,
+        "peakTris": 941540
+      },
+      "longTasks": [
+        {
+          "start": 1357.8999999761581,
+          "duration": 82
+        },
+        {
+          "start": 2701,
+          "duration": 227
+        },
+        {
+          "start": 3569.399999976158,
+          "duration": 70
+        },
+        {
+          "start": 3656.100000023842,
+          "duration": 132
+        },
+        {
+          "start": 3832.399999976158,
+          "duration": 76
+        },
+        {
+          "start": 3912.5,
+          "duration": 63
+        },
+        {
+          "start": 3992.7000000476837,
+          "duration": 64
+        },
+        {
+          "start": 4061,
+          "duration": 66
+        },
+        {
+          "start": 4127.5,
+          "duration": 61
+        },
+        {
+          "start": 7957.5,
+          "duration": 131
+        },
+        {
+          "start": 8256.899999976158,
+          "duration": 86
+        },
+        {
+          "start": 8352.5,
+          "duration": 737
+        },
+        {
+          "start": 9100.100000023842,
+          "duration": 217
+        },
+        {
+          "start": 9319.200000047684,
+          "duration": 80
+        },
+        {
+          "start": 9478.399999976158,
+          "duration": 295
+        },
+        {
+          "start": 9777.899999976158,
+          "duration": 64
+        }
+      ],
+      "errors": []
+    },
+    {
+      "mobile": false,
+      "cpuSlowdown": 1,
+      "readyMs": 1093,
+      "raceAtMs": 4244.5,
+      "countdown": {
+        "frames": 180,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.799999999999727,
+        "maxMs": 16.800000000000182,
+        "over100ms": 0,
+        "averageFps": 60.002000066668884,
+        "peakDraws": 623,
+        "peakTris": 1178776
+      },
+      "launch": {
+        "frames": 180,
+        "medianMs": 16.699999999999818,
+        "p95Ms": 16.799999999999272,
+        "maxMs": 16.800000000000182,
+        "over100ms": 0,
+        "averageFps": 60.0020000666689,
+        "peakDraws": 654,
+        "peakTris": 1210008
+      },
+      "racing": {
+        "frames": 420,
+        "medianMs": 16.69999999999891,
+        "p95Ms": 16.700000000000728,
+        "maxMs": 16.80000000000109,
+        "over100ms": 0,
+        "averageFps": 60.00342876735813,
+        "peakDraws": 593,
+        "peakTris": 1025478
+      },
+      "longTasks": [
+        {
+          "start": 36.699999928474426,
+          "duration": 62
+        },
+        {
+          "start": 714.3999999761581,
+          "duration": 238
+        },
+        {
+          "start": 964,
+          "duration": 105
+        }
+      ],
+      "errors": []
+    }
+  ]
+}

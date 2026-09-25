@@ -1,0 +1,117 @@
+{
+  "url": "https://adams4587000.github.io/tidebreak/",
+  "fixture": "Isolated browser career save opens later territories only; no simulation state is injected.",
+  "runs": [
+    {
+      "mobile": true,
+      "cpuSlowdown": 4,
+      "arena": "sluice",
+      "elapsed": 30.048799999999552,
+      "progress": 0.2960996530722392,
+      "pickups": 3,
+      "jumps": 3,
+      "shots": 4,
+      "countdown": {
+        "frames": 177,
+        "medianFps": 59.88023952095874,
+        "averageFps": 59.66627338614529,
+        "p95Ms": 16.799999999999272,
+        "p99Ms": 16.800000000000182,
+        "maxMs": 33.19999999999982,
+        "over50ms": 0,
+        "over100ms": 0,
+        "peakDraws": 449,
+        "peakTris": 754916,
+        "minRenderScale": 1.15
+      },
+      "launch": {
+        "frames": 180,
+        "medianFps": 59.880239520962,
+        "averageFps": 60,
+        "p95Ms": 16.799999999999272,
+        "p99Ms": 16.800000000000182,
+        "maxMs": 16.80000000000109,
+        "over50ms": 0,
+        "over100ms": 0,
+        "peakDraws": 453,
+        "peakTris": 772926,
+        "minRenderScale": 1.15
+      },
+      "racing": {
+        "frames": 1618,
+        "medianFps": 59.880239520968516,
+        "averageFps": 59.780901886165026,
+        "p95Ms": 16.700000000004366,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 49.900000000001455,
+        "over50ms": 0,
+        "over100ms": 0,
+        "peakDraws": 613,
+        "peakTris": 872682,
+        "minRenderScale": 1.15
+      },
+      "longTasks": []
+    },
+    {
+      "mobile": true,
+      "cpuSlowdown": 4,
+      "arena": "atlantic",
+      "elapsed": 30.048799999999616,
+      "progress": 0.3020311762281032,
+      "pickups": 5,
+      "jumps": 3,
+      "shots": 4,
+      "countdown": {
+        "frames": 179,
+        "medianFps": 59.880239520968516,
+        "averageFps": 60.002681684097674,
+        "p95Ms": 16.700000000004366,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "over50ms": 0,
+        "over100ms": 0,
+        "peakDraws": 367,
+        "peakTris": 434680,
+        "minRenderScale": 1.15
+      },
+      "launch": {
+        "frames": 180,
+        "medianFps": 59.880239520968516,
+        "averageFps": 60.00200006666886,
+        "p95Ms": 16.799999999995634,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 16.80000000000291,
+        "over50ms": 0,
+        "over100ms": 0,
+        "peakDraws": 368,
+        "peakTris": 434682,
+        "minRenderScale": 1.15
+      },
+      "racing": {
+        "frames": 1614,
+        "medianFps": 59.880239520968516,
+        "averageFps": 59.45014144271571,
+        "p95Ms": 16.70000000001164,
+        "p99Ms": 16.80000000000291,
+        "maxMs": 100,
+        "over50ms": 2,
+        "over100ms": 0,
+        "peakDraws": 543,
+        "peakTris": 553162,
+        "minRenderScale": 1.15
+      },
+      "longTasks": [
+        {
+          "start": 64803,
+          "duration": 82
+        },
+        {
+          "start": 64897.799999952316,
+          "duration": 77
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

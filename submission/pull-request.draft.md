@@ -2,27 +2,25 @@
 
 - Play link: https://adams4587000.github.io/tidebreak/
 - Source repo: https://github.com/Adams4587000/tidebreak
-- Commit the verdict names: 63a395872acde9304ae559ccc25d13a9ec44e8d3
+- Commit the verdict names: a68cfc56fe1b317cf3cd44844b7a4266c8c17dac
 - Team (GitHub handles): @Adams4587000
 
 ## Verdict block
 
-Paste the block `harness/jam.mjs` printed, unedited, from `=== 404 JAM VERDICT ===` to `=== END ===`.
-
 ```
 === 404 JAM VERDICT ===
 url             https://adams4587000.github.io/tidebreak/
-utc             2026-09-25T13:36:59.770Z
-commit          63a395872acde9304ae559ccc25d13a9ec44e8d3
+utc             2026-09-25T16:41:51.171Z
+commit          a68cfc56fe1b317cf3cd44844b7a4266c8c17dac
 viewport        390x844 @3x phone, real touch, Android Chrome UA
 network         4G: 4 Mbps down, 1 Mbps up, 60 ms latency, CPU 2x slower
-ready           11.2 s   budget 20 s   PASS
+ready           11.7 s   budget 20 s   PASS
 weight          6.6 MB   budget 10 MB   PASS
 started         yes (tap on #quickraceb)
-moved           427.2 m   needs 1 m   PASS
+moved           422.6 m   needs 1 m   PASS
 peak draws      507   budget 900   PASS
 peak tris       994,368   budget 1,500,000   PASS
-median fps      59.99237803037822 (ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version))
+median fps      59.993122094819256 (ANGLE (Apple, ANGLE Metal Renderer: Apple M5, Unspecified Version))
 errors          0   PASS
 404s            0   PASS
 external deps   none

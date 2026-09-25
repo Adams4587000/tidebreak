@@ -1,0 +1,49 @@
+[
+  {
+    "arena": 0,
+    "events": 62621,
+    "long_events": [
+      {
+        "name": "FireAnimationFrame",
+        "duration_ms": 102.567,
+        "timestamp_us": 564289951686
+      },
+      {
+        "name": "v8.callFunction",
+        "duration_ms": 99.679,
+        "timestamp_us": 564289954567
+      },
+      {
+        "name": "FunctionCall",
+        "duration_ms": 99.674,
+        "timestamp_us": 564289954570
+      },
+      {
+        "name": "CpuProfiler::StartProfiling",
+        "duration_ms": 92.748,
+        "timestamp_us": 564289961221
+      }
+    ]
+  },
+  {
+    "arena": 3,
+    "events": 64717,
+    "long_events": [
+      {
+        "name": "CpuProfiler::StartProfiling",
+        "duration_ms": 87.381,
+        "timestamp_us": 564324508805
+      },
+      {
+        "name": "TimerFire",
+        "duration_ms": 97.781,
+        "timestamp_us": 564325054822
+      },
+      {
+        "name": "v8.callFunction",
+        "duration_ms": 97.765,
+        "timestamp_us": 564325054829
+      }
+    ]
+  }
+]

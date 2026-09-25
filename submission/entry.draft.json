@@ -6,7 +6,7 @@
   ],
   "play_url": "https://adams4587000.github.io/tidebreak/",
   "source_url": "https://github.com/Adams4587000/tidebreak",
-  "commit": "63a395872acde9304ae559ccc25d13a9ec44e8d3",
+  "commit": "a68cfc56fe1b317cf3cd44844b7a4266c8c17dac",
   "genre": "racing",
   "agent": "Codex; local development in Cursor",
   "models": [
@@ -20,9 +20,9 @@
   "own_art_list": [
     "Original Three.js constructor geometry and runtime water, sky, particles and effects",
     "Original SVG/CSS/canvas interface and effect art",
-    "Original Web Audio engine, weapons and feedback synthesis; Atlas media listed in docs/CREDITS.md"
+    "Original Web Audio race music, engine, weapons and feedback synthesis; Atlas media listed in docs/CREDITS.md"
   ],
   "what_i_found": "Tidebreak makes the racing line a choice between speed, shared supplies and surviving three damaging hits. Braking into reverse, skimming a ramp edge, or spending a shield can preserve a run through flooded industrial circuits. Nitro canisters give a short automatic burst without spending the manual boost reserve, while every rival competes for the same finite supplies.",
   "wallet": "later",
-  "contact": "PENDING_ENTRANT_CONTACT"
+  "contact": "adamsleonard010@gmail.com"
 }

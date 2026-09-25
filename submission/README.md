@@ -13,15 +13,15 @@ This directory prepares the entry. Its presence does not mean the game has been 
 
 Deadline: 25 September 2026, 23:59 UTC. The source of truth is https://github.com/404-Repo/404-game-jam/blob/main/README.md. The wallet can be supplied later.
 
-The draft names the release source commit; its contact is still an explicit placeholder and must be supplied before submission. The earlier coding model is not documented; the entry discloses that instead of guessing.
+The draft names the release source commit; its public judging contact is adamsleonard010@gmail.com. The earlier coding model is not documented; the entry discloses that instead of guessing.
 
 ## Current status
 
-- Source release `63a395872acde9304ae559ccc25d13a9ec44e8d3` is public on `main`.
-- GitHub Actions run [36141563834](https://github.com/Adams4587000/tidebreak/actions/runs/36141563834) validated and deployed the game.
-- The owner confirmed Adams4587000 is the sole entrant and meets the eligibility rules. They will provide the contact later; explicit rights confirmation is also still needed.
+- Source release `a68cfc56fe1b317cf3cd44844b7a4266c8c17dac` is public on `main`.
+- GitHub Actions run [36162110947](https://github.com/Adams4587000/tidebreak/actions/runs/36162110947) validated and deployed the game.
+- The owner confirmed Adams4587000 is the sole entrant and meets the eligibility rules. The owner supplied adamsleonard010@gmail.com as the contact. Submission is on hold at the owner’s request while live performance is checked; the remaining rights declaration has not been explicitly confirmed.
 - Submission fork: https://github.com/Adams4587000/404-game-jam. No entry PR has been opened.
 
-The live gate passed. `verdict.txt` is the exact unedited block; `pull-request.draft.md` is prepared from the official template. Check its declarations only after confirming each is true, then supply the contact in `entry.draft.json`, copy it as the sole change `entries/tidebreak.json` in the fork, and open the entry PR. The deadline remains 25 September at 23:59 UTC.
+The live gate passed. `verdict.txt` is the exact unedited block; `pull-request.draft.md` is prepared from the official template. Check its declarations only after confirming each is true, then copy `entry.draft.json` as the sole change `entries/tidebreak.json` in the fork, and open the entry PR. The deadline remains 25 September at 23:59 UTC.
 
 Documentation/evidence commits do not redeploy Pages: the deployed source remains the SHA named in the verdict. A future game, tooling or workflow change must be validated, deployed and gated again with its new SHA before updating the entry.

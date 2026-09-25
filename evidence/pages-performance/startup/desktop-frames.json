@@ -1,0 +1,7378 @@
+{
+  "frames": [
+    {
+      "t": 1089.2,
+      "dt": 16.700000000000045,
+      "state": "title",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 55,
+      "tris": 54252
+    },
+    {
+      "t": 1105.9,
+      "dt": 16.700000000000045,
+      "state": "title",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 55,
+      "tris": 54252
+    },
+    {
+      "t": 1122.5,
+      "dt": 16.59999999999991,
+      "state": "title",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 55,
+      "tris": 54252
+    },
+    {
+      "t": 1172.5,
+      "dt": 50,
+      "state": "preparing",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 55,
+      "tris": 54252
+    },
+    {
+      "t": 1205.8,
+      "dt": 33.299999999999955,
+      "state": "preparing",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 55,
+      "tris": 54252
+    },
+    {
+      "t": 1222.5,
+      "dt": 16.700000000000045,
+      "state": "preparing",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 55,
+      "tris": 54252
+    },
+    {
+      "t": 1239.2,
+      "dt": 16.700000000000045,
+      "state": "preparing",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 55,
+      "tris": 54252
+    },
+    {
+      "t": 1255.9,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1272.5,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1289.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 1305.9,
+      "dt": 16.800000000000182,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1322.6,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1339.1,
+      "dt": 16.5,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 1355.8,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1372.5,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1389.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 1405.8,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1422.5,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1439.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 1455.8,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1472.5,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1489.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 1505.9,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1522.5,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1539.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 1555.9,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1572.5,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1589.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 1605.9,
+      "dt": 16.800000000000182,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1622.5,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1639.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 1655.8,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1672.5,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1689.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 1705.9,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1722.5,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1739.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 1755.8,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1772.5,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1789.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 1805.8,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1822.5,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1839.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 1855.8,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1872.4,
+      "dt": 16.600000000000136,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1889.2,
+      "dt": 16.799999999999955,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 1905.8,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1922.5,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1939.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 1955.9,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 1972.5,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 1989.2,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2005.9,
+      "dt": 16.700000000000045,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2022.5,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2039.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2055.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2072.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2089.2,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 2105.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2122.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2139.2,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 2155.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2172.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2189.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 2205.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2222.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2239.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 2255.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2272.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2289.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 2305.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2322.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2339.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2355.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2372.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2389.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2405.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2422.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2439.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2455.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2472.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2489.2,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2505.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2522.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2539.2,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2555.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2572.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2589.2,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2605.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2622.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2639.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2655.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2672.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2689.2,
+      "dt": 16.799999999999727,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2705.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2722.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2739.2,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2755.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2772.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2789.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2805.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2822.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2839.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 2855.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2872.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2889.2,
+      "dt": 16.799999999999727,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 2905.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2922.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2939.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 2955.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 2972.5,
+      "dt": 16.800000000000182,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 2989.2,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 3005.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 3022.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 3039.2,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 3055.8,
+      "dt": 16.600000000000364,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 3072.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 3089.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 3105.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 3122.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 3139.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 3155.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 3172.4,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 3189.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 623,
+      "tris": 1178776
+    },
+    {
+      "t": 3205.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 3222.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 3239.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 3255.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 3272.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 3289.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 3305.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 228,
+      "tris": 483912
+    },
+    {
+      "t": 3322.4,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 3339.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 403,
+      "tris": 743536
+    },
+    {
+      "t": 3355.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3372.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3389.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 3405.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3422.5,
+      "dt": 16.800000000000182,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3439.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 3455.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3472.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3489.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 3505.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3522.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3539.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 3555.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3572.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3589.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 3605.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3622.4,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3639.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 3655.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3672.5,
+      "dt": 16.800000000000182,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3689,
+      "dt": 16.5,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 3705.7,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3722.4,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3739.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 3755.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3772.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3789.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 3805.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3822.4,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3839.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 3855.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3872.4,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3889.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 3905.8,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3922.4,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3939,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 3955.8,
+      "dt": 16.800000000000182,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 3972.5,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 3989.1,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 4005.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 4022.4,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 4039.1,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 4055.7,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 4072.4,
+      "dt": 16.700000000000273,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 4089,
+      "dt": 16.59999999999991,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 4105.7,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 4122.4,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 4139.1,
+      "dt": 16.700000000000728,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 622,
+      "tris": 1174884
+    },
+    {
+      "t": 4155.8,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 4172.4,
+      "dt": 16.599999999999454,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 4189.1,
+      "dt": 16.700000000000728,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 4205.7,
+      "dt": 16.599999999999454,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 227,
+      "tris": 480020
+    },
+    {
+      "t": 4222.4,
+      "dt": 16.699999999999818,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 447,
+      "tris": 915260
+    },
+    {
+      "t": 4239.1,
+      "dt": 16.700000000000728,
+      "state": "countdown",
+      "elapsed": 0,
+      "speed": 0,
+      "draws": 402,
+      "tris": 739644
+    },
+    {
+      "t": 4255.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.016700000000000728,
+      "speed": 4.738448552439993,
+      "draws": 448,
+      "tris": 919152
+    },
+    {
+      "t": 4272.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.033300000000000184,
+      "speed": 9.233974465719037,
+      "draws": 230,
+      "tris": 489200
+    },
+    {
+      "t": 4289.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.05,
+      "speed": 13.550581878082586,
+      "draws": 410,
+      "tris": 755996
+    },
+    {
+      "t": 4305.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.06670000000000073,
+      "speed": 17.669991150159845,
+      "draws": 451,
+      "tris": 924620
+    },
+    {
+      "t": 4322.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.08330000000000018,
+      "speed": 21.57821362531772,
+      "draws": 233,
+      "tris": 491084
+    },
+    {
+      "t": 4339.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.1,
+      "speed": 25.330891828239498,
+      "draws": 413,
+      "tris": 757880
+    },
+    {
+      "t": 4355.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.11670000000000073,
+      "speed": 28.912134203898063,
+      "draws": 454,
+      "tris": 926416
+    },
+    {
+      "t": 4372.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.1333000000000002,
+      "speed": 32.309779598447264,
+      "draws": 235,
+      "tris": 491178
+    },
+    {
+      "t": 4389,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.15000000000000002,
+      "speed": 35.5722012989589,
+      "draws": 417,
+      "tris": 758146
+    },
+    {
+      "t": 4405.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.1666000000000004,
+      "speed": 38.66737076896261,
+      "draws": 458,
+      "tris": 927666
+    },
+    {
+      "t": 4422.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.1833000000000002,
+      "speed": 41.63935485591304,
+      "draws": 236,
+      "tris": 491242
+    },
+    {
+      "t": 4439.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.20000000000000004,
+      "speed": 44.47556802859661,
+      "draws": 641,
+      "tris": 1196954
+    },
+    {
+      "t": 4455.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.21670000000000078,
+      "speed": 47.18221279033163,
+      "draws": 237,
+      "tris": 491334
+    },
+    {
+      "t": 4472.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.23330000000000023,
+      "speed": 49.750097938763844,
+      "draws": 236,
+      "tris": 491126
+    },
+    {
+      "t": 4489.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.25000000000000006,
+      "speed": 52.21578321778288,
+      "draws": 653,
+      "tris": 1204822
+    },
+    {
+      "t": 4505.8,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.26670000000000077,
+      "speed": 54.56882713169625,
+      "draws": 238,
+      "tris": 490038
+    },
+    {
+      "t": 4522.4,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.2834000000000006,
+      "speed": 56.81437554288968,
+      "draws": 465,
+      "tris": 933010
+    },
+    {
+      "t": 4539,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.30000000000000004,
+      "speed": 58.944803036260886,
+      "draws": 432,
+      "tris": 769150
+    },
+    {
+      "t": 4555.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.31660000000000044,
+      "speed": 60.47375333530082,
+      "draws": 240,
+      "tris": 494026
+    },
+    {
+      "t": 4572.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.33330000000000026,
+      "speed": 61.94185257914589,
+      "draws": 465,
+      "tris": 933986
+    },
+    {
+      "t": 4589.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.3500000000000001,
+      "speed": 62.88882555841209,
+      "draws": 426,
+      "tris": 768978
+    },
+    {
+      "t": 4605.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.3667000000000008,
+      "speed": 63.78605936774541,
+      "draws": 465,
+      "tris": 934158
+    },
+    {
+      "t": 4622.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.38330000000000025,
+      "speed": 64.63130280709245,
+      "draws": 239,
+      "tris": 494598
+    },
+    {
+      "t": 4639.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.4000000000000001,
+      "speed": 65.43701407684541,
+      "draws": 424,
+      "tris": 764894
+    },
+    {
+      "t": 4655.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.4167000000000008,
+      "speed": 66.20040586057235,
+      "draws": 465,
+      "tris": 934846
+    },
+    {
+      "t": 4672.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.43330000000000024,
+      "speed": 67.39983317717149,
+      "draws": 240,
+      "tris": 494790
+    },
+    {
+      "t": 4689.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.45000000000000007,
+      "speed": 68.55152420182553,
+      "draws": 427,
+      "tris": 766954
+    },
+    {
+      "t": 4705.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.4667000000000008,
+      "speed": 69.65060184134853,
+      "draws": 468,
+      "tris": 936750
+    },
+    {
+      "t": 4722.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.48330000000000023,
+      "speed": 70.69333385679629,
+      "draws": 241,
+      "tris": 496486
+    },
+    {
+      "t": 4739,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.5,
+      "speed": 71.69456593371417,
+      "draws": 426,
+      "tris": 767722
+    },
+    {
+      "t": 4755.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.5166000000000004,
+      "speed": 72.64446856475007,
+      "draws": 470,
+      "tris": 937942
+    },
+    {
+      "t": 4772.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.5333000000000002,
+      "speed": 73.55656579591967,
+      "draws": 242,
+      "tris": 496606
+    },
+    {
+      "t": 4789.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.55,
+      "speed": 74.42699514753367,
+      "draws": 654,
+      "tris": 1209314
+    },
+    {
+      "t": 4805.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.5667000000000008,
+      "speed": 75.2576601580827,
+      "draws": 241,
+      "tris": 496574
+    },
+    {
+      "t": 4822.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.5833000000000003,
+      "speed": 76.04574006205347,
+      "draws": 241,
+      "tris": 496574
+    },
+    {
+      "t": 4839,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.6000000000000001,
+      "speed": 76.80245498721195,
+      "draws": 654,
+      "tris": 1210008
+    },
+    {
+      "t": 4855.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.6166000000000005,
+      "speed": 77.5203759517149,
+      "draws": 241,
+      "tris": 496574
+    },
+    {
+      "t": 4872.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.6333000000000003,
+      "speed": 78.20972420965967,
+      "draws": 239,
+      "tris": 486252
+    },
+    {
+      "t": 4889,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.6499000000000007,
+      "speed": 78.86373214549955,
+      "draws": 645,
+      "tris": 1174250
+    },
+    {
+      "t": 4905.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.6666000000000005,
+      "speed": 79.49171106455148,
+      "draws": 236,
+      "tris": 485860
+    },
+    {
+      "t": 4922.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.6833000000000004,
+      "speed": 80.09100164965358,
+      "draws": 462,
+      "tris": 905940
+    },
+    {
+      "t": 4939.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.7000000000000002,
+      "speed": 80.66291448700525,
+      "draws": 412,
+      "tris": 733034
+    },
+    {
+      "t": 4955.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.7167000000000009,
+      "speed": 81.20870029051812,
+      "draws": 458,
+      "tris": 889604
+    },
+    {
+      "t": 4972.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.7333000000000004,
+      "speed": 81.72650568518227,
+      "draws": 231,
+      "tris": 474536
+    },
+    {
+      "t": 4989.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 0.7500000000000002,
+      "speed": 82.22370282026425,
+      "draws": 402,
+      "tris": 714774
+    },
+    {
+      "t": 5005.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.7667000000000009,
+      "speed": 82.69818620331192,
+      "draws": 454,
+      "tris": 882852
+    },
+    {
+      "t": 5022.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.7833000000000004,
+      "speed": 83.14834458749712,
+      "draws": 227,
+      "tris": 467492
+    },
+    {
+      "t": 5039,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.8000000000000003,
+      "speed": 83.58058701149733,
+      "draws": 391,
+      "tris": 705054
+    },
+    {
+      "t": 5055.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.8166000000000007,
+      "speed": 83.99066997354849,
+      "draws": 450,
+      "tris": 880704
+    },
+    {
+      "t": 5072.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.8333000000000005,
+      "speed": 84.38443194663493,
+      "draws": 220,
+      "tris": 464596
+    },
+    {
+      "t": 5089,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.8500000000000003,
+      "speed": 84.76020545762826,
+      "draws": 610,
+      "tris": 1116298
+    },
+    {
+      "t": 5105.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.8666000000000007,
+      "speed": 85.11671445788419,
+      "draws": 219,
+      "tris": 463796
+    },
+    {
+      "t": 5122.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.8833000000000005,
+      "speed": 85.45903467197377,
+      "draws": 218,
+      "tris": 463028
+    },
+    {
+      "t": 5139,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.8999000000000009,
+      "speed": 85.78380540147481,
+      "draws": 605,
+      "tris": 1111628
+    },
+    {
+      "t": 5155.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.9166000000000007,
+      "speed": 86.0956505037668,
+      "draws": 216,
+      "tris": 460960
+    },
+    {
+      "t": 5172.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.9333000000000006,
+      "speed": 86.39324940102907,
+      "draws": 444,
+      "tris": 875756
+    },
+    {
+      "t": 5189.1,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 0.949900000000001,
+      "speed": 86.67559150933728,
+      "draws": 365,
+      "tris": 694136
+    },
+    {
+      "t": 5205.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 0.9667000000000011,
+      "speed": 86.94828212015004,
+      "draws": 440,
+      "tris": 874536
+    },
+    {
+      "t": 5222.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 0.9833000000000006,
+      "speed": 87.20541666936417,
+      "draws": 207,
+      "tris": 457948
+    },
+    {
+      "t": 5239,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 0.999900000000001,
+      "speed": 87.45087310642177,
+      "draws": 353,
+      "tris": 687240
+    },
+    {
+      "t": 5255.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.0166000000000008,
+      "speed": 87.68656056458666,
+      "draws": 436,
+      "tris": 873174
+    },
+    {
+      "t": 5272.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.0333000000000006,
+      "speed": 87.91148097261262,
+      "draws": 202,
+      "tris": 456734
+    },
+    {
+      "t": 5289.1,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 1.049900000000001,
+      "speed": 88.1248705476003,
+      "draws": 374,
+      "tris": 716770
+    },
+    {
+      "t": 5305.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 1.066700000000001,
+      "speed": 88.3309656777002,
+      "draws": 431,
+      "tris": 871418
+    },
+    {
+      "t": 5322.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.0833000000000006,
+      "speed": 88.5253037893628,
+      "draws": 196,
+      "tris": 454202
+    },
+    {
+      "t": 5339,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.1000000000000003,
+      "speed": 88.71190739247618,
+      "draws": 363,
+      "tris": 712402
+    },
+    {
+      "t": 5355.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.1166000000000007,
+      "speed": 88.88894452267263,
+      "draws": 424,
+      "tris": 864790
+    },
+    {
+      "t": 5372.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.1333000000000004,
+      "speed": 89.05893571018025,
+      "draws": 189,
+      "tris": 445890
+    },
+    {
+      "t": 5389,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.1500000000000001,
+      "speed": 89.22116108930196,
+      "draws": 579,
+      "tris": 1114954
+    },
+    {
+      "t": 5405.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.1666000000000005,
+      "speed": 89.37506977640962,
+      "draws": 182,
+      "tris": 443802
+    },
+    {
+      "t": 5422.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.183200000000001,
+      "speed": 89.52198849303139,
+      "draws": 179,
+      "tris": 442634
+    },
+    {
+      "t": 5439.1,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 1.1999000000000006,
+      "speed": 89.66305995684192,
+      "draws": 557,
+      "tris": 1094574
+    },
+    {
+      "t": 5455.7,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 1.2167000000000008,
+      "speed": 89.79847410665343,
+      "draws": 172,
+      "tris": 434034
+    },
+    {
+      "t": 5472.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.2333000000000003,
+      "speed": 89.9261633448902,
+      "draws": 406,
+      "tris": 841956
+    },
+    {
+      "t": 5489.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 1.25,
+      "speed": 90.04877064888188,
+      "draws": 307,
+      "tris": 660534
+    },
+    {
+      "t": 5505.6,
+      "dt": 16.5,
+      "state": "race",
+      "elapsed": 1.2667000000000008,
+      "speed": 90.16577681058219,
+      "draws": 406,
+      "tris": 841956
+    },
+    {
+      "t": 5522.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.2832000000000008,
+      "speed": 90.27613110960493,
+      "draws": 178,
+      "tris": 457332
+    },
+    {
+      "t": 5539,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.2999000000000005,
+      "speed": 90.3827506283363,
+      "draws": 312,
+      "tris": 686498
+    },
+    {
+      "t": 5555.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.3166000000000002,
+      "speed": 90.48449938426633,
+      "draws": 413,
+      "tris": 871772
+    },
+    {
+      "t": 5572.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.3333,
+      "speed": 90.5815998913451,
+      "draws": 173,
+      "tris": 452608
+    },
+    {
+      "t": 5589,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.3499000000000003,
+      "speed": 90.67372241645735,
+      "draws": 296,
+      "tris": 676422
+    },
+    {
+      "t": 5605.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.3666,
+      "speed": 90.76217853536671,
+      "draws": 404,
+      "tris": 864860
+    },
+    {
+      "t": 5622.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.3832999999999998,
+      "speed": 90.84659366085704,
+      "draws": 168,
+      "tris": 450016
+    },
+    {
+      "t": 5639,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.3999000000000001,
+      "speed": 90.9266811367291,
+      "draws": 290,
+      "tris": 667886
+    },
+    {
+      "t": 5655.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.4165999999999999,
+      "speed": 91.00358119217437,
+      "draws": 397,
+      "tris": 852864
+    },
+    {
+      "t": 5672.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.4332999999999996,
+      "speed": 91.0769681767116,
+      "draws": 157,
+      "tris": 430980
+    },
+    {
+      "t": 5689,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.4499,
+      "speed": 91.14659288341328,
+      "draws": 272,
+      "tris": 629536
+    },
+    {
+      "t": 5705.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.4665999999999997,
+      "speed": 91.21344657991725,
+      "draws": 391,
+      "tris": 843404
+    },
+    {
+      "t": 5722.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.4832999999999994,
+      "speed": 91.27724615929579,
+      "draws": 152,
+      "tris": 413152
+    },
+    {
+      "t": 5739,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.4998999999999998,
+      "speed": 91.33777497145411,
+      "draws": 259,
+      "tris": 592444
+    },
+    {
+      "t": 5755.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.5165999999999995,
+      "speed": 91.39589478307668,
+      "draws": 387,
+      "tris": 831546
+    },
+    {
+      "t": 5772.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.5332,
+      "speed": 91.45103500805384,
+      "draws": 150,
+      "tris": 408242
+    },
+    {
+      "t": 5789,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.5498999999999996,
+      "speed": 91.50398069415314,
+      "draws": 257,
+      "tris": 587534
+    },
+    {
+      "t": 5805.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.5665999999999993,
+      "speed": 91.55450763102705,
+      "draws": 386,
+      "tris": 831538
+    },
+    {
+      "t": 5822.4,
+      "dt": 16.799999999999272,
+      "state": "race",
+      "elapsed": 1.5831999999999997,
+      "speed": 91.60244423971268,
+      "draws": 148,
+      "tris": 407322
+    },
+    {
+      "t": 5839,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.599999999999999,
+      "speed": 91.64874219782139,
+      "draws": 492,
+      "tris": 1010646
+    },
+    {
+      "t": 5855.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.6165999999999994,
+      "speed": 91.69239901663278,
+      "draws": 148,
+      "tris": 407322
+    },
+    {
+      "t": 5872.4,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.633299999999999,
+      "speed": 91.73431832736898,
+      "draws": 148,
+      "tris": 407322
+    },
+    {
+      "t": 5889,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.6499999999999988,
+      "speed": 91.77432261333468,
+      "draws": 490,
+      "tris": 1010598
+    },
+    {
+      "t": 5905.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.6665999999999992,
+      "speed": 91.81227602829966,
+      "draws": 147,
+      "tris": 407298
+    },
+    {
+      "t": 5922.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.683299999999999,
+      "speed": 91.84871892631043,
+      "draws": 147,
+      "tris": 407298
+    },
+    {
+      "t": 5939,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.6998999999999993,
+      "speed": 91.88329353243927,
+      "draws": 492,
+      "tris": 1010610
+    },
+    {
+      "t": 5955.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.716599999999999,
+      "speed": 91.91649209562726,
+      "draws": 146,
+      "tris": 407250
+    },
+    {
+      "t": 5972.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.7332999999999987,
+      "speed": 91.94817402913472,
+      "draws": 386,
+      "tris": 830082
+    },
+    {
+      "t": 5989,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.7498999999999991,
+      "speed": 91.97823174770849,
+      "draws": 249,
+      "tris": 585506
+    },
+    {
+      "t": 6005.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.7665999999999988,
+      "speed": 92.00709319201938,
+      "draws": 144,
+      "tris": 405814
+    },
+    {
+      "t": 6022.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.7832999999999986,
+      "speed": 92.03463614182745,
+      "draws": 384,
+      "tris": 818814
+    },
+    {
+      "t": 6039,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.799899999999999,
+      "speed": 92.06076706700686,
+      "draws": 246,
+      "tris": 581570
+    },
+    {
+      "t": 6055.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.8165999999999987,
+      "speed": 92.08585800130405,
+      "draws": 140,
+      "tris": 380086
+    },
+    {
+      "t": 6072.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.833199999999999,
+      "speed": 92.10966261669093,
+      "draws": 382,
+      "tris": 793134
+    },
+    {
+      "t": 6089,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.8498999999999988,
+      "speed": 92.13251982655017,
+      "draws": 237,
+      "tris": 518394
+    },
+    {
+      "t": 6105.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.8665999999999985,
+      "speed": 92.15433283691527,
+      "draws": 380,
+      "tris": 767382
+    },
+    {
+      "t": 6122.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.8831999999999989,
+      "speed": 92.17502757534237,
+      "draws": 138,
+      "tris": 366694
+    },
+    {
+      "t": 6139,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.8998999999999986,
+      "speed": 92.19489867897174,
+      "draws": 232,
+      "tris": 496304
+    },
+    {
+      "t": 6155.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.9165999999999983,
+      "speed": 92.21386199917148,
+      "draws": 378,
+      "tris": 750774
+    },
+    {
+      "t": 6172.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.933299999999998,
+      "speed": 92.2319590067512,
+      "draws": 138,
+      "tris": 366694
+    },
+    {
+      "t": 6189,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.9498999999999984,
+      "speed": 92.24912824803916,
+      "draws": 232,
+      "tris": 496304
+    },
+    {
+      "t": 6205.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 1.9665999999999981,
+      "speed": 92.26561416662531,
+      "draws": 382,
+      "tris": 761946
+    },
+    {
+      "t": 6222.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.9831999999999985,
+      "speed": 92.28125491346219,
+      "draws": 138,
+      "tris": 366694
+    },
+    {
+      "t": 6239,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 1.9998999999999982,
+      "speed": 92.29627317051005,
+      "draws": 233,
+      "tris": 497260
+    },
+    {
+      "t": 6255.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.016599999999998,
+      "speed": 92.31060533960104,
+      "draws": 385,
+      "tris": 763154
+    },
+    {
+      "t": 6272.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.0331999999999986,
+      "speed": 92.32420275167146,
+      "draws": 138,
+      "tris": 353890
+    },
+    {
+      "t": 6289,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.0498999999999983,
+      "speed": 92.33725899711736,
+      "draws": 231,
+      "tris": 469740
+    },
+    {
+      "t": 6305.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.066599999999998,
+      "speed": 92.34971878634774,
+      "draws": 384,
+      "tris": 749394
+    },
+    {
+      "t": 6322.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.0832999999999977,
+      "speed": 92.36160936762616,
+      "draws": 138,
+      "tris": 353890
+    },
+    {
+      "t": 6338.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 2.099899999999998,
+      "speed": 92.37289036301304,
+      "draws": 231,
+      "tris": 469740
+    },
+    {
+      "t": 6355.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 2.1164999999999976,
+      "speed": 92.38365901678824,
+      "draws": 384,
+      "tris": 749394
+    },
+    {
+      "t": 6372.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.133199999999998,
+      "speed": 92.39399908636051,
+      "draws": 138,
+      "tris": 353890
+    },
+    {
+      "t": 6389,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.149899999999998,
+      "speed": 92.40386678439297,
+      "draws": 496,
+      "tris": 917492
+    },
+    {
+      "t": 6405.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.1665999999999976,
+      "speed": 92.41328369051526,
+      "draws": 138,
+      "tris": 353890
+    },
+    {
+      "t": 6422.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.183199999999998,
+      "speed": 92.42221782687385,
+      "draws": 138,
+      "tris": 353890
+    },
+    {
+      "t": 6439,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.1998999999999977,
+      "speed": 92.4307963914228,
+      "draws": 497,
+      "tris": 917840
+    },
+    {
+      "t": 6455.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.2165999999999975,
+      "speed": 92.43898305631218,
+      "draws": 139,
+      "tris": 354238
+    },
+    {
+      "t": 6472.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.233199999999998,
+      "speed": 92.4467500213317,
+      "draws": 139,
+      "tris": 355404
+    },
+    {
+      "t": 6489,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.2498999999999976,
+      "speed": 92.45420786707022,
+      "draws": 485,
+      "tris": 913108
+    },
+    {
+      "t": 6505.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.2665999999999973,
+      "speed": 92.46132501161226,
+      "draws": 137,
+      "tris": 354020
+    },
+    {
+      "t": 6522.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.2831999999999977,
+      "speed": 92.46807728661602,
+      "draws": 136,
+      "tris": 354018
+    },
+    {
+      "t": 6539,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.2998999999999974,
+      "speed": 92.47456082622715,
+      "draws": 482,
+      "tris": 917050
+    },
+    {
+      "t": 6555.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.316599999999997,
+      "speed": 92.48074817444729,
+      "draws": 133,
+      "tris": 352514
+    },
+    {
+      "t": 6572.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.333299999999997,
+      "speed": 92.48665286236368,
+      "draws": 373,
+      "tris": 745010
+    },
+    {
+      "t": 6589,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.349899999999997,
+      "speed": 92.49225483888495,
+      "draws": 236,
+      "tris": 526096
+    },
+    {
+      "t": 6605.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.366599999999997,
+      "speed": 92.4976338610154,
+      "draws": 148,
+      "tris": 403106
+    },
+    {
+      "t": 6622.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.3832999999999966,
+      "speed": 92.50276715008299,
+      "draws": 392,
+      "tris": 799130
+    },
+    {
+      "t": 6639,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.399899999999997,
+      "speed": 92.50763727450627,
+      "draws": 247,
+      "tris": 575916
+    },
+    {
+      "t": 6655.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.4165999999999968,
+      "speed": 92.51231357169378,
+      "draws": 147,
+      "tris": 403104
+    },
+    {
+      "t": 6672.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.433199999999997,
+      "speed": 92.51675013251152,
+      "draws": 384,
+      "tris": 795896
+    },
+    {
+      "t": 6688.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 2.449899999999997,
+      "speed": 92.52101012159416,
+      "draws": 247,
+      "tris": 575916
+    },
+    {
+      "t": 6705.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 2.4664999999999964,
+      "speed": 92.52505171687568,
+      "draws": 146,
+      "tris": 402848
+    },
+    {
+      "t": 6722.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.483199999999997,
+      "speed": 92.52893245974904,
+      "draws": 383,
+      "tris": 806976
+    },
+    {
+      "t": 6739,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.4998999999999967,
+      "speed": 92.53263591634074,
+      "draws": 240,
+      "tris": 574072
+    },
+    {
+      "t": 6755.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.5165999999999964,
+      "speed": 92.53617018572527,
+      "draws": 380,
+      "tris": 807456
+    },
+    {
+      "t": 6772.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.533299999999996,
+      "speed": 92.53954299698232,
+      "draws": 142,
+      "tris": 401120
+    },
+    {
+      "t": 6789,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.5498999999999965,
+      "speed": 92.54274289674673,
+      "draws": 240,
+      "tris": 574072
+    },
+    {
+      "t": 6805.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.566599999999996,
+      "speed": 92.5458154429423,
+      "draws": 380,
+      "tris": 826272
+    },
+    {
+      "t": 6822.2,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 2.5831999999999966,
+      "speed": 92.54873047111852,
+      "draws": 142,
+      "tris": 401120
+    },
+    {
+      "t": 6839,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 2.599799999999996,
+      "speed": 92.5515131093608,
+      "draws": 240,
+      "tris": 574072
+    },
+    {
+      "t": 6855.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.6165999999999965,
+      "speed": 92.55420062673646,
+      "draws": 381,
+      "tris": 826752
+    },
+    {
+      "t": 6872.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.633199999999997,
+      "speed": 92.55673483048787,
+      "draws": 144,
+      "tris": 402008
+    },
+    {
+      "t": 6888.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 2.6498999999999966,
+      "speed": 92.55916817486377,
+      "draws": 240,
+      "tris": 574944
+    },
+    {
+      "t": 6905.7,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 2.666499999999996,
+      "speed": 92.56147677072099,
+      "draws": 382,
+      "tris": 827632
+    },
+    {
+      "t": 6922.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.6832999999999965,
+      "speed": 92.56370645023352,
+      "draws": 143,
+      "tris": 402000
+    },
+    {
+      "t": 6938.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 2.699899999999997,
+      "speed": 92.56580893419746,
+      "draws": 479,
+      "tris": 1000576
+    },
+    {
+      "t": 6955.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 2.7164999999999964,
+      "speed": 92.56781593101815,
+      "draws": 144,
+      "tris": 402092
+    },
+    {
+      "t": 6972.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.733199999999997,
+      "speed": 92.56974305089685,
+      "draws": 144,
+      "tris": 402092
+    },
+    {
+      "t": 6989,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.7498999999999967,
+      "speed": 92.57158213301351,
+      "draws": 482,
+      "tris": 1000824
+    },
+    {
+      "t": 7005.7,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.7665999999999964,
+      "speed": 92.57333719924951,
+      "draws": 146,
+      "tris": 402248
+    },
+    {
+      "t": 7022.2,
+      "dt": 16.5,
+      "state": "race",
+      "elapsed": 2.783299999999996,
+      "speed": 92.57501208775221,
+      "draws": 386,
+      "tris": 838024
+    },
+    {
+      "t": 7039,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 2.7997999999999963,
+      "speed": 92.57659175795054,
+      "draws": 244,
+      "tris": 575256
+    },
+    {
+      "t": 7055.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.8165999999999967,
+      "speed": 92.57812689223476,
+      "draws": 147,
+      "tris": 402312
+    },
+    {
+      "t": 7072.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.833199999999997,
+      "speed": 92.5795744523872,
+      "draws": 385,
+      "tris": 829048
+    },
+    {
+      "t": 7088.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 2.8498999999999968,
+      "speed": 92.58096440075019,
+      "draws": 245,
+      "tris": 575348
+    },
+    {
+      "t": 7105.7,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 2.8664999999999963,
+      "speed": 92.5822830916286,
+      "draws": 147,
+      "tris": 402312
+    },
+    {
+      "t": 7122.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.8832999999999966,
+      "speed": 92.58355670477565,
+      "draws": 381,
+      "tris": 809872
+    },
+    {
+      "t": 7138.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 2.899899999999997,
+      "speed": 92.58475766267244,
+      "draws": 246,
+      "tris": 575440
+    },
+    {
+      "t": 7155.7,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 2.9164999999999965,
+      "speed": 92.58590407744754,
+      "draws": 147,
+      "tris": 402312
+    },
+    {
+      "t": 7172.3,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 2.933299999999997,
+      "speed": 92.58701130352563,
+      "draws": 381,
+      "tris": 809872
+    },
+    {
+      "t": 7188.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 2.9498999999999973,
+      "speed": 92.58805536616357,
+      "draws": 246,
+      "tris": 575492
+    },
+    {
+      "t": 7205.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 2.966499999999997,
+      "speed": 92.58905201128948,
+      "draws": 145,
+      "tris": 402288
+    },
+    {
+      "t": 7222.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.9831999999999974,
+      "speed": 92.59000899069989,
+      "draws": 379,
+      "tris": 809848
+    },
+    {
+      "t": 7239,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 2.999899999999997,
+      "speed": 92.59092225185148,
+      "draws": 244,
+      "tris": 575520
+    },
+    {
+      "t": 7255.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 3.016599999999997,
+      "speed": 92.59179379195146,
+      "draws": 378,
+      "tris": 809836
+    },
+    {
+      "t": 7272.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.0331999999999972,
+      "speed": 92.592620651431,
+      "draws": 144,
+      "tris": 402276
+    },
+    {
+      "t": 7289,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.049899999999997,
+      "speed": 92.59341460253422,
+      "draws": 231,
+      "tris": 575360
+    },
+    {
+      "t": 7305.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 3.0665999999999967,
+      "speed": 92.59417228309762,
+      "draws": 375,
+      "tris": 809808
+    },
+    {
+      "t": 7322.2,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.083199999999997,
+      "speed": 92.59489112019568,
+      "draws": 137,
+      "tris": 402200
+    },
+    {
+      "t": 7339,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 3.0997999999999966,
+      "speed": 92.59557731033797,
+      "draws": 227,
+      "tris": 575296
+    },
+    {
+      "t": 7355.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 3.116599999999997,
+      "speed": 92.59624004396335,
+      "draws": 369,
+      "tris": 799412
+    },
+    {
+      "t": 7372.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.1331999999999973,
+      "speed": 92.59686497091445,
+      "draws": 134,
+      "tris": 391840
+    },
+    {
+      "t": 7388.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.149899999999997,
+      "speed": 92.59746502624978,
+      "draws": 221,
+      "tris": 554808
+    },
+    {
+      "t": 7405.7,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 3.1664999999999965,
+      "speed": 92.59803431897913,
+      "draws": 367,
+      "tris": 798920
+    },
+    {
+      "t": 7422.2,
+      "dt": 16.5,
+      "state": "race",
+      "elapsed": 3.183299999999997,
+      "speed": 92.59858415117749,
+      "draws": 131,
+      "tris": 387904
+    },
+    {
+      "t": 7438.9,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.199799999999997,
+      "speed": 92.59909956564537,
+      "draws": 219,
+      "tris": 547064
+    },
+    {
+      "t": 7455.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.216499999999997,
+      "speed": 92.59959753666236,
+      "draws": 362,
+      "tris": 773180
+    },
+    {
+      "t": 7472.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.2331999999999974,
+      "speed": 92.6000727585736,
+      "draws": 127,
+      "tris": 363412
+    },
+    {
+      "t": 7488.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.249899999999997,
+      "speed": 92.60052627064002,
+      "draws": 457,
+      "tris": 929020
+    },
+    {
+      "t": 7505.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.2664999999999966,
+      "speed": 92.60095653282899,
+      "draws": 126,
+      "tris": 352228
+    },
+    {
+      "t": 7522.2,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.2831999999999972,
+      "speed": 92.60136967091117,
+      "draws": 126,
+      "tris": 352228
+    },
+    {
+      "t": 7538.9,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.2997999999999967,
+      "speed": 92.60176162893997,
+      "draws": 455,
+      "tris": 917096
+    },
+    {
+      "t": 7555.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.3164999999999965,
+      "speed": 92.60213798733832,
+      "draws": 128,
+      "tris": 352260
+    },
+    {
+      "t": 7572.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.333199999999997,
+      "speed": 92.60249715233242,
+      "draws": 358,
+      "tris": 758092
+    },
+    {
+      "t": 7588.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.3498999999999968,
+      "speed": 92.60283990937876,
+      "draws": 226,
+      "tris": 512176
+    },
+    {
+      "t": 7605.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.3664999999999963,
+      "speed": 92.60316509454574,
+      "draws": 128,
+      "tris": 352260
+    },
+    {
+      "t": 7622.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.383199999999997,
+      "speed": 92.60347733759123,
+      "draws": 358,
+      "tris": 758092
+    },
+    {
+      "t": 7639,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.3998999999999966,
+      "speed": 92.60377531625221,
+      "draws": 226,
+      "tris": 512176
+    },
+    {
+      "t": 7655.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 3.4165999999999963,
+      "speed": 92.60405968217704,
+      "draws": 358,
+      "tris": 758092
+    },
+    {
+      "t": 7672.2,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.4331999999999967,
+      "speed": 92.60432946971821,
+      "draws": 143,
+      "tris": 385340
+    },
+    {
+      "t": 7688.9,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.449799999999996,
+      "speed": 92.60458700449453,
+      "draws": 249,
+      "tris": 570780
+    },
+    {
+      "t": 7705.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.466499999999996,
+      "speed": 92.60483428958328,
+      "draws": 376,
+      "tris": 803598
+    },
+    {
+      "t": 7722.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.4831999999999965,
+      "speed": 92.60507027780044,
+      "draws": 148,
+      "tris": 400782
+    },
+    {
+      "t": 7738.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.4998999999999962,
+      "speed": 92.60529548522771,
+      "draws": 485,
+      "tris": 986340
+    },
+    {
+      "t": 7755.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.5164999999999957,
+      "speed": 92.60550914710754,
+      "draws": 149,
+      "tris": 402546
+    },
+    {
+      "t": 7772.2,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.5331999999999963,
+      "speed": 92.60571430540759,
+      "draws": 149,
+      "tris": 402546
+    },
+    {
+      "t": 7788.9,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.549799999999996,
+      "speed": 92.60590894600439,
+      "draws": 485,
+      "tris": 986508
+    },
+    {
+      "t": 7805.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.5664999999999956,
+      "speed": 92.60609584005397,
+      "draws": 148,
+      "tris": 402534
+    },
+    {
+      "t": 7822.2,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.583199999999996,
+      "speed": 92.60627419611167,
+      "draws": 377,
+      "tris": 808354
+    },
+    {
+      "t": 7838.9,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.5997999999999957,
+      "speed": 92.60644340851745,
+      "draws": 252,
+      "tris": 580640
+    },
+    {
+      "t": 7855.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.6164999999999954,
+      "speed": 92.6066058863986,
+      "draws": 145,
+      "tris": 402218
+    },
+    {
+      "t": 7872.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.633199999999996,
+      "speed": 92.6067609417062,
+      "draws": 376,
+      "tris": 806894
+    },
+    {
+      "t": 7888.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.6498999999999957,
+      "speed": 92.60690891353009,
+      "draws": 247,
+      "tris": 577384
+    },
+    {
+      "t": 7905.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.666499999999995,
+      "speed": 92.60704929938875,
+      "draws": 145,
+      "tris": 400950
+    },
+    {
+      "t": 7922.2,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.683199999999996,
+      "speed": 92.60718409799735,
+      "draws": 378,
+      "tris": 806974
+    },
+    {
+      "t": 7939,
+      "dt": 16.800000000000182,
+      "state": "race",
+      "elapsed": 3.6997999999999953,
+      "speed": 92.60731198598249,
+      "draws": 253,
+      "tris": 584080
+    },
+    {
+      "t": 7955.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 3.7165999999999957,
+      "speed": 92.60743550228331,
+      "draws": 380,
+      "tris": 810658
+    },
+    {
+      "t": 7972.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.733199999999996,
+      "speed": 92.60755197240393,
+      "draws": 148,
+      "tris": 404666
+    },
+    {
+      "t": 7988.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.749899999999996,
+      "speed": 92.60766380710261,
+      "draws": 261,
+      "tris": 589352
+    },
+    {
+      "t": 8005.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.7664999999999953,
+      "speed": 92.60776990845211,
+      "draws": 384,
+      "tris": 812534
+    },
+    {
+      "t": 8022.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.783199999999996,
+      "speed": 92.60787178704886,
+      "draws": 152,
+      "tris": 407422
+    },
+    {
+      "t": 8039,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.7998999999999956,
+      "speed": 92.60796901146517,
+      "draws": 503,
+      "tris": 998368
+    },
+    {
+      "t": 8055.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 3.8165999999999953,
+      "speed": 92.60806179432072,
+      "draws": 157,
+      "tris": 408626
+    },
+    {
+      "t": 8072.2,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.8331999999999957,
+      "speed": 92.60814982054424,
+      "draws": 157,
+      "tris": 408626
+    },
+    {
+      "t": 8088.9,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.8497999999999952,
+      "speed": 92.60823384893817,
+      "draws": 507,
+      "tris": 998904
+    },
+    {
+      "t": 8105.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.866499999999995,
+      "speed": 92.60831453306614,
+      "draws": 157,
+      "tris": 408626
+    },
+    {
+      "t": 8122.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.8831999999999955,
+      "speed": 92.60839153125316,
+      "draws": 389,
+      "tris": 814626
+    },
+    {
+      "t": 8138.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.8998999999999953,
+      "speed": 92.60846501188628,
+      "draws": 275,
+      "tris": 592896
+    },
+    {
+      "t": 8155.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.9164999999999948,
+      "speed": 92.60853472544055,
+      "draws": 159,
+      "tris": 408674
+    },
+    {
+      "t": 8172.3,
+      "dt": 16.699999999999818,
+      "state": "race",
+      "elapsed": 3.9331999999999954,
+      "speed": 92.60860166444856,
+      "draws": 389,
+      "tris": 814146
+    },
+    {
+      "t": 8188.9,
+      "dt": 16.599999999999454,
+      "state": "race",
+      "elapsed": 3.949899999999995,
+      "speed": 92.6086655454421,
+      "draws": 278,
+      "tris": 592976
+    },
+    {
+      "t": 8205.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 3.9664999999999946,
+      "speed": 92.60872615149462,
+      "draws": 159,
+      "tris": 408674
+    },
+    {
+      "t": 8222.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 3.983199999999995,
+      "speed": 92.6087843454725,
+      "draws": 391,
+      "tris": 812418
+    },
+    {
+      "t": 8238.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 3.9997999999999956,
+      "speed": 92.60883955606151,
+      "draws": 278,
+      "tris": 592976
+    },
+    {
+      "t": 8255.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.016499999999994,
+      "speed": 92.60889256931121,
+      "draws": 175,
+      "tris": 414698
+    },
+    {
+      "t": 8272.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.0331999999999955,
+      "speed": 92.60894316072513,
+      "draws": 405,
+      "tris": 796170
+    },
+    {
+      "t": 8288.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.049799999999996,
+      "speed": 92.60899115850536,
+      "draws": 310,
+      "tris": 605024
+    },
+    {
+      "t": 8305.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.066499999999995,
+      "speed": 92.60903724601057,
+      "draws": 175,
+      "tris": 414698
+    },
+    {
+      "t": 8322.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.083199999999996,
+      "speed": 92.60908122807291,
+      "draws": 403,
+      "tris": 782778
+    },
+    {
+      "t": 8338.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.099799999999997,
+      "speed": 92.60912295533844,
+      "draws": 311,
+      "tris": 605040
+    },
+    {
+      "t": 8355.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.116499999999996,
+      "speed": 92.60916302189064,
+      "draws": 176,
+      "tris": 414714
+    },
+    {
+      "t": 8372.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.133199999999997,
+      "speed": 92.60920125805873,
+      "draws": 404,
+      "tris": 782794
+    },
+    {
+      "t": 8388.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.149799999999997,
+      "speed": 92.60923753400066,
+      "draws": 312,
+      "tris": 605056
+    },
+    {
+      "t": 8405.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.1664999999999965,
+      "speed": 92.60927236618777,
+      "draws": 174,
+      "tris": 404154
+    },
+    {
+      "t": 8422.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.183099999999997,
+      "speed": 92.60930541265816,
+      "draws": 404,
+      "tris": 775690
+    },
+    {
+      "t": 8438.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.199799999999998,
+      "speed": 92.60933714390426,
+      "draws": 307,
+      "tris": 573040
+    },
+    {
+      "t": 8455.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.216499999999997,
+      "speed": 92.60936742555299,
+      "draws": 402,
+      "tris": 764554
+    },
+    {
+      "t": 8472.3,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.233199999999998,
+      "speed": 92.60939632382717,
+      "draws": 170,
+      "tris": 386322
+    },
+    {
+      "t": 8488.9,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.249899999999998,
+      "speed": 92.60942390192433,
+      "draws": 530,
+      "tris": 925388
+    },
+    {
+      "t": 8505.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.266499999999998,
+      "speed": 92.60945006619498,
+      "draws": 170,
+      "tris": 386322
+    },
+    {
+      "t": 8522.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.283199999999999,
+      "speed": 92.60947518914763,
+      "draws": 170,
+      "tris": 386322
+    },
+    {
+      "t": 8538.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.299799999999999,
+      "speed": 92.60949902413991,
+      "draws": 547,
+      "tris": 958170
+    },
+    {
+      "t": 8555.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.316499999999999,
+      "speed": 92.60952191051769,
+      "draws": 170,
+      "tris": 386322
+    },
+    {
+      "t": 8572.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.3332,
+      "speed": 92.60954375136347,
+      "draws": 399,
+      "tris": 754442
+    },
+    {
+      "t": 8588.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 4.3498,
+      "speed": 92.6095644725103,
+      "draws": 319,
+      "tris": 600370
+    },
+    {
+      "t": 8605.6,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 4.366399999999999,
+      "speed": 92.60958425257832,
+      "draws": 170,
+      "tris": 386322
+    },
+    {
+      "t": 8622.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.3831999999999995,
+      "speed": 92.60960335649045,
+      "draws": 399,
+      "tris": 754442
+    },
+    {
+      "t": 8638.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.3998,
+      "speed": 92.60962137059009,
+      "draws": 319,
+      "tris": 600370
+    },
+    {
+      "t": 8655.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.416499999999999,
+      "speed": 92.60963866774232,
+      "draws": 169,
+      "tris": 386298
+    },
+    {
+      "t": 8672.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.4332,
+      "speed": 92.60965517469846,
+      "draws": 393,
+      "tris": 752690
+    },
+    {
+      "t": 8688.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.449800000000001,
+      "speed": 92.60967083540433,
+      "draws": 317,
+      "tris": 600322
+    },
+    {
+      "t": 8705.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.4665,
+      "speed": 92.60968587282606,
+      "draws": 169,
+      "tris": 386298
+    },
+    {
+      "t": 8722.3,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.483200000000001,
+      "speed": 92.60970022328432,
+      "draws": 392,
+      "tris": 752642
+    },
+    {
+      "t": 8738.9,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.4999,
+      "speed": 92.60971391816207,
+      "draws": 316,
+      "tris": 600274
+    },
+    {
+      "t": 8755.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.516500000000001,
+      "speed": 92.60972691095436,
+      "draws": 199,
+      "tris": 438166
+    },
+    {
+      "t": 8772.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.533200000000002,
+      "speed": 92.60973938664344,
+      "draws": 422,
+      "tris": 804546
+    },
+    {
+      "t": 8788.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.549800000000002,
+      "speed": 92.60975122275032,
+      "draws": 345,
+      "tris": 652106
+    },
+    {
+      "t": 8805.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.566500000000001,
+      "speed": 92.60976258778918,
+      "draws": 197,
+      "tris": 434710
+    },
+    {
+      "t": 8822.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.583200000000002,
+      "speed": 92.60977343363221,
+      "draws": 419,
+      "tris": 801078
+    },
+    {
+      "t": 8838.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.599800000000003,
+      "speed": 92.60978372344921,
+      "draws": 342,
+      "tris": 648626
+    },
+    {
+      "t": 8855.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.616500000000002,
+      "speed": 92.60979360373933,
+      "draws": 197,
+      "tris": 434710
+    },
+    {
+      "t": 8872.3,
+      "dt": 16.799999999999272,
+      "state": "race",
+      "elapsed": 4.633100000000002,
+      "speed": 92.60980297750372,
+      "draws": 419,
+      "tris": 801078
+    },
+    {
+      "t": 8888.9,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.6499000000000015,
+      "speed": 92.60981203083817,
+      "draws": 340,
+      "tris": 645170
+    },
+    {
+      "t": 8905.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.666500000000002,
+      "speed": 92.60982056771103,
+      "draws": 419,
+      "tris": 801078
+    },
+    {
+      "t": 8922.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.683200000000003,
+      "speed": 92.60982876482285,
+      "draws": 196,
+      "tris": 434674
+    },
+    {
+      "t": 8938.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 4.699800000000003,
+      "speed": 92.60983654169924,
+      "draws": 338,
+      "tris": 645110
+    },
+    {
+      "t": 8955.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.716400000000002,
+      "speed": 92.6098439653783,
+      "draws": 416,
+      "tris": 801006
+    },
+    {
+      "t": 8972.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.733100000000003,
+      "speed": 92.6098510936006,
+      "draws": 195,
+      "tris": 434650
+    },
+    {
+      "t": 8988.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.749800000000004,
+      "speed": 92.60985789618009,
+      "draws": 556,
+      "tris": 1010026
+    },
+    {
+      "t": 9005.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.766500000000003,
+      "speed": 92.6098643879933,
+      "draws": 189,
+      "tris": 432462
+    },
+    {
+      "t": 9022.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.783200000000004,
+      "speed": 92.60987058323715,
+      "draws": 411,
+      "tris": 804410
+    },
+    {
+      "t": 9038.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.799800000000005,
+      "speed": 92.60987646087388,
+      "draws": 324,
+      "tris": 640718
+    },
+    {
+      "t": 9055.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.816500000000004,
+      "speed": 92.60988210458515,
+      "draws": 188,
+      "tris": 432454
+    },
+    {
+      "t": 9072.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.833100000000004,
+      "speed": 92.60988745896434,
+      "draws": 411,
+      "tris": 814470
+    },
+    {
+      "t": 9088.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.849800000000005,
+      "speed": 92.60989260024331,
+      "draws": 324,
+      "tris": 640718
+    },
+    {
+      "t": 9105.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 4.866500000000005,
+      "speed": 92.60989750665019,
+      "draws": 416,
+      "tris": 817238
+    },
+    {
+      "t": 9122.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.883100000000005,
+      "speed": 92.60990216152382,
+      "draws": 188,
+      "tris": 432454
+    },
+    {
+      "t": 9138.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 4.899800000000006,
+      "speed": 92.60990663113704,
+      "draws": 324,
+      "tris": 640718
+    },
+    {
+      "t": 9155.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.916400000000005,
+      "speed": 92.6099108716098,
+      "draws": 415,
+      "tris": 817226
+    },
+    {
+      "t": 9172.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.933100000000006,
+      "speed": 92.60991494331499,
+      "draws": 188,
+      "tris": 432454
+    },
+    {
+      "t": 9188.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 4.949800000000007,
+      "speed": 92.60991882901006,
+      "draws": 550,
+      "tris": 1025478
+    },
+    {
+      "t": 9205.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.9664000000000055,
+      "speed": 92.60992251549997,
+      "draws": 188,
+      "tris": 432454
+    },
+    {
+      "t": 9222.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 4.9831000000000065,
+      "speed": 92.6099260552704,
+      "draws": 187,
+      "tris": 432452
+    },
+    {
+      "t": 9238.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 4.999800000000008,
+      "speed": 92.6099294333314,
+      "draws": 546,
+      "tris": 1025440
+    },
+    {
+      "t": 9255.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.016500000000007,
+      "speed": 92.60993265707043,
+      "draws": 187,
+      "tris": 432452
+    },
+    {
+      "t": 9272.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.033100000000007,
+      "speed": 92.60993571554035,
+      "draws": 187,
+      "tris": 432452
+    },
+    {
+      "t": 9288.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.049800000000008,
+      "speed": 92.60993865228549,
+      "draws": 546,
+      "tris": 1025440
+    },
+    {
+      "t": 9305.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.0665000000000076,
+      "speed": 92.60994145486957,
+      "draws": 187,
+      "tris": 432452
+    },
+    {
+      "t": 9322.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.083100000000008,
+      "speed": 92.60994411377558,
+      "draws": 187,
+      "tris": 432452
+    },
+    {
+      "t": 9338.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.099800000000009,
+      "speed": 92.60994666685917,
+      "draws": 545,
+      "tris": 1025424
+    },
+    {
+      "t": 9355.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.116400000000008,
+      "speed": 92.60994908905565,
+      "draws": 187,
+      "tris": 432452
+    },
+    {
+      "t": 9372.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.133100000000009,
+      "speed": 92.60995141485056,
+      "draws": 187,
+      "tris": 432452
+    },
+    {
+      "t": 9388.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.14980000000001,
+      "speed": 92.6099536343948,
+      "draws": 540,
+      "tris": 1023476
+    },
+    {
+      "t": 9405.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.166500000000009,
+      "speed": 92.60995575254228,
+      "draws": 186,
+      "tris": 422132
+    },
+    {
+      "t": 9422.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.183100000000009,
+      "speed": 92.60995776210021,
+      "draws": 186,
+      "tris": 422132
+    },
+    {
+      "t": 9438.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.19980000000001,
+      "speed": 92.60995969167926,
+      "draws": 529,
+      "tris": 997056
+    },
+    {
+      "t": 9455.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.216400000000009,
+      "speed": 92.60996152233598,
+      "draws": 186,
+      "tris": 422132
+    },
+    {
+      "t": 9472.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.23310000000001,
+      "speed": 92.60996328013395,
+      "draws": 185,
+      "tris": 421652
+    },
+    {
+      "t": 9488.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.2497000000000105,
+      "speed": 92.60996494781617,
+      "draws": 518,
+      "tris": 995332
+    },
+    {
+      "t": 9505.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.26640000000001,
+      "speed": 92.6099665491259,
+      "draws": 184,
+      "tris": 417332
+    },
+    {
+      "t": 9522.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.283100000000011,
+      "speed": 92.60996807728205,
+      "draws": 404,
+      "tris": 784080
+    },
+    {
+      "t": 9538.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.299800000000012,
+      "speed": 92.60996953562653,
+      "draws": 288,
+      "tris": 560756
+    },
+    {
+      "t": 9555.6,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.316500000000011,
+      "speed": 92.6099709273486,
+      "draws": 400,
+      "tris": 770652
+    },
+    {
+      "t": 9572.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.333200000000012,
+      "speed": 92.6099722554918,
+      "draws": 181,
+      "tris": 385988
+    },
+    {
+      "t": 9588.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.3498000000000125,
+      "speed": 92.60997351554603,
+      "draws": 279,
+      "tris": 523142
+    },
+    {
+      "t": 9605.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.366400000000011,
+      "speed": 92.60997471837321,
+      "draws": 397,
+      "tris": 759804
+    },
+    {
+      "t": 9622.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.383100000000012,
+      "speed": 92.60997587332878,
+      "draws": 181,
+      "tris": 385988
+    },
+    {
+      "t": 9638.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.399800000000013,
+      "speed": 92.60997697552183,
+      "draws": 501,
+      "tris": 922598
+    },
+    {
+      "t": 9655.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.416400000000012,
+      "speed": 92.60997802120954,
+      "draws": 180,
+      "tris": 385832
+    },
+    {
+      "t": 9672.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.433100000000013,
+      "speed": 92.60997902527969,
+      "draws": 179,
+      "tris": 385816
+    },
+    {
+      "t": 9688.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.449800000000014,
+      "speed": 92.60997998348029,
+      "draws": 490,
+      "tris": 899258
+    },
+    {
+      "t": 9705.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.466400000000013,
+      "speed": 92.60998089255752,
+      "draws": 175,
+      "tris": 385732
+    },
+    {
+      "t": 9722.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.483100000000014,
+      "speed": 92.60998176545417,
+      "draws": 173,
+      "tris": 384832
+    },
+    {
+      "t": 9738.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.499800000000015,
+      "speed": 92.60998259847375,
+      "draws": 472,
+      "tris": 881594
+    },
+    {
+      "t": 9755.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.516400000000013,
+      "speed": 92.60998338878753,
+      "draws": 163,
+      "tris": 379912
+    },
+    {
+      "t": 9772.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.533100000000014,
+      "speed": 92.60998414764741,
+      "draws": 160,
+      "tris": 377752
+    },
+    {
+      "t": 9788.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.549700000000015,
+      "speed": 92.60998486760337,
+      "draws": 464,
+      "tris": 875746
+    },
+    {
+      "t": 9805.6,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 5.566400000000014,
+      "speed": 92.60998555890563,
+      "draws": 160,
+      "tris": 377752
+    },
+    {
+      "t": 9822.2,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.583200000000015,
+      "speed": 92.60998622248496,
+      "draws": 363,
+      "tris": 708116
+    },
+    {
+      "t": 9838.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.599800000000015,
+      "speed": 92.60998684820937,
+      "draws": 261,
+      "tris": 557464
+    },
+    {
+      "t": 9855.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.616400000000014,
+      "speed": 92.60998744551567,
+      "draws": 164,
+      "tris": 394486
+    },
+    {
+      "t": 9872.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.633100000000015,
+      "speed": 92.60998801904964,
+      "draws": 370,
+      "tris": 727454
+    },
+    {
+      "t": 9888.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.649800000000016,
+      "speed": 92.60998856638251,
+      "draws": 256,
+      "tris": 545682
+    },
+    {
+      "t": 9905.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.6664000000000145,
+      "speed": 92.60998908565566,
+      "draws": 164,
+      "tris": 394486
+    },
+    {
+      "t": 9922.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.683100000000016,
+      "speed": 92.60998958426212,
+      "draws": 370,
+      "tris": 738622
+    },
+    {
+      "t": 9938.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.699800000000017,
+      "speed": 92.60999006009047,
+      "draws": 254,
+      "tris": 545650
+    },
+    {
+      "t": 9955.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.716400000000015,
+      "speed": 92.60999051152486,
+      "draws": 163,
+      "tris": 394470
+    },
+    {
+      "t": 9972.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.733100000000016,
+      "speed": 92.6099909449925,
+      "draws": 372,
+      "tris": 758782
+    },
+    {
+      "t": 9988.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.749800000000017,
+      "speed": 92.6099913586578,
+      "draws": 254,
+      "tris": 545650
+    },
+    {
+      "t": 10005.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.766500000000017,
+      "speed": 92.60999175342536,
+      "draws": 376,
+      "tris": 764222
+    },
+    {
+      "t": 10022.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.783100000000017,
+      "speed": 92.60999212795467,
+      "draws": 162,
+      "tris": 394438
+    },
+    {
+      "t": 10038.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.799800000000018,
+      "speed": 92.609992487578,
+      "draws": 250,
+      "tris": 545538
+    },
+    {
+      "t": 10055.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.816500000000017,
+      "speed": 92.60999283077243,
+      "draws": 376,
+      "tris": 764678
+    },
+    {
+      "t": 10072.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.833100000000018,
+      "speed": 92.60999315637255,
+      "draws": 157,
+      "tris": 393850
+    },
+    {
+      "t": 10088.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.849800000000019,
+      "speed": 92.60999346901406,
+      "draws": 241,
+      "tris": 543770
+    },
+    {
+      "t": 10105.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.866500000000018,
+      "speed": 92.60999376737297,
+      "draws": 367,
+      "tris": 762306
+    },
+    {
+      "t": 10122.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 5.883100000000018,
+      "speed": 92.60999405043613,
+      "draws": 149,
+      "tris": 390382
+    },
+    {
+      "t": 10138.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 5.899700000000019,
+      "speed": 92.6099943206436,
+      "draws": 213,
+      "tris": 530262
+    },
+    {
+      "t": 10155.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.916400000000018,
+      "speed": 92.60999458009701,
+      "draws": 356,
+      "tris": 755194
+    },
+    {
+      "t": 10172.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.933100000000019,
+      "speed": 92.60999482769766,
+      "draws": 141,
+      "tris": 384930
+    },
+    {
+      "t": 10188.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.94980000000002,
+      "speed": 92.60999506398701,
+      "draws": 422,
+      "tris": 896498
+    },
+    {
+      "t": 10205.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.966400000000019,
+      "speed": 92.6099952881627,
+      "draws": 137,
+      "tris": 381318
+    },
+    {
+      "t": 10222.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 5.98310000000002,
+      "speed": 92.60999550341636,
+      "draws": 140,
+      "tris": 381510
+    },
+    {
+      "t": 10238.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 5.999800000000021,
+      "speed": 92.60999570883646,
+      "draws": 423,
+      "tris": 900134
+    },
+    {
+      "t": 10255.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.0164000000000195,
+      "speed": 92.60999590372543,
+      "draws": 137,
+      "tris": 378998
+    },
+    {
+      "t": 10272.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.033100000000021,
+      "speed": 92.60999609085798,
+      "draws": 135,
+      "tris": 375160
+    },
+    {
+      "t": 10288.9,
+      "dt": 16.799999999999272,
+      "state": "race",
+      "elapsed": 6.049700000000021,
+      "speed": 92.60999626839693,
+      "draws": 410,
+      "tris": 865878
+    },
+    {
+      "t": 10305.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.06650000000002,
+      "speed": 92.60999643986695,
+      "draws": 133,
+      "tris": 364292
+    },
+    {
+      "t": 10322.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.08310000000002,
+      "speed": 92.60999660155518,
+      "draws": 349,
+      "tris": 744876
+    },
+    {
+      "t": 10338.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 6.099700000000021,
+      "speed": 92.60999675590013,
+      "draws": 194,
+      "tris": 485294
+    },
+    {
+      "t": 10355.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.11640000000002,
+      "speed": 92.60999690410227,
+      "draws": 133,
+      "tris": 364292
+    },
+    {
+      "t": 10372.2,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 6.13300000000002,
+      "speed": 92.60999704470665,
+      "draws": 349,
+      "tris": 744876
+    },
+    {
+      "t": 10388.9,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 6.149800000000021,
+      "speed": 92.60999718050464,
+      "draws": 194,
+      "tris": 485294
+    },
+    {
+      "t": 10405.5,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.1665000000000205,
+      "speed": 92.60999730930932,
+      "draws": 349,
+      "tris": 744876
+    },
+    {
+      "t": 10422.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.183100000000021,
+      "speed": 92.60999743151066,
+      "draws": 133,
+      "tris": 364292
+    },
+    {
+      "t": 10438.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.199800000000022,
+      "speed": 92.60999754884848,
+      "draws": 192,
+      "tris": 464654
+    },
+    {
+      "t": 10455.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.216400000000021,
+      "speed": 92.60999766017083,
+      "draws": 348,
+      "tris": 734556
+    },
+    {
+      "t": 10472.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.233000000000021,
+      "speed": 92.60999776643733,
+      "draws": 132,
+      "tris": 353972
+    },
+    {
+      "t": 10488.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 6.249700000000022,
+      "speed": 92.6099978684745,
+      "draws": 191,
+      "tris": 464414
+    },
+    {
+      "t": 10505.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.266400000000021,
+      "speed": 92.60999796585024,
+      "draws": 346,
+      "tris": 732156
+    },
+    {
+      "t": 10522.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.283100000000022,
+      "speed": 92.6099980587775,
+      "draws": 129,
+      "tris": 342596
+    },
+    {
+      "t": 10538.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.299800000000023,
+      "speed": 92.60999814745952,
+      "draws": 403,
+      "tris": 831462
+    },
+    {
+      "t": 10555.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.316400000000022,
+      "speed": 92.60999823159514,
+      "draws": 127,
+      "tris": 335900
+    },
+    {
+      "t": 10572.2,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 6.333000000000022,
+      "speed": 92.60999831190964,
+      "draws": 127,
+      "tris": 335900
+    },
+    {
+      "t": 10588.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.349800000000023,
+      "speed": 92.60999838947868,
+      "draws": 400,
+      "tris": 810358
+    },
+    {
+      "t": 10605.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.366400000000022,
+      "speed": 92.60999846262267,
+      "draws": 127,
+      "tris": 335900
+    },
+    {
+      "t": 10622.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.383100000000023,
+      "speed": 92.60999853285558,
+      "draws": 126,
+      "tris": 335820
+    },
+    {
+      "t": 10638.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.399800000000024,
+      "speed": 92.60999859988002,
+      "draws": 391,
+      "tris": 791596
+    },
+    {
+      "t": 10655.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.4164000000000225,
+      "speed": 92.60999866346835,
+      "draws": 124,
+      "tris": 335532
+    },
+    {
+      "t": 10672.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.433000000000023,
+      "speed": 92.60999872416873,
+      "draws": 124,
+      "tris": 335532
+    },
+    {
+      "t": 10688.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 6.449700000000024,
+      "speed": 92.60999878245329,
+      "draws": 388,
+      "tris": 784864
+    },
+    {
+      "t": 10705.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.466400000000023,
+      "speed": 92.6099988380752,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10722.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.483100000000024,
+      "speed": 92.6099988911561,
+      "draws": 339,
+      "tris": 694126
+    },
+    {
+      "t": 10738.9,
+      "dt": 16.799999999999272,
+      "state": "race",
+      "elapsed": 6.499700000000025,
+      "speed": 90.50314752275936,
+      "draws": 205,
+      "tris": 479686
+    },
+    {
+      "t": 10755.4,
+      "dt": 16.5,
+      "state": "race",
+      "elapsed": 6.516500000000024,
+      "speed": 88.5142906554765,
+      "draws": 334,
+      "tris": 691986
+    },
+    {
+      "t": 10772.2,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 6.5330000000000235,
+      "speed": 86.69334333996967,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10788.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.549800000000024,
+      "speed": 84.96322392091764,
+      "draws": 205,
+      "tris": 479686
+    },
+    {
+      "t": 10805.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.566400000000023,
+      "speed": 83.36972240652102,
+      "draws": 336,
+      "tris": 693170
+    },
+    {
+      "t": 10822.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.583100000000024,
+      "speed": 81.87425948144424,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10838.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.599800000000025,
+      "speed": 80.47977515013112,
+      "draws": 420,
+      "tris": 837670
+    },
+    {
+      "t": 10855.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.616400000000024,
+      "speed": 79.18726036293087,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10872.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.633100000000025,
+      "speed": 77.97421108285297,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10888.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.649800000000026,
+      "speed": 76.8430708948791,
+      "draws": 419,
+      "tris": 837646
+    },
+    {
+      "t": 10905.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.666400000000024,
+      "speed": 75.79469845602054,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10922.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.683100000000025,
+      "speed": 74.81072615596766,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10938.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.699800000000026,
+      "speed": 73.8931949140618,
+      "draws": 422,
+      "tris": 839150
+    },
+    {
+      "t": 10955.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.716400000000025,
+      "speed": 73.0428560789073,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10972.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.733100000000026,
+      "speed": 72.2446972609813,
+      "draws": 123,
+      "tris": 335530
+    },
+    {
+      "t": 10988.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 6.7497000000000265,
+      "speed": 71.5050267837713,
+      "draws": 420,
+      "tris": 838782
+    },
+    {
+      "t": 11005.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.766400000000026,
+      "speed": 70.81070727678208,
+      "draws": 139,
+      "tris": 389714
+    },
+    {
+      "t": 11022.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.783100000000027,
+      "speed": 70.1632705151038,
+      "draws": 355,
+      "tris": 749130
+    },
+    {
+      "t": 11038.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 6.799700000000027,
+      "speed": 69.56333216290945,
+      "draws": 218,
+      "tris": 532366
+    },
+    {
+      "t": 11055.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.816400000000026,
+      "speed": 69.00012228695506,
+      "draws": 139,
+      "tris": 389714
+    },
+    {
+      "t": 11072.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.8331000000000275,
+      "speed": 68.47494220118398,
+      "draws": 359,
+      "tris": 750858
+    },
+    {
+      "t": 11088.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 6.849700000000028,
+      "speed": 67.98834615301034,
+      "draws": 218,
+      "tris": 532366
+    },
+    {
+      "t": 11105.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.866400000000027,
+      "speed": 67.53148453204118,
+      "draws": 138,
+      "tris": 389712
+    },
+    {
+      "t": 11122.2,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 6.8830000000000275,
+      "speed": 67.10822549307659,
+      "draws": 357,
+      "tris": 750700
+    },
+    {
+      "t": 11138.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.899800000000028,
+      "speed": 66.70820157811914,
+      "draws": 217,
+      "tris": 532364
+    },
+    {
+      "t": 11155.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.916400000000027,
+      "speed": 66.34021187633812,
+      "draws": 352,
+      "tris": 749160
+    },
+    {
+      "t": 11172.2,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 6.933000000000027,
+      "speed": 65.99692637474837,
+      "draws": 138,
+      "tris": 389712
+    },
+    {
+      "t": 11188.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 6.949800000000028,
+      "speed": 65.67237476343229,
+      "draws": 430,
+      "tris": 891810
+    },
+    {
+      "t": 11205.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 6.966400000000027,
+      "speed": 65.37392307554055,
+      "draws": 138,
+      "tris": 389712
+    },
+    {
+      "t": 11222.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 6.983000000000027,
+      "speed": 65.09550730226657,
+      "draws": 138,
+      "tris": 389712
+    },
+    {
+      "t": 11238.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 6.999700000000028,
+      "speed": 64.83397971080397,
+      "draws": 429,
+      "tris": 891602
+    },
+    {
+      "t": 11255.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.0164000000000275,
+      "speed": 64.59011132571386,
+      "draws": 138,
+      "tris": 389712
+    },
+    {
+      "t": 11272.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.0331000000000286,
+      "speed": 64.3627097390825,
+      "draws": 350,
+      "tris": 745704
+    },
+    {
+      "t": 11288.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.049700000000029,
+      "speed": 64.15217960657262,
+      "draws": 224,
+      "tris": 561438
+    },
+    {
+      "t": 11305.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.066400000000028,
+      "speed": 63.95434861538825,
+      "draws": 141,
+      "tris": 402138
+    },
+    {
+      "t": 11322.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.083100000000029,
+      "speed": 63.76987582584008,
+      "draws": 355,
+      "tris": 762006
+    },
+    {
+      "t": 11338.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 7.09980000000003,
+      "speed": 63.59785924805341,
+      "draws": 236,
+      "tris": 580628
+    },
+    {
+      "t": 11355.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.116400000000029,
+      "speed": 63.43867571452544,
+      "draws": 144,
+      "tris": 406922
+    },
+    {
+      "t": 11372.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.13310000000003,
+      "speed": 63.289022861665764,
+      "draws": 357,
+      "tris": 763006
+    },
+    {
+      "t": 11388.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.14970000000003,
+      "speed": 63.15057239723932,
+      "draws": 239,
+      "tris": 581104
+    },
+    {
+      "t": 11405.5,
+      "dt": 16.799999999999272,
+      "state": "race",
+      "elapsed": 7.166300000000031,
+      "speed": 63.02141650810458,
+      "draws": 146,
+      "tris": 407078
+    },
+    {
+      "t": 11422.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.18310000000003,
+      "speed": 62.89894242968628,
+      "draws": 357,
+      "tris": 762750
+    },
+    {
+      "t": 11438.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.19970000000003,
+      "speed": 62.78667917929246,
+      "draws": 248,
+      "tris": 589324
+    },
+    {
+      "t": 11455.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.2164000000000295,
+      "speed": 62.68105128496745,
+      "draws": 151,
+      "tris": 411158
+    },
+    {
+      "t": 11472.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.2331000000000305,
+      "speed": 62.582555734783014,
+      "draws": 364,
+      "tris": 768062
+    },
+    {
+      "t": 11488.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.249700000000031,
+      "speed": 62.491532427276,
+      "draws": 261,
+      "tris": 591416
+    },
+    {
+      "t": 11505.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.26640000000003,
+      "speed": 62.40583381603301,
+      "draws": 152,
+      "tris": 410594
+    },
+    {
+      "t": 11522.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.283000000000031,
+      "speed": 62.326674355905055,
+      "draws": 362,
+      "tris": 756264
+    },
+    {
+      "t": 11538.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.299700000000032,
+      "speed": 62.252107505896966,
+      "draws": 264,
+      "tris": 593986
+    },
+    {
+      "t": 11555.5,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.316400000000031,
+      "speed": 62.1825756557735,
+      "draws": 360,
+      "tris": 754792
+    },
+    {
+      "t": 11572.2,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.333100000000032,
+      "speed": 62.117738825720075,
+      "draws": 153,
+      "tris": 410640
+    },
+    {
+      "t": 11588.8,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 7.349800000000033,
+      "speed": 62.05727999248162,
+      "draws": 471,
+      "tris": 938700
+    },
+    {
+      "t": 11605.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.366400000000032,
+      "speed": 62.00151994650246,
+      "draws": 153,
+      "tris": 410640
+    },
+    {
+      "t": 11622.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.383000000000032,
+      "speed": 61.94950323174121,
+      "draws": 153,
+      "tris": 410640
+    },
+    {
+      "t": 11638.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.399700000000033,
+      "speed": 61.90040422121458,
+      "draws": 460,
+      "tris": 932304
+    },
+    {
+      "t": 11655.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.416400000000032,
+      "speed": 61.85462053797226,
+      "draws": 153,
+      "tris": 410640
+    },
+    {
+      "t": 11672.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.433000000000033,
+      "speed": 61.81246560026279,
+      "draws": 153,
+      "tris": 410640
+    },
+    {
+      "t": 11688.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.449700000000034,
+      "speed": 61.77261982302423,
+      "draws": 459,
+      "tris": 923872
+    },
+    {
+      "t": 11705.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.466400000000033,
+      "speed": 61.735464564210105,
+      "draws": 156,
+      "tris": 416878
+    },
+    {
+      "t": 11722.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.483000000000033,
+      "speed": 61.70130890750107,
+      "draws": 160,
+      "tris": 424034
+    },
+    {
+      "t": 11738.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.4997000000000344,
+      "speed": 61.66896879712611,
+      "draws": 470,
+      "tris": 921314
+    },
+    {
+      "t": 11755.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.516400000000034,
+      "speed": 61.638812397770046,
+      "draws": 158,
+      "tris": 423470
+    },
+    {
+      "t": 11772.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.533000000000034,
+      "speed": 61.6111452771725,
+      "draws": 161,
+      "tris": 426522
+    },
+    {
+      "t": 11788.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.549700000000035,
+      "speed": 61.58489331277998,
+      "draws": 483,
+      "tris": 918658
+    },
+    {
+      "t": 11805.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.566400000000034,
+      "speed": 61.560413967690465,
+      "draws": 172,
+      "tris": 430502
+    },
+    {
+      "t": 11822.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.583000000000035,
+      "speed": 61.53800995772345,
+      "draws": 172,
+      "tris": 430486
+    },
+    {
+      "t": 11838.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.599700000000036,
+      "speed": 61.51669633154621,
+      "draws": 493,
+      "tris": 930248
+    },
+    {
+      "t": 11855.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.616400000000035,
+      "speed": 61.496821871772426,
+      "draws": 171,
+      "tris": 420180
+    },
+    {
+      "t": 11872.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.6330000000000355,
+      "speed": 61.478686980915384,
+      "draws": 171,
+      "tris": 420180
+    },
+    {
+      "t": 11888.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.649700000000037,
+      "speed": 61.46137903797876,
+      "draws": 486,
+      "tris": 907400
+    },
+    {
+      "t": 11905.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.666400000000036,
+      "speed": 61.44648868957747,
+      "draws": 171,
+      "tris": 419702
+    },
+    {
+      "t": 11922.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.683000000000036,
+      "speed": 61.435179718884356,
+      "draws": 171,
+      "tris": 419702
+    },
+    {
+      "t": 11938.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.699700000000037,
+      "speed": 61.426750627683724,
+      "draws": 485,
+      "tris": 907352
+    },
+    {
+      "t": 11955.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.716400000000037,
+      "speed": 61.42110742213369,
+      "draws": 169,
+      "tris": 416246
+    },
+    {
+      "t": 11972.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.733000000000037,
+      "speed": 61.41863704038332,
+      "draws": 169,
+      "tris": 416246
+    },
+    {
+      "t": 11988.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.749700000000038,
+      "speed": 61.418228197577854,
+      "draws": 481,
+      "tris": 881624
+    },
+    {
+      "t": 12005.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.766300000000038,
+      "speed": 61.42074360087128,
+      "draws": 167,
+      "tris": 393974
+    },
+    {
+      "t": 12022,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.783000000000038,
+      "speed": 61.425010573954395,
+      "draws": 166,
+      "tris": 393654
+    },
+    {
+      "t": 12038.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.799600000000038,
+      "speed": 61.43192122065436,
+      "draws": 470,
+      "tris": 860422
+    },
+    {
+      "t": 12055.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.816300000000039,
+      "speed": 61.440309481387516,
+      "draws": 162,
+      "tris": 379078
+    },
+    {
+      "t": 12072.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.833000000000038,
+      "speed": 61.45079479826133,
+      "draws": 339,
+      "tris": 670604
+    },
+    {
+      "t": 12088.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.849700000000039,
+      "speed": 61.46277739217319,
+      "draws": 288,
+      "tris": 545278
+    },
+    {
+      "t": 12105.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.866400000000039,
+      "speed": 61.476594689902534,
+      "draws": 338,
+      "tris": 670602
+    },
+    {
+      "t": 12122.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.883000000000039,
+      "speed": 61.491882401119874,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12138.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.89970000000004,
+      "speed": 61.50836701700323,
+      "draws": 287,
+      "tris": 534094
+    },
+    {
+      "t": 12155.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.916400000000039,
+      "speed": 61.52611162429956,
+      "draws": 336,
+      "tris": 670482
+    },
+    {
+      "t": 12172.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 7.93300000000004,
+      "speed": 61.54503506421335,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12188.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.949700000000041,
+      "speed": 61.56509253322,
+      "draws": 287,
+      "tris": 534094
+    },
+    {
+      "t": 12205.5,
+      "dt": 16.799999999999272,
+      "state": "race",
+      "elapsed": 7.966300000000041,
+      "speed": 61.58615813148244,
+      "draws": 334,
+      "tris": 670210
+    },
+    {
+      "t": 12222.1,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 7.98310000000004,
+      "speed": 61.608041400495324,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12238.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 7.999700000000041,
+      "speed": 61.63097925431564,
+      "draws": 459,
+      "tris": 825180
+    },
+    {
+      "t": 12255.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.01640000000004,
+      "speed": 61.65477484678457,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12272.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.03300000000004,
+      "speed": 61.679303151155466,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12288.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.04970000000004,
+      "speed": 61.70457744265793,
+      "draws": 460,
+      "tris": 830772
+    },
+    {
+      "t": 12305.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.06630000000004,
+      "speed": 61.73047577914051,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12322.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.08300000000004,
+      "speed": 61.75702236124439,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12338.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.09970000000004,
+      "speed": 61.78396064747786,
+      "draws": 473,
+      "tris": 870980
+    },
+    {
+      "t": 12355.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.11630000000004,
+      "speed": 61.81175776160702,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12372.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.133000000000038,
+      "speed": 61.839713989917776,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12388.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.149700000000038,
+      "speed": 61.86831313331118,
+      "draws": 476,
+      "tris": 873392
+    },
+    {
+      "t": 12405.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.166300000000039,
+      "speed": 61.89729340594983,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12422.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.183000000000037,
+      "speed": 61.92637542882358,
+      "draws": 161,
+      "tris": 379076
+    },
+    {
+      "t": 12438.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.199700000000037,
+      "speed": 61.955995031563745,
+      "draws": 486,
+      "tris": 896408
+    },
+    {
+      "t": 12455.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.216400000000036,
+      "speed": 61.98579780124005,
+      "draws": 168,
+      "tris": 392850
+    },
+    {
+      "t": 12472.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.233000000000036,
+      "speed": 62.01621619978503,
+      "draws": 168,
+      "tris": 392850
+    },
+    {
+      "t": 12488.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.249700000000036,
+      "speed": 62.046630864285135,
+      "draws": 499,
+      "tris": 908644
+    },
+    {
+      "t": 12505.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.266300000000037,
+      "speed": 62.07760601807231,
+      "draws": 176,
+      "tris": 405564
+    },
+    {
+      "t": 12522.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.283000000000035,
+      "speed": 62.10854358462875,
+      "draws": 176,
+      "tris": 405564
+    },
+    {
+      "t": 12538.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.299700000000035,
+      "speed": 62.13987762162469,
+      "draws": 514,
+      "tris": 922844
+    },
+    {
+      "t": 12555.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.316300000000036,
+      "speed": 62.171396926393584,
+      "draws": 183,
+      "tris": 410980
+    },
+    {
+      "t": 12572.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.333000000000034,
+      "speed": 62.20313461013935,
+      "draws": 185,
+      "tris": 412632
+    },
+    {
+      "t": 12588.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.349700000000034,
+      "speed": 62.23491500607588,
+      "draws": 530,
+      "tris": 921292
+    },
+    {
+      "t": 12605.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.366400000000032,
+      "speed": 62.26701216993366,
+      "draws": 195,
+      "tris": 418348
+    },
+    {
+      "t": 12622.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.383000000000033,
+      "speed": 62.299238871059,
+      "draws": 200,
+      "tris": 421196
+    },
+    {
+      "t": 12638.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.399700000000033,
+      "speed": 62.331615189357414,
+      "draws": 553,
+      "tris": 926608
+    },
+    {
+      "t": 12655.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.416300000000033,
+      "speed": 62.364099829423516,
+      "draws": 216,
+      "tris": 473116
+    },
+    {
+      "t": 12672,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.433000000000032,
+      "speed": 62.39670510836395,
+      "draws": 219,
+      "tris": 473128
+    },
+    {
+      "t": 12688.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.449600000000032,
+      "speed": 62.429378466849826,
+      "draws": 568,
+      "tris": 976440
+    },
+    {
+      "t": 12705.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 8.466300000000032,
+      "speed": 62.462126303352036,
+      "draws": 220,
+      "tris": 473160
+    },
+    {
+      "t": 12722,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.482900000000031,
+      "speed": 62.494932771278464,
+      "draws": 222,
+      "tris": 473192
+    },
+    {
+      "t": 12738.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.499600000000031,
+      "speed": 62.52779429739389,
+      "draws": 575,
+      "tris": 976580
+    },
+    {
+      "t": 12755.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.516300000000031,
+      "speed": 62.56059755582397,
+      "draws": 222,
+      "tris": 473192
+    },
+    {
+      "t": 12772.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.53300000000003,
+      "speed": 62.59356694250094,
+      "draws": 394,
+      "tris": 752502
+    },
+    {
+      "t": 12788.8,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.54970000000003,
+      "speed": 62.62647086159493,
+      "draws": 405,
+      "tris": 700726
+    },
+    {
+      "t": 12805.3,
+      "dt": 16.5,
+      "state": "race",
+      "elapsed": 8.566400000000028,
+      "speed": 62.6595228318929,
+      "draws": 396,
+      "tris": 752526
+    },
+    {
+      "t": 12822,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.582900000000029,
+      "speed": 62.69271778616163,
+      "draws": 222,
+      "tris": 473192
+    },
+    {
+      "t": 12838.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.599600000000029,
+      "speed": 62.72579075042431,
+      "draws": 405,
+      "tris": 700726
+    },
+    {
+      "t": 12855.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.61630000000003,
+      "speed": 62.7587908842037,
+      "draws": 402,
+      "tris": 754278
+    },
+    {
+      "t": 12872.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.633000000000028,
+      "speed": 62.79190943417259,
+      "draws": 222,
+      "tris": 473192
+    },
+    {
+      "t": 12888.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.649700000000028,
+      "speed": 62.82495118124769,
+      "draws": 586,
+      "tris": 981860
+    },
+    {
+      "t": 12905.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.666300000000028,
+      "speed": 62.85820479309281,
+      "draws": 222,
+      "tris": 473192
+    },
+    {
+      "t": 12922,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.683000000000026,
+      "speed": 62.89124975129588,
+      "draws": 222,
+      "tris": 473192
+    },
+    {
+      "t": 12938.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.699600000000027,
+      "speed": 62.92449360592571,
+      "draws": 587,
+      "tris": 981872
+    },
+    {
+      "t": 12955.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.716300000000027,
+      "speed": 62.95752678740845,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 12972,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.733000000000025,
+      "speed": 62.99062074611353,
+      "draws": 405,
+      "tris": 754354
+    },
+    {
+      "t": 12988.8,
+      "dt": 16.799999999999272,
+      "state": "race",
+      "elapsed": 8.749600000000026,
+      "speed": 63.02375890917997,
+      "draws": 403,
+      "tris": 700710
+    },
+    {
+      "t": 13005.4,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.766400000000026,
+      "speed": 63.05666013067844,
+      "draws": 408,
+      "tris": 754402
+    },
+    {
+      "t": 13022,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.783000000000026,
+      "speed": 63.089782445711705,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13038.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.799600000000027,
+      "speed": 63.12288213292993,
+      "draws": 403,
+      "tris": 700710
+    },
+    {
+      "t": 13055.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 8.816300000000027,
+      "speed": 63.155823917271995,
+      "draws": 409,
+      "tris": 754414
+    },
+    {
+      "t": 13072.1,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 8.832900000000025,
+      "speed": 63.18886502337164,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13088.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.849700000000027,
+      "speed": 63.22163328081539,
+      "draws": 591,
+      "tris": 981940
+    },
+    {
+      "t": 13105.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 8.866300000000027,
+      "speed": 63.25466970519479,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13122,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.882900000000026,
+      "speed": 63.28761605754395,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13138.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.899600000000026,
+      "speed": 63.32045111168807,
+      "draws": 593,
+      "tris": 981964
+    },
+    {
+      "t": 13155.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.916300000000026,
+      "speed": 63.35320800616203,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13172.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.933000000000025,
+      "speed": 63.3859775954694,
+      "draws": 408,
+      "tris": 763894
+    },
+    {
+      "t": 13188.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.949700000000025,
+      "speed": 63.418670891434026,
+      "draws": 403,
+      "tris": 700710
+    },
+    {
+      "t": 13205.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 8.966300000000025,
+      "speed": 63.45148169384669,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13222.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 8.983000000000024,
+      "speed": 63.48408457905379,
+      "draws": 408,
+      "tris": 783674
+    },
+    {
+      "t": 13238.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 8.999700000000024,
+      "speed": 63.51668350471154,
+      "draws": 403,
+      "tris": 700710
+    },
+    {
+      "t": 13255.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.016300000000024,
+      "speed": 63.54932816535278,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13272,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.033000000000023,
+      "speed": 63.58182468849721,
+      "draws": 401,
+      "tris": 782370
+    },
+    {
+      "t": 13288.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.049600000000023,
+      "speed": 63.61437195474586,
+      "draws": 403,
+      "tris": 700710
+    },
+    {
+      "t": 13305.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.066300000000023,
+      "speed": 63.64676284558955,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13322,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.083000000000022,
+      "speed": 63.67909215693396,
+      "draws": 397,
+      "tris": 793958
+    },
+    {
+      "t": 13338.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.099600000000022,
+      "speed": 63.711511695126646,
+      "draws": 403,
+      "tris": 700710
+    },
+    {
+      "t": 13355.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.116300000000022,
+      "speed": 63.74373459050148,
+      "draws": 221,
+      "tris": 473184
+    },
+    {
+      "t": 13372,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.13300000000002,
+      "speed": 63.77598036051901,
+      "draws": 396,
+      "tris": 793866
+    },
+    {
+      "t": 13388.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.14960000000002,
+      "speed": 63.80828608339338,
+      "draws": 403,
+      "tris": 700710
+    },
+    {
+      "t": 13405.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.166300000000021,
+      "speed": 63.8406781480929,
+      "draws": 220,
+      "tris": 462864
+    },
+    {
+      "t": 13422,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.18300000000002,
+      "speed": 63.8729982192688,
+      "draws": 391,
+      "tris": 778674
+    },
+    {
+      "t": 13438.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.19960000000002,
+      "speed": 63.90565716767627,
+      "draws": 400,
+      "tris": 680058
+    },
+    {
+      "t": 13455.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.21630000000002,
+      "speed": 63.93809159946257,
+      "draws": 219,
+      "tris": 462852
+    },
+    {
+      "t": 13472,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.233000000000018,
+      "speed": 63.970723031001306,
+      "draws": 388,
+      "tris": 770876
+    },
+    {
+      "t": 13488.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.249600000000019,
+      "speed": 64.00337111668786,
+      "draws": 397,
+      "tris": 679794
+    },
+    {
+      "t": 13505.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.266300000000019,
+      "speed": 64.03605368766365,
+      "draws": 217,
+      "tris": 462600
+    },
+    {
+      "t": 13522,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.282900000000017,
+      "speed": 64.06874205110509,
+      "draws": 383,
+      "tris": 769120
+    },
+    {
+      "t": 13538.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.299600000000018,
+      "speed": 64.10144441645124,
+      "draws": 394,
+      "tris": 668646
+    },
+    {
+      "t": 13555.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.316300000000018,
+      "speed": 64.13402668317912,
+      "draws": 380,
+      "tris": 757960
+    },
+    {
+      "t": 13572,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.333000000000016,
+      "speed": 64.16674278123593,
+      "draws": 215,
+      "tris": 451464
+    },
+    {
+      "t": 13588.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.349600000000017,
+      "speed": 64.19944990635172,
+      "draws": 389,
+      "tris": 650574
+    },
+    {
+      "t": 13605.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.366300000000017,
+      "speed": 64.2321358597198,
+      "draws": 377,
+      "tris": 740944
+    },
+    {
+      "t": 13622,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.382900000000015,
+      "speed": 64.26480985668091,
+      "draws": 212,
+      "tris": 444756
+    },
+    {
+      "t": 13638.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.399600000000015,
+      "speed": 64.29744871932843,
+      "draws": 384,
+      "tris": 643842
+    },
+    {
+      "t": 13655.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.416300000000016,
+      "speed": 64.32995520850736,
+      "draws": 375,
+      "tris": 741824
+    },
+    {
+      "t": 13672,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.432900000000014,
+      "speed": 64.36267241441237,
+      "draws": 211,
+      "tris": 445692
+    },
+    {
+      "t": 13688.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.449600000000014,
+      "speed": 64.39511694536029,
+      "draws": 384,
+      "tris": 650534
+    },
+    {
+      "t": 13705.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.466300000000015,
+      "speed": 64.42762975882277,
+      "draws": 375,
+      "tris": 744700
+    },
+    {
+      "t": 13722,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.483000000000013,
+      "speed": 64.45999814663949,
+      "draws": 216,
+      "tris": 458590
+    },
+    {
+      "t": 13738.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.499600000000013,
+      "speed": 64.49254749882618,
+      "draws": 395,
+      "tris": 674198
+    },
+    {
+      "t": 13755.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.516300000000014,
+      "speed": 64.52481514910623,
+      "draws": 379,
+      "tris": 751822
+    },
+    {
+      "t": 13772.1,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.533000000000012,
+      "speed": 64.5571369976247,
+      "draws": 216,
+      "tris": 460470
+    },
+    {
+      "t": 13788.7,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.549700000000012,
+      "speed": 64.58932226773908,
+      "draws": 553,
+      "tris": 947718
+    },
+    {
+      "t": 13805.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.566300000000012,
+      "speed": 64.62167659961547,
+      "draws": 217,
+      "tris": 460562
+    },
+    {
+      "t": 13822,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.582900000000011,
+      "speed": 64.65387900931164,
+      "draws": 220,
+      "tris": 463398
+    },
+    {
+      "t": 13838.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.599600000000011,
+      "speed": 64.6859791592044,
+      "draws": 558,
+      "tris": 939214
+    },
+    {
+      "t": 13855.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.616300000000011,
+      "speed": 64.71795295633643,
+      "draws": 224,
+      "tris": 466990
+    },
+    {
+      "t": 13872,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.63290000000001,
+      "speed": 64.75008654575218,
+      "draws": 229,
+      "tris": 468042
+    },
+    {
+      "t": 13888.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.64960000000001,
+      "speed": 64.78195373550815,
+      "draws": 571,
+      "tris": 946510
+    },
+    {
+      "t": 13905.4,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.66630000000001,
+      "speed": 64.81385152945779,
+      "draws": 229,
+      "tris": 468094
+    },
+    {
+      "t": 13922,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.683000000000009,
+      "speed": 64.84563306321962,
+      "draws": 386,
+      "tris": 724622
+    },
+    {
+      "t": 13938.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.699600000000009,
+      "speed": 64.87756500231718,
+      "draws": 437,
+      "tris": 744890
+    },
+    {
+      "t": 13955.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.71630000000001,
+      "speed": 64.90923942444901,
+      "draws": 230,
+      "tris": 468094
+    },
+    {
+      "t": 13972,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.732900000000008,
+      "speed": 64.94106078373717,
+      "draws": 386,
+      "tris": 724622
+    },
+    {
+      "t": 13988.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.749600000000008,
+      "speed": 64.97263003110135,
+      "draws": 438,
+      "tris": 745254
+    },
+    {
+      "t": 14005.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.766300000000008,
+      "speed": 65.00421477098887,
+      "draws": 386,
+      "tris": 724622
+    },
+    {
+      "t": 14022,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.782900000000007,
+      "speed": 65.03582878247052,
+      "draws": 229,
+      "tris": 468082
+    },
+    {
+      "t": 14038.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.799600000000007,
+      "speed": 65.06730273593149,
+      "draws": 437,
+      "tris": 745250
+    },
+    {
+      "t": 14055.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.816300000000007,
+      "speed": 65.09868261477465,
+      "draws": 386,
+      "tris": 724626
+    },
+    {
+      "t": 14072.1,
+      "dt": 16.80000000000109,
+      "state": "race",
+      "elapsed": 9.832900000000006,
+      "speed": 65.13019495357841,
+      "draws": 225,
+      "tris": 464606
+    },
+    {
+      "t": 14088.6,
+      "dt": 16.5,
+      "state": "race",
+      "elapsed": 9.849700000000007,
+      "speed": 65.16133250841504,
+      "draws": 586,
+      "tris": 998262
+    },
+    {
+      "t": 14105.3,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.866200000000008,
+      "speed": 65.1928784676613,
+      "draws": 225,
+      "tris": 464606
+    },
+    {
+      "t": 14122,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.882900000000006,
+      "speed": 65.22403693513735,
+      "draws": 225,
+      "tris": 464606
+    },
+    {
+      "t": 14138.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.899600000000007,
+      "speed": 65.25518125581738,
+      "draws": 580,
+      "tris": 997018
+    },
+    {
+      "t": 14155.3,
+      "dt": 16.69999999999891,
+      "state": "race",
+      "elapsed": 9.916200000000007,
+      "speed": 65.2863723656555,
+      "draws": 224,
+      "tris": 464594
+    },
+    {
+      "t": 14172,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.932900000000005,
+      "speed": 65.31738084790456,
+      "draws": 224,
+      "tris": 464594
+    },
+    {
+      "t": 14188.7,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.949600000000006,
+      "speed": 65.3483515456074,
+      "draws": 566,
+      "tris": 986234
+    },
+    {
+      "t": 14205.3,
+      "dt": 16.599999999998545,
+      "state": "race",
+      "elapsed": 9.966300000000006,
+      "speed": 65.37923198197889,
+      "draws": 223,
+      "tris": 464582
+    },
+    {
+      "t": 14222,
+      "dt": 16.700000000000728,
+      "state": "race",
+      "elapsed": 9.982900000000004,
+      "speed": 65.41019821045316,
+      "draws": 242,
+      "tris": 498608
+    },
+    {
+      "t": 14238.6,
+      "dt": 16.600000000000364,
+      "state": "race",
+      "elapsed": 9.999600000000004,
+      "speed": 65.44092028358665,
+      "draws": 580,
+      "tris": 1019244
+    }
+  ],
+  "tasks": [
+    {
+      "start": 36.699999928474426,
+      "duration": 62
+    },
+    {
+      "start": 714.3999999761581,
+      "duration": 238
+    },
+    {
+      "start": 964,
+      "duration": 105
+    }
+  ],
+  "game": {
+    "renderScale": 1,
+    "rev": 0,
+    "audio": {
+      "state": "running",
+      "enabled": true,
+      "startupPlayed": true,
+      "selectionCount": 1,
+      "lastCue": "LAUNCH",
+      "engineGain": 0.05111445114016533,
+      "masterGain": 0.5,
+      "musicPlaying": true,
+      "musicError": null,
+      "dockGain": 0,
+      "musicMode": "race",
+      "ambientMusicGain": 0,
+      "raceMusicGain": 0.6497108340263367,
+      "raceMusicReady": true,
+      "raceMusicError": null
+    },
+    "previewUnlocks": false,
+    "cameraDistance": 13.37056620051257,
+    "menuStep": "dock",
+    "arena": "meridian",
+    "checkpoint": 0,
+    "sector": 0,
+    "sectorName": "MERIDIAN",
+    "pickups": 1,
+    "roster": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "rivals": [
+      {
+        "id": "rival-1",
+        "name": "VESPER",
+        "s": 789.7575019254205,
+        "lane": -21.506772531541024,
+        "speed": 94.56876405700054,
+        "launch": 4.983800000000016,
+        "nitro": 0,
+        "boost": 100,
+        "claimed": 2,
+        "shield": 3.3334999999999897,
+        "invulnerable": 0,
+        "hits": 0,
+        "impactAt": null,
+        "damagePose": {
+          "active": false,
+          "pitch": 0,
+          "roll": 0,
+          "lift": 0,
+          "flash": 0,
+          "rider": 0
+        },
+        "visible": true,
+        "ammo": 4,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-2",
+        "name": "MOSS",
+        "s": 854.1122529409694,
+        "lane": -0.4839795963425554,
+        "speed": 93.28161853166411,
+        "launch": 4.983800000000016,
+        "nitro": 0,
+        "boost": 100,
+        "claimed": 0,
+        "shield": 0,
+        "invulnerable": 0,
+        "hits": 0,
+        "impactAt": null,
+        "damagePose": {
+          "active": false,
+          "pitch": 0,
+          "roll": 0,
+          "lift": 0,
+          "flash": 0,
+          "rider": 0
+        },
+        "visible": true,
+        "ammo": 3,
+        "eliminated": false,
+        "finished": false,
+        "shots": 1,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-3",
+        "name": "CINDER",
+        "s": 949.1267511867794,
+        "lane": 14.237236810215705,
+        "speed": 101.49321546161313,
+        "launch": 4.983800000000016,
+        "nitro": 1.9001999999999917,
+        "boost": 100,
+        "claimed": 2,
+        "shield": 0,
+        "invulnerable": 0,
+        "hits": 0,
+        "impactAt": null,
+        "damagePose": {
+          "active": false,
+          "pitch": 0,
+          "roll": 0,
+          "lift": 0,
+          "flash": 0,
+          "rider": 0
+        },
+        "visible": true,
+        "ammo": 4,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-4",
+        "name": "ECHO",
+        "s": 880.911742007192,
+        "lane": -10.16164905529147,
+        "speed": 87.36136819039677,
+        "launch": 4.983800000000016,
+        "nitro": 0,
+        "boost": 100,
+        "claimed": 1,
+        "shield": 0,
+        "invulnerable": 0,
+        "hits": 0,
+        "impactAt": null,
+        "damagePose": {
+          "active": false,
+          "pitch": 0,
+          "roll": 0,
+          "lift": 0,
+          "flash": 0,
+          "rider": 0
+        },
+        "visible": true,
+        "ammo": 6,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      },
+      {
+        "id": "rival-5",
+        "name": "MARSHAL",
+        "s": 854.1014456363121,
+        "lane": 10.159126003882184,
+        "speed": 91.01846152949476,
+        "launch": 4.983800000000016,
+        "nitro": 0,
+        "boost": 100,
+        "claimed": 1,
+        "shield": 0,
+        "invulnerable": 0,
+        "hits": 0,
+        "impactAt": null,
+        "damagePose": {
+          "active": false,
+          "pitch": 0,
+          "roll": 0,
+          "lift": 0,
+          "flash": 0,
+          "rider": 0
+        },
+        "visible": true,
+        "ammo": 6,
+        "eliminated": false,
+        "finished": false,
+        "shots": 0,
+        "damageDealt": 0
+      }
+    ],
+    "nextPickup": {
+      "s": 1100,
+      "offset": -18,
+      "type": "LASER"
+    },
+    "lethalAhead": null,
+    "weapons": {
+      "feedback": {
+        "text": "",
+        "kind": "",
+        "until": 0
+      },
+      "missiles": [],
+      "ammo": 4,
+      "special": null,
+      "specialAmmo": 0,
+      "defenses": 3,
+      "hits": 0,
+      "kills": 0,
+      "shots": 0,
+      "damageDealt": 0,
+      "shield": 0,
+      "invulnerable": 0,
+      "eliminated": false,
+      "incoming": false,
+      "cooldown": 0,
+      "projectiles": 1,
+      "target": "rival-5",
+      "pursuit": 0.07632350702938699,
+      "drafting": false
+    },
+    "obstacleAhead": [],
+    "orbit": {
+      "yaw": 0.8500715000015497,
+      "pitch": 0.3
+    },
+    "lensDrops": 6,
+    "surgeWindow": null,
+    "craft": "KESTREL",
+    "foilAngle": 4.220932180619697e-9,
+    "engineIntensity": 5.5710220481812645,
+    "exhaustScale": 2.7976916981313296,
+    "air": 0,
+    "flightY": null,
+    "verticalSpeed": 0,
+    "renderY": 0.10284908333749443,
+    "pitch": -0.08521025960846144,
+    "hullCollider": {
+      "halfWidth": 1.5049999952316284,
+      "halfLength": 3.612799882888794,
+      "centerX": 0,
+      "centerZ": 0.7072000598907469
+    },
+    "launch": 4.983800000000016,
+    "nitro": 0,
+    "boosting": true,
+    "ramp": null,
+    "barrierContact": false,
+    "reversing": false,
+    "collisions": 2,
+    "rampsAhead": [],
+    "pos": [
+      767.2960414024776,
+      1178.607041709941
+    ],
+    "fps": 60.01378874615191,
+    "speed": 65.47172102339188,
+    "score": 1,
+    "over": false,
+    "draws": 250,
+    "tris": 498734,
+    "progress": 0.0931669473816176,
+    "heading": 2.1895339667499583,
+    "guideHeading": 2.837985699845839,
+    "lateral": -28.053241966071358,
+    "boost": 100,
+    "boosts": 1,
+    "jumps": 1,
+    "signals": 0,
+    "surges": 0,
+    "place": 6,
+    "chapter": 0,
+    "state": "race",
+    "unlocked": [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "elapsed": 10.016200000000005,
+    "courseLength": 8446.83764021624
+  }
+}
